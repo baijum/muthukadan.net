@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Trying Jekyll with GitHub Pages
-date:   2014-02-07 12:25:54
-categories: jekyll update
+date:   2014-02-07
+categories: jekyll github
 ---
 
 I just moved my main website to [GitHub pages][gh-pages].  GitHub
