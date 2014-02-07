@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  (Template)
-date:   YYYY-MM-DD
+date:   2014-12-12
 categories: template jekyll
 ---
 
