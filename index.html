@@ -1,1 +1,22 @@
-Hello World
+---
+layout: default
+title: Baiju Muthukadan
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:7 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  <p style="text-align: center">
+    <a  href="archive.html">Old Blog Posts</a>
+  </p>
+  </ul>
+  <h1>Other Sites & Pages</h1>
+  <ul class="posts">
+    <li><a href="http://baijum.blogspot.in/">My Other Blog:</a> Still my primary blog.</li>
+    <li><a href="http://www.muthukadan.net/docs/zca.html">ZCA docs:</a> A Comprehensive Guide to Zope Component Architecture.</li>
+    <li><a href="http://selenium-python.readthedocs.org">Selenium docs:</a> Selenium with Python.</li>
+  </ul>
+</div>
