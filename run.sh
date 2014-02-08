@@ -1,2 +1,2 @@
 #!/bin/bash
-jekyll serve -w --drafts --trace $@
+jekyll serve -w --drafts --safe --trace $@
