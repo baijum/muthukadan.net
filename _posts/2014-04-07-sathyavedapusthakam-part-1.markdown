@@ -29,6 +29,8 @@ categories: bible
 
 മലയാളത്തിലെ പഴയ പുസ്തകൾ അന്വേഷിക്കുന്ന [ഷിജു], ഈ പുസ്തകത്തിന്റെയും അന്വേഷണത്തിലാണ്.
 
+**Update (14-November-2014)**: ഈ [അന്വേഷണം അവസാനിച്ചു]!
+
 [ദി ബൈബിൾ വേൾഡ്]: http://www.bsind.org/the_bible_world.html
 [ഷിജു]: http://shijualex.in/
-
+[അന്വേഷണം അവസാനിച്ചു]: http://shijualex.in/sathyavedapusthakam-1910/
