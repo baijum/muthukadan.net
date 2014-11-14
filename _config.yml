@@ -2,6 +2,6 @@ name: Baiju Muthukadan
 author: Baiju Muthukadan
 email: baiju.m.mail@gmail.com
 markdown: redcarpet
-pygments: true
+pygments: pygments
 url: muthukadan.net
 permalink: /:categories/:title.html
