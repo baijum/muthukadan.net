@@ -49,7 +49,7 @@ you to verify your installation.
 
 Go project provides binaries for major operating systems including
 GNU/Linux.  You can find 32 bit and 64 bit binaries for GNU/Linux
-here: https://golang.org/dl/
+here: [https://golang.org/dl/](https://golang.org/dl/)
 
 The following commands will download and install Go compiler in a
 64 bit GNU/Linux system:
@@ -113,7 +113,7 @@ like this: ``go1.x.y.windows-amd64.msi`` (Replace `x.y` with the current
 version).
 
 You can download the installers (MSI files) from here:
-https://golang.org/dl/
+[https://golang.org/dl/](https://golang.org/dl/)
 
 After downloading the installer file, you can open the MSI file by
 double clicking on that file.  This should prompts few things about
@@ -190,21 +190,22 @@ successfully installed Go compiler.
 
 ## Building and Running Program
 
-You run the program using `go run hello.go` command.  You can also
-build (compile) and run the binary like this in GNU/Linux:
+As you can see that can run the program using `go run hello.go`
+command.  You can also build (compile) and run the binary like this in
+GNU/Linux:
 
 {% highlight bash %}
 go build hello.go
 ./hello
 {% endhighlight %}
 
-You can do the same thing in Windows like this:
+The first command produce a binary and second comand is executing that
+binary.  You can do the same thing in Windows like this:
 
 {% highlight batch %}
 go build hello.go
 hello.exe
 {% endhighlight %}
 
-The `go build` command produce a binary file which is native to the
-operating system and the architecture of the CPU (i386, x86_64 etc.)
-
+The `go build` command produce a binary file native to the operating
+system and the architecture of the CPU (i386, x86_64 etc.)
