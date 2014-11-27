@@ -190,7 +190,7 @@ successfully installed Go compiler.
 
 ## Building and Running Program
 
-As you can see that can run the program using `go run hello.go`
+As you can see above, you can run the program using `go run hello.go`
 command.  You can also build (compile) and run the binary like this in
 GNU/Linux:
 
