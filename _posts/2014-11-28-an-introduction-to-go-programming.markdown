@@ -8,9 +8,9 @@ categories: golang
 [Go], also commonly referred to as **golang**, is a statically typed,
 compiled, garbage-collected, concurrent general purpose programming
 language.  Go is considered as an object oriented programming language
-and it use [object composition] instead of class inheritance.  Go was
+and it uses [object composition] instead of class inheritance.  Go was
 initially developed at Google by [Robert Griesemer], [Rob Pike], and
-[Ken Thompson].  Go was publicly realesed as a free/open source
+[Ken Thompson].  Go was publicly released as a free/open source
 software in November 2009 by Google.
 
 [Go]: http://golang.org
@@ -20,14 +20,14 @@ software in November 2009 by Google.
 [Ken Thompson]: http://en.wikipedia.org/wiki/Ken_Thompson
 
 There are two major compilers available, *gc* & *gccgo*.  The official
-compiler is *gc* and *gccgo* is a frontend to [gcc].  Go supports
+compiler is *gc* and *gccgo* is a front-end to [gcc].  Go supports
 major operating systems including Windows, GNU/Linux, Mac OS X and
 various flavors of BSDs.  Through *gccgo* it supports more platforms.
 And cross compilation is easy in Go.
 
 [gcc]: https://gcc.gnu.org
 
-![mscot](https://dl.dropboxusercontent.com/u/37164281/blog/golang-mascot.png)
+![mascot](https://dl.dropboxusercontent.com/u/37164281/blog/golang-mascot.png)
 
 The syntax of Go is very similar to C programming language.  There are
 around 25+ keywords in the languages which is smaller compared to C,
@@ -40,8 +40,7 @@ considered as exported and so it can be used from other packages.
 
 Now I will move on to the details of installation of Go compiler.
 First you will see instruction for installing in a GNU/Linux machine.
-The next section explains instruction for installing in a Windows
-system.
+The next section explains installation in a Windows system.
 
 Finally I will shows running a hello world program.  This will help
 you to verify your installation.
@@ -116,7 +115,7 @@ version).
 You can download the installers (MSI files) from here:
 https://golang.org/dl/
 
-After downloding the installer file, you can open the MSI file by
+After downloading the installer file, you can open the MSI file by
 double clicking on that file.  This should prompts few things about
 the installation of the Go compiler.  The installer place the
 Go related files in the ``C:\Go`` directory.
@@ -144,9 +143,9 @@ You can also append ``C:\mygo\bin`` into the `PATH` environment
 variable.
 
 If you do not know how to set environment variable, just do a Google
-search for: "set windows enviroment variable".
+search for: "set windows environment variable".
 
-The `GOROOT` enviroment variable is not required here as you have
+The `GOROOT` environment variable is not required here as you have
 installed the `Go` inside `C:\Go` folder.  If you have changed that
 location during the installation, set the `GOROOT` pointing to the
 location you selected.
@@ -159,14 +158,14 @@ world program.
 
 As you know Go is a compiled programming language.  However, there is
 a command which does both compilation and running the program.  The
-commandline syntax to run the program is like this:
+command line syntax to run the program is like this:
 
 {% highlight bash %}
 go run <program.go>
 {% endhighlight %}
 
 To run a hello world program, you can copy-paste the below code to
-your favourite text editor and save it as ``hello.go``:
+your favorite text editor and save it as ``hello.go``:
 
 {% highlight go %}
 package main
@@ -179,7 +178,7 @@ func main() {
 {% endhighlight %}
 
 Once you saved the above source code into a file.  You can open your
-commandline program (*bash* or *cmd.exe*) and run the above program like
+command line program (*bash* or *cmd.exe*) and run the above program like
 this:
 
 {% highlight bash %}
