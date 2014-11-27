@@ -39,11 +39,11 @@ during compile time.  A variable starting with capital letter is
 considered as exported and so it can be used from other packages.
 
 Now I will move on to the details of installation of Go compiler.
-First you will see instruction for installing in a GNU/Linux machine.
+First you will see instruction for installing in GNU/Linux.
 The next section explains installation in a Windows system.
 
-Finally I will shows running a hello world program.  This will help
-you to verify your installation.
+Finally I will show running a hello world program.  This will help you
+to verify your installation.
 
 ## Linux Installation
 
