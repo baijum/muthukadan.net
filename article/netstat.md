@@ -75,4 +75,6 @@ netstat -t
 
 ## Netstat on GNU/Linux
 
-http://www.binarytides.com/linux-netstat-command-examples/
+TBD
+
+[GNU/Linux netstat examples](http://www.binarytides.com/linux-netstat-command-examples/)
