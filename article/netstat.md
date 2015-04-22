@@ -1,11 +1,7 @@
 ---
-layout: post
-title: TheDevOpsGopher Notes 1
-date: 2014-12-06
-categories: notes
+layout: article
+title: Netstat
 ---
-
-Random notes on DevOps & Golang. Let me see how this goes...
 
 ## Netstat on Windows
 
@@ -80,7 +76,3 @@ netstat -t
 ## Netstat on GNU/Linux
 
 http://www.binarytides.com/linux-netstat-command-examples/
-
-## route
-
-## iptables
