@@ -3,13 +3,16 @@ layout: default
 title: Baiju Muthukadan
 ---
 
-<h3>Recent Blog Posts</h3>
+### Recent Blog Posts
+
 <ul class="posts">
   {% for post in site.posts limit:7 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-<h3>Other Sites & Pages</h3>
+
+### Other Sites & Pages
+
 <ul class="posts">
   <li><a href="http://baijum.blogspot.in/">My old blog:</a> This is my old blog.</li>
   <li><a href="http://muthukadan.net/docs/zca.html">ZCA book:</a> A Comprehensive Guide to Zope Component Architecture.</li>
