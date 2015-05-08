@@ -10,7 +10,7 @@ The [dockerclient](https://github.com/samalba/dockerclient) is one of them.
 The below example shows creating a container then stopping and finally
 removing that.
 
-```golang
+```go
 // Init the client
 docker, _ := dockerclient.NewDockerClient("unix:///var/run/docker.sock", nil)
 
