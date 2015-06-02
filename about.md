@@ -25,7 +25,7 @@ documentation</a>.
 
 
 During PyCON India 2013, he received the
-<a href="http://in.pycon.org/blog/baijum-first-kenneth-gonsalves-award-recipient">
+<a href="https://in.pycon.org/2013/blog/baijum-first-kenneth-gonsalves-award-recipient/">
 first Kenneth Gonsalves Award</a>
 
 </p>
