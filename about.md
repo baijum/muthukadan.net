@@ -19,7 +19,7 @@ by Free Software Foundation of India in 2002-2003.  He had
 <a href="http://koha-community.org/about/history/">contributed to Koha</a>
 in 2003-2004 years and also implemted it in few libraries during that time.
 Baiju has conducted many Python related talks and workshops in various parts of India
-including FOSS.IN.  He is the main author of
+including FOSS.IN.  He is the author of
 <a href="https://selenium-python.readthedocs.org">Selenium Python
 documentation</a>.
 
