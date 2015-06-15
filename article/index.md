@@ -4,5 +4,5 @@ title: Articles
 ---
 
 * [Netstat](/article/netstat.html)
-* [Consul](/article/consul.html)
+* [Editing Go in Vim](/article/golang-vim.html)
 * [Docker Go Client](/article/docker-go-client.html)
