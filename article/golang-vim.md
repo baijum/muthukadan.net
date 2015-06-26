@@ -14,3 +14,7 @@ This is my Vim configuration (``$HOME/.vimrc``):
 * To jump to the definition: `gd`
 * To autocomplete: `Ctrl+x+o`
 * To see doc: `\gd`
+* To see type info: `\i`
+* To see the documentation: `:help vim-go`
+* To change leader key: `:help <Leader>`
+* To get help about a particular operation: `:help :GoDoc`
