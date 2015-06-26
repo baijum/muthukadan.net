@@ -18,3 +18,5 @@ This is my Vim configuration (``$HOME/.vimrc``):
 * To see the documentation: `:help vim-go`
 * To change leader key: `:help <Leader>`
 * To get help about a particular operation: `:help :GoDoc`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rlca4UVY1Wc" frameborder="0" allowfullscreen></iframe>
