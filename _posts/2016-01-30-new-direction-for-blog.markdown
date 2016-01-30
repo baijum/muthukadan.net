@@ -32,10 +32,10 @@ radio programs during this time.  I received a copy of new testament
 the radio program.  I remember reading the new testament many times.
 Later, I accepted Jesus Christ as my Lord and Savior in 1995.
 
-There was no one who I could speak about my new experience at that
-time.  After some time a pastor came to our place.  One day, my father
-met the pastor and during their conversation my father mentioned that
-I read bible.  Then he came to our home and invited me to join the
+There was no one I could speak about my new experience at that time.
+After some time a pastor came to our place.  One day, my father met
+the pastor and during their conversation my father mentioned that I
+read bible.  Then he came to our home and invited me to join the
 worship happening in his home.  That was a new experience for me.  I
 started going to worship regularly.  Initially my parents were fine
 with that.  But they couldn't support me anymore when I stopped going
