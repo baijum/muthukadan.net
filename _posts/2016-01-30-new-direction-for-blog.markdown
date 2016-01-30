@@ -32,17 +32,17 @@ radio programs during this time.  I received a copy of new testament
 the radio program.  I remember reading the new testament many times.
 Later, I accepted Jesus Christ as my Lord and Savior in 1995.
 
-There was no one who I can speak about my new experience at that time.
-After some time a pastor came to our place.  One day my father met him
-and during their conversation mentioned that I read bible.  Then he
-came to our home and invited me to join the worship happening in his
-home.  That was a new experience for me.  I started going there
-regularly.  Initially my parents were fine with that.  But they
-couldn't support me more when I stopped going to temples.  This lead
-to lots of family problems.  Due to these kind of issues, one day I
-decided to take some break.  That was one of the major setback in my
-life.  Then for such a long period in my life, I missed worship,
-reading Bible and fellowship with other believers.
+There was no one who I could speak about my new experience at that
+time.  After some time a pastor came to our place.  One day, my father
+met the pastor and during their conversation my father mentioned that
+I read bible.  Then he came to our home and invited me to join the
+worship happening in his home.  That was a new experience for me.  I
+started going to worship regularly.  Initially my parents were fine
+with that.  But they couldn't support me anymore when I stopped going
+to temples.  This lead to lots of family problems.  Due to these kind
+of issues, one day, I decided to take some break.  That was one of the
+major setback in my life.  Then for a long period in my life, I missed
+worship, reading Bible and fellowship with other believers.
 
 I am thinking to write more about Jesus Christ in my blog.  I am
 looking forward to your feedback.  You can reach out to me via
