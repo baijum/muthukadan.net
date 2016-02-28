@@ -80,10 +80,10 @@ You also need to set few environment variables.  Open the
 
 {% highlight bash %}
 export GOROOT=$HOME/go
-export PATH=$PATH:$GOROOT/bin
+export PATH=$GOROOT/bin:$PATH
 
 export GOPATH=$HOME/mygo
-export PATH=$PATH:$GOPATH/bin
+export PATH=$GOPATH/bin:$PATH
 {% endhighlight %}
 
 The first line set `GOROOT` environment variable pointing to
