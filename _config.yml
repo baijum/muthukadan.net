@@ -3,5 +3,5 @@ author: Baiju Muthukadan
 email: baiju.m.mail@gmail.com
 markdown: redcarpet
 highlighter: pygments
-url: muthukadan.net
+url: https://muthukadan.net
 permalink: /:categories/:title.html
