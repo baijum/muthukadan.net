@@ -2,7 +2,7 @@ name: Baiju Muthukadan
 author: Baiju Muthukadan
 email: baiju.m.mail@gmail.com
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 url: https://muthukadan.net
 enforce_ssl: muthukadan.net
 permalink: /:categories/:title.html
