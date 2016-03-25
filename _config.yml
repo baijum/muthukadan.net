@@ -4,4 +4,5 @@ email: baiju.m.mail@gmail.com
 markdown: redcarpet
 highlighter: pygments
 url: https://muthukadan.net
+enforce_ssl: muthukadan.net
 permalink: /:categories/:title.html
