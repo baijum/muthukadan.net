@@ -1,7 +1,7 @@
 name: Baiju Muthukadan
 author: Baiju Muthukadan
 email: baiju.m.mail@gmail.com
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 url: https://muthukadan.net
 enforce_ssl: muthukadan.net
