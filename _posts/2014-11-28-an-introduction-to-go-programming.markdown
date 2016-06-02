@@ -56,8 +56,8 @@ The following commands will download and install Go compiler in a
 
 {% highlight bash %}
 cd $HOME
-wget -c https://storage.googleapis.com/golang/go1.6.linux-amd64.tar.gz
-tar zxvf go1.6.linux-amd64.tar.gz
+wget -c https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
+tar zxvf go1.6.2.linux-amd64.tar.gz
 mkdir $HOME/mygo
 {% endhighlight %}
 
