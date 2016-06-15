@@ -31,7 +31,7 @@ first Kenneth Gonsalves Award</a>
 ## Talks
 
 <ul class="posts">
-  <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk.html">Go and Ember.js talk at GopherConIndia 2015</a></li>
+  <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">Go and Ember.js talk at GopherConIndia 2015</a></li>
   <li><a href="http://www.youtube.com/watch?v=lING02S6AAc">Introduction about python:</a> An introductory talk at a typical <a
   href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore ()</a></li>
   <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</a></li>
