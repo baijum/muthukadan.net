@@ -1,2 +1,3 @@
 #!/bin/bash
-docker run --rm -v "$(pwd):/src" -p 4000:4000 grahamc/jekyll serve -D -H 0.0.0.0
+bundle install --path vendor/bundle
+bundle exec vendor/bundle/ruby/2.3.0/bin/jekyll serve
