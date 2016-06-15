@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Golang workshops
 date: 2016-04-19
 categories: golang talk

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: New direction for my blog
 date: 2016-01-30
 categories: faith life

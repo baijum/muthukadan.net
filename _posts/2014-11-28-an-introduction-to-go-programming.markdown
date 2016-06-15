@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: An Introduction to Go Programming
 date: 2014-11-28
 categories: golang

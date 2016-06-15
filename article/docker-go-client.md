@@ -1,6 +1,6 @@
 ---
-layout: article
 title: Docker Go Client
+permalink: /article/docker-go-client.html
 ---
 
 Docker provides a [remote API](https://docs.docker.com/reference/api/docker_remote_api/)

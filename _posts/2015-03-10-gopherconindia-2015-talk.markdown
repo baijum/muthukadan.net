@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Go and Ember.js talk at GopherConIndia 2015
 date: 2015-03-10
 categories: golang emberjs

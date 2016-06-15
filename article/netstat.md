@@ -1,6 +1,6 @@
 ---
-layout: article
 title: Netstat
+permalink: /article/netstat.html
 ---
 
 ## Netstat on Windows

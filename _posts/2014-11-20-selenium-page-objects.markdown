@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Selenium Page Objects Pattern
 date: 2014-11-20
 categories: testing

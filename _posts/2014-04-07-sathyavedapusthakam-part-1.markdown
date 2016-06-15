@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: ഡിജിറ്റൽ സത്യവേദപുസ്തകം - ഭാഗം ൧
 date: 2014-04-07
 categories: bible

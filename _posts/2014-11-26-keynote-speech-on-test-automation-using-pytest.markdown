@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Keynote Speech on Test Automation using Pytest
 date: 2014-11-26
 categories: testing

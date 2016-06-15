@@ -1,6 +1,6 @@
 ---
-layout: article
 title: Editing Go in Vim
+permalink: /article/golang-vim.html
 ---
 
 I am using [vim-plug](https://github.com/junegunn/vim-plug) plugin manager.

@@ -1,6 +1,6 @@
 ---
-layout: article
 title: Consul
+permalink: /article/consul.html
 ---
 
 ## Introduction
