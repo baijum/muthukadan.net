@@ -33,12 +33,12 @@ first Kenneth Gonsalves Award</a>
 <ul class="posts">
   <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">Go and Ember.js talk at GopherConIndia 2015</a></li>
   <li><a href="http://www.youtube.com/watch?v=lING02S6AAc">Introduction about python:</a> An introductory talk at a typical <a
-  href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore ()</a></li>
-  <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</a></li>
+  href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore ()</li>
+  <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</li>
   <li><a href="http://in.pycon.org/2009/talkfull/21/">Buildout for Development and Deployment:</a> Talk at first PyCON India 2009, IISc
-  Bangalore</a></li>
+  Bangalore</li>
   <li><a href="https://web.archive.org/web/20071219141919/http://foss.in/2007/register/slides/Contributing_to_Zope_project_432.pdf">Contributing to Zope project:</a> Talk at FOSS.IN
-  2007 about Zope project, IISc Bangalore</a></li>
+  2007 about Zope project, IISc Bangalore</li>
 </ul>
 
 ## Workshops
@@ -47,5 +47,5 @@ first Kenneth Gonsalves Award</a>
   <li><a href="http://muthukadan.net/presentation/python_workshop/fossmeet14.pdf">Python Workshop:</a> Workshop conducted at
   <a href="http://fossmeet.in/2014/">FOSS Meet'14</a>(<a href="http://muthukadan.net/presentation/python_workshop/fossmeet14-exercises.pdf">Exercises</a>)</li>
   <li><a href="http://in.pycon.org/funnel/2013/5-functional-testing-using-selenium">Functional Testing Using Selenium:</a> Workshop
-  conducted at PyCON India 2013, NIMHANS Bangalore</a></li>
+  conducted at PyCON India 2013, NIMHANS Bangalore</li>
 </ul>
