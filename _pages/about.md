@@ -47,5 +47,5 @@ first Kenneth Gonsalves Award</a>
   <li><a href="http://muthukadan.net/presentation/python_workshop/fossmeet14.pdf">Python Workshop:</a> Workshop conducted at
   <a href="http://fossmeet.in/2014/">FOSS Meet'14</a>(<a href="http://muthukadan.net/presentation/python_workshop/fossmeet14-exercises.pdf">Exercises</a>)</li>
   <li><a href="http://in.pycon.org/funnel/2013/5-functional-testing-using-selenium">Functional Testing Using Selenium:</a> Workshop
-  conducted at PyCON India 2013, NIMHANS Bangalore</a></li>
+  conducted at PyCON India 2013, NIMHANS Bangalore</li>
 </ul>
