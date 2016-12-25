@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-12-26T00:19:45+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
+months many things happened in my life.  I changed my job, after
+working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
+son born in last August.  Became co-organizer of Bangalore Golang user
+group and started organizing meetups.  Along with all these things,
+conducted 3 more Golang workshops.&lt;/p&gt;
+
+&lt;p&gt;The 5th workshop was on July 9th at BangTheTable office organized by Bangalore Golang meetup group:&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Photos from today&amp;#39;s 7 hour Go workshop at Bangalore &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; meetup. Thanks to &lt;a href=&quot;https://twitter.com/BangtheTable&quot;&gt;@BangtheTable&lt;/a&gt; for hosting and lunch. &lt;a href=&quot;https://t.co/buqluRYNxc&quot;&gt;pic.twitter.com/buqluRYNxc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/751780223482408961&quot;&gt;July 9, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;The 6th workshop was at Red Hat office:&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My 6th &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/hashtag/redhat?src=hash&quot;&gt;#redhat&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/bangalore?src=hash&quot;&gt;#bangalore&lt;/a&gt; &lt;a href=&quot;https://t.co/PmNJYIWBc7&quot;&gt;pic.twitter.com/PmNJYIWBc7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/782204996787908608&quot;&gt;October 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;The 7th workshop was in Trivandrum technopark organized by &lt;a href=&quot;http://www.prathidhwani.org&quot;&gt;Prathidhwani&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop was well received. Thanks to organizers and participants! &lt;a href=&quot;https://t.co/ki48h1Ymei&quot;&gt;pic.twitter.com/ki48h1Ymei&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/807595399347191810&quot;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last update about my Golang workshops was in June 2016.  In the last 6
+months many things happened in my life.  I changed my job, after
+working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
+son born in last August.  Became co-organizer of Bangalore Golang user
+group and started organizing meetups.  Along with all these things,
+conducted 3 more Golang workshops.</summary></entry><entry><title type="html">Golang workshops at Sahrdaya &amp;amp; Reboot Calicut</title><link href="/golang/talk/golang-workshop-sahrdaya-rebootcalicut/" rel="alternate" type="text/html" title="Golang workshops at Sahrdaya &amp; Reboot Calicut" /><published>2016-06-15T00:00:00+05:30</published><updated>2016-06-15T00:00:00+05:30</updated><id>/golang/talk/golang-workshop-sahrdaya-rebootcalicut</id><content type="html" xml:base="/golang/talk/golang-workshop-sahrdaya-rebootcalicut/">&lt;p&gt;Those who following me or &lt;a href=&quot;https://twitter.com/nogenerics&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://facebook.com/BaijuMuthukadan&quot;&gt;Facebook&lt;/a&gt; might be already
+seen my updates about Golang workshops at &lt;a href=&quot;http://www.sahrdaya.ac.in&quot;&gt;Sahrdaya&lt;/a&gt; college of
+engineering and &lt;a href=&quot;http://rebootcalicut.com&quot;&gt;Reboot Calicut&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My third Golang workshop was organized by Sahrdaya college of
+engineering as part of the faculty development program.  Particants
+were mostly computer science teachers from various engineering
+colleges.  This was interesting, because my first Golang workshop
+particants were computer science engineering students and second was
+professional software developers.  The workshop was conducted on last
+week of April.  I know, this is very late update ;)&lt;/p&gt;
+
+&lt;p&gt;As usual, Go was very new to all particants.  The prgram went very
+well.  Few photos from the workshop:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_144018.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_144031.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163630.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163658.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163701.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The 4th Golang workshop was in Calicut.  Reboot Calicut is a new
+conference started in Calicut by software professionals.  Since
+Calicut is my home town, I was very happy to accept their invitation.
+I can see that, the infrastructure in Calicut is improving every year.
+I hope this conference will help many software developers.  The venue
+location was was very good.  Few photos:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170747.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170822_HDR.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170857_HDR.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170926_HDR.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Those who following me or Twitter or Facebook might be already
+seen my updates about Golang workshops at Sahrdaya college of
+engineering and Reboot Calicut.</summary></entry><entry><title type="html">Golang workshops</title><link href="/golang/talk/golang-workshops/" rel="alternate" type="text/html" title="Golang workshops" /><published>2016-04-19T00:00:00+05:30</published><updated>2016-04-19T00:00:00+05:30</updated><id>/golang/talk/golang-workshops</id><content type="html" xml:base="/golang/talk/golang-workshops/">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
+on February 27th at &lt;a href=&quot;http://www.nitc.ac.in&quot;&gt;NIT Calicut&lt;/a&gt; as part of
+&lt;a href=&quot;http://fossmeet.in&quot;&gt;FOSSMeet’16&lt;/a&gt; program.  The second one was last
+Saturday (April 16th) at NUMA Bangalore organized by
+&lt;a href=&quot;https://hasgeek.com&quot;&gt;Hasgeek&lt;/a&gt; as part of
+&lt;a href=&quot;https://rootconf.in/2016&quot;&gt;Rootconf’16&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The workshop at NIT was a 4 hour workshop and particpants were
+computer science students from various engineering colleges.&lt;/p&gt;
+
+&lt;p&gt;Few photos from the workshop:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124533.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124328.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124435.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124356.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_153141.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_160137.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The workshop at Rootconf was attended by professionals with experience
+in other programming languages.  It was a 6 hour workshop and it was
+well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/IMG_20160416_145735.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/IMG_20160416_145718.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/IMG_20160416_150210.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Recently I conducted couple of Go workshops.  The first workshop was
+on February 27th at NIT Calicut as part of
+FOSSMeet’16 program.  The second one was last
+Saturday (April 16th) at NUMA Bangalore organized by
+Hasgeek as part of
+Rootconf’16.</summary></entry><entry><title type="html">New direction for my blog</title><link href="/faith/life/new-direction-for-blog/" rel="alternate" type="text/html" title="New direction for my blog" /><published>2016-01-30T00:00:00+05:30</published><updated>2016-01-30T00:00:00+05:30</updated><id>/faith/life/new-direction-for-blog</id><content type="html" xml:base="/faith/life/new-direction-for-blog/">&lt;p&gt;It’s very long time that I wrote anything in my blog.  For last many
+years, my blog posts were mostly technical.  Sometimes I have written
+personal things in my blog.  Now onwards I am thinking to write both
+personal as well as technical things in my blog.&lt;/p&gt;
+
+&lt;p&gt;On February 14, 2013 I wrote this in my old &lt;a href=&quot;http://baijum.blogspot.in/2013/02/something-personal.html&quot;&gt;blog&lt;/a&gt;: “I started writing
+blog in October 2004.  Most of my blog entries were technical, very
+few times I wrote personal things.  This blog post is written just to
+tell those who read my blog that I believe in Jesus Christ.  I
+accepted Jesus Christ as my Lord and Savior in 1995.  However, due to
+resistance from my family, I couldn’t continue fellowship with other
+believers and so I started backsliding.  In August 2011, God helped me
+to find a good fellowship in Bangalore where I live now.”&lt;/p&gt;
+
+&lt;p&gt;Even after that brief update, I couldn’t write anything about Jesus
+Christ in my blog.  So, this is a new start.&lt;/p&gt;
+
+&lt;p&gt;From the above note, you can see that my experience dates back to
+1995.  I will try to recollect those days here.  It was during my high
+school days that I started reading Bible.  I used to listen to many
+radio programs during this time.  I received a copy of new testament
+(part of bible) after sending a mail to an address I got from one of
+the radio program.  I remember reading the new testament many times.
+Later, I accepted Jesus Christ as my Lord and Savior in 1995.
+There was no one I could speak about my new experience at that time.
+After some time a pastor came to our place.  One day, my father met
+the pastor and during their conversation my father mentioned that I
+read bible.  Then he came to our home and invited me to join the
+worship happening in his home.  That was a new experience for me.  I
+started going to worship regularly.  Initially my parents were fine
+with that.  But they couldn’t support me anymore when I stopped going
+to temples.  This lead to lots of family problems.  Due to these kind
+of issues, one day, I decided to take some break.  That was one of the
+major setback in my life.  Then for a long period in my life, I missed
+worship, reading Bible and fellowship with other believers.&lt;/p&gt;
+
+&lt;p&gt;I am thinking to write more about Jesus Christ in my blog.  I am
+looking forward to your feedback.  You can reach out to me via
+twitter, facebook, email or mobile/whatsapp.  See the bottom of this
+blog for contact details.  God bless you!&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">It’s very long time that I wrote anything in my blog.  For last many
+years, my blog posts were mostly technical.  Sometimes I have written
+personal things in my blog.  Now onwards I am thinking to write both
+personal as well as technical things in my blog.</summary></entry><entry><title type="html">Go and Ember.js talk at GopherConIndia 2015</title><link href="/golang/emberjs/gopherconindia-2015-talk/" rel="alternate" type="text/html" title="Go and Ember.js talk at GopherConIndia 2015" /><published>2015-03-10T00:00:00+05:30</published><updated>2015-03-10T00:00:00+05:30</updated><id>/golang/emberjs/gopherconindia-2015-talk</id><content type="html" xml:base="/golang/emberjs/gopherconindia-2015-talk/">&lt;p&gt;I was very much excited to present at the first GopherCon India
+conference.  My talk was on 20th February around 3pm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/gopherconindia2.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sourcegraph team was coordinating and writing live blog and Julia
+Poladsky has written a &lt;a href=&quot;https://sourcegraph.com/blog/live/gopherconindia/111591653516&quot;&gt;blog
+about my talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/gopherconindia1.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have uploaded more photos in my &lt;a href=&quot;https://plus.google.com/+BaijuMuthukadan/posts/CXFe7zvdiBh&quot;&gt;Google+
+post&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/gopherconindia3.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The video of the talk is available in YouTube:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I was very much excited to present at the first GopherCon India
+conference.  My talk was on 20th February around 3pm.</summary></entry><entry><title type="html">An Introduction to Go Programming</title><link href="/golang/an-introduction-to-go-programming/" rel="alternate" type="text/html" title="An Introduction to Go Programming" /><published>2014-11-28T00:00:00+05:30</published><updated>2014-11-28T00:00:00+05:30</updated><id>/golang/an-introduction-to-go-programming</id><content type="html" xml:base="/golang/an-introduction-to-go-programming/">&lt;p&gt;&lt;a href=&quot;http://golang.org&quot;&gt;Go&lt;/a&gt;, also commonly referred to as &lt;strong&gt;golang&lt;/strong&gt;, is a statically typed,
+compiled, garbage-collected, concurrent general purpose programming
+language.  Go is considered as an object oriented programming language
+and it uses &lt;a href=&quot;http://en.wikipedia.org/wiki/Composition_over_inheritance&quot;&gt;object composition&lt;/a&gt; instead of class inheritance.  Go was
+initially developed at Google by &lt;a href=&quot;http://en.wikipedia.org/wiki/Robert_Griesemer&quot;&gt;Robert Griesemer&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Rob_Pike&quot;&gt;Rob Pike&lt;/a&gt;, and
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Ken_Thompson&quot;&gt;Ken Thompson&lt;/a&gt;.  Go was publicly released as a free/open source
+software in November 2009 by Google.&lt;/p&gt;
+
+&lt;p&gt;There are two major compilers available, &lt;em&gt;gc&lt;/em&gt; &amp;amp; &lt;em&gt;gccgo&lt;/em&gt;.  The official
+compiler is &lt;em&gt;gc&lt;/em&gt; and &lt;em&gt;gccgo&lt;/em&gt; is a front-end to &lt;a href=&quot;https://gcc.gnu.org&quot;&gt;gcc&lt;/a&gt;.  Go supports
+major operating systems including Windows, GNU/Linux, Mac OS X and
+various flavors of BSDs.  Through &lt;em&gt;gccgo&lt;/em&gt; it supports more platforms.
+And cross compilation is easy in Go.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/golang-mascot.png&quot; alt=&quot;mascot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The syntax of Go is very similar to C programming language.  There are
+around 25+ keywords in the languages which is smaller compared to C,
+C++, Python etc.&lt;/p&gt;
+
+&lt;p&gt;Go compilation is very fast, few seconds would be enough to compile
+large programs.  In Go, unused imports and variables raise error
+during compile time.  A variable starting with capital letter is
+considered as exported and so it can be used from other packages.&lt;/p&gt;
+
+&lt;p&gt;Now I will move on to the details of installation of Go compiler.
+First you will see instruction for installing in GNU/Linux.
+The next section explains installation in a Windows system.&lt;/p&gt;
+
+&lt;p&gt;Finally I will show running a hello world program.  This will help you
+to verify your installation.&lt;/p&gt;
+
+&lt;h2 id=&quot;linux-installation&quot;&gt;Linux Installation&lt;/h2&gt;
+
+&lt;p&gt;Go project provides binaries for major operating systems including
+GNU/Linux.  You can find 32 bit and 64 bit binaries for GNU/Linux
+here: &lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The following commands will download and install Go compiler in a
+64 bit GNU/Linux system:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;
+wget -c https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz
+tar zxvf go1.7.1.linux-amd64.tar.gz
+mkdir &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The first line ensure that current working directory is the home
+directory for the user.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME&lt;/code&gt; environment variable contains the
+path to the user’s home directory.&lt;/p&gt;
+
+&lt;p&gt;The second line download the 64 bit binary for GNU/Linux.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;wget&lt;/code&gt;
+is a command line download manager.&lt;/p&gt;
+
+&lt;p&gt;The third line extract the downloaded tar ball in to &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt; directory
+inside the home.&lt;/p&gt;
+
+&lt;p&gt;The last line creates a directory named &lt;code class=&quot;highlighter-rouge&quot;&gt;mygo&lt;/code&gt; as the workspace.  This
+directory can be used to place binaries, third party packages and your
+own Go source code.&lt;/p&gt;
+
+&lt;p&gt;You also need to set few environment variables.  Open the
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt; file in a text editor and enter these lines:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOROOT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/go
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$GOROOT&lt;/span&gt;/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$GOPATH&lt;/span&gt;/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The first line set &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable pointing to
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/go&lt;/code&gt;.  This is required for proper functioning of Go tools.  You
+can avoid setting the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable if you install Go
+inside &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/go&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The second line append the &lt;code class=&quot;highlighter-rouge&quot;&gt;$GOROOT/bin&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
+variable.  This will help you to run &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;godoc&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;gofmt&lt;/code&gt; commands
+from command line.&lt;/p&gt;
+
+&lt;p&gt;The third line set the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable pointing to
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/mygo&lt;/code&gt;.  The GOPATH environment variable specifies the location
+of your Go workspace.&lt;/p&gt;
+
+&lt;p&gt;The last line append &lt;code class=&quot;highlighter-rouge&quot;&gt;$GOPATH/bin&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.
+This will help you to run any binaries installed.&lt;/p&gt;
+
+&lt;h2 id=&quot;windows-installation&quot;&gt;Windows Installation&lt;/h2&gt;
+
+&lt;p&gt;There are separate installers (MSI files) available for 32 bit &amp;amp; 64
+bit versions of Windows.  The 32 bit version MSI file will be named
+like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;go1.x.y.windows-386.msi&lt;/code&gt; (Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
+version).  Similarly for 64 bit version, the MSI file will be named
+like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;go1.x.y.windows-amd64.msi&lt;/code&gt; (Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
+version).&lt;/p&gt;
+
+&lt;p&gt;You can download the installers (MSI files) from here:
+&lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After downloading the installer file, you can open the MSI file by
+double clicking on that file.  This should prompts few things about
+the installation of the Go compiler.  The installer place the
+Go related files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;The installer also put the &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go\bin&lt;/code&gt; directory in the system
+&lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.  You may need to restart any open command
+prompts for the change to take effect.&lt;/p&gt;
+
+&lt;p&gt;You also need to create a directory to download third party packages
+from github.com or similar sites.  The directory can be created at
+&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\mygo&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;mkdir C:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After this you can set &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable to point to this
+location.  Temporarily you can set it like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;set GOPATH=C:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can also append &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\mygo\bin&lt;/code&gt; into the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
+variable.&lt;/p&gt;
+
+&lt;p&gt;If you do not know how to set environment variable, just do a Google
+search for: “set windows environment variable”.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable is not required here as you have
+installed the &lt;code class=&quot;highlighter-rouge&quot;&gt;Go&lt;/code&gt; inside &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; folder.  If you have changed that
+location during the installation, set the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; pointing to the
+location you selected.&lt;/p&gt;
+
+&lt;h2 id=&quot;running-a-program&quot;&gt;Running a program&lt;/h2&gt;
+
+&lt;p&gt;This section helps you to verify your installation by running a hello
+world program.&lt;/p&gt;
+
+&lt;p&gt;As you know Go is a compiled programming language.  However, there is
+a command which does both compilation and running the program.  The
+command line syntax to run the program is like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go run &amp;lt;program.go&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To run a hello world program, you can copy-paste the below code to
+your favorite text editor and save it as &lt;code class=&quot;highlighter-rouge&quot;&gt;hello.go&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Once you saved the above source code into a file.  You can open your
+command line program (&lt;em&gt;bash&lt;/em&gt; or &lt;em&gt;cmd.exe&lt;/em&gt;) and run the above program like
+this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go run hello.go&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you are able to see the output as &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello, World!&lt;/code&gt;, you have
+successfully installed Go compiler.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-and-running-program&quot;&gt;Building and Running Program&lt;/h2&gt;
+
+&lt;p&gt;As you can see above, you can run the program using &lt;code class=&quot;highlighter-rouge&quot;&gt;go run hello.go&lt;/code&gt;
+command.  You can also build (compile) and run the binary like this in
+GNU/Linux:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go build hello.go
+./hello&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The first command produce a binary and second comand is executing that
+binary.  You can do the same thing in Windows like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;go build hello.go
+hello.exe&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;go build&lt;/code&gt; command produce a binary file native to the operating
+system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Go, also commonly referred to as golang, is a statically typed,
+compiled, garbage-collected, concurrent general purpose programming
+language.  Go is considered as an object oriented programming language
+and it uses object composition instead of class inheritance.  Go was
+initially developed at Google by Robert Griesemer, Rob Pike, and
+Ken Thompson.  Go was publicly released as a free/open source
+software in November 2009 by Google.</summary></entry><entry><title type="html">Keynote Speech on Test Automation using Pytest</title><link href="/testing/keynote-speech-on-test-automation-using-pytest/" rel="alternate" type="text/html" title="Keynote Speech on Test Automation using Pytest" /><published>2014-11-26T00:00:00+05:30</published><updated>2014-11-26T00:00:00+05:30</updated><id>/testing/keynote-speech-on-test-automation-using-pytest</id><content type="html" xml:base="/testing/keynote-speech-on-test-automation-using-pytest/">&lt;p&gt;I delivered a &lt;a href=&quot;https://twitter.com/ISQT1/status/535663918492827648&quot;&gt;Keynote speech&lt;/a&gt; on “Test Automation Using Pytest” at
+“Non-Conventional Software Test Automation” conference.  The
+conference was organized by a testing community.  I selected Pytest as
+my topic and the talk was well received.  This was not really a Python
+community, but when I asked how many knows Python, around 40% raised
+their hands.  Thanks to the organizers for inviting me to speak!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/D1-51-Speaker.JPG&quot; alt=&quot;on stage&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I delivered a Keynote speech on “Test Automation Using Pytest” at
+“Non-Conventional Software Test Automation” conference.  The
+conference was organized by a testing community.  I selected Pytest as
+my topic and the talk was well received.  This was not really a Python
+community, but when I asked how many knows Python, around 40% raised
+their hands.  Thanks to the organizers for inviting me to speak!</summary></entry><entry><title type="html">Selenium Page Objects Pattern</title><link href="/testing/selenium-page-objects/" rel="alternate" type="text/html" title="Selenium Page Objects Pattern" /><published>2014-11-20T00:00:00+05:30</published><updated>2014-11-20T00:00:00+05:30</updated><id>/testing/selenium-page-objects</id><content type="html" xml:base="/testing/selenium-page-objects/">&lt;p&gt;I have added a &lt;a href=&quot;http://selenium-python.readthedocs.org/page-objects.html&quot;&gt;new chapter on Page Objects&lt;/a&gt; in my documenabouttation
+for Selenium with Python.  Code in this chapter works and is quite
+self-descriptive, but a little description wouldn’t hurt.  If anyone
+interested, please send pull request in &lt;a href=&quot;https://github.com/baijum/selenium-python&quot;&gt;Github&lt;/a&gt;.  If you want an
+example implementation, I have one as part of my project in Github
+called &lt;a href=&quot;https://github.com/baijum/pitracker/tree/master/test/acceptance&quot;&gt;pitracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I would be very happy to review and accept your pull requests.  As you
+can see in the &lt;a href=&quot;https://github.com/baijum/selenium-python/graphs/contributors&quot;&gt;Github contributors graph&lt;/a&gt;, there are 18 external
+contributors to this document.  Most of them made just one commit.&lt;/p&gt;
+
+&lt;p&gt;The other part of documentation where I am seeking more contribution
+is chapter on &lt;a href=&quot;http://selenium-python.readthedocs.org/faq.html&quot;&gt;Frequently Asked Questions&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I have added a new chapter on Page Objects in my documenabouttation
+for Selenium with Python.  Code in this chapter works and is quite
+self-descriptive, but a little description wouldn’t hurt.  If anyone
+interested, please send pull request in Github.  If you want an
+example implementation, I have one as part of my project in Github
+called pitracker.</summary></entry><entry><title type="html">Windows Commands</title><link href="/technology/windows-commands/" rel="alternate" type="text/html" title="Windows Commands" /><published>2014-04-09T00:00:00+05:30</published><updated>2014-04-09T00:00:00+05:30</updated><id>/technology/windows-commands</id><content type="html" xml:base="/technology/windows-commands/">&lt;p&gt;I had kept these notes in a private wiki page for sometime.
+I hope moving it here will be helpful for searching.&lt;/p&gt;
+
+&lt;h3 id=&quot;deleting-a-service&quot;&gt;Deleting a Service&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sc delete servicename&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To get name of the service that need to be deleted:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;services.msc&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Right click and get the service name&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;checking-whether-a-port-is-listening-or-not&quot;&gt;Checking whether a port is listening or not&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;PORTNUMBER&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;to-see-all-ports-listening&quot;&gt;To see all ports listening&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;LISTENING&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;to-check-a-service-is-started-or-not&quot;&gt;To check a service is started or not&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net start|find &quot;C:\Path\to\program&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;commenting-in-batch-file&quot;&gt;Commenting in batch file&lt;/h3&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;::&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;REM&lt;/code&gt; followed by a space&lt;/p&gt;
+
+&lt;p&gt;Example:-&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:: this is a comment
+REM this is another comment
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;call-a-batch-program-inside-another-batch-file&quot;&gt;Call a batch program inside another batch file&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;call &amp;lt;script.bat&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;query-and-remove-terminal-server-sessions&quot;&gt;Query and remove terminal server sessions&lt;/h3&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;qwinsta&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;rwinsta&lt;/code&gt; commands.&lt;/p&gt;
+
+&lt;p&gt;Example:-&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;qwinsta /SERVER:IP
+rwinsta /SERVER:IP
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;check-uptime-of-machine&quot;&gt;Check uptime of machine&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net statistics server | find &quot;since&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;run-as-different-user&quot;&gt;Run as different user&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;runas&lt;/code&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I had kept these notes in a private wiki page for sometime.
+I hope moving it here will be helpful for searching.</summary></entry><entry><title type="html">ഡിജിറ്റൽ സത്യവേദപുസ്തകം - ഭാഗം ൧</title><link href="/bible/sathyavedapusthakam-part-1/" rel="alternate" type="text/html" title="ഡിജിറ്റൽ സത്യവേദപുസ്തകം - ഭാഗം ൧" /><published>2014-04-07T00:00:00+05:30</published><updated>2014-04-07T00:00:00+05:30</updated><id>/bible/sathyavedapusthakam-part-1</id><content type="html" xml:base="/bible/sathyavedapusthakam-part-1/">&lt;p&gt;ഏതാനും ചില ആഴ്ചകൾക്ക് മുമ്പ് വിക്കിഗ്രന്ഥശാലയിലുള്ള &lt;a href=&quot;https://ml.wikisource.org/wiki/ഉപയോക്താവ്:BaijuMuthukadan/പ്രവർത്തനങ്ങൾ&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ&lt;/a&gt; അച്ചടിപ്പിഴവുകൾ തിരുത്തുന്ന
+പ്രവൎത്തനത്തിൽ ഞാൻ ചേൎന്നു. അതിനെക്കുറിച്ച് ഇവിടെ എഴുതി തുടങ്ങുവാൻ ആഗ്രഹിക്കുന്നു. ഈ പ്രവൎത്തനം
+കുറച്ചുകൂടി വിപുലമാക്കുന്നതിന്റെ ഭാഗമായി “&lt;a href=&quot;http://sathyavedapusthakam.in/&quot;&gt;ഡിജിറ്റൽ സത്യവേദപുസ്തകം&lt;/a&gt;” എന്ന ഒരു വെബ്‌സൈറ്റും
+അതിനോടനുബന്ധിച്ച് ഒരു &lt;a href=&quot;https://groups.google.com/d/forum/sathyavedapusthakam&quot;&gt;ഗൂഗിൾ ഗ്രൂപ്പും&lt;/a&gt; തുടങ്ങിവെച്ചു.&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ 1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ്&lt;/h3&gt;
+
+&lt;p&gt;വിക്കിഗ്രന്ഥശാലയിലുള്ള സത്യവേദപുസ്തകത്തിന്റെ ആദ്യ പതിപ്പ് 1910 -ലാണ് അച്ചടിച്ചതെന്ന് കരുതുന്നു.
+ആയതിനാൽ ഇതിന്റെ പകൎപ്പവകാശം തീൎന്നിട്ടുണ്ടാകും എന്ന് അനുമാനിക്കുന്നു. എന്നാൽ ഇത് സ്ഥിരീകരിക്കുന്നതിനായി
+1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ് ലഭ്യമാവേണ്ടതുണ്ട്. അത് കണ്ടെത്തി സ്കാൻ ചെയ്ത് ഡിജിറ്റൽ രൂപത്തിലേക്ക് മാറ്റേണ്ടത്
+അത്യന്താപേക്ഷിതമാണ്. പഴയ വീടുകളിലോ, ലൈബ്രറികളിലോ ഇത് ഉണ്ടാകാനുള്ള സാധ്യതയുണ്ട്. ഇത് കണ്ടെത്തുവാൻ
+നിങ്ങളുടെ സഹായം ഈ അവസരത്തിൽ ഞാൻ അഭ്യൎത്ഥിക്കുന്നു.&lt;/p&gt;
+
+&lt;p&gt;സത്യവേദപുസ്തകത്തിന്റെ 1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ് കണ്ടെത്തുന്നതിന്റ ഭാഗമായി ഞാൻ “ദി ബൈബിൾ സൊസൈറ്റി
+ഓഫ് ഇന്ത്യ” -യുടെ ബാംഗ്ലൂരുള്ള “&lt;a href=&quot;http://www.bsind.org/the_bible_world.html&quot;&gt;ദി ബൈബിൾ വേൾഡ്&lt;/a&gt;” എന്ന സ്ഥിരം പ്രദൎശനം കാണാൻ പോയിരുന്നു. എന്നാൽ അതവിടെ
+കണ്ടെത്തുവാൻ സാധിച്ചില്ല. അവിടെയുള്ള ആൎക്കൈവ്സ് ശേഖരിക്കുന്ന ഒരു മലയാളിയുമായി കുറെനേരം സംസാരിക്കുവാനിടയായി,
+അതിൽനിന്നു മനസ്സിലായത് അവരും ഇങ്ങനെയുള്ള പഴയ പതിപ്പുകൾക്കായിട്ടുള്ള അന്വേഷണത്തിലാണെന്നാണ്.&lt;/p&gt;
+
+&lt;p&gt;മലയാളത്തിലെ പഴയ പുസ്തകൾ അന്വേഷിക്കുന്ന &lt;a href=&quot;http://shijualex.in/&quot;&gt;ഷിജു&lt;/a&gt;, ഈ പുസ്തകത്തിന്റെയും അന്വേഷണത്തിലാണ്.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update (14-November-2014)&lt;/strong&gt;: ഈ &lt;a href=&quot;http://shijualex.in/sathyavedapusthakam-1910/&quot;&gt;അന്വേഷണം അവസാനിച്ചു&lt;/a&gt;!&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">ഏതാനും ചില ആഴ്ചകൾക്ക് മുമ്പ് വിക്കിഗ്രന്ഥശാലയിലുള്ള സത്യവേദപുസ്തകത്തിന്റെ അച്ചടിപ്പിഴവുകൾ തിരുത്തുന്ന
+പ്രവൎത്തനത്തിൽ ഞാൻ ചേൎന്നു. അതിനെക്കുറിച്ച് ഇവിടെ എഴുതി തുടങ്ങുവാൻ ആഗ്രഹിക്കുന്നു. ഈ പ്രവൎത്തനം
+കുറച്ചുകൂടി വിപുലമാക്കുന്നതിന്റെ ഭാഗമായി “ഡിജിറ്റൽ സത്യവേദപുസ്തകം” എന്ന ഒരു വെബ്‌സൈറ്റും
+അതിനോടനുബന്ധിച്ച് ഒരു ഗൂഗിൾ ഗ്രൂപ്പും തുടങ്ങിവെച്ചു.</summary></entry></feed>

@@ -1,0 +1,40 @@
+<p>Docker provides a <a href="https://docs.docker.com/reference/api/docker_remote_api/">remote API</a>
+and there are many language specific client libraries built on top of that.
+The <a href="https://github.com/samalba/dockerclient">dockerclient</a> is one of them.</p>
+
+<p>The below example shows creating a container then stopping and finally
+removing that.</p>
+
+<div class="language-go highlighter-rouge"><pre class="highlight"><code><span class="c">// Init the client</span><span class="x">
+</span><span class="n">docker</span><span class="p">,</span><span class="x"> </span><span class="n">_</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">dockerclient</span><span class="o">.</span><span class="n">NewDockerClient</span><span class="p">(</span><span class="s">"unix:///var/run/docker.sock"</span><span class="p">,</span><span class="x"> </span><span class="no">nil</span><span class="p">)</span><span class="x">
+
+</span><span class="c">// Create a container</span><span class="x">
+</span><span class="n">b</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="nb">make</span><span class="p">(</span><span class="k">map</span><span class="p">[</span><span class="kt">string</span><span class="p">][]</span><span class="n">dockerclient</span><span class="o">.</span><span class="n">PortBinding</span><span class="p">)</span><span class="x">
+</span><span class="n">b</span><span class="p">[</span><span class="s">"5432/tcp"</span><span class="p">]</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="p">[]</span><span class="n">dockerclient</span><span class="o">.</span><span class="n">PortBinding</span><span class="p">{</span><span class="n">dockerclient</span><span class="o">.</span><span class="n">PortBinding</span><span class="p">{</span><span class="n">HostPort</span><span class="o">:</span><span class="x"> </span><span class="s">"5432"</span><span class="p">}}</span><span class="x">
+</span><span class="n">hostConfig</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="o">&amp;</span><span class="n">dockerclient</span><span class="o">.</span><span class="n">HostConfig</span><span class="p">{</span><span class="x">
+	</span><span class="n">PortBindings</span><span class="o">:</span><span class="x"> </span><span class="n">b</span><span class="p">}</span><span class="x">
+</span><span class="n">containerConfig</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="o">&amp;</span><span class="n">dockerclient</span><span class="o">.</span><span class="n">ContainerConfig</span><span class="p">{</span><span class="x">
+	</span><span class="n">Image</span><span class="o">:</span><span class="x">        </span><span class="s">"postgres:9.4"</span><span class="p">,</span><span class="x">
+	</span><span class="n">Tty</span><span class="o">:</span><span class="x">          </span><span class="no">false</span><span class="p">,</span><span class="x">
+	</span><span class="n">ExposedPorts</span><span class="o">:</span><span class="x"> </span><span class="k">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="k">struct</span><span class="p">{}{</span><span class="s">"5432/tcp"</span><span class="o">:</span><span class="x"> </span><span class="p">{}}}</span><span class="x">
+</span><span class="n">containerId</span><span class="p">,</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">docker</span><span class="o">.</span><span class="n">CreateContainer</span><span class="p">(</span><span class="n">containerConfig</span><span class="p">,</span><span class="x"> </span><span class="s">"pg"</span><span class="p">)</span><span class="x">
+</span><span class="k">if</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">!=</span><span class="x"> </span><span class="no">nil</span><span class="x"> </span><span class="p">{</span><span class="x">
+	</span><span class="n">log</span><span class="o">.</span><span class="n">Fatal</span><span class="p">(</span><span class="n">err</span><span class="p">)</span><span class="x">
+</span><span class="p">}</span><span class="x">
+
+</span><span class="c">// Start the container</span><span class="x">
+</span><span class="n">err</span><span class="x"> </span><span class="o">=</span><span class="x"> </span><span class="n">docker</span><span class="o">.</span><span class="n">StartContainer</span><span class="p">(</span><span class="n">containerId</span><span class="p">,</span><span class="x"> </span><span class="n">hostConfig</span><span class="p">)</span><span class="x">
+</span><span class="k">if</span><span class="x"> </span><span class="n">err</span><span class="x"> </span><span class="o">!=</span><span class="x"> </span><span class="no">nil</span><span class="x"> </span><span class="p">{</span><span class="x">
+	</span><span class="n">log</span><span class="o">.</span><span class="n">Fatal</span><span class="p">(</span><span class="n">err</span><span class="p">)</span><span class="x">
+</span><span class="p">}</span><span class="x">
+
+</span><span class="n">time</span><span class="o">.</span><span class="n">Sleep</span><span class="p">(</span><span class="m">7</span><span class="x"> </span><span class="o">*</span><span class="x"> </span><span class="n">time</span><span class="o">.</span><span class="n">Second</span><span class="p">)</span><span class="x">
+
+</span><span class="c">// Stop the container (with 5 seconds timeout)</span><span class="x">
+</span><span class="n">docker</span><span class="o">.</span><span class="n">StopContainer</span><span class="p">(</span><span class="n">containerId</span><span class="p">,</span><span class="x"> </span><span class="m">5</span><span class="p">)</span><span class="x">
+
+</span><span class="c">// Remove the container</span><span class="x">
+</span><span class="n">docker</span><span class="o">.</span><span class="n">RemoveContainer</span><span class="p">(</span><span class="n">containerId</span><span class="p">,</span><span class="x"> </span><span class="no">false</span><span class="p">,</span><span class="x"> </span><span class="no">false</span><span class="p">)</span><span class="x">
+</span></code></pre>
+</div>
+
