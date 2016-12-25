@@ -8,7 +8,7 @@ permalink: /about.html
 
 <p style="padding-top: 10px">
 <img width="150px" style="float: left; margin-right: 20px; border: 1px solid #c0c0c0; padding: 5px;" src="/assets/images/dallas_fall2014.jpg" />
-Baiju Muthukadan is a Technical Architect at ZeOmega, Bangalore.  He
+Baiju Muthukadan is working as a senior software engineer at Red Hat.  He
 has contributed to many Free/Open source softwares including Zope,
 Koha and Salt.  He has authored a book titled, <a
 href="http://muthukadan.net/docs/zca.html">A Comprehensive Guide to

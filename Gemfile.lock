@@ -209,6 +209,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.12)
   github-pages
+  jekyll-theme-primer
   minimal-mistakes-jekyll!
   rake (~> 10.0)
 
