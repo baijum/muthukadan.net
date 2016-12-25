@@ -13,7 +13,7 @@ has contributed to many Free/Open source softwares including Zope,
 Koha and Salt.  He has authored a book titled, <a
 href="http://muthukadan.net/docs/zca.html">A Comprehensive Guide to
 Zope Component Architecture</a>.  He is the author of <a
-href="https://selenium-python.readthedocs.org">Selenium Python
+href="https://selenium-python.readthedocs.io">Selenium Python
 documentation</a>.
 He founded the <a href="http://smc.org.in/">Swathanthra Malayalam
 Computing</a> project in 2001 while studying at REC, Calicut.  He was
@@ -32,13 +32,13 @@ first Kenneth Gonsalves Award</a>
 
 <ul class="posts">
   <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">Go and Ember.js talk at GopherConIndia 2015</a></li>
-  <li><a href="http://www.youtube.com/watch?v=lING02S6AAc">Introduction about python:</a> An introductory talk at a typical <a
-  href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore ()</a></li>
-  <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</a></li>
+  <li><a href="http://www.youtube.com/watch?v=lING02S6AAc">Introduction about python:</a> An introductory talk at a typical 
+  <a href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore</li>
+  <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</li>
   <li><a href="http://in.pycon.org/2009/talkfull/21/">Buildout for Development and Deployment:</a> Talk at first PyCON India 2009, IISc
-  Bangalore</a></li>
+  Bangalore</li>
   <li><a href="https://web.archive.org/web/20071219141919/http://foss.in/2007/register/slides/Contributing_to_Zope_project_432.pdf">Contributing to Zope project:</a> Talk at FOSS.IN
-  2007 about Zope project, IISc Bangalore</a></li>
+  2007 about Zope project, IISc Bangalore</li>
 </ul>
 
 ## Workshops
