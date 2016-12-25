@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: single
 title: Baiju Muthukadan
+permalink: /about.html
 ---
 
 ## About Me
 
 <p style="padding-top: 10px">
-<img width="150px" style="float: left; margin-right: 20px; border: 1px solid #c0c0c0; padding: 5px;" src="/images/dallas_fall2014.jpg" />
+<img width="150px" style="float: left; margin-right: 20px; border: 1px solid #c0c0c0; padding: 5px;" src="/assets/images/dallas_fall2014.jpg" />
 Baiju Muthukadan is a Technical Architect at ZeOmega, Bangalore.  He
 has contributed to many Free/Open source softwares including Zope,
 Koha and Salt.  He has authored a book titled, <a
@@ -30,7 +31,7 @@ first Kenneth Gonsalves Award</a>
 ## Talks
 
 <ul class="posts">
-  <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk.html">Go and Ember.js talk at GopherConIndia 2015</a></li>
+  <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">Go and Ember.js talk at GopherConIndia 2015</a></li>
   <li><a href="http://www.youtube.com/watch?v=lING02S6AAc">Introduction about python:</a> An introductory talk at a typical <a
   href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore ()</a></li>
   <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</a></li>

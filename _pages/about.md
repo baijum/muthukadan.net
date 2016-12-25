@@ -7,7 +7,7 @@ permalink: /about.html
 ## About Me
 
 <p style="padding-top: 10px">
-<img width="150px" style="float: left; margin-right: 20px; border: 1px solid #c0c0c0; padding: 5px;" src="/images/dallas_fall2014.jpg" />
+<img width="150px" style="float: left; margin-right: 20px; border: 1px solid #c0c0c0; padding: 5px;" src="/assets/images/dallas_fall2014.jpg" />
 Baiju Muthukadan is a Technical Architect at ZeOmega, Bangalore.  He
 has contributed to many Free/Open source softwares including Zope,
 Koha and Salt.  He has authored a book titled, <a
