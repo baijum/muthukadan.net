@@ -1,5 +1,6 @@
 ---
 title: Netstat
+layout: single
 permalink: /article/netstat.html
 ---
 

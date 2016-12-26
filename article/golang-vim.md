@@ -1,5 +1,6 @@
 ---
 title: Editing Go in Vim
+layout: single
 permalink: /article/golang-vim.html
 ---
 

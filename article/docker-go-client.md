@@ -1,5 +1,6 @@
 ---
 title: Docker Go Client
+layout: single
 permalink: /article/docker-go-client.html
 ---
 
