@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Baiju Muthukadan
 permalink: /about.html
 ---
 
