@@ -27,7 +27,7 @@ And cross compilation is easy in Go.
 
 [gcc]: https://gcc.gnu.org
 
-![mascot](https://dl.dropboxusercontent.com/u/37164281/blog/golang-mascot.png)
+![mascot](https://www.dropbox.com/s/sp2rbf1mv1onzcm/golang-mascot.png?raw=1)
 
 The syntax of Go is very similar to C programming language.  There are
 around 25+ keywords in the languages which is smaller compared to C,

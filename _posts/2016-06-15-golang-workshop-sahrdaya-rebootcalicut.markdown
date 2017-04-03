@@ -1,7 +1,7 @@
 ---
 layout: single
 header:
-  image: https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_065337.jpg
+  image: https://www.dropbox.com/s/zemzk860ahdooab/IMG_20160429_065337.jpg?raw=1
 title: Golang workshops at Sahrdaya & Reboot Calicut
 date: 2016-06-15
 categories: golang talk
@@ -27,11 +27,11 @@ week of April.  I know, this is very late update ;)
 As usual, Go was very new to all particants.  The prgram went very
 well.  Few photos from the workshop:
 
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_144018.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_144031.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163630.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163658.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163701.jpg" style="width: 560px" />
+<img src="https://www.dropbox.com/s/zg409i355z68tsx/IMG_20160429_144018.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/jlb0ffms0te3zn9/IMG_20160429_144031.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/5z4vx0ru4y59byq/IMG_20160429_163630.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/kx1eq32y4ksguqh/IMG_20160429_163658.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/bihpyeby4peh2mq/IMG_20160429_163701.jpg?raw=1" style="width: 560px" />
 
 The 4th Golang workshop was in Calicut.  Reboot Calicut is a new
 conference started in Calicut by software professionals.  Since
@@ -40,7 +40,7 @@ I can see that, the infrastructure in Calicut is improving every year.
 I hope this conference will help many software developers.  The venue
 location was was very good.  Few photos:
 
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170747.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170822_HDR.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170857_HDR.jpg" style="width: 560px" />
-<img src="https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170926_HDR.jpg" style="width: 560px" />
+<img src="https://www.dropbox.com/s/844hbqc89ml4zi8/IMG_20160604_170747.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/gevdc7vwvywn7sl/IMG_20160604_170822_HDR.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/yhr8pavdgyhld3k/IMG_20160604_170857_HDR.jpg?raw=1" style="width: 560px" />
+<img src="https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1" style="width: 560px" />
