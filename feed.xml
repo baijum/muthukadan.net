@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-03T08:25:11+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-03T11:05:11+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
 months many things happened in my life.  I changed my job, after
 working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
 son born in last August.  Became co-organizer of Bangalore Golang user
@@ -38,11 +38,11 @@ week of April.  I know, this is very late update ;)&lt;/p&gt;
 &lt;p&gt;As usual, Go was very new to all particants.  The prgram went very
 well.  Few photos from the workshop:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_144018.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_144031.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163630.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163658.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/sahrdaya16/IMG_20160429_163701.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/zg409i355z68tsx/IMG_20160429_144018.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/jlb0ffms0te3zn9/IMG_20160429_144031.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/5z4vx0ru4y59byq/IMG_20160429_163630.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/kx1eq32y4ksguqh/IMG_20160429_163658.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/bihpyeby4peh2mq/IMG_20160429_163701.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The 4th Golang workshop was in Calicut.  Reboot Calicut is a new
 conference started in Calicut by software professionals.  Since
@@ -51,10 +51,10 @@ I can see that, the infrastructure in Calicut is improving every year.
 I hope this conference will help many software developers.  The venue
 location was was very good.  Few photos:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170747.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170822_HDR.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170857_HDR.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rebootclt16/IMG_20160604_170926_HDR.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Those who following me or Twitter or Facebook might be already
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/844hbqc89ml4zi8/IMG_20160604_170747.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/gevdc7vwvywn7sl/IMG_20160604_170822_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/yhr8pavdgyhld3k/IMG_20160604_170857_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Those who following me or Twitter or Facebook might be already
 seen my updates about Golang workshops at Sahrdaya college of
 engineering and Reboot Calicut.</summary></entry><entry><title type="html">Golang workshops</title><link href="/golang/talk/golang-workshops/" rel="alternate" type="text/html" title="Golang workshops" /><published>2016-04-19T00:00:00+05:30</published><updated>2016-04-19T00:00:00+05:30</updated><id>/golang/talk/golang-workshops</id><content type="html" xml:base="/golang/talk/golang-workshops/">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
 on February 27th at &lt;a href=&quot;http://www.nitc.ac.in&quot;&gt;NIT Calicut&lt;/a&gt; as part of
@@ -68,28 +68,28 @@ computer science students from various engineering colleges.&lt;/p&gt;
 
 &lt;p&gt;Few photos from the workshop:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124533.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124328.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124435.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_124356.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/q2vhbns0opyx7cp/IMG_20160227_124533.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/vuzxsp8ru5icosx/IMG_20160227_124328.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/6di9mktuzrgnlpu/IMG_20160227_124435.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/ie77qiqpw02loa1/IMG_20160227_124356.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_153141.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/fossmeet16/IMG_20160227_160137.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/x6nolmo5z63rbkb/IMG_20160227_153141.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/rv5ecqhptpsysgo/IMG_20160227_160137.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The workshop at Rootconf was attended by professionals with experience
 in other programming languages.  It was a 6 hour workshop and it was
 well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/IMG_20160416_145735.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/jyy3l9sw0k3wwmd/IMG_20160416_145735.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/IMG_20160416_145718.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/ws0u92dsro3tomy/IMG_20160416_145718.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/IMG_20160416_150210.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5d9wx3pay44nx7a/IMG_20160416_150210.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/rootconf16/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Recently I conducted couple of Go workshops.  The first workshop was
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/datln4romzu98mf/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/tc55skv2pwhj54e/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/q9bu4tsc8yuaof7/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
+&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Recently I conducted couple of Go workshops.  The first workshop was
 on February 27th at NIT Calicut as part of
 FOSSMeet’16 program.  The second one was last
 Saturday (April 16th) at NUMA Bangalore organized by
@@ -139,18 +139,18 @@ personal things in my blog.  Now onwards I am thinking to write both
 personal as well as technical things in my blog.</summary></entry><entry><title type="html">Go and Ember.js talk at GopherConIndia 2015</title><link href="/golang/emberjs/gopherconindia-2015-talk/" rel="alternate" type="text/html" title="Go and Ember.js talk at GopherConIndia 2015" /><published>2015-03-10T00:00:00+05:30</published><updated>2015-03-10T00:00:00+05:30</updated><id>/golang/emberjs/gopherconindia-2015-talk</id><content type="html" xml:base="/golang/emberjs/gopherconindia-2015-talk/">&lt;p&gt;I was very much excited to present at the first GopherCon India
 conference.  My talk was on 20th February around 3pm.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/gopherconindia2.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/fd6nz449041qz1o/gopherconindia2.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sourcegraph team was coordinating and writing live blog and Julia
 Poladsky has written a &lt;a href=&quot;https://sourcegraph.com/blog/live/gopherconindia/111591653516&quot;&gt;blog
 about my talk&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/gopherconindia1.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/cjmgmy00x1ckwpc/gopherconindia1.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I have uploaded more photos in my &lt;a href=&quot;https://plus.google.com/+BaijuMuthukadan/posts/CXFe7zvdiBh&quot;&gt;Google+
 post&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/gopherconindia3.jpg&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/doalkeo2brjo505/gopherconindia3.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The video of the talk is available in YouTube:&lt;/p&gt;
 
@@ -169,7 +169,7 @@ major operating systems including Windows, GNU/Linux, Mac OS X and
 various flavors of BSDs.  Through &lt;em&gt;gccgo&lt;/em&gt; it supports more platforms.
 And cross compilation is easy in Go.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/golang-mascot.png&quot; alt=&quot;mascot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/sp2rbf1mv1onzcm/golang-mascot.png?raw=1&quot; alt=&quot;mascot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The syntax of Go is very similar to C programming language.  There are
 around 25+ keywords in the languages which is smaller compared to C,
@@ -343,7 +343,7 @@ my topic and the talk was well received.  This was not really a Python
 community, but when I asked how many knows Python, around 40% raised
 their hands.  Thanks to the organizers for inviting me to speak!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/37164281/blog/D1-51-Speaker.JPG&quot; alt=&quot;on stage&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I delivered a Keynote speech on “Test Automation Using Pytest” at
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/wcoyx6fkt7oz28k/D1-51-Speaker.JPG?raw=1&quot; alt=&quot;on stage&quot; /&gt;)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I delivered a Keynote speech on “Test Automation Using Pytest” at
 “Non-Conventional Software Test Automation” conference.  The
 conference was organized by a testing community.  I selected Pytest as
 my topic and the talk was well received.  This was not really a Python
