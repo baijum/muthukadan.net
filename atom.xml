@@ -4,13 +4,52 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2017-04-03T11:05:11+05:30</updated>
+  <updated>2017-05-03T17:04:35+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Jesus Christ Follower, Husband, Father, Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
     <email></email>
   </author>
 
+  
+  <entry>
+    <id>http:///work/fabric8/fabric8-planner</id>
+    <link type="text/html" rel="alternate" href="http:///work/fabric8/fabric8-planner/"/>
+    <title>Fabric8 Planner</title>
+    <updated>2017-05-03T00:00:00+05:30</updated>
+    <author>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Jesus Christ Follower, Husband, Father, Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <uri>http://</uri>
+    </author>
+    <content type="html">&lt;p&gt;Yesterday Red Hat
+&lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-unveils-end-end-cloud-native-development-environment-red-hat-openshiftio&quot;&gt;announced&lt;/a&gt;
+&lt;a href=&quot;https://openshift.io&quot;&gt;OpenShift.io&lt;/a&gt;.  For last 9 months, I was
+working on one part of that system called Planner.  In simple words,
+Planner is a project &amp;amp; issue tracking system.  In fact, most of my
+work was in the upstream project called &lt;a href=&quot;https://fabric8.io&quot;&gt;Fabric8&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am still working on the Planner project.  Since this is an open
+source project, I can write about it in my blog :) Though there will
+be few things that I won’t be able to share publicly.  For example, I
+was not allowed to write about OpenShift.io before that was publicly
+announced.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/rhzex50srpg5usk/planner.png?raw=1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am planning to write a series of blogs about Fabric8 mostly focusing
+on Planner.  I am also giving a talk about &lt;a href=&quot;https://rootconf.talkfunnel.com/devconf-2017/69-fabric8-an-end-to-end-development-platform&quot;&gt;Fabric8 at DevConf.in
+2017&lt;/a&gt;
+which is a sub-conference under &lt;a href=&quot;https://rootconf.in/2017/&quot;&gt;Rootconf 2017&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am working on the
+&lt;a href=&quot;https://github.com/almighty/almighty-core&quot;&gt;backend&lt;/a&gt; for Planner which
+is written in &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt;.  If you are interested to
+contribute, I would be happy to talk to you.  You can reach me at
+&lt;a href=&quot;https://riot.im/app/#/room/#freenode_#fabric8-planner:matrix.org&quot;&gt;#fabric8-planner IRC
+channel&lt;/a&gt;
+in freenode.net&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http:///golang/talk/total-7-golang-workshops</id>

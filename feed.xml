@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-04-03T11:05:11+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-03T17:04:35+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
+&lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-unveils-end-end-cloud-native-development-environment-red-hat-openshiftio&quot;&gt;announced&lt;/a&gt;
+&lt;a href=&quot;https://openshift.io&quot;&gt;OpenShift.io&lt;/a&gt;.  For last 9 months, I was
+working on one part of that system called Planner.  In simple words,
+Planner is a project &amp;amp; issue tracking system.  In fact, most of my
+work was in the upstream project called &lt;a href=&quot;https://fabric8.io&quot;&gt;Fabric8&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am still working on the Planner project.  Since this is an open
+source project, I can write about it in my blog :) Though there will
+be few things that I won’t be able to share publicly.  For example, I
+was not allowed to write about OpenShift.io before that was publicly
+announced.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/rhzex50srpg5usk/planner.png?raw=1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am planning to write a series of blogs about Fabric8 mostly focusing
+on Planner.  I am also giving a talk about &lt;a href=&quot;https://rootconf.talkfunnel.com/devconf-2017/69-fabric8-an-end-to-end-development-platform&quot;&gt;Fabric8 at DevConf.in
+2017&lt;/a&gt;
+which is a sub-conference under &lt;a href=&quot;https://rootconf.in/2017/&quot;&gt;Rootconf 2017&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am working on the
+&lt;a href=&quot;https://github.com/almighty/almighty-core&quot;&gt;backend&lt;/a&gt; for Planner which
+is written in &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt;.  If you are interested to
+contribute, I would be happy to talk to you.  You can reach me at
+&lt;a href=&quot;https://riot.im/app/#/room/#freenode_#fabric8-planner:matrix.org&quot;&gt;#fabric8-planner IRC
+channel&lt;/a&gt;
+in freenode.net&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Yesterday Red Hat
+announced
+OpenShift.io.  For last 9 months, I was
+working on one part of that system called Planner.  In simple words,
+Planner is a project &amp;amp; issue tracking system.  In fact, most of my
+work was in the upstream project called Fabric8.</summary></entry><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
 months many things happened in my life.  I changed my job, after
 working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
 son born in last August.  Became co-organizer of Bangalore Golang user
@@ -424,27 +455,4 @@ rwinsta /SERVER:IP
 &lt;h3 id=&quot;run-as-different-user&quot;&gt;Run as different user&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;runas&lt;/code&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I had kept these notes in a private wiki page for sometime.
-I hope moving it here will be helpful for searching.</summary></entry><entry><title type="html">ഡിജിറ്റൽ സത്യവേദപുസ്തകം - ഭാഗം ൧</title><link href="/bible/sathyavedapusthakam-part-1/" rel="alternate" type="text/html" title="ഡിജിറ്റൽ സത്യവേദപുസ്തകം - ഭാഗം ൧" /><published>2014-04-07T00:00:00+05:30</published><updated>2014-04-07T00:00:00+05:30</updated><id>/bible/sathyavedapusthakam-part-1</id><content type="html" xml:base="/bible/sathyavedapusthakam-part-1/">&lt;p&gt;ഏതാനും ചില ആഴ്ചകൾക്ക് മുമ്പ് വിക്കിഗ്രന്ഥശാലയിലുള്ള &lt;a href=&quot;https://ml.wikisource.org/wiki/ഉപയോക്താവ്:BaijuMuthukadan/പ്രവർത്തനങ്ങൾ&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ&lt;/a&gt; അച്ചടിപ്പിഴവുകൾ തിരുത്തുന്ന
-പ്രവൎത്തനത്തിൽ ഞാൻ ചേൎന്നു. അതിനെക്കുറിച്ച് ഇവിടെ എഴുതി തുടങ്ങുവാൻ ആഗ്രഹിക്കുന്നു. ഈ പ്രവൎത്തനം
-കുറച്ചുകൂടി വിപുലമാക്കുന്നതിന്റെ ഭാഗമായി “&lt;a href=&quot;http://sathyavedapusthakam.in/&quot;&gt;ഡിജിറ്റൽ സത്യവേദപുസ്തകം&lt;/a&gt;” എന്ന ഒരു വെബ്‌സൈറ്റും
-അതിനോടനുബന്ധിച്ച് ഒരു &lt;a href=&quot;https://groups.google.com/d/forum/sathyavedapusthakam&quot;&gt;ഗൂഗിൾ ഗ്രൂപ്പും&lt;/a&gt; തുടങ്ങിവെച്ചു.&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ 1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ്&lt;/h3&gt;
-
-&lt;p&gt;വിക്കിഗ്രന്ഥശാലയിലുള്ള സത്യവേദപുസ്തകത്തിന്റെ ആദ്യ പതിപ്പ് 1910 -ലാണ് അച്ചടിച്ചതെന്ന് കരുതുന്നു.
-ആയതിനാൽ ഇതിന്റെ പകൎപ്പവകാശം തീൎന്നിട്ടുണ്ടാകും എന്ന് അനുമാനിക്കുന്നു. എന്നാൽ ഇത് സ്ഥിരീകരിക്കുന്നതിനായി
-1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ് ലഭ്യമാവേണ്ടതുണ്ട്. അത് കണ്ടെത്തി സ്കാൻ ചെയ്ത് ഡിജിറ്റൽ രൂപത്തിലേക്ക് മാറ്റേണ്ടത്
-അത്യന്താപേക്ഷിതമാണ്. പഴയ വീടുകളിലോ, ലൈബ്രറികളിലോ ഇത് ഉണ്ടാകാനുള്ള സാധ്യതയുണ്ട്. ഇത് കണ്ടെത്തുവാൻ
-നിങ്ങളുടെ സഹായം ഈ അവസരത്തിൽ ഞാൻ അഭ്യൎത്ഥിക്കുന്നു.&lt;/p&gt;
-
-&lt;p&gt;സത്യവേദപുസ്തകത്തിന്റെ 1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ് കണ്ടെത്തുന്നതിന്റ ഭാഗമായി ഞാൻ “ദി ബൈബിൾ സൊസൈറ്റി
-ഓഫ് ഇന്ത്യ” -യുടെ ബാംഗ്ലൂരുള്ള “&lt;a href=&quot;http://www.bsind.org/the_bible_world.html&quot;&gt;ദി ബൈബിൾ വേൾഡ്&lt;/a&gt;” എന്ന സ്ഥിരം പ്രദൎശനം കാണാൻ പോയിരുന്നു. എന്നാൽ അതവിടെ
-കണ്ടെത്തുവാൻ സാധിച്ചില്ല. അവിടെയുള്ള ആൎക്കൈവ്സ് ശേഖരിക്കുന്ന ഒരു മലയാളിയുമായി കുറെനേരം സംസാരിക്കുവാനിടയായി,
-അതിൽനിന്നു മനസ്സിലായത് അവരും ഇങ്ങനെയുള്ള പഴയ പതിപ്പുകൾക്കായിട്ടുള്ള അന്വേഷണത്തിലാണെന്നാണ്.&lt;/p&gt;
-
-&lt;p&gt;മലയാളത്തിലെ പഴയ പുസ്തകൾ അന്വേഷിക്കുന്ന &lt;a href=&quot;http://shijualex.in/&quot;&gt;ഷിജു&lt;/a&gt;, ഈ പുസ്തകത്തിന്റെയും അന്വേഷണത്തിലാണ്.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update (14-November-2014)&lt;/strong&gt;: ഈ &lt;a href=&quot;http://shijualex.in/sathyavedapusthakam-1910/&quot;&gt;അന്വേഷണം അവസാനിച്ചു&lt;/a&gt;!&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">ഏതാനും ചില ആഴ്ചകൾക്ക് മുമ്പ് വിക്കിഗ്രന്ഥശാലയിലുള്ള സത്യവേദപുസ്തകത്തിന്റെ അച്ചടിപ്പിഴവുകൾ തിരുത്തുന്ന
-പ്രവൎത്തനത്തിൽ ഞാൻ ചേൎന്നു. അതിനെക്കുറിച്ച് ഇവിടെ എഴുതി തുടങ്ങുവാൻ ആഗ്രഹിക്കുന്നു. ഈ പ്രവൎത്തനം
-കുറച്ചുകൂടി വിപുലമാക്കുന്നതിന്റെ ഭാഗമായി “ഡിജിറ്റൽ സത്യവേദപുസ്തകം” എന്ന ഒരു വെബ്‌സൈറ്റും
-അതിനോടനുബന്ധിച്ച് ഒരു ഗൂഗിൾ ഗ്രൂപ്പും തുടങ്ങിവെച്ചു.</summary></entry></feed>
+I hope moving it here will be helpful for searching.</summary></entry></feed>
