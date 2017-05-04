@@ -32,3 +32,9 @@ contribute, I would be happy to talk to you.  You can reach me at
 [#fabric8-planner IRC
 channel](https://riot.im/app/#/room/#freenode_#fabric8-planner:matrix.org)
 in freenode.net
+
+All our technical discussions will be happening at our [development
+group](https://groups.google.com/d/forum/fabric8-planner).  You are
+welcome to join and participate in the discussions!
+
+Update: Added link to Google group.
