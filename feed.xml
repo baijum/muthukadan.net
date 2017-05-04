@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-03T17:04:35+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-04T19:13:24+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
 &lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-unveils-end-end-cloud-native-development-environment-red-hat-openshiftio&quot;&gt;announced&lt;/a&gt;
 &lt;a href=&quot;https://openshift.io&quot;&gt;OpenShift.io&lt;/a&gt;.  For last 9 months, I was
 working on one part of that system called Planner.  In simple words,
@@ -24,7 +24,13 @@ is written in &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt;.  If yo
 contribute, I would be happy to talk to you.  You can reach me at
 &lt;a href=&quot;https://riot.im/app/#/room/#freenode_#fabric8-planner:matrix.org&quot;&gt;#fabric8-planner IRC
 channel&lt;/a&gt;
-in freenode.net&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Yesterday Red Hat
+in freenode.net&lt;/p&gt;
+
+&lt;p&gt;All our technical discussions will be happening at our &lt;a href=&quot;https://groups.google.com/d/forum/fabric8-planner&quot;&gt;development
+group&lt;/a&gt;.  You are
+welcome to join and participate in the discussions!&lt;/p&gt;
+
+&lt;p&gt;Update: Added link to Google group.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Yesterday Red Hat
 announced
 OpenShift.io.  For last 9 months, I was
 working on one part of that system called Planner.  In simple words,

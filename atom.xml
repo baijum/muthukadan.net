@@ -4,7 +4,7 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2017-05-03T17:04:35+05:30</updated>
+  <updated>2017-05-04T19:13:24+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Jesus Christ Follower, Husband, Father, Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -48,6 +48,12 @@ contribute, I would be happy to talk to you.  You can reach me at
 &lt;a href=&quot;https://riot.im/app/#/room/#freenode_#fabric8-planner:matrix.org&quot;&gt;#fabric8-planner IRC
 channel&lt;/a&gt;
 in freenode.net&lt;/p&gt;
+
+&lt;p&gt;All our technical discussions will be happening at our &lt;a href=&quot;https://groups.google.com/d/forum/fabric8-planner&quot;&gt;development
+group&lt;/a&gt;.  You are
+welcome to join and participate in the discussions!&lt;/p&gt;
+
+&lt;p&gt;Update: Added link to Google group.&lt;/p&gt;
 </content>
   </entry>
   
