@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-08T12:32:28+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Golang workshops for data scientists and students</title><link href="/golang/talk/golang-workshops-data-scientists-students/" rel="alternate" type="text/html" title="Golang workshops for data scientists and students" /><published>2017-05-08T00:00:00+05:30</published><updated>2017-05-08T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-data-scientists-students</id><content type="html" xml:base="/golang/talk/golang-workshops-data-scientists-students/">&lt;p&gt;Last saturday I conducted one more Go workshop in Bangalore.  The
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-08T12:43:51+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Golang workshops for data scientists and students</title><link href="/golang/talk/golang-workshops-data-scientists-students/" rel="alternate" type="text/html" title="Golang workshops for data scientists and students" /><published>2017-05-08T00:00:00+05:30</published><updated>2017-05-08T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-data-scientists-students</id><content type="html" xml:base="/golang/talk/golang-workshops-data-scientists-students/">&lt;p&gt;Last Saturday I conducted one more Go workshop in Bangalore.  The
 meetup was organized by &lt;a href=&quot;https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/&quot;&gt;Practical Data
 Science&lt;/a&gt;
 meetup group.  &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;Bargava&lt;/a&gt; took initiative
@@ -6,7 +6,7 @@ to organize this workshop.  The meetup was hosted at Red Hat Bangalore
 office.  Some of my colleagues,
 &lt;a href=&quot;https://twitter.com/@zee_10000&quot;&gt;Zeeshan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/surajd_&quot;&gt;Suraj
 D&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/red_suraj&quot;&gt;Suraj
-N&lt;/a&gt; voluteered for the meetup.&lt;/p&gt;
+N&lt;/a&gt; volunteered for the meetup.&lt;/p&gt;
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There were 50+ participants for today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/redhatindia&quot;&gt;@redhatindia&lt;/a&gt; Bangalore office! Thanks to &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;@bargava&lt;/a&gt; for organizing it. &lt;a href=&quot;https://t.co/IsZFZsWGmG&quot;&gt;pic.twitter.com/IsZFZsWGmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/860836058757558272&quot;&gt;May 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
@@ -34,7 +34,7 @@ nostalgia about going back to my college.  I came to this institute in
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5tiov2oqh13637g/smc.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I was able to spend some time with them also remembering it was 16
-years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last saturday I conducted one more Go workshop in Bangalore.  The
+years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last Saturday I conducted one more Go workshop in Bangalore.  The
 meetup was organized by Practical Data
 Science
 meetup group.  Bargava took initiative
@@ -42,7 +42,7 @@ to organize this workshop.  The meetup was hosted at Red Hat Bangalore
 office.  Some of my colleagues,
 Zeeshan, Suraj
 D and Suraj
-N voluteered for the meetup.</summary></entry><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
+N volunteered for the meetup.</summary></entry><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
 &lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-unveils-end-end-cloud-native-development-environment-red-hat-openshiftio&quot;&gt;announced&lt;/a&gt;
 &lt;a href=&quot;https://openshift.io&quot;&gt;OpenShift.io&lt;/a&gt;.  For last 9 months, I was
 working on one part of that system called Planner.  In simple words,

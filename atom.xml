@@ -4,7 +4,7 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2017-05-08T12:32:28+05:30</updated>
+  <updated>2017-05-08T12:43:51+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Jesus Christ Follower, Husband, Father, Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -21,7 +21,7 @@
       <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Jesus Christ Follower, Husband, Father, Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>http://</uri>
     </author>
-    <content type="html">&lt;p&gt;Last saturday I conducted one more Go workshop in Bangalore.  The
+    <content type="html">&lt;p&gt;Last Saturday I conducted one more Go workshop in Bangalore.  The
 meetup was organized by &lt;a href=&quot;https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/&quot;&gt;Practical Data
 Science&lt;/a&gt;
 meetup group.  &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;Bargava&lt;/a&gt; took initiative
@@ -29,7 +29,7 @@ to organize this workshop.  The meetup was hosted at Red Hat Bangalore
 office.  Some of my colleagues,
 &lt;a href=&quot;https://twitter.com/@zee_10000&quot;&gt;Zeeshan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/surajd_&quot;&gt;Suraj
 D&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/red_suraj&quot;&gt;Suraj
-N&lt;/a&gt; voluteered for the meetup.&lt;/p&gt;
+N&lt;/a&gt; volunteered for the meetup.&lt;/p&gt;
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There were 50+ participants for today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/redhatindia&quot;&gt;@redhatindia&lt;/a&gt; Bangalore office! Thanks to &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;@bargava&lt;/a&gt; for organizing it. &lt;a href=&quot;https://t.co/IsZFZsWGmG&quot;&gt;pic.twitter.com/IsZFZsWGmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/860836058757558272&quot;&gt;May 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
