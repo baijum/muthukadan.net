@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-04T19:13:24+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-05-08T12:32:28+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Golang workshops for data scientists and students</title><link href="/golang/talk/golang-workshops-data-scientists-students/" rel="alternate" type="text/html" title="Golang workshops for data scientists and students" /><published>2017-05-08T00:00:00+05:30</published><updated>2017-05-08T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-data-scientists-students</id><content type="html" xml:base="/golang/talk/golang-workshops-data-scientists-students/">&lt;p&gt;Last saturday I conducted one more Go workshop in Bangalore.  The
+meetup was organized by &lt;a href=&quot;https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/&quot;&gt;Practical Data
+Science&lt;/a&gt;
+meetup group.  &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;Bargava&lt;/a&gt; took initiative
+to organize this workshop.  The meetup was hosted at Red Hat Bangalore
+office.  Some of my colleagues,
+&lt;a href=&quot;https://twitter.com/@zee_10000&quot;&gt;Zeeshan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/surajd_&quot;&gt;Suraj
+D&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/red_suraj&quot;&gt;Suraj
+N&lt;/a&gt; voluteered for the meetup.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There were 50+ participants for today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/redhatindia&quot;&gt;@redhatindia&lt;/a&gt; Bangalore office! Thanks to &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;@bargava&lt;/a&gt; for organizing it. &lt;a href=&quot;https://t.co/IsZFZsWGmG&quot;&gt;pic.twitter.com/IsZFZsWGmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/860836058757558272&quot;&gt;May 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;I received lots of nice
+&lt;a href=&quot;https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/events/238824064&quot;&gt;feedback&lt;/a&gt;
+for the workshop.  Thank you all :)&lt;/p&gt;
+
+&lt;p&gt;If fact, I had conducted another Go workshop last March as part of
+&lt;a href=&quot;http://fossmeet.in&quot;&gt;FOSSMeet’17&lt;/a&gt; at &lt;a href=&quot;https://en.wikipedia.org/wiki/National_Institute_of_Technology_Calicut&quot;&gt;NIT
+Calicut&lt;/a&gt;.
+It was not really a planned workshop.  It was decided just few days
+before the conference as one of their speaker couldn’t come.&lt;/p&gt;
+
+&lt;p&gt;One of the reason why I accepted the last moment invitation was the
+nostalgia about going back to my college.  I came to this institute in
+1998 and here I am taking a selfie :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5jswshhv44udzrc/mb.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There was an &lt;a href=&quot;https://smc.org.in&quot;&gt;SMC hackathon&lt;/a&gt; lead by
+&lt;a href=&quot;https://twitter.com/cbalasankar&quot;&gt;Balasankar&lt;/a&gt; and
+&lt;a href=&quot;https://twitter.com/jishnu7&quot;&gt;Jishnu&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5tiov2oqh13637g/smc.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was able to spend some time with them also remembering it was 16
+years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last saturday I conducted one more Go workshop in Bangalore.  The
+meetup was organized by Practical Data
+Science
+meetup group.  Bargava took initiative
+to organize this workshop.  The meetup was hosted at Red Hat Bangalore
+office.  Some of my colleagues,
+Zeeshan, Suraj
+D and Suraj
+N voluteered for the meetup.</summary></entry><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
 &lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-unveils-end-end-cloud-native-development-environment-red-hat-openshiftio&quot;&gt;announced&lt;/a&gt;
 &lt;a href=&quot;https://openshift.io&quot;&gt;OpenShift.io&lt;/a&gt;.  For last 9 months, I was
 working on one part of that system called Planner.  In simple words,
@@ -402,63 +446,4 @@ for Selenium with Python.  Code in this chapter works and is quite
 self-descriptive, but a little description wouldn’t hurt.  If anyone
 interested, please send pull request in Github.  If you want an
 example implementation, I have one as part of my project in Github
-called pitracker.</summary></entry><entry><title type="html">Windows Commands</title><link href="/technology/windows-commands/" rel="alternate" type="text/html" title="Windows Commands" /><published>2014-04-09T00:00:00+05:30</published><updated>2014-04-09T00:00:00+05:30</updated><id>/technology/windows-commands</id><content type="html" xml:base="/technology/windows-commands/">&lt;p&gt;I had kept these notes in a private wiki page for sometime.
-I hope moving it here will be helpful for searching.&lt;/p&gt;
-
-&lt;h3 id=&quot;deleting-a-service&quot;&gt;Deleting a Service&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sc delete servicename&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To get name of the service that need to be deleted:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;services.msc&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Right click and get the service name&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;checking-whether-a-port-is-listening-or-not&quot;&gt;Checking whether a port is listening or not&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;PORTNUMBER&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;to-see-all-ports-listening&quot;&gt;To see all ports listening&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;LISTENING&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;to-check-a-service-is-started-or-not&quot;&gt;To check a service is started or not&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net start|find &quot;C:\Path\to\program&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;commenting-in-batch-file&quot;&gt;Commenting in batch file&lt;/h3&gt;
-
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;::&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;REM&lt;/code&gt; followed by a space&lt;/p&gt;
-
-&lt;p&gt;Example:-&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:: this is a comment
-REM this is another comment
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;call-a-batch-program-inside-another-batch-file&quot;&gt;Call a batch program inside another batch file&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;call &amp;lt;script.bat&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;query-and-remove-terminal-server-sessions&quot;&gt;Query and remove terminal server sessions&lt;/h3&gt;
-
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;qwinsta&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;rwinsta&lt;/code&gt; commands.&lt;/p&gt;
-
-&lt;p&gt;Example:-&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;qwinsta /SERVER:IP
-rwinsta /SERVER:IP
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;check-uptime-of-machine&quot;&gt;Check uptime of machine&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net statistics server | find &quot;since&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;run-as-different-user&quot;&gt;Run as different user&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;runas&lt;/code&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I had kept these notes in a private wiki page for sometime.
-I hope moving it here will be helpful for searching.</summary></entry></feed>
+called pitracker.</summary></entry></feed>
