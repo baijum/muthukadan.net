@@ -5,7 +5,7 @@ date: 2017-05-08
 categories: golang talk
 ---
 
-Last saturday I conducted one more Go workshop in Bangalore.  The
+Last Saturday I conducted one more Go workshop in Bangalore.  The
 meetup was organized by [Practical Data
 Science](https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/)
 meetup group.  [Bargava](https://twitter.com/bargava) took initiative
@@ -13,7 +13,7 @@ to organize this workshop.  The meetup was hosted at Red Hat Bangalore
 office.  Some of my colleagues,
 [Zeeshan](https://twitter.com/@zee_10000), [Suraj
 D](https://twitter.com/surajd_) and [Suraj
-N](https://twitter.com/red_suraj) voluteered for the meetup.
+N](https://twitter.com/red_suraj) volunteered for the meetup.
 
 {% twitter https://twitter.com/nogenerics/status/860836058757558272 %}
 
