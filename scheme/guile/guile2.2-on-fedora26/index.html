@@ -1,0 +1,449 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.3.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Installing Guile 2.2 on Fedora 26 using Guix - Baiju Muthukadan</title>
+
+
+
+
+<meta name="description" content="Few days before I upgraded to Fedora 26.  Fedora has a package namedguile22 which gives 2.2 version of Guile.  But I wanted to try Guix.I noticed that there is Guix package in Copr repository.Then I enabled that repository and installed Guix.">
+
+
+
+
+<meta name="author" content="Baiju Muthukadan">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Baiju Muthukadan">
+<meta property="og:title" content="Installing Guile 2.2 on Fedora 26 using Guix">
+
+
+
+
+  <meta property="og:description" content="Few days before I upgraded to Fedora 26.  Fedora has a package namedguile22 which gives 2.2 version of Guile.  But I wanted to try Guix.I noticed that there is Guix package in Copr repository.Then I enabled that repository and installed Guix.">
+
+
+
+  <meta name="twitter:site" content="@nogenerics">
+  <meta name="twitter:title" content="Installing Guile 2.2 on Fedora 26 using Guix">
+  <meta name="twitter:description" content="Few days before I upgraded to Fedora 26.  Fedora has a package namedguile22 which gives 2.2 version of Guile.  But I wanted to try Guix.I noticed that there is Guix package in Copr repository.Then I enabled that repository and installed Guix.">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@Baiju Muthukadan">
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2017-07-15T00:00:00+05:30">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Baiju Muthukadan",
+      "url" : null,
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Baiju Muthukadan Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Baiju Muthukadan</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="/about.html">About</a></li>
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/dallas_fall2014.jpg" class="author__avatar" alt="Baiju Muthukadan" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">Baiju Muthukadan</h3>
+    
+      <p class="author__bio" itemprop="description">
+        '(Software Engineer, Author, Public Speaker, '(Works at Red Hat))
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Bangalore, India</span>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Installing Guile 2.2 on Fedora 26 using Guix">
+    <meta itemprop="description" content="Few days before I upgraded to Fedora 26.  Fedora has a package namedguile22 which gives 2.2 version of Guile.  But I wanted to try Guix.I noticed that there is Guix package in Copr repository.Then I enabled that repository and installed Guix.">
+    <meta itemprop="datePublished" content="July 15, 2017">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Installing Guile 2.2 on Fedora 26 using Guix
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>Few days before I upgraded to Fedora 26.  Fedora has a package named
+<code class="highlighter-rouge">guile22</code> which gives 2.2 version of Guile.  But I wanted to try Guix.
+I noticed that there is <a href="https://copr.fedorainfracloud.org/coprs/lantw44/guix/">Guix package</a> in Copr repository.
+Then I enabled that repository and installed Guix.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># dnf copr enable lantw44/guix</span>
+<span class="c"># dnf install guix</span>
+</code></pre>
+</div>
+
+<p>First I started the guix-daemon service and enabled it:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># systemctl start guix-daemon.service</span>
+<span class="c"># systemctl enable guix-daemon.service</span>
+</code></pre>
+</div>
+
+<p>Then I tried to install Guile like this as a normal user (<code class="highlighter-rouge">baiju</code>):</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>guix package -i guile
+</code></pre>
+</div>
+
+<p>But I had to guix pull before that:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>guix pull
+</code></pre>
+</div>
+
+<p>I was trying to do these things as a normal user.  But there was some
+error about some permission issue for a directory.  So I changed it
+like this:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>chown baiju.baiju /var/guix/profiles/per-user/baiju
+</code></pre>
+</div>
+
+<p>Then I tried the package installation again using the <code class="highlighter-rouge">package -i</code>
+subcommand.</p>
+
+<p>After installation Guix showed me that I need to update my PATH.
+So I just updated my <code class="highlighter-rouge">.bashrc</code> like this (guix shows this after installation!):</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">"/home/baiju/.guix-profile/bin</span><span class="k">${</span><span class="nv">PATH</span>:+:<span class="k">}</span><span class="nv">$PATH</span><span class="s2">"</span>  
+</code></pre>
+</div>
+
+<p>When starting guile it was showing a warning like this: <code class="highlighter-rouge">warning:
+failed to install locale</code></p>
+
+<p>Then I found that <a href="https://www.gnu.org/software/guix/manual/guix.html#Application-Setup">glibc-locales package</a> need to be installed
+and an environment variable need to be updated.</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>guix package -i glibc-locales
+<span class="nb">export </span><span class="nv">GUIX_LOCPATH</span><span class="o">=</span><span class="nv">$HOME</span>/.guix-profile/lib/locale
+</code></pre>
+</div>
+
+<p>I also added the above environment variable setting in my <code class="highlighter-rouge">.bashrc</code>.</p>
+
+<p>Now I have Guile 2.2 installed using Guix in my Fedora 26!</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#guile" class="page__taxonomy-item" rel="tag">guile</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#scheme" class="page__taxonomy-item" rel="tag">scheme</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-07-15T00:00:00+05:30">July 15, 2017</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=nogenerics&text=Installing Guile 2.2 on Fedora 26 using Guix /scheme/guile/guile2.2-on-fedora26/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=/scheme/guile/guile2.2-on-fedora26/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=/scheme/guile/guile2.2-on-fedora26/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=/scheme/guile/guile2.2-on-fedora26/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/golang/talk/golang-workshops-data-scientists-students/" class="pagination--pager" title="Golang workshops for data scientists and students
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/nogenerics"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+      <li><a href="https://facebook.com/BaijuMuthukadan"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Baiju Muthukadan. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>

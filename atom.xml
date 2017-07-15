@@ -4,13 +4,87 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2017-07-12T11:28:17+05:30</updated>
+  <updated>2017-07-15T07:06:58+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"'(Software Engineer, Author, Public Speaker, '(Works at Red Hat))", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
     <email></email>
   </author>
 
+  
+  <entry>
+    <id>http:///scheme/guile/guile2.2-on-fedora26</id>
+    <link type="text/html" rel="alternate" href="http:///scheme/guile/guile2.2-on-fedora26/"/>
+    <title>Installing Guile 2.2 on Fedora 26 using Guix</title>
+    <updated>2017-07-15T00:00:00+05:30</updated>
+    <author>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"'(Software Engineer, Author, Public Speaker, '(Works at Red Hat))", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <uri>http://</uri>
+    </author>
+    <content type="html">&lt;p&gt;Few days before I upgraded to Fedora 26.  Fedora has a package named
+&lt;code class=&quot;highlighter-rouge&quot;&gt;guile22&lt;/code&gt; which gives 2.2 version of Guile.  But I wanted to try Guix.
+I noticed that there is &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/lantw44/guix/&quot;&gt;Guix package&lt;/a&gt; in Copr repository.
+Then I enabled that repository and installed Guix.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# dnf copr enable lantw44/guix&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# dnf install guix&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;First I started the guix-daemon service and enabled it:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# systemctl start guix-daemon.service&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# systemctl enable guix-daemon.service&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then I tried to install Guile like this as a normal user (&lt;code class=&quot;highlighter-rouge&quot;&gt;baiju&lt;/code&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;guix package -i guile
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But I had to guix pull before that:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;guix pull
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I was trying to do these things as a normal user.  But there was some
+error about some permission issue for a directory.  So I changed it
+like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chown baiju.baiju /var/guix/profiles/per-user/baiju
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then I tried the package installation again using the &lt;code class=&quot;highlighter-rouge&quot;&gt;package -i&lt;/code&gt;
+subcommand.&lt;/p&gt;
+
+&lt;p&gt;After installation Guix showed me that I need to update my PATH.
+So I just updated my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; like this (guix shows this after installation!):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/baiju/.guix-profile/bin&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;:+:&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When starting guile it was showing a warning like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;warning:
+failed to install locale&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I found that &lt;a href=&quot;https://www.gnu.org/software/guix/manual/guix.html#Application-Setup&quot;&gt;glibc-locales package&lt;/a&gt; need to be installed
+and an environment variable need to be updated.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;guix package -i glibc-locales
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GUIX_LOCPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.guix-profile/lib/locale
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I also added the above environment variable setting in my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now I have Guile 2.2 installed using Guix in my Fedora 26!&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <id>http:///golang/talk/golang-workshops-data-scientists-students</id>
@@ -584,7 +658,7 @@ rwinsta /SERVER:IP
 കുറച്ചുകൂടി വിപുലമാക്കുന്നതിന്റെ ഭാഗമായി “&lt;a href=&quot;http://sathyavedapusthakam.in/&quot;&gt;ഡിജിറ്റൽ സത്യവേദപുസ്തകം&lt;/a&gt;” എന്ന ഒരു വെബ്‌സൈറ്റും
 അതിനോടനുബന്ധിച്ച് ഒരു &lt;a href=&quot;https://groups.google.com/d/forum/sathyavedapusthakam&quot;&gt;ഗൂഗിൾ ഗ്രൂപ്പും&lt;/a&gt; തുടങ്ങിവെച്ചു.&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ 1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ്&lt;/h3&gt;
+&lt;h3 id=&quot;സത്യവേദപുസ്തകത്തിന്റെ-1923--നു-മുമ്പ്-അച്ചടിച്ച-പതിപ്പ്&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ 1923 -നു മുമ്പ് അച്ചടിച്ച പതിപ്പ്&lt;/h3&gt;
 
 &lt;p&gt;വിക്കിഗ്രന്ഥശാലയിലുള്ള സത്യവേദപുസ്തകത്തിന്റെ ആദ്യ പതിപ്പ് 1910 -ലാണ് അച്ചടിച്ചതെന്ന് കരുതുന്നു.
 ആയതിനാൽ ഇതിന്റെ പകൎപ്പവകാശം തീൎന്നിട്ടുണ്ടാകും എന്ന് അനുമാനിക്കുന്നു. എന്നാൽ ഇത് സ്ഥിരീകരിക്കുന്നതിനായി

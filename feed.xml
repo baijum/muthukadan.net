@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-12T11:28:17+05:30</updated><id>//</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Golang workshops for data scientists and students</title><link href="/golang/talk/golang-workshops-data-scientists-students/" rel="alternate" type="text/html" title="Golang workshops for data scientists and students" /><published>2017-05-08T00:00:00+05:30</published><updated>2017-05-08T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-data-scientists-students</id><content type="html" xml:base="/golang/talk/golang-workshops-data-scientists-students/">&lt;p&gt;Last Saturday I conducted one more Go workshop in Bangalore.  The
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-07-15T07:06:58+05:30</updated><id>/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Installing Guile 2.2 on Fedora 26 using Guix</title><link href="/scheme/guile/guile2.2-on-fedora26/" rel="alternate" type="text/html" title="Installing Guile 2.2 on Fedora 26 using Guix" /><published>2017-07-15T00:00:00+05:30</published><updated>2017-07-15T00:00:00+05:30</updated><id>/scheme/guile/guile2.2-on-fedora26</id><content type="html" xml:base="/scheme/guile/guile2.2-on-fedora26/">&lt;p&gt;Few days before I upgraded to Fedora 26.  Fedora has a package named
+&lt;code class=&quot;highlighter-rouge&quot;&gt;guile22&lt;/code&gt; which gives 2.2 version of Guile.  But I wanted to try Guix.
+I noticed that there is &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/lantw44/guix/&quot;&gt;Guix package&lt;/a&gt; in Copr repository.
+Then I enabled that repository and installed Guix.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# dnf copr enable lantw44/guix&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# dnf install guix&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;First I started the guix-daemon service and enabled it:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# systemctl start guix-daemon.service&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# systemctl enable guix-daemon.service&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then I tried to install Guile like this as a normal user (&lt;code class=&quot;highlighter-rouge&quot;&gt;baiju&lt;/code&gt;):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;guix package -i guile
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But I had to guix pull before that:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;guix pull
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I was trying to do these things as a normal user.  But there was some
+error about some permission issue for a directory.  So I changed it
+like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chown baiju.baiju /var/guix/profiles/per-user/baiju
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then I tried the package installation again using the &lt;code class=&quot;highlighter-rouge&quot;&gt;package -i&lt;/code&gt;
+subcommand.&lt;/p&gt;
+
+&lt;p&gt;After installation Guix showed me that I need to update my PATH.
+So I just updated my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; like this (guix shows this after installation!):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/baiju/.guix-profile/bin&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;:+:&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When starting guile it was showing a warning like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;warning:
+failed to install locale&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I found that &lt;a href=&quot;https://www.gnu.org/software/guix/manual/guix.html#Application-Setup&quot;&gt;glibc-locales package&lt;/a&gt; need to be installed
+and an environment variable need to be updated.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;guix package -i glibc-locales
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GUIX_LOCPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.guix-profile/lib/locale
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I also added the above environment variable setting in my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now I have Guile 2.2 installed using Guix in my Fedora 26!&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Few days before I upgraded to Fedora 26. Fedora has a package named guile22 which gives 2.2 version of Guile. But I wanted to try Guix. I noticed that there is Guix package in Copr repository. Then I enabled that repository and installed Guix.</summary></entry><entry><title type="html">Golang workshops for data scientists and students</title><link href="/golang/talk/golang-workshops-data-scientists-students/" rel="alternate" type="text/html" title="Golang workshops for data scientists and students" /><published>2017-05-08T00:00:00+05:30</published><updated>2017-05-08T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-data-scientists-students</id><content type="html" xml:base="/golang/talk/golang-workshops-data-scientists-students/">&lt;p&gt;Last Saturday I conducted one more Go workshop in Bangalore.  The
 meetup was organized by &lt;a href=&quot;https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/&quot;&gt;Practical Data
 Science&lt;/a&gt;
 meetup group.  &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;Bargava&lt;/a&gt; took initiative
@@ -34,15 +94,7 @@ nostalgia about going back to my college.  I came to this institute in
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5tiov2oqh13637g/smc.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I was able to spend some time with them also remembering it was 16
-years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last Saturday I conducted one more Go workshop in Bangalore.  The
-meetup was organized by Practical Data
-Science
-meetup group.  Bargava took initiative
-to organize this workshop.  The meetup was hosted at Red Hat Bangalore
-office.  Some of my colleagues,
-Zeeshan, Suraj
-D and Suraj
-N volunteered for the meetup.</summary></entry><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
+years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last Saturday I conducted one more Go workshop in Bangalore. The meetup was organized by Practical Data Science meetup group. Bargava took initiative to organize this workshop. The meetup was hosted at Red Hat Bangalore office. Some of my colleagues, Zeeshan, Suraj D and Suraj N volunteered for the meetup.</summary></entry><entry><title type="html">Fabric8 Planner</title><link href="/work/fabric8/fabric8-planner/" rel="alternate" type="text/html" title="Fabric8 Planner" /><published>2017-05-03T00:00:00+05:30</published><updated>2017-05-03T00:00:00+05:30</updated><id>/work/fabric8/fabric8-planner</id><content type="html" xml:base="/work/fabric8/fabric8-planner/">&lt;p&gt;Yesterday Red Hat
 &lt;a href=&quot;https://www.redhat.com/en/about/press-releases/red-hat-unveils-end-end-cloud-native-development-environment-red-hat-openshiftio&quot;&gt;announced&lt;/a&gt;
 &lt;a href=&quot;https://openshift.io&quot;&gt;OpenShift.io&lt;/a&gt;.  For last 9 months, I was
 working on one part of that system called Planner.  In simple words,
@@ -74,12 +126,7 @@ in freenode.net&lt;/p&gt;
 group&lt;/a&gt;.  You are
 welcome to join and participate in the discussions!&lt;/p&gt;
 
-&lt;p&gt;Update: Added link to Google group.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Yesterday Red Hat
-announced
-OpenShift.io.  For last 9 months, I was
-working on one part of that system called Planner.  In simple words,
-Planner is a project &amp;amp; issue tracking system.  In fact, most of my
-work was in the upstream project called Fabric8.</summary></entry><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
+&lt;p&gt;Update: Added link to Google group.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Yesterday Red Hat announced OpenShift.io. For last 9 months, I was working on one part of that system called Planner. In simple words, Planner is a project &amp;amp; issue tracking system. In fact, most of my work was in the upstream project called Fabric8.</summary></entry><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
 months many things happened in my life.  I changed my job, after
 working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
 son born in last August.  Became co-organizer of Bangalore Golang user
@@ -99,12 +146,7 @@ conducted 3 more Golang workshops.&lt;/p&gt;
 &lt;p&gt;The 7th workshop was in Trivandrum technopark organized by &lt;a href=&quot;http://www.prathidhwani.org&quot;&gt;Prathidhwani&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop was well received. Thanks to organizers and participants! &lt;a href=&quot;https://t.co/ki48h1Ymei&quot;&gt;pic.twitter.com/ki48h1Ymei&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/807595399347191810&quot;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last update about my Golang workshops was in June 2016.  In the last 6
-months many things happened in my life.  I changed my job, after
-working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
-son born in last August.  Became co-organizer of Bangalore Golang user
-group and started organizing meetups.  Along with all these things,
-conducted 3 more Golang workshops.</summary></entry><entry><title type="html">Golang workshops at Sahrdaya &amp;amp; Reboot Calicut</title><link href="/golang/talk/golang-workshop-sahrdaya-rebootcalicut/" rel="alternate" type="text/html" title="Golang workshops at Sahrdaya &amp; Reboot Calicut" /><published>2016-06-15T00:00:00+05:30</published><updated>2016-06-15T00:00:00+05:30</updated><id>/golang/talk/golang-workshop-sahrdaya-rebootcalicut</id><content type="html" xml:base="/golang/talk/golang-workshop-sahrdaya-rebootcalicut/">&lt;p&gt;Those who following me or &lt;a href=&quot;https://twitter.com/nogenerics&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://facebook.com/BaijuMuthukadan&quot;&gt;Facebook&lt;/a&gt; might be already
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Last update about my Golang workshops was in June 2016. In the last 6 months many things happened in my life. I changed my job, after working 9 years and 7 months at ZeOmega joined Red Hat. Our second son born in last August. Became co-organizer of Bangalore Golang user group and started organizing meetups. Along with all these things, conducted 3 more Golang workshops.</summary></entry><entry><title type="html">Golang workshops at Sahrdaya &amp;amp; Reboot Calicut</title><link href="/golang/talk/golang-workshop-sahrdaya-rebootcalicut/" rel="alternate" type="text/html" title="Golang workshops at Sahrdaya &amp; Reboot Calicut" /><published>2016-06-15T00:00:00+05:30</published><updated>2016-06-15T00:00:00+05:30</updated><id>/golang/talk/golang-workshop-sahrdaya-rebootcalicut</id><content type="html" xml:base="/golang/talk/golang-workshop-sahrdaya-rebootcalicut/">&lt;p&gt;Those who following me or &lt;a href=&quot;https://twitter.com/nogenerics&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://facebook.com/BaijuMuthukadan&quot;&gt;Facebook&lt;/a&gt; might be already
 seen my updates about Golang workshops at &lt;a href=&quot;http://www.sahrdaya.ac.in&quot;&gt;Sahrdaya&lt;/a&gt; college of
 engineering and &lt;a href=&quot;http://rebootcalicut.com&quot;&gt;Reboot Calicut&lt;/a&gt;.&lt;/p&gt;
 
@@ -135,9 +177,7 @@ location was was very good.  Few photos:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/844hbqc89ml4zi8/IMG_20160604_170747.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/gevdc7vwvywn7sl/IMG_20160604_170822_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/yhr8pavdgyhld3k/IMG_20160604_170857_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Those who following me or Twitter or Facebook might be already
-seen my updates about Golang workshops at Sahrdaya college of
-engineering and Reboot Calicut.</summary></entry><entry><title type="html">Golang workshops</title><link href="/golang/talk/golang-workshops/" rel="alternate" type="text/html" title="Golang workshops" /><published>2016-04-19T00:00:00+05:30</published><updated>2016-04-19T00:00:00+05:30</updated><id>/golang/talk/golang-workshops</id><content type="html" xml:base="/golang/talk/golang-workshops/">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
+&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Those who following me or Twitter or Facebook might be already seen my updates about Golang workshops at Sahrdaya college of engineering and Reboot Calicut.</summary></entry><entry><title type="html">Golang workshops</title><link href="/golang/talk/golang-workshops/" rel="alternate" type="text/html" title="Golang workshops" /><published>2016-04-19T00:00:00+05:30</published><updated>2016-04-19T00:00:00+05:30</updated><id>/golang/talk/golang-workshops</id><content type="html" xml:base="/golang/talk/golang-workshops/">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
 on February 27th at &lt;a href=&quot;http://www.nitc.ac.in&quot;&gt;NIT Calicut&lt;/a&gt; as part of
 &lt;a href=&quot;http://fossmeet.in&quot;&gt;FOSSMeet’16&lt;/a&gt; program.  The second one was last
 Saturday (April 16th) at NUMA Bangalore organized by
@@ -170,12 +210,7 @@ well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/datln4romzu98mf/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/tc55skv2pwhj54e/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/q9bu4tsc8yuaof7/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Recently I conducted couple of Go workshops.  The first workshop was
-on February 27th at NIT Calicut as part of
-FOSSMeet’16 program.  The second one was last
-Saturday (April 16th) at NUMA Bangalore organized by
-Hasgeek as part of
-Rootconf’16.</summary></entry><entry><title type="html">Go and Ember.js talk at GopherConIndia 2015</title><link href="/golang/emberjs/gopherconindia-2015-talk/" rel="alternate" type="text/html" title="Go and Ember.js talk at GopherConIndia 2015" /><published>2015-03-10T00:00:00+05:30</published><updated>2015-03-10T00:00:00+05:30</updated><id>/golang/emberjs/gopherconindia-2015-talk</id><content type="html" xml:base="/golang/emberjs/gopherconindia-2015-talk/">&lt;p&gt;I was very much excited to present at the first GopherCon India
+&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Recently I conducted couple of Go workshops. The first workshop was on February 27th at NIT Calicut as part of FOSSMeet’16 program. The second one was last Saturday (April 16th) at NUMA Bangalore organized by Hasgeek as part of Rootconf’16.</summary></entry><entry><title type="html">Go and Ember.js talk at GopherConIndia 2015</title><link href="/golang/emberjs/gopherconindia-2015-talk/" rel="alternate" type="text/html" title="Go and Ember.js talk at GopherConIndia 2015" /><published>2015-03-10T00:00:00+05:30</published><updated>2015-03-10T00:00:00+05:30</updated><id>/golang/emberjs/gopherconindia-2015-talk</id><content type="html" xml:base="/golang/emberjs/gopherconindia-2015-talk/">&lt;p&gt;I was very much excited to present at the first GopherCon India
 conference.  My talk was on 20th February around 3pm.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/fd6nz449041qz1o/gopherconindia2.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
@@ -193,8 +228,7 @@ post&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The video of the talk is available in YouTube:&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I was very much excited to present at the first GopherCon India
-conference.  My talk was on 20th February around 3pm.</summary></entry><entry><title type="html">An Introduction to Go Programming</title><link href="/golang/an-introduction-to-go-programming/" rel="alternate" type="text/html" title="An Introduction to Go Programming" /><published>2014-11-28T00:00:00+05:30</published><updated>2014-11-28T00:00:00+05:30</updated><id>/golang/an-introduction-to-go-programming</id><content type="html" xml:base="/golang/an-introduction-to-go-programming/">&lt;p&gt;&lt;a href=&quot;http://golang.org&quot;&gt;Go&lt;/a&gt;, also commonly referred to as &lt;strong&gt;golang&lt;/strong&gt;, is a statically typed,
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I was very much excited to present at the first GopherCon India conference. My talk was on 20th February around 3pm.</summary></entry><entry><title type="html">An Introduction to Go Programming</title><link href="/golang/an-introduction-to-go-programming/" rel="alternate" type="text/html" title="An Introduction to Go Programming" /><published>2014-11-28T00:00:00+05:30</published><updated>2014-11-28T00:00:00+05:30</updated><id>/golang/an-introduction-to-go-programming</id><content type="html" xml:base="/golang/an-introduction-to-go-programming/">&lt;p&gt;&lt;a href=&quot;http://golang.org&quot;&gt;Go&lt;/a&gt;, also commonly referred to as &lt;strong&gt;golang&lt;/strong&gt;, is a statically typed,
 compiled, garbage-collected, concurrent general purpose programming
 language.  Go is considered as an object oriented programming language
 and it uses &lt;a href=&quot;http://en.wikipedia.org/wiki/Composition_over_inheritance&quot;&gt;object composition&lt;/a&gt; instead of class inheritance.  Go was
@@ -369,25 +403,14 @@ binary.  You can do the same thing in Windows like this:&lt;/p&gt;
 hello.exe&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;go build&lt;/code&gt; command produce a binary file native to the operating
-system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Go, also commonly referred to as golang, is a statically typed,
-compiled, garbage-collected, concurrent general purpose programming
-language.  Go is considered as an object oriented programming language
-and it uses object composition instead of class inheritance.  Go was
-initially developed at Google by Robert Griesemer, Rob Pike, and
-Ken Thompson.  Go was publicly released as a free/open source
-software in November 2009 by Google.</summary></entry><entry><title type="html">Keynote Speech on Test Automation using Pytest</title><link href="/testing/keynote-speech-on-test-automation-using-pytest/" rel="alternate" type="text/html" title="Keynote Speech on Test Automation using Pytest" /><published>2014-11-26T00:00:00+05:30</published><updated>2014-11-26T00:00:00+05:30</updated><id>/testing/keynote-speech-on-test-automation-using-pytest</id><content type="html" xml:base="/testing/keynote-speech-on-test-automation-using-pytest/">&lt;p&gt;I delivered a &lt;a href=&quot;https://twitter.com/ISQT1/status/535663918492827648&quot;&gt;Keynote speech&lt;/a&gt; on “Test Automation Using Pytest” at
+system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Go, also commonly referred to as golang, is a statically typed, compiled, garbage-collected, concurrent general purpose programming language. Go is considered as an object oriented programming language and it uses object composition instead of class inheritance. Go was initially developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go was publicly released as a free/open source software in November 2009 by Google.</summary></entry><entry><title type="html">Keynote Speech on Test Automation using Pytest</title><link href="/testing/keynote-speech-on-test-automation-using-pytest/" rel="alternate" type="text/html" title="Keynote Speech on Test Automation using Pytest" /><published>2014-11-26T00:00:00+05:30</published><updated>2014-11-26T00:00:00+05:30</updated><id>/testing/keynote-speech-on-test-automation-using-pytest</id><content type="html" xml:base="/testing/keynote-speech-on-test-automation-using-pytest/">&lt;p&gt;I delivered a &lt;a href=&quot;https://twitter.com/ISQT1/status/535663918492827648&quot;&gt;Keynote speech&lt;/a&gt; on “Test Automation Using Pytest” at
 “Non-Conventional Software Test Automation” conference.  The
 conference was organized by a testing community.  I selected Pytest as
 my topic and the talk was well received.  This was not really a Python
 community, but when I asked how many knows Python, around 40% raised
 their hands.  Thanks to the organizers for inviting me to speak!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/wcoyx6fkt7oz28k/D1-51-Speaker.JPG?raw=1&quot; alt=&quot;on stage&quot; /&gt;)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I delivered a Keynote speech on “Test Automation Using Pytest” at
-“Non-Conventional Software Test Automation” conference.  The
-conference was organized by a testing community.  I selected Pytest as
-my topic and the talk was well received.  This was not really a Python
-community, but when I asked how many knows Python, around 40% raised
-their hands.  Thanks to the organizers for inviting me to speak!</summary></entry><entry><title type="html">Selenium Page Objects Pattern</title><link href="/testing/selenium-page-objects/" rel="alternate" type="text/html" title="Selenium Page Objects Pattern" /><published>2014-11-20T00:00:00+05:30</published><updated>2014-11-20T00:00:00+05:30</updated><id>/testing/selenium-page-objects</id><content type="html" xml:base="/testing/selenium-page-objects/">&lt;p&gt;I have added a &lt;a href=&quot;http://selenium-python.readthedocs.org/page-objects.html&quot;&gt;new chapter on Page Objects&lt;/a&gt; in my documenabouttation
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/wcoyx6fkt7oz28k/D1-51-Speaker.JPG?raw=1&quot; alt=&quot;on stage&quot; /&gt;)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I delivered a Keynote speech on “Test Automation Using Pytest” at “Non-Conventional Software Test Automation” conference. The conference was organized by a testing community. I selected Pytest as my topic and the talk was well received. This was not really a Python community, but when I asked how many knows Python, around 40% raised their hands. Thanks to the organizers for inviting me to speak!</summary></entry><entry><title type="html">Selenium Page Objects Pattern</title><link href="/testing/selenium-page-objects/" rel="alternate" type="text/html" title="Selenium Page Objects Pattern" /><published>2014-11-20T00:00:00+05:30</published><updated>2014-11-20T00:00:00+05:30</updated><id>/testing/selenium-page-objects</id><content type="html" xml:base="/testing/selenium-page-objects/">&lt;p&gt;I have added a &lt;a href=&quot;http://selenium-python.readthedocs.org/page-objects.html&quot;&gt;new chapter on Page Objects&lt;/a&gt; in my documenabouttation
 for Selenium with Python.  Code in this chapter works and is quite
 self-descriptive, but a little description wouldn’t hurt.  If anyone
 interested, please send pull request in &lt;a href=&quot;https://github.com/baijum/selenium-python&quot;&gt;Github&lt;/a&gt;.  If you want an
@@ -399,68 +422,4 @@ can see in the &lt;a href=&quot;https://github.com/baijum/selenium-python/graphs
 contributors to this document.  Most of them made just one commit.&lt;/p&gt;
 
 &lt;p&gt;The other part of documentation where I am seeking more contribution
-is chapter on &lt;a href=&quot;http://selenium-python.readthedocs.org/faq.html&quot;&gt;Frequently Asked Questions&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I have added a new chapter on Page Objects in my documenabouttation
-for Selenium with Python.  Code in this chapter works and is quite
-self-descriptive, but a little description wouldn’t hurt.  If anyone
-interested, please send pull request in Github.  If you want an
-example implementation, I have one as part of my project in Github
-called pitracker.</summary></entry><entry><title type="html">Windows Commands</title><link href="/technology/windows-commands/" rel="alternate" type="text/html" title="Windows Commands" /><published>2014-04-09T00:00:00+05:30</published><updated>2014-04-09T00:00:00+05:30</updated><id>/technology/windows-commands</id><content type="html" xml:base="/technology/windows-commands/">&lt;p&gt;I had kept these notes in a private wiki page for sometime.
-I hope moving it here will be helpful for searching.&lt;/p&gt;
-
-&lt;h3 id=&quot;deleting-a-service&quot;&gt;Deleting a Service&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sc delete servicename&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To get name of the service that need to be deleted:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;services.msc&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Right click and get the service name&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;checking-whether-a-port-is-listening-or-not&quot;&gt;Checking whether a port is listening or not&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;PORTNUMBER&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;to-see-all-ports-listening&quot;&gt;To see all ports listening&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;LISTENING&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;to-check-a-service-is-started-or-not&quot;&gt;To check a service is started or not&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net start|find &quot;C:\Path\to\program&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;commenting-in-batch-file&quot;&gt;Commenting in batch file&lt;/h3&gt;
-
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;::&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;REM&lt;/code&gt; followed by a space&lt;/p&gt;
-
-&lt;p&gt;Example:-&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:: this is a comment
-REM this is another comment
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;call-a-batch-program-inside-another-batch-file&quot;&gt;Call a batch program inside another batch file&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;call &amp;lt;script.bat&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;query-and-remove-terminal-server-sessions&quot;&gt;Query and remove terminal server sessions&lt;/h3&gt;
-
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;qwinsta&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;rwinsta&lt;/code&gt; commands.&lt;/p&gt;
-
-&lt;p&gt;Example:-&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;qwinsta /SERVER:IP
-rwinsta /SERVER:IP
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;check-uptime-of-machine&quot;&gt;Check uptime of machine&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net statistics server | find &quot;since&quot;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;run-as-different-user&quot;&gt;Run as different user&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;runas&lt;/code&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I had kept these notes in a private wiki page for sometime.
-I hope moving it here will be helpful for searching.</summary></entry></feed>
+is chapter on &lt;a href=&quot;http://selenium-python.readthedocs.org/faq.html&quot;&gt;Frequently Asked Questions&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I have added a new chapter on Page Objects in my documenabouttation for Selenium with Python. Code in this chapter works and is quite self-descriptive, but a little description wouldn’t hurt. If anyone interested, please send pull request in Github. If you want an example implementation, I have one as part of my project in Github called pitracker.</summary></entry></feed>
