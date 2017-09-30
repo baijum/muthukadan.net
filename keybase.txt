@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/baijum
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://muthukadan.net
+  * I am baijum (https://keybase.io/baijum) on keybase.
+  * I have a public key with fingerprint B588 F760 F989 BAF3 FD45  0AA2 725D 9DC0 F355 E7EB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010128bf29ee6d2223b81bdd6819c68871f456408d6cfdf1b024bd505b010ee6f8880a",
+      "fingerprint": "b588f760f989baf3fd450aa2725d9dc0f355e7eb",
+      "host": "keybase.io",
+      "key_id": "725d9dc0f355e7eb",
+      "kid": "010128bf29ee6d2223b81bdd6819c68871f456408d6cfdf1b024bd505b010ee6f8880a",
+      "uid": "9ff8f83d82f622a751ca2cb1567ff219",
+      "username": "baijum"
+    },
+    "service": {
+      "hostname": "muthukadan.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1506742257,
+  "expire_in": 157680000,
+  "prev": "cf2fc8390144706a7eafd23867c2001ac00cd7c1d7f60b2f3092db81d7385126",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMIoAnicrZJXaBRBGMcvMbYTNRhjLIi6iAkkhpnZMrMHokaCLwoWSDAqx8zOTLJe
+bu/c3YsGCQiKiFhABcuDIjZQEbFge4ixkKIQsIIFFDUgWIkGG9HZoG8+Oi/DfN//
+9/8Kc3PkoFg87/7r3oK5iWYr73bbnlxsWffoT+s0luHNWmKdlhIDl2jkIgiTKZdr
+CQ1AABFhEtlCWBwhpDMCGecWgbZjEYKhNEzLAIRbjuQSMoAMxk1gMkUqRBJCANUq
+NOl69cLP+q4XKltmEiKxBaRNbEalLrlhAkoRRia3uQOkbpoCC6bAhkwQEao5RgNR
+6WZUTD2SA+39Q/+f+84N2NlSEkl0TpC0EKLYhA5FDoOmhaVE0I6EgfA9mhbRdNRd
+lUtrLRWaijW5jojWGs3xJ5/OhQ25FOXUq/REqNisnwkzTqZR5RrCMBskIjZszkbi
+NYIl/9gkmetxtUdFNAk/cDOeloBK6YRu5AtNYGEDIRNXaGJt1vVF0o0UJrYIUCeq
+I5qUpSORdIhuA2gYGFgUCyo50omFHQQApA4ADscO5FhagCGpAxtxtT+OdWJCZGnR
+YKu9jJZQlUJarywDt96jYc4XWsv1aysKYnnx2JDB+dH/isWHF/79daJr6I+hPXNf
+Tn2Ei7u/VVYn57R1Op330rV6x47tW/MfF53YuXDOdNqz3KkqavAPGm0FZXUrr1T0
+L3n1bN6wu7vLkxM2bf4sShccnz/o3fjnn3clJ44rLhy+bNK+J30d7WhbfMO+mafm
+nTk5es2p4hV+rqg2UbjF6L085nZNzdPTY2viR87pH9+fb827vmXp3q63/SWbSrrb
+93R/6fk6+8CBja0rN5eek/DXsY7B4a3JD9eXHX5zdtSlVX3VH0r7Ft2oO89a7j4s
+6j179eeH8R2X7bI7j8ZN23i0q3zWzb2NvbsnTZkw4tAvmLr0aUTqYrok+P58cfmo
+Kpw/40H1i6DpQhV7vb72u8X298948huqwEDv
+=0UOU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/baijum
+
+==================================================================
+
