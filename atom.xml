@@ -4,13 +4,40 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2017-09-30T09:02:08+05:30</updated>
+  <updated>2017-10-07T18:51:13+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"'(Software Engineer, Author, Public Speaker, '(Works at Red Hat))", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
     <email></email>
   </author>
 
+  
+  <entry>
+    <id>http:///golang/talk/golang-workshops-icefoss-fisat</id>
+    <link type="text/html" rel="alternate" href="http:///golang/talk/golang-workshops-icefoss-fisat/"/>
+    <title>Golang workshops at ICEFOSS 2017, FISAT</title>
+    <updated>2017-10-07T00:00:00+05:30</updated>
+    <author>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"'(Software Engineer, Author, Public Speaker, '(Works at Red Hat))", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <uri>http://</uri>
+    </author>
+    <content type="html">&lt;p&gt;Today was my 10th Golang workshop. It was organized by FISAT students
+and staff as part of &lt;a href=&quot;http://archive.is/sB3yS&quot;&gt;ICEFOSS 2017 annual
+event&lt;/a&gt;.  There were around 40 participants
+for my Go workshop.  All of them were computer science students from
+various engineering colleges.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just completed my 10th &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop at FISAT, Cochin. &lt;a href=&quot;https://t.co/f6Pc9JJpsv&quot;&gt;pic.twitter.com/f6Pc9JJpsv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/916628503834980353?ref_src=twsrc%5Etfw&quot;&gt;October 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;Now I am writing this from a hotel in Angamaly.  I reched here
+yesterday very late night as my flight was delayed. My return flight
+is tomorrow early morning.  My workshop was completed around 4.30 pm.
+Later I came back to hotel and went for a small walk in the town.  As
+I was tired, I couldn’t go long.  Now I need to find something for
+dinner and go to bed.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http:///scheme/guile/guile2.2-on-fedora26</id>
