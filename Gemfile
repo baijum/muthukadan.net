@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gemspec
-#gem "github-pages", '109', group: :jekyll_plugins
+gem "minimal-mistakes-jekyll"
 gem "jekyll-twitter-plugin"
 gem 'json', '~> 2'
+gem "github-pages", group: :jekyll_plugins
