@@ -47,6 +47,8 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+theme: minimal-mistakes-jekyll
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -79,7 +81,7 @@ analytics:
 author:
   name             : "Baiju Muthukadan"
   avatar           : "/assets/images/dallas_fall2014.jpg"
-  bio              : "'(Software Engineer, Author, Public Speaker, '(Works at Red Hat))"
+  bio              : "Software Engineer"
   location         : "Bangalore, India"
   email            :
   uri              :
