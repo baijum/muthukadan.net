@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-05-01T11:30:42+05:30</updated><id>/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Golang workshops at ICEFOSS 2017, FISAT</title><link href="/golang/talk/golang-workshops-icefoss-fisat/" rel="alternate" type="text/html" title="Golang workshops at ICEFOSS 2017, FISAT" /><published>2017-10-07T00:00:00+05:30</published><updated>2017-10-07T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-icefoss-fisat</id><content type="html" xml:base="/golang/talk/golang-workshops-icefoss-fisat/">&lt;p&gt;Today was my 10th Golang workshop. It was organized by FISAT students
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-05-01T12:32:30+05:30</updated><id>/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Golang workshops at ICEFOSS 2017, FISAT</title><link href="/golang/talk/golang-workshops-icefoss-fisat/" rel="alternate" type="text/html" title="Golang workshops at ICEFOSS 2017, FISAT" /><published>2017-10-07T00:00:00+05:30</published><updated>2017-10-07T00:00:00+05:30</updated><id>/golang/talk/golang-workshops-icefoss-fisat</id><content type="html" xml:base="/golang/talk/golang-workshops-icefoss-fisat/">&lt;p&gt;Today was my 10th Golang workshop. It was organized by FISAT students
 and staff as part of &lt;a href=&quot;http://archive.is/sB3yS&quot;&gt;ICEFOSS 2017 annual
 event&lt;/a&gt;.  There were around 40 participants
 for my Go workshop.  All of them were computer science students from
@@ -17,47 +17,41 @@ dinner and go to bed.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></
 I noticed that there is &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/lantw44/guix/&quot;&gt;Guix package&lt;/a&gt; in Copr repository.
 Then I enabled that repository and installed Guix.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# dnf copr enable lantw44/guix&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# dnf copr enable lantw44/guix&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# dnf install guix&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;First I started the guix-daemon service and enabled it:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# systemctl start guix-daemon.service&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# systemctl start guix-daemon.service&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# systemctl enable guix-daemon.service&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Then I tried to install Guile like this as a normal user (&lt;code class=&quot;highlighter-rouge&quot;&gt;baiju&lt;/code&gt;):&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;guix package -i guile
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;guix package &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; guile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;But I had to guix pull before that:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;guix pull
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;guix pull
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;I was trying to do these things as a normal user.  But there was some
 error about some permission issue for a directory.  So I changed it
 like this:&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chown baiju.baiju /var/guix/profiles/per-user/baiju
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;chown &lt;/span&gt;baiju.baiju /var/guix/profiles/per-user/baiju
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Then I tried the package installation again using the &lt;code class=&quot;highlighter-rouge&quot;&gt;package -i&lt;/code&gt;
+&lt;p&gt;Then I tried the package installation again using the &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;/code&gt;
 subcommand.&lt;/p&gt;
 
 &lt;p&gt;After installation Guix showed me that I need to update my PATH.
 So I just updated my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; like this (guix shows this after installation!):&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/baiju/.guix-profile/bin&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;:+:&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/baiju/.guix-profile/bin&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;:+:&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;When starting guile it was showing a warning like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;warning:
 failed to install locale&lt;/code&gt;&lt;/p&gt;
@@ -65,10 +59,9 @@ failed to install locale&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then I found that &lt;a href=&quot;https://www.gnu.org/software/guix/manual/guix.html#Application-Setup&quot;&gt;glibc-locales package&lt;/a&gt; need to be installed
 and an environment variable need to be updated.&lt;/p&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;guix package -i glibc-locales
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;guix package &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; glibc-locales
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GUIX_LOCPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.guix-profile/lib/locale
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;I also added the above environment variable setting in my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
 
@@ -252,9 +245,9 @@ here: &lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt
 64 bit GNU/Linux system:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;
-wget -c https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz
-tar zxvf go1.7.1.linux-amd64.tar.gz
-mkdir &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+wget &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz
+&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;zxvf go1.7.1.linux-amd64.tar.gz
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The first line ensure that current working directory is the home
 directory for the user.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME&lt;/code&gt; environment variable contains the

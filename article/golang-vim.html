@@ -9,31 +9,16 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>Editing Go in Vim - Baiju Muthukadan</title>
-
-
-
-
+<!-- begin _includes/seo.html --><title>Editing Go in Vim - Baiju Muthukadan</title>
 <meta name="description" content="For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)">
 
 
 
-
-<meta name="author" content="Baiju Muthukadan">
-
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Baiju Muthukadan">
 <meta property="og:title" content="Editing Go in Vim">
+<meta property="og:url" content="/article/golang-vim.html">
 
 
 
@@ -43,7 +28,7 @@
   <meta name="twitter:site" content="@nogenerics">
   <meta name="twitter:title" content="Editing Go in Vim">
   <meta name="twitter:description" content="For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)">
-  <meta name="twitter:url" content="">
+  <meta name="twitter:url" content="/article/golang-vim.html">
 
   
     <meta name="twitter:card" content="summary">
@@ -51,19 +36,19 @@
   
 
   
-    <meta name="twitter:creator" content="@Baiju Muthukadan">
+
+
+
+
+
+
+
+  
+
   
 
 
-
-  
-
-  
-
-
-
-
-
+<link rel="canonical" href="/article/golang-vim.html">
 
 
 
@@ -73,11 +58,11 @@
 
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "Baiju Muthukadan",
-      "url" : null,
-      "sameAs" : null
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Baiju Muthukadan",
+      "url": null,
+      "sameAs": null
     }
   </script>
 
@@ -86,7 +71,8 @@
 
 
 
-<!-- end SEO -->
+
+<!-- end _includes/seo.html -->
 
 
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Baiju Muthukadan Feed">
@@ -118,19 +104,21 @@
   </style>
 <![endif]-->
 
-<meta http-equiv="cleartype" content="on">
+
     <!-- start custom head snippets -->
 
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+
   </head>
 
   <body class="layout--single">
 
     <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
+
     <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -139,10 +127,16 @@
         <ul class="visible-links">
           
             
-            <li class="masthead__menu-item"><a href="/about.html">About</a></li>
+            <li class="masthead__menu-item">
+              <a href="/about.html" >About</a>
+            </li>
           
         </ul>
-        <button><div class="navicon"></div></button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
@@ -165,13 +159,14 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Editing Go in Vim
+          <h1 id="page-title" class="page__title" itemprop="headline">Editing Go in Vim
 </h1>
           
         </header>
       
 
       <section class="page__content" itemprop="text">
+        
         <p>I am using <a href="https://github.com/junegunn/vim-plug">vim-plug</a> plugin manager.</p>
 
 <p>This is my Vim configuration (<code class="highlighter-rouge">$HOME/.vimrc</code>):</p>
@@ -215,7 +210,6 @@
   
 </div>
 
-
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
@@ -227,22 +221,29 @@
       <li><strong>Follow:</strong></li>
     
     
-      <li><a href="https://twitter.com/nogenerics"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="https://twitter.com/nogenerics"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
     
     
-      <li><a href="https://facebook.com/BaijuMuthukadan"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      <li><a href="https://www.facebook.com/BaijuMuthukadan"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
     
     
     
-    <li><a href="/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2018 Baiju Muthukadan. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2018 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
       </footer>
     </div>
 
-    <script src="/assets/js/main.min.js"></script>
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+
+
+
 
 
 
