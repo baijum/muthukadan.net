@@ -68,4 +68,9 @@ var store = [{
         "excerpt":"Today was my 10th Golang workshop. It was organized by FISAT studentsand staff as part of ICEFOSS 2017 annualevent. There were around 40 participantsfor my Go workshop. All of them were computer science students fromvarious engineering colleges. Just completed my 10th #golang workshop at FISAT, Cochin. pic.twitter.com/f6Pc9JJpsv &mdash; Baiju Muthukadan...","categories": ["golang","talk"],
         "tags": [],
         "url": "/golang/talk/golang-workshops-icefoss-fisat/",
+        "teaser":null},{
+        "title": "A Comprehensive Guide to Go Programming",
+        "excerpt":"This is the first time I am writing about my recentbook on my blog. It’s an introductorybook on Go programming language. Well, I started the projectsometimes back around mid of 2015. I made some progress, thenself-published it through Gumroad. I was hoping that I could makeprogress eventually. Giving free updated...","categories": ["golang","book"],
+        "tags": [],
+        "url": "/golang/book/a-comprehensive-guide-to-go-programming/",
         "teaser":null}]

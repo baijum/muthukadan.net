@@ -4,13 +4,46 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2018-05-01T12:32:30+05:30</updated>
+  <updated>2018-09-29T10:58:41+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
     <email></email>
   </author>
 
+  
+  <entry>
+    <id>http:///golang/book/a-comprehensive-guide-to-go-programming</id>
+    <link type="text/html" rel="alternate" href="http:///golang/book/a-comprehensive-guide-to-go-programming/"/>
+    <title>A Comprehensive Guide to Go Programming</title>
+    <updated>2018-09-29T00:00:00+05:30</updated>
+    <author>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <uri>http://</uri>
+    </author>
+    <content type="html">&lt;p&gt;This is the first time I am writing about my &lt;a href=&quot;https://golang.muthukadan.net&quot;&gt;recent
+book&lt;/a&gt; on my blog.  It’s an introductory
+book on Go programming language.  Well, I started the project
+sometimes back around mid of 2015.  I made some progress, then
+self-published it through Gumroad.  I was hoping that I could make
+progress eventually.  Giving free updated copies of the book through
+Gumroad is easy.  That was the main reason I decided to use Gumroad.
+But that plan didn’t work out as expected.  Fortunately, not many had
+bought them for their disappointment.  In fact, I never tried to
+market the book.  I went back to writing on an off in the last few
+years.  I do not want to list out all the excuses for not finishing
+the book.&lt;/p&gt;
+
+&lt;p&gt;After my recent updates, now the book should be in a usable state.
+However, some of the chapters still need more work.  I don’t want to
+make big promises.  I am trying my best to refine the later chapters
+of the book which requires more attention.&lt;/p&gt;
+
+&lt;p&gt;If you would like to buy the ebook, visit the book site here:
+&lt;a href=&quot;https://golang.muthukadan.net&quot;&gt;https://golang.muthukadan.net&lt;/a&gt;. There
+is also a form to receive free chapters of the book.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http:///golang/talk/golang-workshops-icefoss-fisat</id>
