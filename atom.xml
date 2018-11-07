@@ -4,13 +4,94 @@
   <title></title>
   <link href="http://"/>
   <link type="application/atom+xml" rel="self" href="http:///atom.xml"/>
-  <updated>2018-09-29T10:58:41+05:30</updated>
+  <updated>2018-11-07T15:08:01+05:30</updated>
   <id>http://</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
     <email></email>
   </author>
 
+  
+  <entry>
+    <id>http:///golang/book/request-for-technical-review-of-my-go-book</id>
+    <link type="text/html" rel="alternate" href="http:///golang/book/request-for-technical-review-of-my-go-book/"/>
+    <title>Request for Technical Review of My Go Book</title>
+    <updated>2018-11-07T00:00:00+05:30</updated>
+    <author>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <uri>http://</uri>
+    </author>
+    <content type="html">&lt;p&gt;In the last blog post, I mentioned that I started working on my book
+about the Go programming language again.  I think now is a good time
+to ask for technical reviews.  So, I thought of requesting Go
+community members to do it for me.  This blog is about why you should
+review and how you can do it.  After reading this, if you are
+interested, please contact me via email: baiju.m.mail@gmail.com&lt;/p&gt;
+
+&lt;p&gt;Thanks for helping me with the technical reviewing of my book.  Your
+feedback and suggestions are very much valuable to me in writing this
+book.  I will show you how you can provide your feedback.  Before
+that, let’s see why you should review my book?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This book is going to help many people to learn Go programming.  As
+a fellow Go community member, you are contributing to this effort.&lt;/li&gt;
+  &lt;li&gt;Your feedback is going to influence the content of the book.&lt;/li&gt;
+  &lt;li&gt;As you study the book with a critical mind, you are enhancing your
+Go knowledge.  The learning is more intense than reading a book
+casually.&lt;/li&gt;
+  &lt;li&gt;You will be required to refer other works to verify the content in
+the text.  This will help you to broaden your knowledge on the
+subject.&lt;/li&gt;
+  &lt;li&gt;You are supporting a fellow Go community member.  This will
+motivate me to contribute more.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Bonus 1: You are getting the free PDF copy of the book.&lt;/p&gt;
+
+&lt;p&gt;Bonus 2: Your name will be mentioned in the book at the beginning in
+the acknowledgment just after the preface.&lt;/p&gt;
+
+&lt;p&gt;Now I want to provide some suggestions on how you can help me with the
+book review.  Ask these kinds of questions while you are going through
+the book.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How is the organization of the chapters in the book?&lt;/li&gt;
+  &lt;li&gt;How is the organization of sections under each chapter?&lt;/li&gt;
+  &lt;li&gt;Is the book consistent throughout all the pages?  (Consider
+consistency of organization, style of writing, terminology usage,
+etc.)&lt;/li&gt;
+  &lt;li&gt;Is there any essential point missed when explaining a particular
+topic?&lt;/li&gt;
+  &lt;li&gt;Is the logical flow of introducing the concepts easy to follow?&lt;/li&gt;
+  &lt;li&gt;Is the narrative clear, reasonable, and compelling?&lt;/li&gt;
+  &lt;li&gt;Are the examples and exercises short and easy to understand?&lt;/li&gt;
+  &lt;li&gt;Did you notice any sentence or paragraph that is difficult to
+understand?&lt;/li&gt;
+  &lt;li&gt;Did you see an opportunity to add a side-note which will be helpful
+to the reader?&lt;/li&gt;
+  &lt;li&gt;Did you notice any awkward English language usage? (You can ignore
+minor language issues.)&lt;/li&gt;
+  &lt;li&gt;How to make this book more interesting? Any thoughts?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you send me feedback about a particular chapter, please specify
+the chapter title.  If the input is about a section, please include
+the section number and chapter title.  No need to mention the page
+number as it may change.&lt;/p&gt;
+
+&lt;p&gt;You don’t need to wait for completing the whole book to send me the
+review comments.  As soon as you finish one chapter or even one
+section, you can send the feedback.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I may not be able to work on your feedback immediately.  But
+I will add it to my action items as soon as possible.  I will send you
+updated copies as I make progress.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to your feedback and suggestions!&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <id>http:///golang/book/a-comprehensive-guide-to-go-programming</id>

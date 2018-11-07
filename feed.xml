@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-09-29T10:58:41+05:30</updated><id>/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">A Comprehensive Guide to Go Programming</title><link href="/golang/book/a-comprehensive-guide-to-go-programming/" rel="alternate" type="text/html" title="A Comprehensive Guide to Go Programming" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>/golang/book/a-comprehensive-guide-to-go-programming</id><content type="html" xml:base="/golang/book/a-comprehensive-guide-to-go-programming/">&lt;p&gt;This is the first time I am writing about my &lt;a href=&quot;https://golang.muthukadan.net&quot;&gt;recent
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-07T15:08:01+05:30</updated><id>/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Request for Technical Review of My Go Book</title><link href="/golang/book/request-for-technical-review-of-my-go-book/" rel="alternate" type="text/html" title="Request for Technical Review of My Go Book" /><published>2018-11-07T00:00:00+05:30</published><updated>2018-11-07T00:00:00+05:30</updated><id>/golang/book/request-for-technical-review-of-my-go-book</id><content type="html" xml:base="/golang/book/request-for-technical-review-of-my-go-book/">&lt;p&gt;In the last blog post, I mentioned that I started working on my book
+about the Go programming language again.  I think now is a good time
+to ask for technical reviews.  So, I thought of requesting Go
+community members to do it for me.  This blog is about why you should
+review and how you can do it.  After reading this, if you are
+interested, please contact me via email: baiju.m.mail@gmail.com&lt;/p&gt;
+
+&lt;p&gt;Thanks for helping me with the technical reviewing of my book.  Your
+feedback and suggestions are very much valuable to me in writing this
+book.  I will show you how you can provide your feedback.  Before
+that, let’s see why you should review my book?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This book is going to help many people to learn Go programming.  As
+a fellow Go community member, you are contributing to this effort.&lt;/li&gt;
+  &lt;li&gt;Your feedback is going to influence the content of the book.&lt;/li&gt;
+  &lt;li&gt;As you study the book with a critical mind, you are enhancing your
+Go knowledge.  The learning is more intense than reading a book
+casually.&lt;/li&gt;
+  &lt;li&gt;You will be required to refer other works to verify the content in
+the text.  This will help you to broaden your knowledge on the
+subject.&lt;/li&gt;
+  &lt;li&gt;You are supporting a fellow Go community member.  This will
+motivate me to contribute more.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Bonus 1: You are getting the free PDF copy of the book.&lt;/p&gt;
+
+&lt;p&gt;Bonus 2: Your name will be mentioned in the book at the beginning in
+the acknowledgment just after the preface.&lt;/p&gt;
+
+&lt;p&gt;Now I want to provide some suggestions on how you can help me with the
+book review.  Ask these kinds of questions while you are going through
+the book.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How is the organization of the chapters in the book?&lt;/li&gt;
+  &lt;li&gt;How is the organization of sections under each chapter?&lt;/li&gt;
+  &lt;li&gt;Is the book consistent throughout all the pages?  (Consider
+consistency of organization, style of writing, terminology usage,
+etc.)&lt;/li&gt;
+  &lt;li&gt;Is there any essential point missed when explaining a particular
+topic?&lt;/li&gt;
+  &lt;li&gt;Is the logical flow of introducing the concepts easy to follow?&lt;/li&gt;
+  &lt;li&gt;Is the narrative clear, reasonable, and compelling?&lt;/li&gt;
+  &lt;li&gt;Are the examples and exercises short and easy to understand?&lt;/li&gt;
+  &lt;li&gt;Did you notice any sentence or paragraph that is difficult to
+understand?&lt;/li&gt;
+  &lt;li&gt;Did you see an opportunity to add a side-note which will be helpful
+to the reader?&lt;/li&gt;
+  &lt;li&gt;Did you notice any awkward English language usage? (You can ignore
+minor language issues.)&lt;/li&gt;
+  &lt;li&gt;How to make this book more interesting? Any thoughts?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you send me feedback about a particular chapter, please specify
+the chapter title.  If the input is about a section, please include
+the section number and chapter title.  No need to mention the page
+number as it may change.&lt;/p&gt;
+
+&lt;p&gt;You don’t need to wait for completing the whole book to send me the
+review comments.  As soon as you finish one chapter or even one
+section, you can send the feedback.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I may not be able to work on your feedback immediately.  But
+I will add it to my action items as soon as possible.  I will send you
+updated copies as I make progress.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to your feedback and suggestions!&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">In the last blog post, I mentioned that I started working on my book about the Go programming language again. I think now is a good time to ask for technical reviews. So, I thought of requesting Go community members to do it for me. This blog is about why you should review and how you can do it. After reading this, if you are interested, please contact me via email: baiju.m.mail@gmail.com</summary></entry><entry><title type="html">A Comprehensive Guide to Go Programming</title><link href="/golang/book/a-comprehensive-guide-to-go-programming/" rel="alternate" type="text/html" title="A Comprehensive Guide to Go Programming" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>/golang/book/a-comprehensive-guide-to-go-programming</id><content type="html" xml:base="/golang/book/a-comprehensive-guide-to-go-programming/">&lt;p&gt;This is the first time I am writing about my &lt;a href=&quot;https://golang.muthukadan.net&quot;&gt;recent
 book&lt;/a&gt; on my blog.  It’s an introductory
 book on Go programming language.  Well, I started the project
 sometimes back around mid of 2015.  I made some progress, then
@@ -398,11 +466,4 @@ binary.  You can do the same thing in Windows like this:&lt;/p&gt;
 hello.exe&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;go build&lt;/code&gt; command produce a binary file native to the operating
-system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Go, also commonly referred to as golang, is a statically typed, compiled, garbage-collected, concurrent general purpose programming language. Go is considered as an object oriented programming language and it uses object composition instead of class inheritance. Go was initially developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go was publicly released as a free/open source software in November 2009 by Google.</summary></entry><entry><title type="html">Keynote Speech on Test Automation using Pytest</title><link href="/testing/keynote-speech-on-test-automation-using-pytest/" rel="alternate" type="text/html" title="Keynote Speech on Test Automation using Pytest" /><published>2014-11-26T00:00:00+05:30</published><updated>2014-11-26T00:00:00+05:30</updated><id>/testing/keynote-speech-on-test-automation-using-pytest</id><content type="html" xml:base="/testing/keynote-speech-on-test-automation-using-pytest/">&lt;p&gt;I delivered a &lt;a href=&quot;https://twitter.com/ISQT1/status/535663918492827648&quot;&gt;Keynote speech&lt;/a&gt; on “Test Automation Using Pytest” at
-“Non-Conventional Software Test Automation” conference.  The
-conference was organized by a testing community.  I selected Pytest as
-my topic and the talk was well received.  This was not really a Python
-community, but when I asked how many knows Python, around 40% raised
-their hands.  Thanks to the organizers for inviting me to speak!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/wcoyx6fkt7oz28k/D1-51-Speaker.JPG?raw=1&quot; alt=&quot;on stage&quot; /&gt;)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I delivered a Keynote speech on “Test Automation Using Pytest” at “Non-Conventional Software Test Automation” conference. The conference was organized by a testing community. I selected Pytest as my topic and the talk was well received. This was not really a Python community, but when I asked how many knows Python, around 40% raised their hands. Thanks to the organizers for inviting me to speak!</summary></entry></feed>
+system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Go, also commonly referred to as golang, is a statically typed, compiled, garbage-collected, concurrent general purpose programming language. Go is considered as an object oriented programming language and it uses object composition instead of class inheritance. Go was initially developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go was publicly released as a free/open source software in November 2009 by Google.</summary></entry></feed>

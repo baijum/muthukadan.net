@@ -73,4 +73,9 @@ var store = [{
         "excerpt":"This is the first time I am writing about my recentbook on my blog. It’s an introductorybook on Go programming language. Well, I started the projectsometimes back around mid of 2015. I made some progress, thenself-published it through Gumroad. I was hoping that I could makeprogress eventually. Giving free updated...","categories": ["golang","book"],
         "tags": [],
         "url": "/golang/book/a-comprehensive-guide-to-go-programming/",
+        "teaser":null},{
+        "title": "Request for Technical Review of My Go Book",
+        "excerpt":"In the last blog post, I mentioned that I started working on my bookabout the Go programming language again. I think now is a good timeto ask for technical reviews. So, I thought of requesting Gocommunity members to do it for me. This blog is about why you shouldreview and...","categories": ["golang","book"],
+        "tags": [],
+        "url": "/golang/book/request-for-technical-review-of-my-go-book/",
         "teaser":null}]
