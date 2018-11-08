@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://muthukadan.net/sitemap.xml
