@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2018-11-08T08:54:18+05:30</updated><id>https://muthukadan.net/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Request for Technical Review of My Go Book</title><link href="https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book/" rel="alternate" type="text/html" title="Request for Technical Review of My Go Book" /><published>2018-11-07T00:00:00+05:30</published><updated>2018-11-07T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book/">&lt;p&gt;In the last blog post, I mentioned that I started working on my book
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2018-11-19T08:33:54+05:30</updated><id>https://muthukadan.net/</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Expectations for an introductory programming book</title><link href="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/" rel="alternate" type="text/html" title="Expectations for an introductory programming book" /><published>2018-11-19T00:00:00+05:30</published><updated>2018-11-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/">&lt;p&gt;After I published my &lt;a href=&quot;https://medium.com/@baijum/request-for-technical-review-970c6685cf5e&quot;&gt;last blog post requesting technical
+reviews&lt;/a&gt;
+of my Go book, I received quite a few responses from
+the Go community. Thanks to all who came forward to review the book.&lt;/p&gt;
+
+&lt;p&gt;Let me give some context before getting into the details of the subject
+of this blog post. I started working on my book around mid of 2015.
+However, I couldn’t continue to work on it for a long time. I had
+decided to self-publish my book from the beginning. I made the &lt;a href=&quot;https://gumroad.com/l/gobook&quot;&gt;book
+available through Gumroad&lt;/a&gt;
+at a small price in PDF format. Few have bought the
+book so far. I usually update the book whenever I make some progress.&lt;/p&gt;
+
+&lt;p&gt;As I continue to work on the book, the question I ponder these days is
+about the expectations of a reader for an introductory programming book.
+I would like to hear your thoughts on the same. You can write your
+thoughts on your blog, comment anywhere where I share this post, or you
+can write to me via email: &lt;a href=&quot;mailto:baiju@muthukadan.net&quot;&gt;baiju@muthukadan.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay, let me rephrase the question:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;As a reader who is beginning with programming and software
+development, what are the expectations you will have when buying an
+introductory programming book?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Now let me share some of my observations on the topic. These are some of
+the things I am trying to fulfill in my book. Some of the revelations
+are very recent, so you will not see it reflected in the current work.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Few are expecting a realistic project unfolded throughout the
+book.&lt;/strong&gt; So far I have used frivolous standalone examples everywhere
+in the book. Probably I can go for a hybrid approach — present one
+problem in the exercises section which keeps developing from the 3rd
+or 4th chapter and continues till the end.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use practical compact examples.&lt;/strong&gt; As I mentioned in the previous
+point, many of the current examples are silly. Using realistic
+examples are a hard thing to do; I do not want to lose focus when
+explaining a concept with details of the problem at hand.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Whenever a new feature is getting introduced, compare it with a
+similar feature in another programming language.&lt;/strong&gt; I have
+intentionally tried to avoid any comparison, though it has crept in
+few places. I am still skeptical about this idea.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Focus on “why” and not the syntax.&lt;/strong&gt; I need to do more work on
+this issue. I should explain why certain features exist while
+explaining the syntax and semantics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The book should be available in many formats including EPUB,
+MOBI, PDF, and paperback.&lt;/strong&gt; One of the challenges I am facing is
+typesetting the book so that it will look good in all forms.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now it’s your turn, think about the original question and write about
+it! I will look forward to your thoughts on the expectations for an
+introductory programming book.&lt;/p&gt;
+
+&lt;p&gt;Book website:
+&lt;a href=&quot;https://golang.muthukadan.net/&quot;&gt;https://golang.muthukadan.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Credits: The ladder picture used in the book cover and in this blog is
+taken from&lt;/em&gt; &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:The_ladder_of_life_is_full_of_splinters.jpg&quot;&gt;&lt;em&gt;Wikimedia
+Commons&lt;/em&gt;&lt;/a&gt;
+ &lt;em&gt;(By Mykl Roventine [&lt;/em&gt;&lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/&quot;&gt;&lt;em&gt;CC BY 2.0&lt;/em&gt;&lt;/a&gt; &lt;em&gt;], via Wikimedia Commons)&lt;/em&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">After I published my last blog post requesting technical reviews of my Go book, I received quite a few responses from the Go community. Thanks to all who came forward to review the book.</summary></entry><entry><title type="html">Request for Technical Review of My Go Book</title><link href="https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book/" rel="alternate" type="text/html" title="Request for Technical Review of My Go Book" /><published>2018-11-07T00:00:00+05:30</published><updated>2018-11-07T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book/">&lt;p&gt;In the last blog post, I mentioned that I started working on my book
 about the Go programming language again.  I think now is a good time
 to ask for technical reviews.  So, I thought of requesting Go
 community members to do it for me.  This blog is about why you should
@@ -291,179 +354,4 @@ post&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The video of the talk is available in YouTube:&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I was very much excited to present at the first GopherCon India conference. My talk was on 20th February around 3pm.</summary></entry><entry><title type="html">An Introduction to Go Programming</title><link href="https://muthukadan.net/golang/an-introduction-to-go-programming/" rel="alternate" type="text/html" title="An Introduction to Go Programming" /><published>2014-11-28T00:00:00+05:30</published><updated>2014-11-28T00:00:00+05:30</updated><id>https://muthukadan.net/golang/an-introduction-to-go-programming</id><content type="html" xml:base="https://muthukadan.net/golang/an-introduction-to-go-programming/">&lt;p&gt;&lt;a href=&quot;http://golang.org&quot;&gt;Go&lt;/a&gt;, also commonly referred to as &lt;strong&gt;golang&lt;/strong&gt;, is a statically typed,
-compiled, garbage-collected, concurrent general purpose programming
-language.  Go is considered as an object oriented programming language
-and it uses &lt;a href=&quot;http://en.wikipedia.org/wiki/Composition_over_inheritance&quot;&gt;object composition&lt;/a&gt; instead of class inheritance.  Go was
-initially developed at Google by &lt;a href=&quot;http://en.wikipedia.org/wiki/Robert_Griesemer&quot;&gt;Robert Griesemer&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Rob_Pike&quot;&gt;Rob Pike&lt;/a&gt;, and
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Ken_Thompson&quot;&gt;Ken Thompson&lt;/a&gt;.  Go was publicly released as a free/open source
-software in November 2009 by Google.&lt;/p&gt;
-
-&lt;p&gt;There are two major compilers available, &lt;em&gt;gc&lt;/em&gt; &amp;amp; &lt;em&gt;gccgo&lt;/em&gt;.  The official
-compiler is &lt;em&gt;gc&lt;/em&gt; and &lt;em&gt;gccgo&lt;/em&gt; is a front-end to &lt;a href=&quot;https://gcc.gnu.org&quot;&gt;gcc&lt;/a&gt;.  Go supports
-major operating systems including Windows, GNU/Linux, Mac OS X and
-various flavors of BSDs.  Through &lt;em&gt;gccgo&lt;/em&gt; it supports more platforms.
-And cross compilation is easy in Go.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/sp2rbf1mv1onzcm/golang-mascot.png?raw=1&quot; alt=&quot;mascot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The syntax of Go is very similar to C programming language.  There are
-around 25+ keywords in the languages which is smaller compared to C,
-C++, Python etc.&lt;/p&gt;
-
-&lt;p&gt;Go compilation is very fast, few seconds would be enough to compile
-large programs.  In Go, unused imports and variables raise error
-during compile time.  A variable starting with capital letter is
-considered as exported and so it can be used from other packages.&lt;/p&gt;
-
-&lt;p&gt;Now I will move on to the details of installation of Go compiler.
-First you will see instruction for installing in GNU/Linux.
-The next section explains installation in a Windows system.&lt;/p&gt;
-
-&lt;p&gt;Finally I will show running a hello world program.  This will help you
-to verify your installation.&lt;/p&gt;
-
-&lt;h2 id=&quot;linux-installation&quot;&gt;Linux Installation&lt;/h2&gt;
-
-&lt;p&gt;Go project provides binaries for major operating systems including
-GNU/Linux.  You can find 32 bit and 64 bit binaries for GNU/Linux
-here: &lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The following commands will download and install Go compiler in a
-64 bit GNU/Linux system:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;
-wget &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz
-&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;zxvf go1.7.1.linux-amd64.tar.gz
-&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The first line ensure that current working directory is the home
-directory for the user.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME&lt;/code&gt; environment variable contains the
-path to the user’s home directory.&lt;/p&gt;
-
-&lt;p&gt;The second line download the 64 bit binary for GNU/Linux.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;wget&lt;/code&gt;
-is a command line download manager.&lt;/p&gt;
-
-&lt;p&gt;The third line extract the downloaded tar ball in to &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt; directory
-inside the home.&lt;/p&gt;
-
-&lt;p&gt;The last line creates a directory named &lt;code class=&quot;highlighter-rouge&quot;&gt;mygo&lt;/code&gt; as the workspace.  This
-directory can be used to place binaries, third party packages and your
-own Go source code.&lt;/p&gt;
-
-&lt;p&gt;You also need to set few environment variables.  Open the
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt; file in a text editor and enter these lines:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOROOT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/go
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$GOROOT&lt;/span&gt;/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$GOPATH&lt;/span&gt;/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The first line set &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable pointing to
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/go&lt;/code&gt;.  This is required for proper functioning of Go tools.  You
-can avoid setting the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable if you install Go
-inside &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/go&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The second line append the &lt;code class=&quot;highlighter-rouge&quot;&gt;$GOROOT/bin&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
-variable.  This will help you to run &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;godoc&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;gofmt&lt;/code&gt; commands
-from command line.&lt;/p&gt;
-
-&lt;p&gt;The third line set the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable pointing to
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/mygo&lt;/code&gt;.  The GOPATH environment variable specifies the location
-of your Go workspace.&lt;/p&gt;
-
-&lt;p&gt;The last line append &lt;code class=&quot;highlighter-rouge&quot;&gt;$GOPATH/bin&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.
-This will help you to run any binaries installed.&lt;/p&gt;
-
-&lt;h2 id=&quot;windows-installation&quot;&gt;Windows Installation&lt;/h2&gt;
-
-&lt;p&gt;There are separate installers (MSI files) available for 32 bit &amp;amp; 64
-bit versions of Windows.  The 32 bit version MSI file will be named
-like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;go1.x.y.windows-386.msi&lt;/code&gt; (Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
-version).  Similarly for 64 bit version, the MSI file will be named
-like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;go1.x.y.windows-amd64.msi&lt;/code&gt; (Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
-version).&lt;/p&gt;
-
-&lt;p&gt;You can download the installers (MSI files) from here:
-&lt;a href=&quot;https://golang.org/dl/&quot;&gt;https://golang.org/dl/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;After downloading the installer file, you can open the MSI file by
-double clicking on that file.  This should prompts few things about
-the installation of the Go compiler.  The installer place the
-Go related files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;p&gt;The installer also put the &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go\bin&lt;/code&gt; directory in the system
-&lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.  You may need to restart any open command
-prompts for the change to take effect.&lt;/p&gt;
-
-&lt;p&gt;You also need to create a directory to download third party packages
-from github.com or similar sites.  The directory can be created at
-&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\mygo&lt;/code&gt; like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;mkdir C:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;After this you can set &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable to point to this
-location.  Temporarily you can set it like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;set GOPATH=C:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can also append &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\mygo\bin&lt;/code&gt; into the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
-variable.&lt;/p&gt;
-
-&lt;p&gt;If you do not know how to set environment variable, just do a Google
-search for: “set windows environment variable”.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable is not required here as you have
-installed the &lt;code class=&quot;highlighter-rouge&quot;&gt;Go&lt;/code&gt; inside &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; folder.  If you have changed that
-location during the installation, set the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; pointing to the
-location you selected.&lt;/p&gt;
-
-&lt;h2 id=&quot;running-a-program&quot;&gt;Running a program&lt;/h2&gt;
-
-&lt;p&gt;This section helps you to verify your installation by running a hello
-world program.&lt;/p&gt;
-
-&lt;p&gt;As you know Go is a compiled programming language.  However, there is
-a command which does both compilation and running the program.  The
-command line syntax to run the program is like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go run &amp;lt;program.go&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;To run a hello world program, you can copy-paste the below code to
-your favorite text editor and save it as &lt;code class=&quot;highlighter-rouge&quot;&gt;hello.go&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
-
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
-
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
-     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Once you saved the above source code into a file.  You can open your
-command line program (&lt;em&gt;bash&lt;/em&gt; or &lt;em&gt;cmd.exe&lt;/em&gt;) and run the above program like
-this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go run hello.go&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you are able to see the output as &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello, World!&lt;/code&gt;, you have
-successfully installed Go compiler.&lt;/p&gt;
-
-&lt;h2 id=&quot;building-and-running-program&quot;&gt;Building and Running Program&lt;/h2&gt;
-
-&lt;p&gt;As you can see above, you can run the program using &lt;code class=&quot;highlighter-rouge&quot;&gt;go run hello.go&lt;/code&gt;
-command.  You can also build (compile) and run the binary like this in
-GNU/Linux:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go build hello.go
-./hello&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The first command produce a binary and second comand is executing that
-binary.  You can do the same thing in Windows like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;go build hello.go
-hello.exe&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;go build&lt;/code&gt; command produce a binary file native to the operating
-system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">Go, also commonly referred to as golang, is a statically typed, compiled, garbage-collected, concurrent general purpose programming language. Go is considered as an object oriented programming language and it uses object composition instead of class inheritance. Go was initially developed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go was publicly released as a free/open source software in November 2009 by Google.</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><summary type="html">I was very much excited to present at the first GopherCon India conference. My talk was on 20th February around 3pm.</summary></entry></feed>

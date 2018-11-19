@@ -78,4 +78,9 @@ var store = [{
         "excerpt":"In the last blog post, I mentioned that I started working on my bookabout the Go programming language again. I think now is a good timeto ask for technical reviews. So, I thought of requesting Gocommunity members to do it for me. This blog is about why you shouldreview and...","categories": ["golang","book"],
         "tags": [],
         "url": "https://muthukadan.net/golang/book/request-for-technical-review-of-my-go-book/",
+        "teaser":null},{
+        "title": "Expectations for an introductory programming book",
+        "excerpt":"After I published my last blog post requesting technicalreviewsof my Go book, I received quite a few responses fromthe Go community. Thanks to all who came forward to review the book. Let me give some context before getting into the details of the subjectof this blog post. I started working...","categories": ["golang","book"],
+        "tags": [],
+        "url": "https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/",
         "teaser":null}]
