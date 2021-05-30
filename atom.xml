@@ -4,10 +4,10 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2021-05-30T09:46:17+05:30</updated>
+  <updated>2021-05-30T10:20:25+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
-    <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+    <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
     <email></email>
   </author>
 
@@ -18,7 +18,7 @@
     <title>Expectations for an introductory programming book</title>
     <updated>2018-11-19T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;After I published my &lt;a href=&quot;https://medium.com/@baijum/request-for-technical-review-970c6685cf5e&quot;&gt;last blog post requesting technical
@@ -94,7 +94,7 @@ Commons&lt;/em&gt;&lt;/a&gt;
     <title>Request for Technical Review of My Go Book</title>
     <updated>2018-11-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;In the last blog post, I mentioned that I started working on my book
@@ -175,7 +175,7 @@ updated copies as I make progress.&lt;/p&gt;
     <title>A Comprehensive Guide to Go Programming</title>
     <updated>2018-09-29T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This is the first time I am writing about my &lt;a href=&quot;https://golang.muthukadan.net&quot;&gt;recent
@@ -208,7 +208,7 @@ is also a form to receive free chapters of the book.&lt;/p&gt;
     <title>Exclude Post from Search Index</title>
     <updated>2017-11-28T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
@@ -238,7 +238,7 @@ is also a form to receive free chapters of the book.&lt;/p&gt;
     <title>Golang workshops at ICEFOSS 2017, FISAT</title>
     <updated>2017-10-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Today was my 10th Golang workshop. It was organized by FISAT students
@@ -266,7 +266,7 @@ dinner and go to bed.&lt;/p&gt;
     <title>Installing Guile 2.2 on Fedora 26 using Guix</title>
     <updated>2017-07-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Few days before I upgraded to Fedora 26.  Fedora has a package named
@@ -333,7 +333,7 @@ and an environment variable need to be updated.&lt;/p&gt;
     <title>Golang workshops for data scientists and students</title>
     <updated>2017-05-08T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Last Saturday I conducted one more Go workshop in Bangalore.  The
@@ -383,7 +383,7 @@ years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ�
     <title>Layout: Header Video</title>
     <updated>2017-01-23T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header with a responsive video&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -462,7 +462,7 @@ years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ�
     <title>Total 7 Golang workshops in 2016!</title>
     <updated>2016-12-25T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
@@ -499,7 +499,7 @@ conducted 3 more Golang workshops.&lt;/p&gt;
     <title>Gemified Theme -- Beta Release</title>
     <updated>2016-10-06T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.&lt;/p&gt;
@@ -585,7 +585,7 @@ conducted 3 more Golang workshops.&lt;/p&gt;
     <title>Gemified Theme -- Alpha Release</title>
     <updated>2016-09-21T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Jekyll &lt;a href=&quot;http://jekyllrb.com/docs/themes/&quot;&gt;themes distributed as Ruby gems&lt;/a&gt; are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it”. Or dealing with merge conflicts when pulling in upstream commits to “upgrade it”.&lt;/p&gt;
@@ -682,7 +682,7 @@ conducted 3 more Golang workshops.&lt;/p&gt;
     <title>Golang workshops at Sahrdaya &amp; Reboot Calicut</title>
     <updated>2016-06-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Those who following me or &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://facebook.com/BaijuMuthukadan&quot;&gt;Facebook&lt;/a&gt; might be already
@@ -726,7 +726,7 @@ location was was very good.  Few photos:&lt;/p&gt;
     <title>Golang workshops</title>
     <updated>2016-04-19T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
@@ -773,7 +773,7 @@ well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
     <title>Welcome to Jekyll!</title>
     <updated>2016-02-24T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
@@ -800,7 +800,7 @@ well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
     <title>Go and Ember.js talk at GopherConIndia 2015</title>
     <updated>2015-03-10T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;I was very much excited to present at the first GopherCon India
@@ -832,7 +832,7 @@ post&lt;/a&gt;&lt;/p&gt;
     <title>An Introduction to Go Programming</title>
     <updated>2014-11-28T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://golang.org&quot;&gt;Go&lt;/a&gt;, also commonly referred to as &lt;strong&gt;golang&lt;/strong&gt;, is a statically typed,
@@ -1020,7 +1020,7 @@ system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;
     <title>Keynote Speech on Test Automation using Pytest</title>
     <updated>2014-11-26T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;I delivered a &lt;a href=&quot;https://twitter.com/ISQT1/status/535663918492827648&quot;&gt;Keynote speech&lt;/a&gt; on “Test Automation Using Pytest” at
@@ -1041,7 +1041,7 @@ their hands.  Thanks to the organizers for inviting me to speak!&lt;/p&gt;
     <title>Selenium Page Objects Pattern</title>
     <updated>2014-11-20T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;I have added a &lt;a href=&quot;http://selenium-python.readthedocs.org/page-objects.html&quot;&gt;new chapter on Page Objects&lt;/a&gt; in my documenabouttation
@@ -1067,7 +1067,7 @@ is chapter on &lt;a href=&quot;http://selenium-python.readthedocs.org/faq.html&q
     <title>Windows Commands</title>
     <updated>2014-04-09T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;I had kept these notes in a private wiki page for sometime.
@@ -1137,7 +1137,7 @@ rwinsta /SERVER:IP
     <title>ഡിജിറ്റൽ സത്യവേദപുസ്തകം - ഭാഗം ൧</title>
     <updated>2014-04-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;ഏതാനും ചില ആഴ്ചകൾക്ക് മുമ്പ് വിക്കിഗ്രന്ഥശാലയിലുള്ള &lt;a href=&quot;https://ml.wikisource.org/wiki/ഉപയോക്താവ്:BaijuMuthukadan/പ്രവർത്തനങ്ങൾ&quot;&gt;സത്യവേദപുസ്തകത്തിന്റെ&lt;/a&gt; അച്ചടിപ്പിഴവുകൾ തിരുത്തുന്ന
@@ -1171,7 +1171,7 @@ rwinsta /SERVER:IP
     <title>Parsing text files using Parsley</title>
     <updated>2014-03-14T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;I was looking for a parser library to convert a &lt;a href=&quot;http://ml.wikisource.org/wiki/സത്യവേദപുസ്തകം&quot;&gt;wikisource text&lt;/a&gt; into
@@ -1248,7 +1248,7 @@ And the &lt;a href=&quot;https://github.com/python-parsley/parsley&quot;&gt;git 
     <title>Trying Jekyll with GitHub Pages</title>
     <updated>2014-02-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;I just moved my main website to &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub pages&lt;/a&gt;.  GitHub
@@ -1269,7 +1269,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Syntax Highlighting</title>
     <updated>2013-08-16T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -1423,7 +1423,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Another Post with Images</title>
     <updated>2013-05-22T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
@@ -1487,7 +1487,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: HTML Tags and Formatting</title>
     <updated>2013-01-11T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;A variety of common markup showing how the theme styles them.&lt;/p&gt;
@@ -1796,7 +1796,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Image Alignment</title>
     <updated>2013-01-10T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.&lt;/p&gt;
@@ -1867,7 +1867,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Text Alignment</title>
     <updated>2013-01-09T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;h3 id=&quot;default&quot;&gt;Default&lt;/h3&gt;
@@ -1898,7 +1898,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Title with Special&amp;nbsp;---&amp;nbsp;Characters</title>
     <updated>2013-01-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Putting special characters in the title should have no adverse effect on the layout or functionality.&lt;/p&gt;
@@ -2331,7 +2331,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Title *with* **Markdown**</title>
     <updated>2013-01-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Verify that:&lt;/p&gt;
@@ -2349,7 +2349,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Markup: Text Readability Test</title>
     <updated>2012-05-22T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -2401,7 +2401,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Wide Single Layout Page</title>
     <updated>2012-05-22T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;When using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt; add the following front matter to a page or post to widen the main content:&lt;/p&gt;
@@ -2458,7 +2458,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Sidebar with Navigation List</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has a custom navigation list set in the post’s YAML Front Matter.&lt;/p&gt;
@@ -2521,7 +2521,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Sidebar Custom</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has a custom sidebar set in the post’s YAML Front Matter.&lt;/p&gt;
@@ -2546,7 +2546,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: More Tag</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This content is before the &lt;a href=&quot;http://jekyllrb.com/docs/posts/#post-excerpts&quot;&gt;excerpt separator tag&lt;/a&gt;.&lt;/p&gt;
@@ -2565,7 +2565,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Image Overlay</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header with an overlay image&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -2612,7 +2612,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Image Overlay with Custom Tagline</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header with an overlay image&lt;/strong&gt; and &lt;strong&gt;custom tagline&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -2635,7 +2635,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Overlay with Background Fill</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header with a solid background color&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -2652,7 +2652,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Image (Vertical)</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header image&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -2669,7 +2669,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Image and Text Readability</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This is a sample post with a large feature image&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -2729,7 +2729,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Image (Horizontal)</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header image&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -2746,7 +2746,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Header Image (External URL)</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display a &lt;strong&gt;header image&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
@@ -2761,7 +2761,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Author Sidebar Disabled</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has the author sidebar disabled.&lt;/p&gt;
@@ -2776,7 +2776,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Author Override</title>
     <updated>2012-03-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Sites that may have content authored from various individuals can be accommodated by using &lt;a href=&quot;https://jekyllrb.com/docs/datafiles/&quot;&gt;data files&lt;/a&gt;.&lt;/p&gt;
@@ -2830,7 +2830,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Excerpt (Generated)</title>
     <updated>2012-03-14T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This is the post content. Archive-index pages should display an auto-generated excerpt of this content.&lt;/p&gt;
@@ -2847,7 +2847,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Excerpt (Defined)</title>
     <updated>2012-03-14T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This is the post content. It should be displayed in place of the user-defined excerpt in archive-index pages.&lt;/p&gt;
@@ -2862,7 +2862,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Code Excerpt (Generated)</title>
     <updated>2012-03-14T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This is the post content with inline code, (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;span style=&quot;color: red;&quot;&amp;gt;red&amp;lt;/span&amp;gt;&lt;/code&gt;. It should be displayed in place of the auto-generated excerpt in single-page views. Archive-index pages should display an auto-generated excerpt of this content.&lt;/p&gt;
@@ -2877,7 +2877,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Post with Sticky Table of Contents</title>
     <updated>2012-01-03T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;“Stick” table of contents to the top of a page by adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toc_sticky: true&lt;/code&gt; to its YAML Front Matter.&lt;/p&gt;
@@ -3008,7 +3008,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Post with Table of Contents</title>
     <updated>2012-01-03T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Enable table of contents on post or page by adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toc: true&lt;/code&gt; to its YAML Front Matter. The title and icon can also be changed with:&lt;/p&gt;
@@ -3140,7 +3140,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Post with Nested Table of Contents</title>
     <updated>2012-01-03T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Tests table of contents with multiple levels to verify indentation is readible.&lt;/p&gt;
@@ -3279,7 +3279,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Post with Nested Table of Contents via Helper</title>
     <updated>2012-01-03T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Tests table of contents with multiple levels to verify indentation is readible via helper include (deprecated).&lt;/p&gt;
@@ -3481,7 +3481,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled</title>
     <updated>2012-01-03T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has reading time, comments, social sharing links, and related posts disabled.&lt;/p&gt;
@@ -3496,7 +3496,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Social Sharing Links Enabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display social sharing links.&lt;/p&gt;
@@ -3509,7 +3509,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Social Sharing Links Disabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has social sharing disabled.&lt;/p&gt;
@@ -3524,7 +3524,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Related Posts Enabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has related posts enabled.&lt;/p&gt;
@@ -3537,7 +3537,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Related Posts Disabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has related posts disabled.&lt;/p&gt;
@@ -3552,7 +3552,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Read Time Enabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has reading time enabled. The estimated time that it takes to read this post should show if also enabled in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read_time: true&lt;/code&gt;.&lt;/p&gt;
@@ -3575,7 +3575,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Read Time Disabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has reading time disabled. The estimated time that it takes to read this post should not be showing if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read_time: false&lt;/code&gt; is set in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; or in this post’s YAML Front Matter.&lt;/p&gt;
@@ -3598,7 +3598,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Post Date Enabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has post date enabled. The date the post was published should show if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_date: true&lt;/code&gt; is added to it’s YAML Front Matter or as a default in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
@@ -3621,7 +3621,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Post Date Disabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has the date disabled. The date this post was published should not be showing if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;show_date: false&lt;/code&gt; is set in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; or in this post’s YAML Front Matter.&lt;/p&gt;
@@ -3644,7 +3644,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Comments Enabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post should display comments if a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; is enabled.&lt;/p&gt;
@@ -3657,7 +3657,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Layout: Comments Disabled</title>
     <updated>2012-01-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has its comments disabled.&lt;/p&gt;
@@ -3672,7 +3672,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Post: Twitter Embed</title>
     <updated>2010-09-10T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;🎨 Finally got around to adding all my &lt;a href=&quot;https://twitter.com/procreateapp&quot;&gt;@procreateapp&lt;/a&gt; creations with time lapse videos &lt;a href=&quot;https://t.co/1nNbkefC3L&quot;&gt;https://t.co/1nNbkefC3L&lt;/a&gt; &lt;a href=&quot;https://t.co/gcNLJoJ0Gn&quot;&gt;pic.twitter.com/gcNLJoJ0Gn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michael Rose (@mmistakes) &lt;a href=&quot;https://twitter.com/mmistakes/status/662678050795094016&quot;&gt;November 6, 2015&lt;/a&gt;&lt;/blockquote&gt;
@@ -3688,7 +3688,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Post: Gallery</title>
     <updated>2010-09-09T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;These are gallery tests for image wrapped in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
@@ -3957,7 +3957,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Post: Image (Caption)</title>
     <updated>2010-08-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">
@@ -3976,7 +3976,7 @@ here.  Let me see how it goes :-)&lt;/p&gt;
     <title>Post: Image (Linked with Caption)</title>
     <updated>2010-08-06T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">
@@ -3997,7 +3997,7 @@ Image with a caption.
     <title>Post: Teaser Image with OpenGraph Override</title>
     <updated>2010-08-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has a teaser image with an OpenGraph override.&lt;/p&gt;
@@ -4015,7 +4015,7 @@ Image with a caption.
     <title>Post: Image (Standard)</title>
     <updated>2010-08-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;The preferred way of using images is placing them in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/assets/images/&lt;/code&gt; directory and referencing them with an absolute path. Prepending the filename with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{ site.url }}{{ site.baseurl }}/assets/images/&lt;/code&gt; will make sure your images display properly in feeds and such.&lt;/p&gt;
@@ -4057,7 +4057,7 @@ Image with a caption.
     <title>Post: Image (with Link)</title>
     <updated>2010-08-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://flic.kr/p/dNiUYB&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/8361/8400335147_5fabaa504c_o.jpg&quot; alt=&quot;foo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -4070,7 +4070,7 @@ Image with a caption.
     <title>Post: Overlay Image with OpenGraph Override</title>
     <updated>2010-08-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has a header image with an OpenGraph override.&lt;/p&gt;
@@ -4092,7 +4092,7 @@ Image with a caption.
     <title>Post: Header Image with OpenGraph Override</title>
     <updated>2010-08-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has a header image with an OpenGraph override.&lt;/p&gt;
@@ -4110,7 +4110,7 @@ Image with a caption.
     <title>Post: Video (YouTube)</title>
     <updated>2010-06-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;YouTube video embed below.&lt;/p&gt;
@@ -4125,7 +4125,7 @@ Image with a caption.
     <title>Post: Link</title>
     <updated>2010-03-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
@@ -4144,7 +4144,7 @@ Image with a caption.
     <title>Post: Quote</title>
     <updated>2010-02-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;blockquote&gt;
@@ -4163,7 +4163,7 @@ Image with a caption.
     <title>Post: Notice</title>
     <updated>2010-02-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;A notice displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
@@ -4235,7 +4235,7 @@ Image with a caption.
     <title>Post: Chat</title>
     <updated>2010-01-08T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.&lt;/p&gt;
@@ -4372,7 +4372,7 @@ Image with a caption.
     <title>Post: Standard</title>
     <updated>2010-01-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.&lt;/p&gt;
@@ -4404,7 +4404,7 @@ Image with a caption.
     <title>Post: Modified Date</title>
     <updated>2010-01-07T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has been updated and should show a modified date if used in a layout.&lt;/p&gt;
@@ -4419,7 +4419,7 @@ Image with a caption.
     <title>Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive &apos;been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et ... sunt occid</title>
     <updated>2009-10-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Check for long titles and how they might break a template.&lt;/p&gt;
@@ -4432,7 +4432,7 @@ Image with a caption.
     <title>Antidisestablishmentarianism</title>
     <updated>2009-10-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;h2 id=&quot;title-should-not-overflow-the-content-area&quot;&gt;Title should not overflow the content area&lt;/h2&gt;
@@ -4459,7 +4459,7 @@ Image with a caption.
     <title>Edge Case: Post with multiline excerpt</title>
     <updated>2009-10-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Et ex ullamco duis don’t
@@ -4473,7 +4473,7 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <title>Edge Case No Yaml Title</title>
     <updated>2009-09-05T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has no title specified in the YAML Front Matter. Jekyll should auto-generate a title from the filename.&lt;/p&gt;
@@ -4486,7 +4486,7 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <title>Edge Case: No Body Content</title>
     <updated>2009-08-06T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">
@@ -4499,7 +4499,7 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <title>Edge Case: Many Categories</title>
     <updated>2009-07-02T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has many categories.&lt;/p&gt;
@@ -4512,7 +4512,7 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <title>Edge Case: Many Tags</title>
     <updated>2009-06-01T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;This post has many tags.&lt;/p&gt;
@@ -4525,7 +4525,7 @@ combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidata
     <title>Edge Case: Nested and Mixed Lists</title>
     <updated>2009-05-15T00:00:00+05:30</updated>
     <author>
-      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
+      <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Nested and mixed lists are an interesting beast. It’s a corner case to make sure that&lt;/p&gt;
