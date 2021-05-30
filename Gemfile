@@ -4,3 +4,4 @@ gem "minimal-mistakes-jekyll"
 gem "jekyll-twitter-plugin"
 gem 'json', '~> 2'
 gem 'jemoji'
+gem 'webrick'
