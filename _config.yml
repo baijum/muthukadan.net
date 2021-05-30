@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Baiju Muthukadan"
   avatar           : "/assets/images/dallas_fall2014.jpg"
-  bio              : "Software Engineer"
+  bio              : "Software Engineer, Red Hat"
   location         : "Bangalore, India"
   email            :
   uri              :
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : baijum
   google_plus      :
   keybase          :
   instagram        :
@@ -102,7 +102,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : baijum
   vine             :
   weibo            :
   xing             :
