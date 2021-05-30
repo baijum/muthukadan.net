@@ -1,4 +1,4 @@
 #!/bin/bash
-bundle install --path vendor/bundle
-bundle exec vendor/bundle/ruby/2.4.0/bin/jekyll build
+bundle install
+bundle exec vendor/bundle/ruby/3.0.0/bin/jekyll build
 cp _site/* ../output/ -R
