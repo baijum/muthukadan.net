@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-05-30T13:20:17+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Expectations for an introductory programming book</title><link href="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/" rel="alternate" type="text/html" title="Expectations for an introductory programming book" /><published>2018-11-19T00:00:00+05:30</published><updated>2018-11-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/">&lt;p&gt;After I published my &lt;a href=&quot;https://medium.com/@baijum/request-for-technical-review-970c6685cf5e&quot;&gt;last blog post requesting technical
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-05-30T17:46:48+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">GitHub Actions for pull requests</title><link href="https://muthukadan.net/github/ci/github-actions-for-pull-requests/" rel="alternate" type="text/html" title="GitHub Actions for pull requests" /><published>2021-05-30T00:00:00+05:30</published><updated>2021-05-30T00:00:00+05:30</updated><id>https://muthukadan.net/github/ci/github-actions-for-pull-requests</id><content type="html" xml:base="https://muthukadan.net/github/ci/github-actions-for-pull-requests/">&lt;p&gt;GitHub Actions provides a well-integrated CI/CD system for code hosted on
+GitHub.  If you want to build and run tests when someone sends pull requests,
+you can use the &lt;a href=&quot;https://docs.github.com/en/actions/reference/events-that-trigger-workflows#pull_request&quot;&gt;pull_request event&lt;/a&gt;.  The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pull_request&lt;/code&gt;
+event runs the workflow in a security-hardened environment due to &lt;a href=&quot;https://securitylab.github.com/research/github-actions-preventing-pwn-requests/&quot;&gt;security
+reasons&lt;/a&gt;.  For example, the &lt;a href=&quot;https://docs.github.com/en/actions/reference/encrypted-secrets&quot;&gt;encrypted
+secrets&lt;/a&gt; deposited in GitHub will not be available for the
+workflow.  Another restriction is that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GITHUB_TOKEN&lt;/code&gt; &lt;a href=&quot;https://docs.github.com/en/actions/reference/authentication-in-a-workflow#permissions-for-the-github_token&quot;&gt;only gets read
+access&lt;/a&gt; with the pull_request event type.&lt;/p&gt;
+
+&lt;p&gt;If you want some write operations after the build and tests, you can use the
+&lt;a href=&quot;https://docs.github.com/en/actions/reference/events-that-trigger-workflows#workflow_run&quot;&gt;workflow run event&lt;/a&gt;.  It requires some preparation from the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pull_request&lt;/code&gt; job.  You can save the pull request number, build outputs, test
+results, and all other workflow data into one directory, say &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pr&lt;/code&gt;, and &lt;a href=&quot;https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts&quot;&gt;store it
+as an artifact&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is an example to upload the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pr&lt;/code&gt; directory as an artifact.  It will be
+available as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pr.zip&lt;/code&gt; in the workflow run for 90 days (by default):&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;actions/upload-artifact@v2&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pr&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pr/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;https://docs.github.com/en/actions/reference/events-that-trigger-workflows#workflow_run&quot;&gt;workflow run event&lt;/a&gt;, you can download the stored
+artifact.  You can see an example in the &lt;a href=&quot;https://securitylab.github.com/research/github-actions-preventing-pwn-requests/&quot;&gt;Keeping your GitHub Actions and
+workflows secure&lt;/a&gt; article.  Since the workflow run got write
+access, you can perform write operations based on the downloaded artifacts.
+Some of the common write operations are adding comments and labels to the pull
+requests.&lt;/p&gt;
+
+&lt;p&gt;Another restriction with the pull request event is &lt;a href=&quot;https://github.blog/2021-04-22-github-actions-update-helping-maintainers-combat-bad-actors/&quot;&gt;manual
+approval&lt;/a&gt; required for the first-time contributors’ pull
+request.  The requirement for manual approval is an ongoing &lt;a href=&quot;https://github.community/t/how-to-auto-approve-workflow-runs-for-first-time-contributors/176436&quot;&gt;issue with some
+workarounds&lt;/a&gt;.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="github" /><category term="ci" /><summary type="html">GitHub Actions provides a well-integrated CI/CD system for code hosted on GitHub. If you want to build and run tests when someone sends pull requests, you can use the pull_request event. The pull_request event runs the workflow in a security-hardened environment due to security reasons. For example, the encrypted secrets deposited in GitHub will not be available for the workflow. Another restriction is that the GITHUB_TOKEN only gets read access with the pull_request event type.</summary></entry><entry><title type="html">Expectations for an introductory programming book</title><link href="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/" rel="alternate" type="text/html" title="Expectations for an introductory programming book" /><published>2018-11-19T00:00:00+05:30</published><updated>2018-11-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/">&lt;p&gt;After I published my &lt;a href=&quot;https://medium.com/@baijum/request-for-technical-review-970c6685cf5e&quot;&gt;last blog post requesting technical
 reviews&lt;/a&gt;
 of my Go book, I received quite a few responses from
 the Go community. Thanks to all who came forward to review the book.&lt;/p&gt;
@@ -341,22 +375,4 @@ well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/datln4romzu98mf/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/tc55skv2pwhj54e/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/q9bu4tsc8yuaof7/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Recently I conducted couple of Go workshops. The first workshop was on February 27th at NIT Calicut as part of FOSSMeet’16 program. The second one was last Saturday (April 16th) at NUMA Bangalore organized by Hasgeek as part of Rootconf’16.</summary></entry><entry><title type="html">Go and Ember.js talk at GopherConIndia 2015</title><link href="https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/" rel="alternate" type="text/html" title="Go and Ember.js talk at GopherConIndia 2015" /><published>2015-03-10T00:00:00+05:30</published><updated>2015-03-10T00:00:00+05:30</updated><id>https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk</id><content type="html" xml:base="https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">&lt;p&gt;I was very much excited to present at the first GopherCon India
-conference.  My talk was on 20th February around 3pm.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/fd6nz449041qz1o/gopherconindia2.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sourcegraph team was coordinating and writing live blog and Julia
-Poladsky has written a &lt;a href=&quot;https://sourcegraph.com/blog/live/gopherconindia/111591653516&quot;&gt;blog
-about my talk&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/cjmgmy00x1ckwpc/gopherconindia1.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I have uploaded more photos in my &lt;a href=&quot;https://plus.google.com/+BaijuMuthukadan/posts/CXFe7zvdiBh&quot;&gt;Google+
-post&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/doalkeo2brjo505/gopherconindia3.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The video of the talk is available in YouTube:&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="emberjs" /><summary type="html">I was very much excited to present at the first GopherCon India conference. My talk was on 20th February around 3pm.</summary></entry></feed>
+&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Recently I conducted couple of Go workshops. The first workshop was on February 27th at NIT Calicut as part of FOSSMeet’16 program. The second one was last Saturday (April 16th) at NUMA Bangalore organized by Hasgeek as part of Rootconf’16.</summary></entry></feed>
