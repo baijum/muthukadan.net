@@ -37,7 +37,7 @@ access, you can perform write operations based on the downloaded artifacts.
 Some of the common write operations are adding comments and labels to the pull
 requests.
 
-Another restriction with the pull request event is [manual
+Yet another restriction with the pull request event is [manual
 approval][manual-approval] required for the first-time contributors' pull
 request.  The requirement for manual approval is an ongoing [issue with some
 workarounds][manual-approval-workarounds].
