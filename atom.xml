@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2021-05-30T07:23:28+05:30</updated>
+  <updated>2021-05-30T07:36:05+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -937,7 +937,7 @@ pages is interesting, it uses the static page and blog generator
 called &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.  It supports Markdown and Textile formats by
 default.  Now all my &lt;a href=&quot;https://github.com/baijum/baijum.github.io&quot;&gt;site source&lt;/a&gt; is hosted in the GitHub.&lt;/p&gt;
 
-&lt;p&gt;My website never had any major content except the &lt;a href=&quot;http://muthukadan.net/docs/zca.html&quot;&gt;ZCA book&lt;/a&gt;.  So
+&lt;p&gt;My website never had any major content except the &lt;a href=&quot;https://muthukadan.net/docs/zca.html&quot;&gt;ZCA book&lt;/a&gt;.  So
 it was not difficult to migrate.  I will try to write some blog posts
 here.  Let me see how it goes :-)&lt;/p&gt;
 
