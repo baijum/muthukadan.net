@@ -14,15 +14,15 @@ conducted 3 more Golang workshops.
 
 The 5th workshop was on July 9th at BangTheTable office organized by Bangalore Golang meetup group:
 
-{% twitter https://twitter.com/nogenerics/status/751780223482408961 %}
+{% twitter https://twitter.com/baijum/status/751780223482408961 %}
 
 The 6th workshop was at Red Hat office:
 
-{% twitter https://twitter.com/nogenerics/status/782204996787908608 %}
+{% twitter https://twitter.com/baijum/status/782204996787908608 %}
 
 The 7th workshop was in Trivandrum technopark organized by [Prathidhwani](http://www.prathidhwani.org)
 
-{% twitter https://twitter.com/nogenerics/status/807595399347191810 %}
+{% twitter https://twitter.com/baijum/status/807595399347191810 %}
 
 
 

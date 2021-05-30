@@ -11,7 +11,7 @@ event](http://archive.is/sB3yS).  There were around 40 participants
 for my Go workshop.  All of them were computer science students from
 various engineering colleges.
 
-{% twitter https://twitter.com/nogenerics/status/916628503834980353 %}
+{% twitter https://twitter.com/baijum/status/916628503834980353 %}
 
 Now I am writing this from a hotel in Angamaly.  I reched here
 yesterday very late night as my flight was delayed. My return flight

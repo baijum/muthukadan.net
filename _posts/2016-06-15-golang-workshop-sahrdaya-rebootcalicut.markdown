@@ -11,7 +11,7 @@ Those who following me or [Twitter] or [Facebook] might be already
 seen my updates about Golang workshops at [Sahrdaya] college of
 engineering and [Reboot Calicut].
 
-[Twitter]: https://twitter.com/nogenerics
+[Twitter]: https://twitter.com/baijum
 [Facebook]: https://facebook.com/BaijuMuthukadan
 [Sahrdaya]: http://www.sahrdaya.ac.in
 [Reboot Calicut]: http://rebootcalicut.com

@@ -15,7 +15,7 @@ office.  Some of my colleagues,
 D](https://twitter.com/surajd_) and [Suraj
 N](https://twitter.com/red_suraj) volunteered for the meetup.
 
-{% twitter https://twitter.com/nogenerics/status/860836058757558272 %}
+{% twitter https://twitter.com/baijum/status/860836058757558272 %}
 
 
 I received lots of nice
