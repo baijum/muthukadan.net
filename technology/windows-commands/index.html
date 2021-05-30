@@ -284,58 +284,58 @@ I hope moving it here will be helpful for searching.</p>
 
 <h3 id="deleting-a-service">Deleting a Service</h3>
 
-<p><code class="highlighter-rouge">sc delete servicename</code></p>
+<p><code class="language-plaintext highlighter-rouge">sc delete servicename</code></p>
 
 <p>To get name of the service that need to be deleted:</p>
 
 <ol>
-  <li>Run <code class="highlighter-rouge">services.msc</code></li>
+  <li>Run <code class="language-plaintext highlighter-rouge">services.msc</code></li>
   <li>Right click and get the service name</li>
 </ol>
 
 <h3 id="checking-whether-a-port-is-listening-or-not">Checking whether a port is listening or not</h3>
 
-<p><code class="highlighter-rouge">netstat -na|find "PORTNUMBER"</code></p>
+<p><code class="language-plaintext highlighter-rouge">netstat -na|find "PORTNUMBER"</code></p>
 
 <h3 id="to-see-all-ports-listening">To see all ports listening</h3>
 
-<p><code class="highlighter-rouge">netstat -na|find "LISTENING"</code></p>
+<p><code class="language-plaintext highlighter-rouge">netstat -na|find "LISTENING"</code></p>
 
 <h3 id="to-check-a-service-is-started-or-not">To check a service is started or not</h3>
 
-<p><code class="highlighter-rouge">net start|find "C:\Path\to\program"</code></p>
+<p><code class="language-plaintext highlighter-rouge">net start|find "C:\Path\to\program"</code></p>
 
 <h3 id="commenting-in-batch-file">Commenting in batch file</h3>
 
-<p>Use <code class="highlighter-rouge">::</code> or <code class="highlighter-rouge">REM</code> followed by a space</p>
+<p>Use <code class="language-plaintext highlighter-rouge">::</code> or <code class="language-plaintext highlighter-rouge">REM</code> followed by a space</p>
 
 <p>Example:-</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:: this is a comment
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:: this is a comment
 REM this is another comment
 </code></pre></div></div>
 
 <h3 id="call-a-batch-program-inside-another-batch-file">Call a batch program inside another batch file</h3>
 
-<p><code class="highlighter-rouge">call &lt;script.bat&gt;</code></p>
+<p><code class="language-plaintext highlighter-rouge">call &lt;script.bat&gt;</code></p>
 
 <h3 id="query-and-remove-terminal-server-sessions">Query and remove terminal server sessions</h3>
 
-<p>Use <code class="highlighter-rouge">qwinsta</code> and <code class="highlighter-rouge">rwinsta</code> commands.</p>
+<p>Use <code class="language-plaintext highlighter-rouge">qwinsta</code> and <code class="language-plaintext highlighter-rouge">rwinsta</code> commands.</p>
 
 <p>Example:-</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qwinsta /SERVER:IP
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>qwinsta /SERVER:IP
 rwinsta /SERVER:IP
 </code></pre></div></div>
 
 <h3 id="check-uptime-of-machine">Check uptime of machine</h3>
 
-<p><code class="highlighter-rouge">net statistics server | find "since"</code></p>
+<p><code class="language-plaintext highlighter-rouge">net statistics server | find "since"</code></p>
 
 <h3 id="run-as-different-user">Run as different user</h3>
 
-<p><code class="highlighter-rouge">runas</code></p>
+<p><code class="language-plaintext highlighter-rouge">runas</code></p>
 
 
         
@@ -552,7 +552,7 @@ for ...</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2018 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2018-11-19T08:33:54+05:30</updated>
+  <updated>2021-05-30T07:18:41+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Software Engineer", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>nil, "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>nil, "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -217,8 +217,9 @@ event&lt;/a&gt;.  There were around 40 participants
 for my Go workshop.  All of them were computer science students from
 various engineering colleges.&lt;/p&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just completed my 10th &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop at FISAT, Cochin. &lt;a href=&quot;https://t.co/f6Pc9JJpsv&quot;&gt;pic.twitter.com/f6Pc9JJpsv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/916628503834980353?ref_src=twsrc%5Etfw&quot;&gt;October 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just completed my 10th &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop at FISAT, Cochin. &lt;a href=&quot;https://t.co/f6Pc9JJpsv&quot;&gt;pic.twitter.com/f6Pc9JJpsv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/916628503834980353?ref_src=twsrc%5Etfw&quot;&gt;October 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Now I am writing this from a hotel in Angamaly.  I reched here
 yesterday very late night as my flight was delayed. My return flight
@@ -239,7 +240,7 @@ dinner and go to bed.&lt;/p&gt;
       <uri>https://muthukadan.net</uri>
     </author>
     <content type="html">&lt;p&gt;Few days before I upgraded to Fedora 26.  Fedora has a package named
-&lt;code class=&quot;highlighter-rouge&quot;&gt;guile22&lt;/code&gt; which gives 2.2 version of Guile.  But I wanted to try Guix.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;guile22&lt;/code&gt; which gives 2.2 version of Guile.  But I wanted to try Guix.
 I noticed that there is &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/lantw44/guix/&quot;&gt;Guix package&lt;/a&gt; in Copr repository.
 Then I enabled that repository and installed Guix.&lt;/p&gt;
 
@@ -253,7 +254,7 @@ Then I enabled that repository and installed Guix.&lt;/p&gt;
 &lt;span class=&quot;c&quot;&gt;# systemctl enable guix-daemon.service&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Then I tried to install Guile like this as a normal user (&lt;code class=&quot;highlighter-rouge&quot;&gt;baiju&lt;/code&gt;):&lt;/p&gt;
+&lt;p&gt;Then I tried to install Guile like this as a normal user (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baiju&lt;/code&gt;):&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;guix package &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; guile
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -270,16 +271,16 @@ like this:&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;chown &lt;/span&gt;baiju.baiju /var/guix/profiles/per-user/baiju
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Then I tried the package installation again using the &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;/code&gt;
+&lt;p&gt;Then I tried the package installation again using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package -i&lt;/code&gt;
 subcommand.&lt;/p&gt;
 
 &lt;p&gt;After installation Guix showed me that I need to update my PATH.
-So I just updated my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; like this (guix shows this after installation!):&lt;/p&gt;
+So I just updated my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt; like this (guix shows this after installation!):&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/baiju/.guix-profile/bin&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;:+:&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;  
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;When starting guile it was showing a warning like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;warning:
+&lt;p&gt;When starting guile it was showing a warning like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;warning:
 failed to install locale&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Then I found that &lt;a href=&quot;https://www.gnu.org/software/guix/manual/guix.html#Application-Setup&quot;&gt;glibc-locales package&lt;/a&gt; need to be installed
@@ -289,7 +290,7 @@ and an environment variable need to be updated.&lt;/p&gt;
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GUIX_LOCPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.guix-profile/lib/locale
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;I also added the above environment variable setting in my &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I also added the above environment variable setting in my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now I have Guile 2.2 installed using Guix in my Fedora 26!&lt;/p&gt;
 
@@ -315,8 +316,9 @@ office.  Some of my colleagues,
 D&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/red_suraj&quot;&gt;Suraj
 N&lt;/a&gt; volunteered for the meetup.&lt;/p&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There were 50+ participants for today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/redhatindia&quot;&gt;@redhatindia&lt;/a&gt; Bangalore office! Thanks to &lt;a href=&quot;https://twitter.com/bargava&quot;&gt;@bargava&lt;/a&gt; for organizing it. &lt;a href=&quot;https://t.co/IsZFZsWGmG&quot;&gt;pic.twitter.com/IsZFZsWGmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/860836058757558272&quot;&gt;May 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;There were 50+ participants for today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/redhatindia?ref_src=twsrc%5Etfw&quot;&gt;@redhatindia&lt;/a&gt; Bangalore office! Thanks to &lt;a href=&quot;https://twitter.com/bargava?ref_src=twsrc%5Etfw&quot;&gt;@bargava&lt;/a&gt; for organizing it. &lt;a href=&quot;https://t.co/IsZFZsWGmG&quot;&gt;pic.twitter.com/IsZFZsWGmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/860836058757558272?ref_src=twsrc%5Etfw&quot;&gt;May 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
 
 &lt;p&gt;I received lots of nice
 &lt;a href=&quot;https://www.meetup.com/Practical-Data-Science-Workshops-Bangalore/events/238824064&quot;&gt;feedback&lt;/a&gt;
@@ -363,18 +365,21 @@ conducted 3 more Golang workshops.&lt;/p&gt;
 
 &lt;p&gt;The 5th workshop was on July 9th at BangTheTable office organized by Bangalore Golang meetup group:&lt;/p&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Photos from today&amp;#39;s 7 hour Go workshop at Bangalore &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; meetup. Thanks to &lt;a href=&quot;https://twitter.com/BangtheTable&quot;&gt;@BangtheTable&lt;/a&gt; for hosting and lunch. &lt;a href=&quot;https://t.co/buqluRYNxc&quot;&gt;pic.twitter.com/buqluRYNxc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/751780223482408961&quot;&gt;July 9, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Photos from today&amp;#39;s 7 hour Go workshop at Bangalore &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; meetup. Thanks to &lt;a href=&quot;https://twitter.com/BangtheTable?ref_src=twsrc%5Etfw&quot;&gt;@BangtheTable&lt;/a&gt; for hosting and lunch. &lt;a href=&quot;https://t.co/buqluRYNxc&quot;&gt;pic.twitter.com/buqluRYNxc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/751780223482408961?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The 6th workshop was at Red Hat office:&lt;/p&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My 6th &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/hashtag/redhat?src=hash&quot;&gt;#redhat&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/bangalore?src=hash&quot;&gt;#bangalore&lt;/a&gt; &lt;a href=&quot;https://t.co/PmNJYIWBc7&quot;&gt;pic.twitter.com/PmNJYIWBc7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/782204996787908608&quot;&gt;October 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My 6th &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop at &lt;a href=&quot;https://twitter.com/hashtag/redhat?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#redhat&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/bangalore?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#bangalore&lt;/a&gt; &lt;a href=&quot;https://t.co/PmNJYIWBc7&quot;&gt;pic.twitter.com/PmNJYIWBc7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/782204996787908608?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
 
 &lt;p&gt;The 7th workshop was in Trivandrum technopark organized by &lt;a href=&quot;http://www.prathidhwani.org&quot;&gt;Prathidhwani&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&quot;&gt;#golang&lt;/a&gt; workshop was well received. Thanks to organizers and participants! &lt;a href=&quot;https://t.co/ki48h1Ymei&quot;&gt;pic.twitter.com/ki48h1Ymei&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@nogenerics) &lt;a href=&quot;https://twitter.com/nogenerics/status/807595399347191810&quot;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop was well received. Thanks to organizers and participants! &lt;a href=&quot;https://t.co/ki48h1Ymei&quot;&gt;pic.twitter.com/ki48h1Ymei&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/807595399347191810?ref_src=twsrc%5Etfw&quot;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
 
 </content>
   </entry>
@@ -558,21 +563,21 @@ wget &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; https://storage.googleapis
 &lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;The first line ensure that current working directory is the home
-directory for the user.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME&lt;/code&gt; environment variable contains the
+directory for the user.  The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME&lt;/code&gt; environment variable contains the
 path to the user’s home directory.&lt;/p&gt;
 
-&lt;p&gt;The second line download the 64 bit binary for GNU/Linux.  The &lt;code class=&quot;highlighter-rouge&quot;&gt;wget&lt;/code&gt;
+&lt;p&gt;The second line download the 64 bit binary for GNU/Linux.  The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt;
 is a command line download manager.&lt;/p&gt;
 
-&lt;p&gt;The third line extract the downloaded tar ball in to &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt; directory
+&lt;p&gt;The third line extract the downloaded tar ball in to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go&lt;/code&gt; directory
 inside the home.&lt;/p&gt;
 
-&lt;p&gt;The last line creates a directory named &lt;code class=&quot;highlighter-rouge&quot;&gt;mygo&lt;/code&gt; as the workspace.  This
+&lt;p&gt;The last line creates a directory named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mygo&lt;/code&gt; as the workspace.  This
 directory can be used to place binaries, third party packages and your
 own Go source code.&lt;/p&gt;
 
 &lt;p&gt;You also need to set few environment variables.  Open the
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt; file in a text editor and enter these lines:&lt;/p&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt; file in a text editor and enter these lines:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOROOT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/go
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$GOROOT&lt;/span&gt;/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;
@@ -580,29 +585,29 @@ own Go source code.&lt;/p&gt;
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;GOPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/mygo
 &lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$GOPATH&lt;/span&gt;/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The first line set &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable pointing to
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/go&lt;/code&gt;.  This is required for proper functioning of Go tools.  You
-can avoid setting the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable if you install Go
-inside &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/go&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The first line set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable pointing to
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/go&lt;/code&gt;.  This is required for proper functioning of Go tools.  You
+can avoid setting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable if you install Go
+inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/local/go&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;The second line append the &lt;code class=&quot;highlighter-rouge&quot;&gt;$GOROOT/bin&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
-variable.  This will help you to run &lt;code class=&quot;highlighter-rouge&quot;&gt;go&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;godoc&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;gofmt&lt;/code&gt; commands
+&lt;p&gt;The second line append the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$GOROOT/bin&lt;/code&gt; to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
+variable.  This will help you to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;godoc&lt;/code&gt; &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gofmt&lt;/code&gt; commands
 from command line.&lt;/p&gt;
 
-&lt;p&gt;The third line set the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable pointing to
-&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/mygo&lt;/code&gt;.  The GOPATH environment variable specifies the location
+&lt;p&gt;The third line set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable pointing to
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/mygo&lt;/code&gt;.  The GOPATH environment variable specifies the location
 of your Go workspace.&lt;/p&gt;
 
-&lt;p&gt;The last line append &lt;code class=&quot;highlighter-rouge&quot;&gt;$GOPATH/bin&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.
+&lt;p&gt;The last line append &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$GOPATH/bin&lt;/code&gt; to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.
 This will help you to run any binaries installed.&lt;/p&gt;
 
 &lt;h2 id=&quot;windows-installation&quot;&gt;Windows Installation&lt;/h2&gt;
 
 &lt;p&gt;There are separate installers (MSI files) available for 32 bit &amp;amp; 64
 bit versions of Windows.  The 32 bit version MSI file will be named
-like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;go1.x.y.windows-386.msi&lt;/code&gt; (Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
+like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go1.x.y.windows-386.msi&lt;/code&gt; (Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
 version).  Similarly for 64 bit version, the MSI file will be named
-like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;go1.x.y.windows-amd64.msi&lt;/code&gt; (Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
+like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go1.x.y.windows-amd64.msi&lt;/code&gt; (Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x.y&lt;/code&gt; with the current
 version).&lt;/p&gt;
 
 &lt;p&gt;You can download the installers (MSI files) from here:
@@ -611,32 +616,32 @@ version).&lt;/p&gt;
 &lt;p&gt;After downloading the installer file, you can open the MSI file by
 double clicking on that file.  This should prompts few things about
 the installation of the Go compiler.  The installer place the
-Go related files in the &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; directory.&lt;/p&gt;
+Go related files in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; directory.&lt;/p&gt;
 
-&lt;p&gt;The installer also put the &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go\bin&lt;/code&gt; directory in the system
-&lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.  You may need to restart any open command
+&lt;p&gt;The installer also put the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Go\bin&lt;/code&gt; directory in the system
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable.  You may need to restart any open command
 prompts for the change to take effect.&lt;/p&gt;
 
 &lt;p&gt;You also need to create a directory to download third party packages
 from github.com or similar sites.  The directory can be created at
-&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\mygo&lt;/code&gt; like this:&lt;/p&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\mygo&lt;/code&gt; like this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;mkdir C:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;C&lt;/span&gt;:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;After this you can set &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable to point to this
+&lt;p&gt;After this you can set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt; environment variable to point to this
 location.  Temporarily you can set it like this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;set GOPATH=C:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;&lt;span class=&quot;kd&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;GOPATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;C&lt;/span&gt;:\mygo&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;You can also append &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\mygo\bin&lt;/code&gt; into the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
+&lt;p&gt;You can also append &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\mygo\bin&lt;/code&gt; into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment
 variable.&lt;/p&gt;
 
 &lt;p&gt;If you do not know how to set environment variable, just do a Google
 search for: “set windows environment variable”.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable is not required here as you have
-installed the &lt;code class=&quot;highlighter-rouge&quot;&gt;Go&lt;/code&gt; inside &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; folder.  If you have changed that
-location during the installation, set the &lt;code class=&quot;highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; pointing to the
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; environment variable is not required here as you have
+installed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Go&lt;/code&gt; inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Go&lt;/code&gt; folder.  If you have changed that
+location during the installation, set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GOROOT&lt;/code&gt; pointing to the
 location you selected.&lt;/p&gt;
 
 &lt;h2 id=&quot;running-a-program&quot;&gt;Running a program&lt;/h2&gt;
@@ -651,15 +656,15 @@ command line syntax to run the program is like this:&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go run &amp;lt;program.go&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;To run a hello world program, you can copy-paste the below code to
-your favorite text editor and save it as &lt;code class=&quot;highlighter-rouge&quot;&gt;hello.go&lt;/code&gt;:&lt;/p&gt;
+your favorite text editor and save it as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hello.go&lt;/code&gt;:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-go&quot; data-lang=&quot;go&quot;&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
 
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
 
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
-     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Once you saved the above source code into a file.  You can open your
 command line program (&lt;em&gt;bash&lt;/em&gt; or &lt;em&gt;cmd.exe&lt;/em&gt;) and run the above program like
@@ -667,12 +672,12 @@ this:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;go run hello.go&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;If you are able to see the output as &lt;code class=&quot;highlighter-rouge&quot;&gt;Hello, World!&lt;/code&gt;, you have
+&lt;p&gt;If you are able to see the output as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hello, World!&lt;/code&gt;, you have
 successfully installed Go compiler.&lt;/p&gt;
 
 &lt;h2 id=&quot;building-and-running-program&quot;&gt;Building and Running Program&lt;/h2&gt;
 
-&lt;p&gt;As you can see above, you can run the program using &lt;code class=&quot;highlighter-rouge&quot;&gt;go run hello.go&lt;/code&gt;
+&lt;p&gt;As you can see above, you can run the program using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go run hello.go&lt;/code&gt;
 command.  You can also build (compile) and run the binary like this in
 GNU/Linux:&lt;/p&gt;
 
@@ -682,10 +687,10 @@ GNU/Linux:&lt;/p&gt;
 &lt;p&gt;The first command produce a binary and second comand is executing that
 binary.  You can do the same thing in Windows like this:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;go build hello.go
-hello.exe&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-batch&quot; data-lang=&quot;batch&quot;&gt;&lt;span class=&quot;kd&quot;&gt;go&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;build&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;hello&lt;/span&gt;.go
+&lt;span class=&quot;kd&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.exe&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;go build&lt;/code&gt; command produce a binary file native to the operating
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go build&lt;/code&gt; command produce a binary file native to the operating
 system and the architecture of the CPU (i386, x86_64 etc.)&lt;/p&gt;
 </content>
   </entry>
@@ -751,58 +756,58 @@ I hope moving it here will be helpful for searching.&lt;/p&gt;
 
 &lt;h3 id=&quot;deleting-a-service&quot;&gt;Deleting a Service&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sc delete servicename&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sc delete servicename&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;To get name of the service that need to be deleted:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;services.msc&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;services.msc&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Right click and get the service name&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;checking-whether-a-port-is-listening-or-not&quot;&gt;Checking whether a port is listening or not&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;PORTNUMBER&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netstat -na|find &quot;PORTNUMBER&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;to-see-all-ports-listening&quot;&gt;To see all ports listening&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;netstat -na|find &quot;LISTENING&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netstat -na|find &quot;LISTENING&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;to-check-a-service-is-started-or-not&quot;&gt;To check a service is started or not&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net start|find &quot;C:\Path\to\program&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net start|find &quot;C:\Path\to\program&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;commenting-in-batch-file&quot;&gt;Commenting in batch file&lt;/h3&gt;
 
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;::&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;REM&lt;/code&gt; followed by a space&lt;/p&gt;
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;::&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;REM&lt;/code&gt; followed by a space&lt;/p&gt;
 
 &lt;p&gt;Example:-&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:: this is a comment
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;:: this is a comment
 REM this is another comment
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;call-a-batch-program-inside-another-batch-file&quot;&gt;Call a batch program inside another batch file&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;call &amp;lt;script.bat&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;call &amp;lt;script.bat&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;query-and-remove-terminal-server-sessions&quot;&gt;Query and remove terminal server sessions&lt;/h3&gt;
 
-&lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;qwinsta&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;rwinsta&lt;/code&gt; commands.&lt;/p&gt;
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qwinsta&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rwinsta&lt;/code&gt; commands.&lt;/p&gt;
 
 &lt;p&gt;Example:-&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;qwinsta /SERVER:IP
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;qwinsta /SERVER:IP
 rwinsta /SERVER:IP
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;check-uptime-of-machine&quot;&gt;Check uptime of machine&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;net statistics server | find &quot;since&quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net statistics server | find &quot;since&quot;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;run-as-different-user&quot;&gt;Run as different user&lt;/h3&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;runas&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runas&lt;/code&gt;&lt;/p&gt;
 
 </content>
   </entry>
@@ -864,7 +869,7 @@ text contains a mix of Malayalam and English characters encoded in
 “utf-8” format. However, for simplicity I removed Malayalam from the
 below input text:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{{Some Text}}
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{{Some Text}}
 {{Navi|
 Prev=Some Text|
 Next=Some Text|
@@ -887,15 +892,15 @@ Here is a stripped-down version of my parsing code:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;parsley&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parsley&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;makeGrammar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-fix = '{{' &amp;lt;((anything|ws):x ?(x not  in '}') -&amp;gt; x)+&amp;gt;:s '}}' -&amp;gt; s
-num = '{{' ('V'|'v') 'erse|' &amp;lt;digit+&amp;gt;:s '}}' -&amp;gt; int(s)
-text =  &amp;lt;((anything|ws):x ?(x not in '{') -&amp;gt; x)+&amp;gt;:s  -&amp;gt; s
+&lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parsley&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;makeGrammar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+fix = &apos;{{&apos; &amp;lt;((anything|ws):x ?(x not  in &apos;}&apos;) -&amp;gt; x)+&amp;gt;:s &apos;}}&apos; -&amp;gt; s
+num = &apos;{{&apos; (&apos;V&apos;|&apos;v&apos;) &apos;erse|&apos; &amp;lt;digit+&amp;gt;:s &apos;}}&apos; -&amp;gt; int(s)
+text =  &amp;lt;((anything|ws):x ?(x not in &apos;{&apos;) -&amp;gt; x)+&amp;gt;:s  -&amp;gt; s
 verse = (fix ws){3} (num:n text:t -&amp;gt; (n, t))+:l fix anything* -&amp;gt; l
 &quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{})&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;wikitext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;verses&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wikitext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;verse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;wikitext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;verses&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wikitext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;verse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;verses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -909,7 +914,7 @@ a file and run the program with the input file as an argument.&lt;/p&gt;
 &lt;p&gt;The output will be a list of tuples.  Each tuple contains an integer
 and string values.  Here is the output for the above input text:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[(1, ' Verse One\n\n'), (2, ' Verse Two\n\n')]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[(1, &apos; Verse One\n\n&apos;), (2, &apos; Verse Two\n\n&apos;)]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The official &lt;a href=&quot;http://parsley.readthedocs.org&quot;&gt;documentation&lt;/a&gt; has enough infomation about the usage.

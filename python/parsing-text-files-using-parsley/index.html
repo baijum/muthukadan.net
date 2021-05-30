@@ -293,7 +293,7 @@ text contains a mix of Malayalam and English characters encoded in
 “utf-8” format. However, for simplicity I removed Malayalam from the
 below input text:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{Some Text}}
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{Some Text}}
 {{Navi|
 Prev=Some Text|
 Next=Some Text|
@@ -316,15 +316,15 @@ Here is a stripped-down version of my parsing code:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">import</span> <span class="nn">parsley</span>
 
-<span class="n">parser</span> <span class="o">=</span> <span class="n">parsley</span><span class="o">.</span><span class="n">makeGrammar</span><span class="p">(</span><span class="s">"""
+<span class="n">parser</span> <span class="o">=</span> <span class="n">parsley</span><span class="p">.</span><span class="n">makeGrammar</span><span class="p">(</span><span class="s">"""
 fix = '{{' &lt;((anything|ws):x ?(x not  in '}') -&gt; x)+&gt;:s '}}' -&gt; s
 num = '{{' ('V'|'v') 'erse|' &lt;digit+&gt;:s '}}' -&gt; int(s)
 text =  &lt;((anything|ws):x ?(x not in '{') -&gt; x)+&gt;:s  -&gt; s
 verse = (fix ws){3} (num:n text:t -&gt; (n, t))+:l fix anything* -&gt; l
 """</span><span class="p">,</span> <span class="p">{})</span>
 
-<span class="n">wikitext</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-<span class="n">verses</span> <span class="o">=</span> <span class="n">parser</span><span class="p">(</span><span class="n">wikitext</span><span class="p">)</span><span class="o">.</span><span class="n">verse</span><span class="p">()</span>
+<span class="n">wikitext</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]).</span><span class="n">read</span><span class="p">()</span>
+<span class="n">verses</span> <span class="o">=</span> <span class="n">parser</span><span class="p">(</span><span class="n">wikitext</span><span class="p">).</span><span class="n">verse</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="n">verses</span><span class="p">)</span>
 </code></pre></div></div>
 
@@ -338,7 +338,7 @@ a file and run the program with the input file as an argument.</p>
 <p>The output will be a list of tuples.  Each tuple contains an integer
 and string values.  Here is the output for the above input text:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[(1, ' Verse One\n\n'), (2, ' Verse Two\n\n')]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[(1, ' Verse One\n\n'), (2, ' Verse Two\n\n')]
 </code></pre></div></div>
 
 <p>The official <a href="http://parsley.readthedocs.org">documentation</a> has enough infomation about the usage.
@@ -559,7 +559,7 @@ for ...</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2018 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
