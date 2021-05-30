@@ -10,7 +10,7 @@ permalink: /about.html
 Baiju Muthukadan is working as a senior software engineer at Red Hat.  He
 has contributed to many Free/Open source softwares including Zope,
 Koha and Salt.  He has authored a book titled, <a
-href="http://muthukadan.net/docs/zca.html">A Comprehensive Guide to
+href="https://muthukadan.net/docs/zca.html">A Comprehensive Guide to
 Zope Component Architecture</a>.  He is the author of <a
 href="https://selenium-python.readthedocs.io">Selenium Python
 documentation</a>.
@@ -30,7 +30,7 @@ first Kenneth Gonsalves Award</a>
 ## Talks
 
 <ul class="posts">
-  <li><a href="http://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">Go and Ember.js talk at GopherConIndia 2015</a></li>
+  <li><a href="https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">Go and Ember.js talk at GopherConIndia 2015</a></li>
   <li><a href="http://www.youtube.com/watch?v=lING02S6AAc">Introduction about python:</a> An introductory talk at a typical 
   <a href="http://bangalore.python.org.in/">BangPypers</a> meetup in November 2012, Bangalore</li>
   <li><a href="http://www.youtube.com/watch?v=UEMjz5A_M5o">GetPython3.net:</a> Lightning talk at PyCON 2011, Atlanta</li>
@@ -43,8 +43,8 @@ first Kenneth Gonsalves Award</a>
 ## Workshops
 
 <ul class="posts">
-  <li><a href="http://muthukadan.net/presentation/python_workshop/fossmeet14.pdf">Python Workshop:</a> Workshop conducted at
-  <a href="http://fossmeet.in/2014/">FOSS Meet'14</a>(<a href="http://muthukadan.net/presentation/python_workshop/fossmeet14-exercises.pdf">Exercises</a>)</li>
+  <li><a href="https://muthukadan.net/presentation/python_workshop/fossmeet14.pdf">Python Workshop:</a> Workshop conducted at
+  <a href="http://fossmeet.in/2014/">FOSS Meet'14</a>(<a href="https://muthukadan.net/presentation/python_workshop/fossmeet14-exercises.pdf">Exercises</a>)</li>
   <li><a href="http://in.pycon.org/funnel/2013/5-functional-testing-using-selenium">Functional Testing Using Selenium:</a> Workshop
   conducted at PyCON India 2013, NIMHANS Bangalore</li>
 </ul>

@@ -14,7 +14,7 @@ My website never had any major content except the [ZCA book][zca].  So
 it was not difficult to migrate.  I will try to write some blog posts
 here.  Let me see how it goes :-)
 
-[zca]: http://muthukadan.net/docs/zca.html
+[zca]: https://muthukadan.net/docs/zca.html
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
 [gh-pages]: http://pages.github.com/
