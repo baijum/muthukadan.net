@@ -249,3 +249,6 @@ defaults:
       share: true
       related: true
       show_date: true
+
+search: true
+search_full_content: true
