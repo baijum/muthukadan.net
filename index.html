@@ -1,9 +1,9 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.3.1 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="en" class="no-js">
   <head>
@@ -13,6 +13,9 @@
 <meta name="description" content="For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)">
 
 
+  <meta name="author" content="Baiju Muthukadan">
+  
+
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en">
@@ -20,6 +23,8 @@
 <meta property="og:title" content="Baiju Muthukadan">
 <meta property="og:url" content="https://muthukadan.net/">
 
+
+  <meta property="og:description" content="For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)">
 
 
 
@@ -55,18 +60,16 @@
   <link rel="next" href="https://muthukadan.net/page2/">
 
 
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
       "@type": "Person",
       "name": "Baiju Muthukadan",
-      "url": "https://muthukadan.net",
-      "sameAs": null
-    }
-  </script>
+      "url": "https://muthukadan.net/"
+    
+  }
+</script>
 
 
 
@@ -77,11 +80,11 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Baiju Muthukadan Feed">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Baiju Muthukadan Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -90,8 +93,9 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
-<!--[if lte IE 9]>
+<!--[if IE]>
   <style>
     /* old IE unsupported flexbox fixes */
     .greedy-nav .site-title {
@@ -116,27 +120,36 @@
   </head>
 
   <body class="layout--home">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
 
-    <div class="masthead">
+    
+
+<div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="/">Baiju Muthukadan</a>
-        <ul class="visible-links">
+        
+        <a class="site-title" href="/">
+          Baiju Muthukadan
           
-            
-            <li class="masthead__menu-item">
-              <a href="https://muthukadan.net/about.html" >About</a>
-            </li>
-          
-        </ul>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about.html">About</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle Menu</span>
+          <span class="visually-hidden">Toggle menu</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -145,7 +158,9 @@
   </div>
 </div>
 
-    
+
+    <div class="initial-content">
+      
 
 
 
@@ -155,12 +170,10 @@
   
 
 
-<div itemscope itemtype="http://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person">
 
   
     <div class="author__avatar">
-      
-
       
         <img src="/assets/images/dallas_fall2014.jpg" alt="Baiju Muthukadan" itemprop="image">
       
@@ -172,9 +185,10 @@
       <h3 class="author__name" itemprop="name">Baiju Muthukadan</h3>
     
     
-      <p class="author__bio" itemprop="description">
-        Software Engineer
-      </p>
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer</p>
+
+      </div>
     
   </div>
 
@@ -182,7 +196,7 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Bangalore, India</span>
         </li>
       
@@ -239,7 +253,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -252,35 +266,61 @@
   </div>
 
 
+
   <div class="archive">
     
       <h1 id="page-title" class="page__title"></h1>
     
-    <h3 class="archive__subtitle">Recent Posts</h3>
+    
+
+<h3 class="archive__subtitle">Recent posts</h3>
 
 
+
+
+<div class="entries-list">
   
+    
 
 
 
 <div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/golang/book/expectations-for-an-introductory-programming-book/" rel="permalink">Expectations for an introductory programming book
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  2 minute read
-</p>
+  <p class="page__meta">
     
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-11-19T00:00:00+05:30">November 19, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">After I published my last blog post requesting technical
 reviews
 of my Go book, I received quite a few responses from
@@ -289,27 +329,47 @@ the Go community. Thanks to all who cam...</p>
 </div>
 
   
+    
 
 
 
 <div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/golang/book/request-for-technical-review-of-my-go-book/" rel="permalink">Request for Technical Review of My Go Book
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  2 minute read
-</p>
+  <p class="page__meta">
     
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-11-07T00:00:00+05:30">November 7, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">In the last blog post, I mentioned that I started working on my book
 about the Go programming language again.  I think now is a good time
 to ask for technica...</p>
@@ -317,27 +377,47 @@ to ask for technica...</p>
 </div>
 
   
+    
 
 
 
 <div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/golang/book/a-comprehensive-guide-to-go-programming/" rel="permalink">A Comprehensive Guide to Go Programming
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-</p>
+  <p class="page__meta">
     
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-09-29T00:00:00+05:30">September 29, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">This is the first time I am writing about my recent
 book on my blog.  It’s an introductory
 book on Go programming language.  Well, I started the project
@@ -346,27 +426,94 @@ some...</p>
 </div>
 
   
+    
 
 
 
 <div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/docs/jekyll/post-exclude-search/" rel="permalink">Exclude Post from Search Index
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2017-11-28T00:00:00+05:30">November 28, 2017</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">This post should not appear in the search index because it has the following YAML Front Matter:
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/golang/talk/golang-workshops-icefoss-fisat/" rel="permalink">Golang workshops at ICEFOSS 2017, FISAT
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-</p>
+  <p class="page__meta">
     
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2017-10-07T00:00:00+05:30">October 7, 2017</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">Today was my 10th Golang workshop. It was organized by FISAT students
 and staff as part of ICEFOSS 2017 annual
 event.  There were around 40 participants
@@ -375,33 +522,7 @@ for ...</p>
 </div>
 
   
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/scheme/guile/guile2.2-on-fedora26/" rel="permalink">Installing Guile 2.2 on Fedora 26 using Guix
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Few days before I upgraded to Fedora 26.  Fedora has a package named
-guile22 which gives 2.2 version of Guile.  But I wanted to try Guix.
-I noticed that ther...</p>
-  </article>
 </div>
-
 
 
 <nav class="pagination">
@@ -442,9 +563,11 @@ I noticed that ther...</p>
 
     
     
+      <li><a href="#" class="disabled">&hellip;</a></li>
+    
 
     
-      <li><a href="/page4/">4</a></li>
+      <li><a href="/page17/">17</a></li>
     
 
     
@@ -458,8 +581,11 @@ I noticed that ther...</p>
 
   </div>
 </div>
+    </div>
 
-    <div class="page__footer">
+    
+
+    <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -469,16 +595,12 @@ I noticed that ther...</p>
     
       <li><strong>Follow:</strong></li>
     
+
     
-      <li><a href="https://twitter.com/baijum"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+
     
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
-      <li><a href="https://www.facebook.com/BaijuMuthukadan"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    
-    
-    
-    
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -489,7 +611,8 @@ I noticed that ther...</p>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+
+
 
 
 

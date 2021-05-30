@@ -1,9 +1,9 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.3.1 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="en" class="no-js">
   <head>
@@ -13,6 +13,9 @@
 <meta name="description" content="For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)">
 
 
+  <meta name="author" content="Baiju Muthukadan">
+  
+
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en">
@@ -20,6 +23,8 @@
 <meta property="og:title" content="Netstat">
 <meta property="og:url" content="https://muthukadan.net/article/netstat.html">
 
+
+  <meta property="og:description" content="For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)">
 
 
 
@@ -53,18 +58,16 @@
 
 
 
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
       "@type": "Person",
       "name": "Baiju Muthukadan",
-      "url": "https://muthukadan.net",
-      "sameAs": null
-    }
-  </script>
+      "url": "https://muthukadan.net/"
+    
+  }
+</script>
 
 
 
@@ -75,11 +78,11 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Baiju Muthukadan Feed">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Baiju Muthukadan Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -88,8 +91,9 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
-<!--[if lte IE 9]>
+<!--[if IE]>
   <style>
     /* old IE unsupported flexbox fixes */
     .greedy-nav .site-title {
@@ -114,27 +118,36 @@
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
 
-    <div class="masthead">
+    
+
+<div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="/">Baiju Muthukadan</a>
-        <ul class="visible-links">
+        
+        <a class="site-title" href="/">
+          Baiju Muthukadan
           
-            
-            <li class="masthead__menu-item">
-              <a href="https://muthukadan.net/about.html" >About</a>
-            </li>
-          
-        </ul>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about.html">About</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle Menu</span>
+          <span class="visually-hidden">Toggle menu</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -143,14 +156,17 @@
   </div>
 </div>
 
-    
+
+    <div class="initial-content">
+      
 
 
 
 <div id="main" role="main">
   
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Netstat">
     
     
@@ -162,6 +178,8 @@
           <h1 id="page-title" class="page__title" itemprop="headline">Netstat
 </h1>
           
+
+
         </header>
       
 
@@ -240,6 +258,8 @@ netstat -p UDPv6
 
 
         
+
+
       </footer>
 
       
@@ -254,7 +274,11 @@ netstat -p UDPv6
   
 </div>
 
-    <div class="page__footer">
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -264,16 +288,12 @@ netstat -p UDPv6
     
       <li><strong>Follow:</strong></li>
     
+
     
-      <li><a href="https://twitter.com/baijum"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+
     
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
-      <li><a href="https://www.facebook.com/BaijuMuthukadan"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    
-    
-    
-    
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -284,7 +304,8 @@ netstat -p UDPv6
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+
+
 
 
 

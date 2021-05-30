@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-05-30T07:36:05+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Expectations for an introductory programming book</title><link href="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/" rel="alternate" type="text/html" title="Expectations for an introductory programming book" /><published>2018-11-19T00:00:00+05:30</published><updated>2018-11-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/">&lt;p&gt;After I published my &lt;a href=&quot;https://medium.com/@baijum/request-for-technical-review-970c6685cf5e&quot;&gt;last blog post requesting technical
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-05-30T09:46:17+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Expectations for an introductory programming book</title><link href="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/" rel="alternate" type="text/html" title="Expectations for an introductory programming book" /><published>2018-11-19T00:00:00+05:30</published><updated>2018-11-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book</id><content type="html" xml:base="https://muthukadan.net/golang/book/expectations-for-an-introductory-programming-book/">&lt;p&gt;After I published my &lt;a href=&quot;https://medium.com/@baijum/request-for-technical-review-970c6685cf5e&quot;&gt;last blog post requesting technical
 reviews&lt;/a&gt;
 of my Go book, I received quite a few responses from
 the Go community. Thanks to all who came forward to review the book.&lt;/p&gt;
@@ -149,7 +149,24 @@ of the book which requires more attention.&lt;/p&gt;
 
 &lt;p&gt;If you would like to buy the ebook, visit the book site here:
 &lt;a href=&quot;https://golang.muthukadan.net&quot;&gt;https://golang.muthukadan.net&lt;/a&gt;. There
-is also a form to receive free chapters of the book.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="book" /><summary type="html">This is the first time I am writing about my recent book on my blog. It’s an introductory book on Go programming language. Well, I started the project sometimes back around mid of 2015. I made some progress, then self-published it through Gumroad. I was hoping that I could make progress eventually. Giving free updated copies of the book through Gumroad is easy. That was the main reason I decided to use Gumroad. But that plan didn’t work out as expected. Fortunately, not many had bought them for their disappointment. In fact, I never tried to market the book. I went back to writing on an off in the last few years. I do not want to list out all the excuses for not finishing the book.</summary></entry><entry><title type="html">Golang workshops at ICEFOSS 2017, FISAT</title><link href="https://muthukadan.net/golang/talk/golang-workshops-icefoss-fisat/" rel="alternate" type="text/html" title="Golang workshops at ICEFOSS 2017, FISAT" /><published>2017-10-07T00:00:00+05:30</published><updated>2017-10-07T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/golang-workshops-icefoss-fisat</id><content type="html" xml:base="https://muthukadan.net/golang/talk/golang-workshops-icefoss-fisat/">&lt;p&gt;Today was my 10th Golang workshop. It was organized by FISAT students
+is also a form to receive free chapters of the book.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="book" /><summary type="html">This is the first time I am writing about my recent book on my blog. It’s an introductory book on Go programming language. Well, I started the project sometimes back around mid of 2015. I made some progress, then self-published it through Gumroad. I was hoping that I could make progress eventually. Giving free updated copies of the book through Gumroad is easy. That was the main reason I decided to use Gumroad. But that plan didn’t work out as expected. Fortunately, not many had bought them for their disappointment. In fact, I never tried to market the book. I went back to writing on an off in the last few years. I do not want to list out all the excuses for not finishing the book.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="https://muthukadan.net/docs/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00+05:30</published><updated>2018-02-19T18:36:00+05:30</updated><id>https://muthukadan.net/docs/jekyll/post-exclude-search</id><content type="html" xml:base="https://muthukadan.net/docs/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;search: false&lt;/code&gt; only works to exclude posts when using Lunr as a search provider.&lt;/p&gt;
+
+&lt;p&gt;To exclude files when using Algolia as a search provider add an array to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;algolia.files_to_exclude&lt;/code&gt; in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. For more configuration options be sure to check their &lt;a href=&quot;https://community.algolia.com/jekyll-algolia/options.html&quot;&gt;full documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;algolia&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# Exclude more files from indexing&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;files_to_exclude&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.html&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.md&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;excluded-file.html&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_posts/2017-11-28-post-exclude-search.md&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;subdirectory/*.html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="docs" /><category term="Jekyll" /><summary type="html">This post should not appear in the search index because it has the following YAML Front Matter:</summary></entry><entry><title type="html">Golang workshops at ICEFOSS 2017, FISAT</title><link href="https://muthukadan.net/golang/talk/golang-workshops-icefoss-fisat/" rel="alternate" type="text/html" title="Golang workshops at ICEFOSS 2017, FISAT" /><published>2017-10-07T00:00:00+05:30</published><updated>2017-10-07T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/golang-workshops-icefoss-fisat</id><content type="html" xml:base="https://muthukadan.net/golang/talk/golang-workshops-icefoss-fisat/">&lt;p&gt;Today was my 10th Golang workshop. It was organized by FISAT students
 and staff as part of &lt;a href=&quot;http://archive.is/sB3yS&quot;&gt;ICEFOSS 2017 annual
 event&lt;/a&gt;.  There were around 40 participants
 for my Go workshop.  All of them were computer science students from
@@ -254,7 +271,73 @@ nostalgia about going back to my college.  I came to this institute in
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5tiov2oqh13637g/smc.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I was able to spend some time with them also remembering it was 16
-years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Last Saturday I conducted one more Go workshop in Bangalore. The meetup was organized by Practical Data Science meetup group. Bargava took initiative to organize this workshop. The meetup was hosted at Red Hat Bangalore office. Some of my colleagues, Zeeshan, Suraj D and Suraj N volunteered for the meetup.</summary></entry><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="https://muthukadan.net/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="https://muthukadan.net/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
+years before that I started &lt;a href=&quot;https://ml.wikipedia.org/wiki/സ്വതന്ത്രമലയാളംകമ്പ്യൂട്ടിങ്ങ്&quot;&gt;SMC&lt;/a&gt; while studying there.&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Last Saturday I conducted one more Go workshop in Bangalore. The meetup was organized by Practical Data Science meetup group. Bargava took initiative to organize this workshop. The meetup was hosted at Red Hat Bangalore office. Some of my colleagues, Zeeshan, Suraj D and Suraj N volunteered for the meetup.</summary></entry><entry><title type="html">Layout: Header Video</title><link href="https://muthukadan.net/docs/layout/uncategorized/layout-header-video/" rel="alternate" type="text/html" title="Layout: Header Video" /><published>2017-01-23T00:00:00+05:30</published><updated>2017-01-23T00:00:00+05:30</updated><id>https://muthukadan.net/docs/layout/uncategorized/layout-header-video</id><content type="html" xml:base="https://muthukadan.net/docs/layout/uncategorized/layout-header-video/">&lt;p&gt;This post should display a &lt;strong&gt;header with a responsive video&lt;/strong&gt;, if the theme supports it.&lt;/p&gt;
+
+&lt;h2 id=&quot;settings&quot;&gt;Settings&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Parameter&lt;/th&gt;
+      &lt;th&gt;Required&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;ID of the video&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Required&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hosting provider of the video, either &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;youtube&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vimeo&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;youtube&quot;&gt;YouTube&lt;/h3&gt;
+
+&lt;p&gt;To embed the following YouTube video at url &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.youtube.com/watch?v=XsxDH4HcOWA&lt;/code&gt; (long version) or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://youtu.be/XsxDH4HcOWA&lt;/code&gt; (short version) into a post or page’s main content you’d use:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;XsxDH4HcOWA&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;youtube&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/XsxDH4HcOWA&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;To embed it as a video header you’d use the following YAML Front Matter&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;XsxDH4HcOWA&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;youtube&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;vimeo&quot;&gt;Vimeo&lt;/h3&gt;
+
+&lt;p&gt;To embed the following Vimeo video at url &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://vimeo.com/212731897&lt;/code&gt; into a post or page’s main content you’d use:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;212731897&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;vimeo&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+    &lt;iframe src=&quot;https://player.vimeo.com/video/212731897?dnt=true&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;To embed it as a video header you’d use the following YAML Front Matter&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;212731897&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;provider&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;vimeo&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="docs" /><category term="Layout" /><category term="Uncategorized" /><category term="video" /><category term="layout" /><summary type="html">This post should display a header with a responsive video, if the theme supports it.</summary></entry><entry><title type="html">Total 7 Golang workshops in 2016!</title><link href="https://muthukadan.net/golang/talk/total-7-golang-workshops/" rel="alternate" type="text/html" title="Total 7 Golang workshops in 2016!" /><published>2016-12-25T00:00:00+05:30</published><updated>2016-12-25T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/total-7-golang-workshops</id><content type="html" xml:base="https://muthukadan.net/golang/talk/total-7-golang-workshops/">&lt;p&gt;Last update about my Golang workshops was in June 2016.  In the last 6
 months many things happened in my life.  I changed my job, after
 working 9 years and 7 months at ZeOmega joined Red Hat.  Our second
 son born in last August.  Became co-organizer of Bangalore Golang user
@@ -277,86 +360,77 @@ conducted 3 more Golang workshops.&lt;/p&gt;
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop was well received. Thanks to organizers and participants! &lt;a href=&quot;https://t.co/ki48h1Ymei&quot;&gt;pic.twitter.com/ki48h1Ymei&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/807595399347191810?ref_src=twsrc%5Etfw&quot;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Last update about my Golang workshops was in June 2016. In the last 6 months many things happened in my life. I changed my job, after working 9 years and 7 months at ZeOmega joined Red Hat. Our second son born in last August. Became co-organizer of Bangalore Golang user group and started organizing meetups. Along with all these things, conducted 3 more Golang workshops.</summary></entry><entry><title type="html">Golang workshops at Sahrdaya &amp;amp; Reboot Calicut</title><link href="https://muthukadan.net/golang/talk/golang-workshop-sahrdaya-rebootcalicut/" rel="alternate" type="text/html" title="Golang workshops at Sahrdaya &amp;amp; Reboot Calicut" /><published>2016-06-15T00:00:00+05:30</published><updated>2016-06-15T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/golang-workshop-sahrdaya-rebootcalicut</id><content type="html" xml:base="https://muthukadan.net/golang/talk/golang-workshop-sahrdaya-rebootcalicut/">&lt;p&gt;Those who following me or &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://facebook.com/BaijuMuthukadan&quot;&gt;Facebook&lt;/a&gt; might be already
-seen my updates about Golang workshops at &lt;a href=&quot;http://www.sahrdaya.ac.in&quot;&gt;Sahrdaya&lt;/a&gt; college of
-engineering and &lt;a href=&quot;http://rebootcalicut.com&quot;&gt;Reboot Calicut&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Last update about my Golang workshops was in June 2016. In the last 6 months many things happened in my life. I changed my job, after working 9 years and 7 months at ZeOmega joined Red Hat. Our second son born in last August. Became co-organizer of Bangalore Golang user group and started organizing meetups. Along with all these things, conducted 3 more Golang workshops.</summary></entry><entry><title type="html">Gemified Theme – Beta Release</title><link href="https://muthukadan.net/docs/jekyll/gemified-theme-beta/" rel="alternate" type="text/html" title="Gemified Theme – Beta Release" /><published>2016-10-06T00:00:00+05:30</published><updated>2018-03-21T01:31:04+05:30</updated><id>https://muthukadan.net/docs/jekyll/gemified-theme-beta</id><content type="html" xml:base="https://muthukadan.net/docs/jekyll/gemified-theme-beta/">&lt;p&gt;Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.&lt;/p&gt;
 
-&lt;p&gt;My third Golang workshop was organized by Sahrdaya college of
-engineering as part of the faculty development program.  Particants
-were mostly computer science teachers from various engineering
-colleges.  This was interesting, because my first Golang workshop
-particants were computer science engineering students and second was
-professional software developers.  The workshop was conducted on last
-week of April.  I know, this is very late update ;)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://rubygems.org/gems/minimal-mistakes-jekyll&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minimal-mistakes-jekyll&lt;/code&gt;&lt;/a&gt; can only be used with Jekyll proper. If you’re hosting on GitHub Pages or using that gem the theme won’t work. 3rd party themes haven’t been white-listed so it’s a no go for now.&lt;/p&gt;
 
-&lt;p&gt;As usual, Go was very new to all particants.  The prgram went very
-well.  Few photos from the workshop:&lt;/p&gt;
+&lt;p&gt;Fine with all that? Great. Let’s continue.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/zg409i355z68tsx/IMG_20160429_144018.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/jlb0ffms0te3zn9/IMG_20160429_144031.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/5z4vx0ru4y59byq/IMG_20160429_163630.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/kx1eq32y4ksguqh/IMG_20160429_163658.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/bihpyeby4peh2mq/IMG_20160429_163701.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you’re migrating a site already using Minimal Mistakes and haven’t customized any of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; partials, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; this should be quick and painless.&lt;/p&gt;
 
-&lt;p&gt;The 4th Golang workshop was in Calicut.  Reboot Calicut is a new
-conference started in Calicut by software professionals.  Since
-Calicut is my home town, I was very happy to accept their invitation.
-I can see that, the infrastructure in Calicut is improving every year.
-I hope this conference will help many software developers.  The venue
-location was was very good.  Few photos:&lt;/p&gt;
+&lt;h2 id=&quot;step-1-remove-theme-files&quot;&gt;Step 1: Remove Theme Files&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/844hbqc89ml4zi8/IMG_20160604_170747.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/gevdc7vwvywn7sl/IMG_20160604_170822_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/yhr8pavdgyhld3k/IMG_20160604_170857_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Those who following me or Twitter or Facebook might be already seen my updates about Golang workshops at Sahrdaya college of engineering and Reboot Calicut.</summary></entry><entry><title type="html">Golang workshops</title><link href="https://muthukadan.net/golang/talk/golang-workshops/" rel="alternate" type="text/html" title="Golang workshops" /><published>2016-04-19T00:00:00+05:30</published><updated>2016-04-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/golang-workshops</id><content type="html" xml:base="https://muthukadan.net/golang/talk/golang-workshops/">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
-on February 27th at &lt;a href=&quot;http://www.nitc.ac.in&quot;&gt;NIT Calicut&lt;/a&gt; as part of
-&lt;a href=&quot;http://fossmeet.in&quot;&gt;FOSSMeet’16&lt;/a&gt; program.  The second one was last
-Saturday (April 16th) at NUMA Bangalore organized by
-&lt;a href=&quot;https://hasgeek.com&quot;&gt;Hasgeek&lt;/a&gt; as part of
-&lt;a href=&quot;https://rootconf.in/2016&quot;&gt;Rootconf’16&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets&lt;/code&gt; folders and files within. You won’t need these anymore as they’re bundled in the theme.&lt;/p&gt;
 
-&lt;p&gt;The workshop at NIT was a 4 hour workshop and particpants were
-computer science students from various engineering colleges.&lt;/p&gt;
+&lt;p&gt;If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as &lt;a href=&quot;http://jekyllrb.com/docs/themes/#overriding-theme-defaults&quot;&gt;overrides&lt;/a&gt; to the versions bundled with the theme.&lt;/p&gt;
 
-&lt;p&gt;Few photos from the workshop:&lt;/p&gt;
+&lt;h2 id=&quot;step-2-update-gemfile&quot;&gt;Step 2: Update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/q2vhbns0opyx7cp/IMG_20160227_124533.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/vuzxsp8ru5icosx/IMG_20160227_124328.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/6di9mktuzrgnlpu/IMG_20160227_124435.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/ie77qiqpw02loa1/IMG_20160227_124356.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;github-pages&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;jekyll&quot;&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem &quot;jekyll&quot;, &quot;~&amp;gt; 3.3.0&quot;&lt;/code&gt;. You’ll need the latest version of Jekyll&lt;sup id=&quot;fnref:update-jekyll&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:update-jekyll&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for Minimal Mistakes to work and load all of the /assets/ properly.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/x6nolmo5z63rbkb/IMG_20160227_153141.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/rv5ecqhptpsysgo/IMG_20160227_160137.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Add the Minimal Mistakes theme gem:&lt;/p&gt;
 
-&lt;p&gt;The workshop at Rootconf was attended by professionals with experience
-in other programming languages.  It was a 6 hour workshop and it was
-well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minimal-mistakes-jekyll&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/jyy3l9sw0k3wwmd/IMG_20160416_145735.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When finished your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; should look something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/ws0u92dsro3tomy/IMG_20160416_145718.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5d9wx3pay44nx7a/IMG_20160416_150210.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;~&amp;gt; 3.3.0&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;minimal-mistakes-jekyll&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/datln4romzu98mf/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/tc55skv2pwhj54e/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/q9bu4tsc8yuaof7/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Recently I conducted couple of Go workshops. The first workshop was on February 27th at NIT Calicut as part of FOSSMeet’16 program. The second one was last Saturday (April 16th) at NUMA Bangalore organized by Hasgeek as part of Rootconf’16.</summary></entry><entry><title type="html">Go and Ember.js talk at GopherConIndia 2015</title><link href="https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/" rel="alternate" type="text/html" title="Go and Ember.js talk at GopherConIndia 2015" /><published>2015-03-10T00:00:00+05:30</published><updated>2015-03-10T00:00:00+05:30</updated><id>https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk</id><content type="html" xml:base="https://muthukadan.net/golang/emberjs/gopherconindia-2015-talk/">&lt;p&gt;I was very much excited to present at the first GopherCon India
-conference.  My talk was on 20th February around 3pm.&lt;/p&gt;
+&lt;h2 id=&quot;step-3-run-bundler&quot;&gt;Step 3: Run Bundler&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/fd6nz449041qz1o/gopherconindia2.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; (or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update&lt;/code&gt; if you’re updating an existing repo) to install/update Jekyll and the theme.&lt;/p&gt;
 
-&lt;p&gt;Sourcegraph team was coordinating and writing live blog and Julia
-Poladsky has written a &lt;a href=&quot;https://sourcegraph.com/blog/live/gopherconindia/111591653516&quot;&gt;blog
-about my talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;step-4-install-the-theme&quot;&gt;Step 4: Install the Theme&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/cjmgmy00x1ckwpc/gopherconindia1.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme: &quot;minimal-mistakes-jekyll&quot;&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
 
-&lt;p&gt;I have uploaded more photos in my &lt;a href=&quot;https://plus.google.com/+BaijuMuthukadan/posts/CXFe7zvdiBh&quot;&gt;Google+
-post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you’re migrating from an existing Minimal Mistakes site you shouldn’t have to change anything else after this. If it’s a new site consult then docs to &lt;a href=&quot;/docs/configuration/&quot;&gt;properly config&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/doalkeo2brjo505/gopherconindia3.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Please Note:&lt;/strong&gt; Paths for image headers, overlays, teasers, &lt;a href=&quot;/docs/helpers/#gallery&quot;&gt;galleries&lt;/a&gt;, and &lt;a href=&quot;/docs/helpers/#feature-row&quot;&gt;feature rows&lt;/a&gt; have changed and now require a full path. Instead of just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image: filename.jpg&lt;/code&gt; you’ll need to use the full path eg: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;image: assets/images/filename.jpg&lt;/code&gt;. The preferred location is now &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets/images&lt;/code&gt; but can be placed elsewhere or external hosted. This all applies for image references in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author.yml&lt;/code&gt; as well.&lt;/p&gt;
 
-&lt;p&gt;The video of the talk is available in YouTube:&lt;/p&gt;
+&lt;h2 id=&quot;step-5-jekyll-new-tweaks&quot;&gt;Step 5: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll new&lt;/code&gt; Tweaks&lt;/h2&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JXljs5ciwKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="emberjs" /><summary type="html">I was very much excited to present at the first GopherCon India conference. My talk was on 20th February around 3pm.</summary></entry></feed>
+&lt;p&gt;If this is a new site be sure to add the following files to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/&lt;/code&gt; and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/ui-text.yml&lt;/code&gt;&lt;/a&gt; - UI text &lt;a href=&quot;/docs/ui-text/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;&lt;/a&gt; - navigation &lt;a href=&quot;/docs/navigation/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You’ll also need to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;site root&amp;gt;/index.html&lt;/code&gt; with a modified &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/index.html&quot;&gt;Minimal Mistakes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: post&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/0000-00-00-welcome-to-jekyll.markdown&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about.md&lt;/code&gt;, or at the very least change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: page&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: single&lt;/code&gt; and remove references to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;icon-github.html&lt;/code&gt; (or &lt;a href=&quot;https://github.com/jekyll/minima/tree/master/_includes&quot;&gt;copy to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/a&gt; if using).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That’s it! If all goes well running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you’re testing the pre-release Ruby gem version.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/issues/new&quot; class=&quot;btn btn--info btn--large&quot;&gt;File an issue&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:update-jekyll&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;You could also run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle update jekyll&lt;/code&gt; to update Jekyll. &lt;a href=&quot;#fnref:update-jekyll&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="docs" /><category term="Jekyll" /><category term="update" /><summary type="html">Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme.</summary></entry></feed>
