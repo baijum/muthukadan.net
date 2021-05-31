@@ -17,7 +17,7 @@ name                     : "Baiju Muthukadan"
 description              : "For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)"
 url                      : "https://muthukadan.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "baijum/muthukadan.net"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -199,7 +199,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Kolkata"
 
 
 # Plugins
