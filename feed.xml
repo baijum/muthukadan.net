@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-05-31T07:07:08+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">GitHub Actions for pull requests</title><link href="https://muthukadan.net/github/ci/github-actions-for-pull-requests/" rel="alternate" type="text/html" title="GitHub Actions for pull requests" /><published>2021-05-30T00:00:00+05:30</published><updated>2021-05-30T00:00:00+05:30</updated><id>https://muthukadan.net/github/ci/github-actions-for-pull-requests</id><content type="html" xml:base="https://muthukadan.net/github/ci/github-actions-for-pull-requests/">&lt;p&gt;GitHub Actions provides a well-integrated CI/CD system for code hosted on
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-07-07T15:41:28+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Paketo Bindings for Spring Boot Applications</title><link href="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/" rel="alternate" type="text/html" title="Paketo Bindings for Spring Boot Applications" /><published>2021-07-07T00:00:00+05:30</published><updated>2021-07-07T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec&quot;&gt;Service Binding Specification&lt;/a&gt;
+for Kubernetes standardizes exposing backing service secrets to applications.
+The application should be prepared to use the bindings projected into the
+container.  This article explains how to use &lt;a href=&quot;https://buildpacks.io&quot;&gt;Cloud Native
+Buildpacks&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bindings&quot;&gt;Spring Cloud
+Bindings&lt;/a&gt; Java library to
+prepare a &lt;em&gt;Spring Boot&lt;/em&gt; application to consume the bindings.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cloud Native Buildpacks&lt;/em&gt; transform your application source code into &lt;a href=&quot;https://github.com/opencontainers/image-spec/blob/master/spec.md&quot;&gt;OCI
+images&lt;/a&gt; that
+can run on any cloud.  The &lt;a href=&quot;https://github.com/paketo-buildpacks/spring-boot&quot;&gt;Paketo Spring Boot
+Buildpack&lt;/a&gt; is a &lt;em&gt;Cloud Native
+Buildpack&lt;/em&gt; that helps to contribute &lt;em&gt;Spring Cloud Bindings&lt;/em&gt; as an application
+dependency.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Spring Cloud Bindings&lt;/em&gt; library enable automatic &lt;em&gt;Spring Boot&lt;/em&gt; configuration
+based on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;org.springframework.cloud.bindings.boot.enable&lt;/code&gt; system property.
+The &lt;a href=&quot;https://paketo.io/docs/reference/configuration/#bindings&quot;&gt;Paketo
+buildpacks&lt;/a&gt; sets this
+property value to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; if the bindings exists in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/platform/bindings&lt;/code&gt;
+directory at build-time.  The name of the sub-directory is considered as the
+name of the binding.  Within each directory, there should be a file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt;
+with the name of the type of binding.  You can see the list of supported types
+in the &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bindings#auto-configurations&quot;&gt;Spring Cloud Bindings
+README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, if you want to build the &lt;a href=&quot;https://github.com/spring-petclinic/spring-petclinic-rest&quot;&gt;PetClinic REST
+server&lt;/a&gt; sample
+application with PostgreSQL backend, create a directory with a file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt;
+like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir /tmp/postgres
+echo &quot;postgresql&quot; &amp;gt; /tmp/postgres
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you can build the application image like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/spring-petclinic/spring-petclinic-rest
+cd spring-petclinic-rest
+pack build --path . --builder paketobuildpacks/builder:base\
+--volume /tmp/postgres:/platform/bindings/postgres spring-petclinic-rest
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The Paketo Buildpacks will look for bindings in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$SERVICE_BINDING_ROOT&lt;/code&gt; at
+runtime.  If an implementation of &lt;a href=&quot;https://github.com/k8s-service-bindings/spec&quot;&gt;Service Binding
+Specification&lt;/a&gt; for Kubernetes
+project the bindings, your Spring Boot Application should connect to PostgreSQL
+database.&lt;/p&gt;
+
+&lt;p&gt;When running the abive application, set the active spring profile through an
+environment variable like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SPRING_PROFILES_ACTIVE=postgres,spring-data-jpa&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to test the above application, create these files with valid values:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/tmp/postgres/
+├── database
+├── host
+├── password
+├── port
+├── type
+└── username
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For testing the connectivity, you can run the container using docker:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker run --env SERVICE_BINDING_ROOT=/bindings --env SPRING_PROFILES_ACTIVE=postgres,spring-data-jpa\
+--volume /tmp/postgres:/bindings/postgres --rm -p 9966:9966 spring-petclinic-rest:latest
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="kubernetes" /><category term="binding" /><summary type="html">Service Binding Specification for Kubernetes standardizes exposing backing service secrets to applications. The application should be prepared to use the bindings projected into the container. This article explains how to use Cloud Native Buildpacks and Spring Cloud Bindings Java library to prepare a Spring Boot application to consume the bindings.</summary></entry><entry><title type="html">GitHub Actions for pull requests</title><link href="https://muthukadan.net/github/ci/github-actions-for-pull-requests/" rel="alternate" type="text/html" title="GitHub Actions for pull requests" /><published>2021-05-30T00:00:00+05:30</published><updated>2021-05-30T00:00:00+05:30</updated><id>https://muthukadan.net/github/ci/github-actions-for-pull-requests</id><content type="html" xml:base="https://muthukadan.net/github/ci/github-actions-for-pull-requests/">&lt;p&gt;GitHub Actions provides a well-integrated CI/CD system for code hosted on
 GitHub.  If you want to build and run tests when someone sends pull requests,
 you can use the &lt;a href=&quot;https://docs.github.com/en/actions/reference/events-that-trigger-workflows#pull_request&quot;&gt;pull_request event&lt;/a&gt;.  The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pull_request&lt;/code&gt;
 event runs the workflow in a security-hardened environment due to &lt;a href=&quot;https://securitylab.github.com/research/github-actions-preventing-pwn-requests/&quot;&gt;security
@@ -342,37 +408,4 @@ location was was very good.  Few photos:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/844hbqc89ml4zi8/IMG_20160604_170747.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/gevdc7vwvywn7sl/IMG_20160604_170822_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
 &lt;img src=&quot;https://www.dropbox.com/s/yhr8pavdgyhld3k/IMG_20160604_170857_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Those who following me or Twitter or Facebook might be already seen my updates about Golang workshops at Sahrdaya college of engineering and Reboot Calicut.</summary></entry><entry><title type="html">Golang workshops</title><link href="https://muthukadan.net/golang/talk/golang-workshops/" rel="alternate" type="text/html" title="Golang workshops" /><published>2016-04-19T00:00:00+05:30</published><updated>2016-04-19T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/golang-workshops</id><content type="html" xml:base="https://muthukadan.net/golang/talk/golang-workshops/">&lt;p&gt;Recently I conducted couple of Go workshops.  The first workshop was
-on February 27th at &lt;a href=&quot;http://www.nitc.ac.in&quot;&gt;NIT Calicut&lt;/a&gt; as part of
-&lt;a href=&quot;http://fossmeet.in&quot;&gt;FOSSMeet’16&lt;/a&gt; program.  The second one was last
-Saturday (April 16th) at NUMA Bangalore organized by
-&lt;a href=&quot;https://hasgeek.com&quot;&gt;Hasgeek&lt;/a&gt; as part of
-&lt;a href=&quot;https://rootconf.in/2016&quot;&gt;Rootconf’16&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The workshop at NIT was a 4 hour workshop and particpants were
-computer science students from various engineering colleges.&lt;/p&gt;
-
-&lt;p&gt;Few photos from the workshop:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/q2vhbns0opyx7cp/IMG_20160227_124533.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/vuzxsp8ru5icosx/IMG_20160227_124328.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/6di9mktuzrgnlpu/IMG_20160227_124435.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/ie77qiqpw02loa1/IMG_20160227_124356.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/x6nolmo5z63rbkb/IMG_20160227_153141.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/rv5ecqhptpsysgo/IMG_20160227_160137.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The workshop at Rootconf was attended by professionals with experience
-in other programming languages.  It was a 6 hour workshop and it was
-well received.  Here are few photos and feedback from the workshop.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/jyy3l9sw0k3wwmd/IMG_20160416_145735.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/ws0u92dsro3tomy/IMG_20160416_145718.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5d9wx3pay44nx7a/IMG_20160416_150210.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/datln4romzu98mf/Screenshot_2016-04-16-18-33-18_com.android.chrome_1460812340616.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/tc55skv2pwhj54e/Screenshot_2016-04-16-18-33-59_com.android.chrome_1460812321262.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/q9bu4tsc8yuaof7/Screenshot_2016-04-16-18-34-08_com.android.chrome_1460812295238.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/vdwhlpwsll42niw/Screenshot_2016-04-16-18-34-28_com.android.chrome_1460812241381.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Recently I conducted couple of Go workshops. The first workshop was on February 27th at NIT Calicut as part of FOSSMeet’16 program. The second one was last Saturday (April 16th) at NUMA Bangalore organized by Hasgeek as part of Rootconf’16.</summary></entry></feed>
+&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Those who following me or Twitter or Facebook might be already seen my updates about Golang workshops at Sahrdaya college of engineering and Reboot Calicut.</summary></entry></feed>
