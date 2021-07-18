@@ -1,4 +1,349 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-07-07T15:41:28+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Paketo Bindings for Spring Boot Applications</title><link href="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/" rel="alternate" type="text/html" title="Paketo Bindings for Spring Boot Applications" /><published>2021-07-07T00:00:00+05:30</published><updated>2021-07-07T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec&quot;&gt;Service Binding Specification&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-07-18T20:48:18+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
+backing service secrets to applications.  A &lt;em&gt;backing service&lt;/em&gt; is any process
+that the application consumes over the network as part of its regular operation.
+Examples include datastores (such as MySQL or MongoDB), caching servers (such as
+Memcached), and stream processing systems (such as Kafka).  If you are a backing
+service provider, this article gives you all the information required to
+evaluate Service Binding Specification for Kubernetes.  Towards the end, this
+article also provides an expository commentary on the spec related to backing
+service integration.  Finally, the article has curated a list of frequently
+asked questions with answers.&lt;/p&gt;
+
+&lt;p&gt;The spec &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#service-binding-specification-for-kubernetes&quot;&gt;introduction&lt;/a&gt; presents a good summary of the importance of
+the specification.  The key benefit for supporting the spec for a backing
+service is that the Secret resource will be collected and exposed to
+applications consistently and predictably.&lt;/p&gt;
+
+&lt;p&gt;Few facts about the spec:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The spec is a collective effort of a community working with Kuberentes.&lt;/li&gt;
+  &lt;li&gt;Contributions from many organizations including VMware, IBM, and Red Hat.&lt;/li&gt;
+  &lt;li&gt;The spec is matured and GA release will happen soon&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Provisioned Service&lt;/a&gt; part for backing service is stable and ready for adoption&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;projects-with-support-for-service-binding&quot;&gt;Projects with Support for Service Binding&lt;/h2&gt;
+
+&lt;p&gt;Currently the Kuberentes ecosystem is getting ready for the spec adoption.  Here
+is a list of projects with support for Service Binding:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://camel.apache.org/camel-k/latest/traits/service-binding.html&quot;&gt;https://camel.apache.org/camel-k/latest/traits/service-binding.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bindings&quot;&gt;https://github.com/spring-cloud/spring-cloud-bindings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nodeshift/kube-service-bindings&quot;&gt;https://github.com/nodeshift/kube-service-bindings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/pyservicebinding/&quot;&gt;https://pypi.org/project/pyservicebinding/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/baijum/servicebinding&quot;&gt;https://github.com/baijum/servicebinding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quarkus.io/guides/deploying-to-kubernetes#service-binding&quot;&gt;https://quarkus.io/guides/deploying-to-kubernetes#service-binding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://paketo.io/docs/reference/configuration/#bindings&quot;&gt;https://paketo.io/docs/reference/configuration/#bindings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;operator-implementations&quot;&gt;Operator Implementations&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/redhat-developer/service-binding-operator&quot;&gt;Red Hat implementation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vmware-labs/service-bindings&quot;&gt;VMware implementation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kubepreset.dev&quot;&gt;KubePreset&lt;/a&gt; - A side-project of &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Baiju Muthukadan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1pWs2dOvEaQwru5vLzwb74uXk6ac59LEK7S3bOOBOV8o/edit&quot;&gt;Reference implementation&lt;/a&gt; (Planned)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;provisioned-service&quot;&gt;Provisioned Service&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Provisioned Service&lt;/a&gt; is the key abstraction used in the
+spec to define a backing service.  The spec consider Provisioned Service as a
+duck type with a definition like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Any type that meets the contract defined in a specification, without being an
+instance of a specific concrete type.  For example, for specification that
+requires a given key on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status&lt;/code&gt;, any resource that has that key on its
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status&lt;/code&gt; regardless of its kind would be considered a duck type of the
+specification.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Provisioned Service section starts like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A Provisioned Service resource &lt;strong&gt;MUST&lt;/strong&gt; define a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.status.binding&lt;/code&gt; which is a
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LocalObjectReference&lt;/code&gt;-able (containing a single field &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;) to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The
+&lt;a href=&quot;https://pkg.go.dev/k8s.io/api/core/v1#LocalObjectReference&quot;&gt;LocalObjectReference&lt;/a&gt;
+is a type with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; field.  The name should point to a Secret resource with
+data entries for the application to connect to the backing service.  Service
+Binding recociler will project the Secret values in to the application as
+defined in the &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#application-projection&quot;&gt;Application
+Projection&lt;/a&gt;
+section of the spec.  As you can see the sentence has the key word &lt;strong&gt;MUST&lt;/strong&gt; in
+full capital and bold, that indicates this is a mandatory requirement to comform
+to the spec.&lt;/p&gt;
+
+&lt;p&gt;This is the next mandatory requirement:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; &lt;strong&gt;MUST&lt;/strong&gt; be in the same namespace as the resource.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If the provisioned service and applications are in different namespaces, users
+may consider using &lt;a href=&quot;https://github.com/IBM/ibm-secretshare-operator&quot;&gt;IBM SecretShare
+Operator&lt;/a&gt; to sync the Secret
+resource across namespace.&lt;/p&gt;
+
+&lt;p&gt;The next sentence is not a mandate, but a recommendation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; data &lt;strong&gt;SHOULD&lt;/strong&gt; contain a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; entry with a value that
+identifies the abstract classification of the binding.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a recommendation to the provisioned service, but when it comes to the
+Application Projection, it becomes a mandatory requirement as part of the
+projected bindings data.  Even if the provisioned service provides a value for
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt;, it is possible to override the value from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ServiceBinding&lt;/code&gt; resource.&lt;/p&gt;
+
+&lt;p&gt;There is no standardization on the value for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt;, but you can see some good
+examples used in the &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bindings#auto-configurations&quot;&gt;Spring Cloud
+Bindings&lt;/a&gt;.
+Few examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;cassandra&lt;/li&gt;
+  &lt;li&gt;couchbase&lt;/li&gt;
+  &lt;li&gt;db2&lt;/li&gt;
+  &lt;li&gt;elasticsearch&lt;/li&gt;
+  &lt;li&gt;kafka&lt;/li&gt;
+  &lt;li&gt;ldap&lt;/li&gt;
+  &lt;li&gt;mongodb&lt;/li&gt;
+  &lt;li&gt;mysql&lt;/li&gt;
+  &lt;li&gt;neo4j&lt;/li&gt;
+  &lt;li&gt;oracle&lt;/li&gt;
+  &lt;li&gt;postgresql&lt;/li&gt;
+  &lt;li&gt;rabbitmq&lt;/li&gt;
+  &lt;li&gt;redis&lt;/li&gt;
+  &lt;li&gt;sqlserver&lt;/li&gt;
+  &lt;li&gt;vault&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Next recommendation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; type (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.type&lt;/code&gt; verses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.data.type&lt;/code&gt;) &lt;strong&gt;SHOULD&lt;/strong&gt; reflect this value
+as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;service.binding/{type}&lt;/code&gt;, replacing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{type}&lt;/code&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; data type.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This recommendation helps to query Secret resources of particular type using
+field-selector.  For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl get secrets --field-selector=&quot;type=service.binding/postgresql&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;will give the Secret resources of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;postgresql&lt;/code&gt; type/&lt;/p&gt;
+
+&lt;p&gt;Next recommendation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is &lt;strong&gt;RECOMMENDED&lt;/strong&gt; that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; data also contain a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; entry
+with a value that identifies the provider of the binding.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; field helps to narrow down the tye further in the application.
+The provider field could be used where there are different providers for the
+same Provisioned Service type.  For example, if the type is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mysql&lt;/code&gt;, the
+provider value could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mariadb&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oracle&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bitnami&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aws-rds&lt;/code&gt;, etc.  When
+the application is reading the binding values, if necessary, the application
+could consider &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; as a composite key to avoid ambiguity.&lt;/p&gt;
+
+&lt;p&gt;Next recommendation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; data &lt;strong&gt;MAY&lt;/strong&gt; contain any other entry.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apart from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; entries, the Secret data can include
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;password&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;host&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;port&lt;/code&gt; etc.&lt;/p&gt;
+
+&lt;p&gt;Next recommendation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To facilitate discoverability, it is &lt;strong&gt;RECOMMENDED&lt;/strong&gt; that a
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CustomResourceDefinition&lt;/code&gt; exposing a Provisioned Service add
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;service.binding/provisioned-service: &quot;true&quot;&lt;/code&gt; as a label.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This helps to find all the Provisioned Service custom resouces.  For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl get customresourcedefinitions.apiextensions.k8s.io -l &quot;service.binding/provisioned-service=true&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next there is a side note:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: While the Provisioned Service referenced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; data should contain a
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; entry, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; must be defined before it is projected into an
+application workload.  This allows a mapping to enrich an existing secret.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is already discussed earlier.&lt;/p&gt;
+
+&lt;p&gt;Next recommendation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Extensions and implementations &lt;strong&gt;MAY&lt;/strong&gt; define additional mechanisms to consume
+a Provisioned Service that does not conform to the duck type.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This recommendation is added to unblock any extensions or implementations with
+special requirements.&lt;/p&gt;
+
+&lt;h3 id=&quot;well-known-secret-entries&quot;&gt;Well-known Secret Entries&lt;/h3&gt;
+
+&lt;p&gt;This is the mandatory requirement about &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#well-known-secret-entries&quot;&gt;well-known Secret
+entries&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Other than the recommended &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; entries, there are no other
+reserved &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; entries.  In the interests of consistency, if a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt;
+includes any of the following entry names, the entry value &lt;strong&gt;MUST&lt;/strong&gt; meet the
+specified requirements:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Requirements&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;host&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A DNS-resolvable host name or IP address&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;port&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A valid port number&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A valid URI as defined by &lt;a href=&quot;https://tools.ietf.org/html/rfc3986&quot;&gt;RFC3986&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A string-based username credential&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;password&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A string-based password credential&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;certificates&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A collection of PEM-encoded X.509 certificates, representing a certificate chain used in mTLS client authentication&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;private-key&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;A PEM-encoded private key used in mTLS client authentication&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; entries that do not meet these requirements &lt;strong&gt;MUST&lt;/strong&gt; use different entry names.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;considerations-for-role-based-access-control-rbac&quot;&gt;Considerations for Role-Based Access Control (RBAC)&lt;/h3&gt;
+
+&lt;p&gt;The spec has support for Role-Based Access Control (RBAC).  Since the service
+binding reconciler needs permission to read Provisioned Service resources, there
+is a mandate about &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#role-based-access-control-rbac&quot;&gt;RBAC&lt;/a&gt; like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If a service binding reconciler implementation is using Role-Based Access
+Control (RBAC) it &lt;strong&gt;MUST&lt;/strong&gt; define an &lt;a href=&quot;https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles&quot;&gt;aggregated &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt;&lt;/a&gt; with a
+label selector matching the label &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;service.binding/controller=true&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So, there must be a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt; configured in the Kubernetes cluster something
+like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;rbac.authorization.k8s.io/v1&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ClusterRole&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;aggregationRule&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;clusterRoleSelectors&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;matchLabels&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;service.binding/controller&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;true&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# The control plane automatically fills in the rules&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There is a recommendation for backing service about RBAC (See &lt;a href=&quot;https://github.com/k8s-service-bindings/spec/pull/180&quot;&gt;PR
+180&lt;/a&gt;) :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cluster operators and CRD authors &lt;strong&gt;SHOULD&lt;/strong&gt; opt-in resources to expose
+provisioned services by defining a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt; with a label matching
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;service.binding/controller=true&lt;/code&gt;, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watch&lt;/code&gt; verbs
+&lt;strong&gt;MUST&lt;/strong&gt; be granted.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As a backing service author, you can offer a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt; with that same label
+(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;service.binding/controller=true&lt;/code&gt;) and the verbs (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watch&lt;/code&gt;)
+listed in the rules.  Here is an example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;rbac.authorization.k8s.io/v1&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ClusterRole&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kubepostgres-service-bindings&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;service.binding/controller&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;true&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# matches the aggregation rule selector&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;apiGroups&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;kubepostgres.dev&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;databases&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;verbs&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;get&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;list&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;watch&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In the above example, the API group for the backing service CRD is
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kubepostgres.dev&lt;/code&gt; and the resource name (plural form) is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;databases&lt;/code&gt;.  You can
+change those values as per your Provisioned Service.  While your operator is
+getting installed, make sure this cluster role is also installed.  For example,
+if you us Helm charts, you can add the above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt; configuration into a
+file inside the template directory (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;templates/rbac.yaml&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently Asked Questions&lt;/h2&gt;
+
+&lt;h3 id=&quot;is-it-possible-to-use-separate-namespaces-for-provisioned-services-and-applications&quot;&gt;Is it possible to use separate namespaces for Provisioned Services and applications?&lt;/h3&gt;
+
+&lt;p&gt;Current spec has a strong recommendation to restrict service binding to
+provisioned service within the same namespace.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Restricting service binding to resources within the same namespace is strongly &lt;strong&gt;RECOMMENDED&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(&lt;em&gt;From &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#service-binding&quot;&gt;2nd
+paragraph&lt;/a&gt; of
+Service Binding section&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;If your provisioned service and applications are in different namespaces, you
+may consider using &lt;a href=&quot;https://github.com/IBM/ibm-secretshare-operator&quot;&gt;IBM SecretShare
+Operator&lt;/a&gt; to sync the Secret
+resource across namespace.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-okay-to-replace-the-secret-resource-name-when-there-is-a-change-in-any-of-the-entries&quot;&gt;Is it okay to replace the Secret resource name when there is a change in any of the entries?&lt;/h3&gt;
+
+&lt;p&gt;Yes, it is a good practice to update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.status.binding.name&lt;/code&gt; field value with the
+new name of the Secret resource.  After the update, remove the old Secret
+resource from the cluster.  That should trigger Service Binding reconciliation
+and, in turn, update the projected bindings.  That’s the advantage of &lt;a href=&quot;https://hackernoon.com/level-triggering-and-reconciliation-in-kubernetes-1f17fe30333d&quot;&gt;level
+triggering and reconciliation&lt;/a&gt; in Kubernetes!&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="kubernetes" /><category term="binding" /><summary type="html">Service Binding Specification for Kubernetes standardizes exposing backing service secrets to applications. A backing service is any process that the application consumes over the network as part of its regular operation. Examples include datastores (such as MySQL or MongoDB), caching servers (such as Memcached), and stream processing systems (such as Kafka). If you are a backing service provider, this article gives you all the information required to evaluate Service Binding Specification for Kubernetes. Towards the end, this article also provides an expository commentary on the spec related to backing service integration. Finally, the article has curated a list of frequently asked questions with answers.</summary></entry><entry><title type="html">Paketo Bindings for Spring Boot Applications</title><link href="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/" rel="alternate" type="text/html" title="Paketo Bindings for Spring Boot Applications" /><published>2021-07-07T00:00:00+05:30</published><updated>2021-07-07T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec&quot;&gt;Service Binding Specification&lt;/a&gt;
 for Kubernetes standardizes exposing backing service secrets to applications.
 The application should be prepared to use the bindings projected into the
 container.  This article explains how to use &lt;a href=&quot;https://buildpacks.io&quot;&gt;Cloud Native
@@ -377,35 +722,4 @@ conducted 3 more Golang workshops.&lt;/p&gt;
 
 &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Today&amp;#39;s &lt;a href=&quot;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#golang&lt;/a&gt; workshop was well received. Thanks to organizers and participants! &lt;a href=&quot;https://t.co/ki48h1Ymei&quot;&gt;pic.twitter.com/ki48h1Ymei&lt;/a&gt;&lt;/p&gt;&amp;mdash; Baiju Muthukadan (@baijum) &lt;a href=&quot;https://twitter.com/baijum/status/807595399347191810?ref_src=twsrc%5Etfw&quot;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Last update about my Golang workshops was in June 2016. In the last 6 months many things happened in my life. I changed my job, after working 9 years and 7 months at ZeOmega joined Red Hat. Our second son born in last August. Became co-organizer of Bangalore Golang user group and started organizing meetups. Along with all these things, conducted 3 more Golang workshops.</summary></entry><entry><title type="html">Golang workshops at Sahrdaya &amp;amp; Reboot Calicut</title><link href="https://muthukadan.net/golang/talk/golang-workshop-sahrdaya-rebootcalicut/" rel="alternate" type="text/html" title="Golang workshops at Sahrdaya &amp;amp; Reboot Calicut" /><published>2016-06-15T00:00:00+05:30</published><updated>2016-06-15T00:00:00+05:30</updated><id>https://muthukadan.net/golang/talk/golang-workshop-sahrdaya-rebootcalicut</id><content type="html" xml:base="https://muthukadan.net/golang/talk/golang-workshop-sahrdaya-rebootcalicut/">&lt;p&gt;Those who following me or &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://facebook.com/BaijuMuthukadan&quot;&gt;Facebook&lt;/a&gt; might be already
-seen my updates about Golang workshops at &lt;a href=&quot;http://www.sahrdaya.ac.in&quot;&gt;Sahrdaya&lt;/a&gt; college of
-engineering and &lt;a href=&quot;http://rebootcalicut.com&quot;&gt;Reboot Calicut&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My third Golang workshop was organized by Sahrdaya college of
-engineering as part of the faculty development program.  Particants
-were mostly computer science teachers from various engineering
-colleges.  This was interesting, because my first Golang workshop
-particants were computer science engineering students and second was
-professional software developers.  The workshop was conducted on last
-week of April.  I know, this is very late update ;)&lt;/p&gt;
-
-&lt;p&gt;As usual, Go was very new to all particants.  The prgram went very
-well.  Few photos from the workshop:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/zg409i355z68tsx/IMG_20160429_144018.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/jlb0ffms0te3zn9/IMG_20160429_144031.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/5z4vx0ru4y59byq/IMG_20160429_163630.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/kx1eq32y4ksguqh/IMG_20160429_163658.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/bihpyeby4peh2mq/IMG_20160429_163701.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The 4th Golang workshop was in Calicut.  Reboot Calicut is a new
-conference started in Calicut by software professionals.  Since
-Calicut is my home town, I was very happy to accept their invitation.
-I can see that, the infrastructure in Calicut is improving every year.
-I hope this conference will help many software developers.  The venue
-location was was very good.  Few photos:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/844hbqc89ml4zi8/IMG_20160604_170747.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/gevdc7vwvywn7sl/IMG_20160604_170822_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/yhr8pavdgyhld3k/IMG_20160604_170857_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;
-&lt;img src=&quot;https://www.dropbox.com/s/hcq78x9um9z0017/IMG_20160604_170926_HDR.jpg?raw=1&quot; style=&quot;width: 560px&quot; /&gt;&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Those who following me or Twitter or Facebook might be already seen my updates about Golang workshops at Sahrdaya college of engineering and Reboot Calicut.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Baiju Muthukadan</name></author><category term="golang" /><category term="talk" /><summary type="html">Last update about my Golang workshops was in June 2016. In the last 6 months many things happened in my life. I changed my job, after working 9 years and 7 months at ZeOmega joined Red Hat. Our second son born in last August. Became co-organizer of Bangalore Golang user group and started organizing meetups. Along with all these things, conducted 3 more Golang workshops.</summary></entry></feed>
