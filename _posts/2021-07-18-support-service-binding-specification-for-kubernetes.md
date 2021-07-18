@@ -11,10 +11,9 @@ that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
 Memcached), and stream processing systems (such as Kafka).  If you are a backing
 service provider, this article gives you all the information required to
-evaluate Service Binding Specification for Kubernetes.  Towards the end, this
-article also provides an expository commentary on the spec related to backing
-service integration.  Finally, the article has curated a list of frequently
-asked questions with answers.
+evaluate Service Binding Specification for Kubernetes.  There is an expository
+commentary on the spec related to backing service integration.  Finally, the
+article has curated a list of frequently asked questions with answers.
 
 The spec [introduction][spec-intro] presents a good summary of the importance of
 the specification.  The key benefit for supporting the spec for a backing
