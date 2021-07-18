@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2021-07-18T20:48:18+05:30</updated>
+  <updated>2021-07-18T21:23:55+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -27,10 +27,9 @@ that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
 Memcached), and stream processing systems (such as Kafka).  If you are a backing
 service provider, this article gives you all the information required to
-evaluate Service Binding Specification for Kubernetes.  Towards the end, this
-article also provides an expository commentary on the spec related to backing
-service integration.  Finally, the article has curated a list of frequently
-asked questions with answers.&lt;/p&gt;
+evaluate Service Binding Specification for Kubernetes.  There is an expository
+commentary on the spec related to backing service integration.  Finally, the
+article has curated a list of frequently asked questions with answers.&lt;/p&gt;
 
 &lt;p&gt;The spec &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#service-binding-specification-for-kubernetes&quot;&gt;introduction&lt;/a&gt; presents a good summary of the importance of
 the specification.  The key benefit for supporting the spec for a backing
