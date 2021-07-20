@@ -80,9 +80,9 @@ This is the next mandatory requirement:
 > The `Secret` **MUST** be in the same namespace as the resource.
 
 If the provisioned service and applications are in different namespaces, users
-may consider using [IBM SecretShare
-Operator](https://github.com/IBM/ibm-secretshare-operator) to sync the Secret
-resource across namespace.
+may consider using [Provisioned Service Syncer
+Operator](https://github.com/kubepreset/provisioned-service-syncer) to sync the
+Secret resource across namespace.
 
 The next sentence is not a mandate, but a recommendation:
 
@@ -283,9 +283,9 @@ paragraph](https://github.com/k8s-service-bindings/spec#service-binding) of
 Service Binding section_)
 
 If your provisioned service and applications are in different namespaces, you
-may consider using [IBM SecretShare
-Operator](https://github.com/IBM/ibm-secretshare-operator) to sync the Secret
-resource across namespace.
+may consider using [Provisioned Service Syncer
+Operator](https://github.com/kubepreset/provisioned-service-syncer) to sync the
+Secret resource across namespace.
 
 ### Is it okay to replace the Secret resource name when there is a change in any of the entries?
 
