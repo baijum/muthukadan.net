@@ -175,12 +175,17 @@ special requirements.
 ### Well-known Secret Entries
 
 This is the mandatory requirement about [well-known Secret
-entries](https://github.com/k8s-service-bindings/spec#well-known-secret-entries):
+entries](https://github.com/k8s-service-bindings/spec#well-known-secret-entries).
+Thought, it is acceptable not to include any of these well-known-secret-entries
+entries in the Secret resources.
 
 > Other than the recommended `type` and `provider` entries, there are no other
 > reserved `Secret` entries.  In the interests of consistency, if a `Secret`
 > includes any of the following entry names, the entry value **MUST** meet the
 > specified requirements:
+
+If the Provisioned Service doesn't include any of the following entry names, no
+need to follow the given requirements.
 
 > | Name | Requirements
 > | ---- | ------------
@@ -192,7 +197,15 @@ entries](https://github.com/k8s-service-bindings/spec#well-known-secret-entries)
 > | `certificates` | A collection of PEM-encoded X.509 certificates, representing a certificate chain used in mTLS client authentication
 > | `private-key` | A PEM-encoded private key used in mTLS client authentication
 
+For Go based operators, you may consider using
+[github.com/kubepreset/pkg/secret](https://github.com/kubepreset/pkg/blob/main/secret/wellknown.go)
+package to validate these entries.
+
 > `Secret` entries that do not meet these requirements **MUST** use different entry names.
+
+If there is any entry that doesn't follow the given requirement, you can choose
+different names.  For example, if there is a URI-like string but not a valid
+one, as per RFC-3986, use another name (e.g., "custom-uri").
 
 ### Considerations for Role-Based Access Control (RBAC)
 
