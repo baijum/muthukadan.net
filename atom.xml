@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2021-07-20T21:40:19+05:30</updated>
+  <updated>2021-07-20T23:22:57+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -108,9 +108,9 @@ to the spec.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;If the provisioned service and applications are in different namespaces, users
-may consider using &lt;a href=&quot;https://github.com/IBM/ibm-secretshare-operator&quot;&gt;IBM SecretShare
-Operator&lt;/a&gt; to sync the Secret
-resource across namespace.&lt;/p&gt;
+may consider using &lt;a href=&quot;https://github.com/kubepreset/provisioned-service-syncer&quot;&gt;Provisioned Service Syncer
+Operator&lt;/a&gt; to sync the
+Secret resource across namespace.&lt;/p&gt;
 
 &lt;p&gt;The next sentence is not a mandate, but a recommendation:&lt;/p&gt;
 
@@ -368,9 +368,9 @@ paragraph&lt;/a&gt; of
 Service Binding section&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;If your provisioned service and applications are in different namespaces, you
-may consider using &lt;a href=&quot;https://github.com/IBM/ibm-secretshare-operator&quot;&gt;IBM SecretShare
-Operator&lt;/a&gt; to sync the Secret
-resource across namespace.&lt;/p&gt;
+may consider using &lt;a href=&quot;https://github.com/kubepreset/provisioned-service-syncer&quot;&gt;Provisioned Service Syncer
+Operator&lt;/a&gt; to sync the
+Secret resource across namespace.&lt;/p&gt;
 
 &lt;h3 id=&quot;is-it-okay-to-replace-the-secret-resource-name-when-there-is-a-change-in-any-of-the-entries&quot;&gt;Is it okay to replace the Secret resource name when there is a change in any of the entries?&lt;/h3&gt;
 
