@@ -176,8 +176,8 @@ special requirements.
 
 This is the mandatory requirement about [well-known Secret
 entries](https://github.com/k8s-service-bindings/spec#well-known-secret-entries).
-Thought, it is acceptable not to include any of these well-known-secret-entries
-entries in the Secret resources.
+Thought, it is acceptable not to include any of these entries in the Secret
+resource.
 
 > Other than the recommended `type` and `provider` entries, there are no other
 > reserved `Secret` entries.  In the interests of consistency, if a `Secret`
