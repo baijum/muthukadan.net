@@ -536,7 +536,9 @@ special requirements.</p>
 <h3 id="well-known-secret-entries">Well-known Secret Entries</h3>
 
 <p>This is the mandatory requirement about <a href="https://github.com/k8s-service-bindings/spec#well-known-secret-entries">well-known Secret
-entries</a>:</p>
+entries</a>.
+Thought, it is acceptable not to include any of these well-known-secret-entries
+entries in the Secret resources.</p>
 
 <blockquote>
   <p>Other than the recommended <code class="language-plaintext highlighter-rouge">type</code> and <code class="language-plaintext highlighter-rouge">provider</code> entries, there are no other
@@ -544,6 +546,9 @@ reserved <code class="language-plaintext highlighter-rouge">Secret</code> entrie
 includes any of the following entry names, the entry value <strong>MUST</strong> meet the
 specified requirements:</p>
 </blockquote>
+
+<p>If the Provisioned Service doesn’t include any of the following entry names, no
+need to follow the given requirements.</p>
 
 <blockquote>
   <table>
@@ -586,9 +591,17 @@ specified requirements:</p>
   </table>
 </blockquote>
 
+<p>For Go based operators, you may consider using
+<a href="https://github.com/kubepreset/pkg/blob/main/secret/wellknown.go">github.com/kubepreset/pkg/secret</a>
+package to validate these entries.</p>
+
 <blockquote>
   <p><code class="language-plaintext highlighter-rouge">Secret</code> entries that do not meet these requirements <strong>MUST</strong> use different entry names.</p>
 </blockquote>
+
+<p>If there is any entry that doesn’t follow the given requirement, you can choose
+different names.  For example, if there is a URI-like string but not a valid
+one, as per RFC-3986, use another name (e.g., “custom-uri”).</p>
 
 <h3 id="considerations-for-role-based-access-control-rbac">Considerations for Role-Based Access Control (RBAC)</h3>
 

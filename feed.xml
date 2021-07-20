@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-07-18T21:23:55+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-07-20T21:35:57+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
 backing service secrets to applications.  A &lt;em&gt;backing service&lt;/em&gt; is any process
 that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
@@ -198,7 +198,9 @@ special requirements.&lt;/p&gt;
 &lt;h3 id=&quot;well-known-secret-entries&quot;&gt;Well-known Secret Entries&lt;/h3&gt;
 
 &lt;p&gt;This is the mandatory requirement about &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#well-known-secret-entries&quot;&gt;well-known Secret
-entries&lt;/a&gt;:&lt;/p&gt;
+entries&lt;/a&gt;.
+Thought, it is acceptable not to include any of these well-known-secret-entries
+entries in the Secret resources.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Other than the recommended &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; entries, there are no other
@@ -206,6 +208,9 @@ reserved &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secr
 includes any of the following entry names, the entry value &lt;strong&gt;MUST&lt;/strong&gt; meet the
 specified requirements:&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;If the Provisioned Service doesn’t include any of the following entry names, no
+need to follow the given requirements.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;table&gt;
@@ -248,9 +253,17 @@ specified requirements:&lt;/p&gt;
   &lt;/table&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;For Go based operators, you may consider using
+&lt;a href=&quot;https://github.com/kubepreset/pkg/blob/main/secret/wellknown.go&quot;&gt;github.com/kubepreset/pkg/secret&lt;/a&gt;
+package to validate these entries.&lt;/p&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; entries that do not meet these requirements &lt;strong&gt;MUST&lt;/strong&gt; use different entry names.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;If there is any entry that doesn’t follow the given requirement, you can choose
+different names.  For example, if there is a URI-like string but not a valid
+one, as per RFC-3986, use another name (e.g., “custom-uri”).&lt;/p&gt;
 
 &lt;h3 id=&quot;considerations-for-role-based-access-control-rbac&quot;&gt;Considerations for Role-Based Access Control (RBAC)&lt;/h3&gt;
 
