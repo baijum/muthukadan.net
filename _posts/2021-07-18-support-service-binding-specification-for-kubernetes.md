@@ -45,7 +45,7 @@ is a list of projects with support for Service Binding:
 1. [Red Hat implementation](https://github.com/redhat-developer/service-binding-operator)
 2. [VMware implementation](https://github.com/vmware-labs/service-bindings)
 3. [KubePreset](https://kubepreset.dev) - A side-project of [Baiju Muthukadan](https://twitter.com/baijum)
-4. [Reference implementation](https://docs.google.com/document/d/1pWs2dOvEaQwru5vLzwb74uXk6ac59LEK7S3bOOBOV8o/edit) (Planned)
+4. [Service Binding Controller](https://github.com/k8s-service-bindings/service-binding-controller) - Reference implementation
 
 ## Provisioned Service
 
@@ -232,8 +232,7 @@ aggregationRule:
 rules: [] # The control plane automatically fills in the rules
 ```
 
-There is a recommendation for backing service about RBAC (See [PR
-180](https://github.com/k8s-service-bindings/spec/pull/180)) :
+There is a recommendation for backing service about RBAC:
 
 > Cluster operators and CRD authors **SHOULD** opt-in resources to expose
 > provisioned services by defining a `ClusterRole` with a label matching
