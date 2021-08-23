@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2021-07-20T23:22:57+05:30</updated>
+  <updated>2021-08-23T13:22:11+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -66,7 +66,7 @@ is a list of projects with support for Service Binding:&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/redhat-developer/service-binding-operator&quot;&gt;Red Hat implementation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/vmware-labs/service-bindings&quot;&gt;VMware implementation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://kubepreset.dev&quot;&gt;KubePreset&lt;/a&gt; - A side-project of &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Baiju Muthukadan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1pWs2dOvEaQwru5vLzwb74uXk6ac59LEK7S3bOOBOV8o/edit&quot;&gt;Reference implementation&lt;/a&gt; (Planned)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/service-binding-controller&quot;&gt;Service Binding Controller&lt;/a&gt; - Reference implementation&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;provisioned-service&quot;&gt;Provisioned Service&lt;/h2&gt;
@@ -314,8 +314,7 @@ like this:&lt;/p&gt;
 &lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# The control plane automatically fills in the rules&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;There is a recommendation for backing service about RBAC (See &lt;a href=&quot;https://github.com/k8s-service-bindings/spec/pull/180&quot;&gt;PR
-180&lt;/a&gt;) :&lt;/p&gt;
+&lt;p&gt;There is a recommendation for backing service about RBAC:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Cluster operators and CRD authors &lt;strong&gt;SHOULD&lt;/strong&gt; opt-in resources to expose

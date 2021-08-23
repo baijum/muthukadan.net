@@ -381,7 +381,7 @@ is a list of projects with support for Service Binding:</p>
   <li><a href="https://github.com/redhat-developer/service-binding-operator">Red Hat implementation</a></li>
   <li><a href="https://github.com/vmware-labs/service-bindings">VMware implementation</a></li>
   <li><a href="https://kubepreset.dev">KubePreset</a> - A side-project of <a href="https://twitter.com/baijum">Baiju Muthukadan</a></li>
-  <li><a href="https://docs.google.com/document/d/1pWs2dOvEaQwru5vLzwb74uXk6ac59LEK7S3bOOBOV8o/edit">Reference implementation</a> (Planned)</li>
+  <li><a href="https://github.com/k8s-service-bindings/service-binding-controller">Service Binding Controller</a> - Reference implementation</li>
 </ol>
 
 <h2 id="provisioned-service">Provisioned Service</h2>
@@ -629,8 +629,7 @@ like this:</p>
 <span class="na">rules</span><span class="pi">:</span> <span class="pi">[]</span> <span class="c1"># The control plane automatically fills in the rules</span>
 </code></pre></div></div>
 
-<p>There is a recommendation for backing service about RBAC (See <a href="https://github.com/k8s-service-bindings/spec/pull/180">PR
-180</a>) :</p>
+<p>There is a recommendation for backing service about RBAC:</p>
 
 <blockquote>
   <p>Cluster operators and CRD authors <strong>SHOULD</strong> opt-in resources to expose

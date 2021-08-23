@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-07-20T23:22:57+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2021-08-23T13:22:11+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
 backing service secrets to applications.  A &lt;em&gt;backing service&lt;/em&gt; is any process
 that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
@@ -43,7 +43,7 @@ is a list of projects with support for Service Binding:&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/redhat-developer/service-binding-operator&quot;&gt;Red Hat implementation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/vmware-labs/service-bindings&quot;&gt;VMware implementation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://kubepreset.dev&quot;&gt;KubePreset&lt;/a&gt; - A side-project of &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Baiju Muthukadan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1pWs2dOvEaQwru5vLzwb74uXk6ac59LEK7S3bOOBOV8o/edit&quot;&gt;Reference implementation&lt;/a&gt; (Planned)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/service-binding-controller&quot;&gt;Service Binding Controller&lt;/a&gt; - Reference implementation&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;provisioned-service&quot;&gt;Provisioned Service&lt;/h2&gt;
@@ -291,8 +291,7 @@ like this:&lt;/p&gt;
 &lt;span class=&quot;na&quot;&gt;rules&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# The control plane automatically fills in the rules&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;There is a recommendation for backing service about RBAC (See &lt;a href=&quot;https://github.com/k8s-service-bindings/spec/pull/180&quot;&gt;PR
-180&lt;/a&gt;) :&lt;/p&gt;
+&lt;p&gt;There is a recommendation for backing service about RBAC:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Cluster operators and CRD authors &lt;strong&gt;SHOULD&lt;/strong&gt; opt-in resources to expose
