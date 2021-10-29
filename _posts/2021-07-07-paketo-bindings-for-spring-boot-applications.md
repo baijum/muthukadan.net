@@ -39,7 +39,7 @@ like this:
 
 ```
 mkdir /tmp/postgres
-echo "postgresql" > /tmp/postgres
+echo "postgresql" > /tmp/postgres/type
 ```
 
 Now you can build the application image like this:
