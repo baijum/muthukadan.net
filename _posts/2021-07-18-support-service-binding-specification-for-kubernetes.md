@@ -41,7 +41,7 @@ list of projects with support for Service Binding:
 
 1. [Service Binding Controller](https://github.com/servicebinding/service-binding-controller) - Reference Implementation by the community
 1. [Red Hat implementation](https://github.com/redhat-developer/service-binding-operator)
-2. [VMware implementation](https://github.com/vmware-labs/service-bindings)
+2. [VMware implementation](https://github.com/vmware-tanzu/servicebinding)
 
 ## Provisioned Service
 
