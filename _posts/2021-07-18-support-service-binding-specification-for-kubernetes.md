@@ -57,8 +57,9 @@ duck type with a definition like this:
 
 The Provisioned Service section starts like this:
 
-> A Provisioned Service resource **MUST** define a `.status.binding` which is a
-> `LocalObjectReference`-able (containing a single field `name`) to a `Secret`.
+> A Provisioned Service resource **MUST** define a `.status.binding` field which
+> is a `LocalObjectReference`-able (containing a single field `name`) to a
+> `Secret`.
 
 The
 [LocalObjectReference](https://pkg.go.dev/k8s.io/api/core/v1#LocalObjectReference)
@@ -73,7 +74,7 @@ to the spec.
 
 This is the next mandatory requirement:
 
-> The `Secret` **MUST** be in the same namespace as the resource.
+> The `Secret` **MUST** exist in the same namespace as the resource.
 
 If the provisioned service and applications are in different namespaces, users
 may consider using [IBM SecretShare
@@ -113,13 +114,14 @@ Few examples:
 
 Next recommendation:
 
-> The `Secret` type (`.type` verses `.data.type`) **SHOULD** reflect this value
-> as `service.binding/{type}`, replacing `{type}` with the `Secret` data type.
+> The `Secret` type (`.type` verses `.data.type` fields) **SHOULD** reflect this
+> value as `servicebinding.io/{type}`, substituting `{type}` with the `Secret`
+> data type.
 
 This recommendation helps to query Secret resources of particular type using
 field-selector.  For example:
 
-    kubectl get secrets --field-selector="type=service.binding/postgresql"
+    kubectl get secrets --field-selector="type=servicebinding.io/postgresql"
 
 will give the Secret resources of `postgresql` type/
 
@@ -146,17 +148,19 @@ Next recommendation:
 
 > To facilitate discoverability, it is **RECOMMENDED** that a
 > `CustomResourceDefinition` exposing a Provisioned Service add
-> `service.binding/provisioned-service: "true"` as a label.
+> `servicebinding.io/provisioned-service: "true"` as a label.
 
 This helps to find all the Provisioned Service custom resouces.  For example:
 
-    kubectl get customresourcedefinitions.apiextensions.k8s.io -l "service.binding/provisioned-service=true"
+    kubectl get customresourcedefinitions.apiextensions.k8s.io -l "servicebinding.io/provisioned-service=true"
 
 Next there is a side note:
 
 > Note: While the Provisioned Service referenced `Secret` data should contain a
-> `type` entry, the `type` must be defined before it is projected into an
-> application workload.  This allows a mapping to enrich an existing secret.
+> `type` entry, the `type` must be defined as it is projected to a workload. The
+> relaxation of the requirement for provisioned services allows for a mapping to
+> enrich an existing secret. For example, `ServiceBinding` has fields to
+> override `type` and `provider` values.
 
 This is already discussed earlier.
 
@@ -176,7 +180,7 @@ Thought, it is acceptable not to include any of these entries in the Secret
 resource.
 
 > Other than the recommended `type` and `provider` entries, there are no other
-> reserved `Secret` entries.  In the interests of consistency, if a `Secret`
+> reserved `Secret` entries. In the interests of consistency, if a `Secret`
 > includes any of the following entry names, the entry value **MUST** meet the
 > specified requirements:
 
@@ -190,7 +194,7 @@ need to follow the given requirements.
 > | `uri` | A valid URI as defined by [RFC3986](https://tools.ietf.org/html/rfc3986)
 > | `username` | A string-based username credential
 > | `password` | A string-based password credential
-> | `certificates` | A collection of PEM-encoded X.509 certificates, representing a certificate chain used in mTLS client authentication
+> | `certificates` | A collection of PEM-encoded X.509 public certificates, representing a certificate chain used to trust TLS connections
 > | `private-key` | A PEM-encoded private key used in mTLS client authentication
 
 For Go based operators, you may consider using
@@ -203,15 +207,50 @@ If there is any entry that doesn't follow the given requirement, you can choose
 different names.  For example, if there is a URI-like string but not a valid
 one, as per RFC-3986, use another name (e.g., "custom-uri").
 
+Finally there is an example for the Secret resource:
+
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: production-db-secret
+type: servicebinding.io/mysql
+stringData:
+  type: mysql
+  provider: bitnami
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+```
+
 ### Considerations for Role-Based Access Control (RBAC)
 
 The spec has support for Role-Based Access Control (RBAC).  Since the service
 binding reconciler needs permission to read Provisioned Service resources, there
-is a mandate about [RBAC][rbac] like this:
+is a recommendation about [RBAC][rbac] like this:
+
+> Cluster operators and CRD authors **SHOULD** opt-in resources to expose
+> provisioned services by defining a `ClusterRole` with a label matching
+> `servicebinding.io/controller=true`. The `get`, `list`, and `watch` verbs
+> **MUST** be granted in the `ClusterRole`.
+
+More about RBAC is given in the last section:
+
+> Kubernetes clusters often utilize [Role-based access control (RBAC)][rbac] to
+> authorize subjects to perform specific actions on resources. When operating in
+> a cluster with RBAC enabled, the service binding reconciler needs permission
+> to read resources that provisioned a service and write resources that services
+> are projected into. This section defines a means for third-party CRD authors
+> and cluster operators to expose resources to the service binding reconciler.
+> Cluster operators **MAY** impose additional access controls beyond RBAC.
 
 > If a service binding reconciler implementation is using Role-Based Access
 > Control (RBAC) it **MUST** define an [aggregated `ClusterRole`][acr] with a
-> label selector matching the label `service.binding/controller=true`.
+> label selector matching the label `servicebinding.io/controller=true`. This
+> `ClusterRole` **MUST** be bound (`RoleBinding` for a single namespace or
+> `ClusterRoleBinding` if cluster-wide) to the subject the service binding
+> reconciler runs as, typically a `ServiceAccount`.
 
 So, there must be a `ClusterRole` configured in the Kubernetes cluster something
 like this:
@@ -224,19 +263,12 @@ metadata:
 aggregationRule:
   clusterRoleSelectors:
   - matchLabels:
-      service.binding/controller: "true"
+      servicebinding.io/controller: "true"
 rules: [] # The control plane automatically fills in the rules
 ```
 
-There is a recommendation for backing service about RBAC:
-
-> Cluster operators and CRD authors **SHOULD** opt-in resources to expose
-> provisioned services by defining a `ClusterRole` with a label matching
-> `service.binding/controller=true`, the `get`, `list`, and `watch` verbs
-> **MUST** be granted.
-
 As a backing service author, you can offer a `ClusterRole` with that same label
-(`service.binding/controller=true`) and the verbs (`get`, `list`, and `watch`)
+(`servicebinding.io/controller=true`) and the verbs (`get`, `list`, and `watch`)
 listed in the rules.  Here is an example `ClusterRole`:
 
 ```yaml
@@ -245,12 +277,13 @@ kind: ClusterRole
 metadata:
   name: kubepostgres-service-bindings
   labels:
-    service.binding/controller: "true" # matches the aggregation rule selector
+    servicebinding.io/controller: "true" # matches the aggregation rule selector
 rules:
 - apiGroups:
   - kubepostgres.dev
   resources:
   - databases
+  - databases/status
   verbs:
   - get
   - list
