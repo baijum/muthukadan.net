@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2022-07-21T10:31:06+05:30</updated>
+  <updated>2022-07-21T11:16:36+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -73,10 +73,10 @@ duck type with a definition like this:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Any type that meets the contract defined in a specification, without being an
-instance of a specific concrete type.  For example, for specification that
+instance of a specific concrete type. For example, for a specification that
 requires a given key on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status&lt;/code&gt;, any resource that has that key on its
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status&lt;/code&gt; regardless of its kind would be considered a duck type of the
-specification.&lt;/p&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;status&lt;/code&gt; regardless of its &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apiVersion&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kind&lt;/code&gt; would be considered to
+implement that duck type.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The Provisioned Service section starts like this:&lt;/p&gt;

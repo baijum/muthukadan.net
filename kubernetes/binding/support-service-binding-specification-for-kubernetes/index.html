@@ -388,10 +388,10 @@ duck type with a definition like this:</p>
 
 <blockquote>
   <p>Any type that meets the contract defined in a specification, without being an
-instance of a specific concrete type.  For example, for specification that
+instance of a specific concrete type. For example, for a specification that
 requires a given key on <code class="language-plaintext highlighter-rouge">status</code>, any resource that has that key on its
-<code class="language-plaintext highlighter-rouge">status</code> regardless of its kind would be considered a duck type of the
-specification.</p>
+<code class="language-plaintext highlighter-rouge">status</code> regardless of its <code class="language-plaintext highlighter-rouge">apiVersion</code> or <code class="language-plaintext highlighter-rouge">kind</code> would be considered to
+implement that duck type.</p>
 </blockquote>
 
 <p>The Provisioned Service section starts like this:</p>
