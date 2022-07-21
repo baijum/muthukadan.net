@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2021-10-29T16:24:31+05:30</updated>
+  <updated>2022-07-21T10:26:34+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -21,7 +21,7 @@
       <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
       <uri>https://muthukadan.net</uri>
     </author>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/servicebinding/spec&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
 backing service secrets to applications.  A &lt;em&gt;backing service&lt;/em&gt; is any process
 that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
@@ -31,7 +31,7 @@ evaluate Service Binding Specification for Kubernetes.  There is an expository
 commentary on the spec related to backing service integration.  Finally, the
 article has curated a list of frequently asked questions with answers.&lt;/p&gt;
 
-&lt;p&gt;The spec &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#service-binding-specification-for-kubernetes&quot;&gt;introduction&lt;/a&gt; presents a good summary of the importance of
+&lt;p&gt;The spec &lt;a href=&quot;https://github.com/servicebinding/spec#service-binding-specification-for-kubernetes&quot;&gt;introduction&lt;/a&gt; presents a good summary of the importance of
 the specification.  The key benefit for supporting the spec for a backing
 service is that the Secret resource will be collected and exposed to
 applications consistently and predictably.&lt;/p&gt;
@@ -41,37 +41,33 @@ applications consistently and predictably.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The spec is a collective effort of a community working with Kuberentes.&lt;/li&gt;
   &lt;li&gt;Contributions from many organizations including VMware, IBM, and Red Hat.&lt;/li&gt;
-  &lt;li&gt;The spec is matured and GA release will happen soon&lt;/li&gt;
-  &lt;li&gt;The &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Provisioned Service&lt;/a&gt; part for backing service is stable and ready for adoption&lt;/li&gt;
+  &lt;li&gt;The spec is matured and general availability release 1.0.0 came out in March 2022&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://github.com/servicebinding/spec#provisioned-service&quot;&gt;Provisioned Service&lt;/a&gt; part for backing service is stable and ready for adoption&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;projects-with-support-for-service-binding&quot;&gt;Projects with Support for Service Binding&lt;/h2&gt;
 
-&lt;p&gt;Currently the Kuberentes ecosystem is getting ready for the spec adoption.  Here
-is a list of projects with support for Service Binding:&lt;/p&gt;
+&lt;p&gt;Currently the spec is getting adopted by the Kuberentes community. Here is a
+list of projects with support for Service Binding:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://camel.apache.org/camel-k/latest/traits/service-binding.html&quot;&gt;https://camel.apache.org/camel-k/latest/traits/service-binding.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-bindings&quot;&gt;https://github.com/spring-cloud/spring-cloud-bindings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nodeshift/kube-service-bindings&quot;&gt;https://github.com/nodeshift/kube-service-bindings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/pyservicebinding/&quot;&gt;https://pypi.org/project/pyservicebinding/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/baijum/servicebinding&quot;&gt;https://github.com/baijum/servicebinding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://quarkus.io/guides/deploying-to-kubernetes#service-binding&quot;&gt;https://quarkus.io/guides/deploying-to-kubernetes#service-binding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://paketo.io/docs/reference/configuration/#bindings&quot;&gt;https://paketo.io/docs/reference/configuration/#bindings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://servicebinding.io/application-developer/&quot;&gt;Language-specific Libraries for .NET, Go, Java, NodeJS, Python, Ruby, Rust&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;operator-implementations&quot;&gt;Operator Implementations&lt;/h2&gt;
 
 &lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/servicebinding/service-binding-controller&quot;&gt;Service Binding Controller&lt;/a&gt; - Reference Implementation by the community&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/redhat-developer/service-binding-operator&quot;&gt;Red Hat implementation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/vmware-labs/service-bindings&quot;&gt;VMware implementation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kubepreset.dev&quot;&gt;KubePreset&lt;/a&gt; - A side-project of &lt;a href=&quot;https://twitter.com/baijum&quot;&gt;Baiju Muthukadan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/service-binding-controller&quot;&gt;Service Binding Controller&lt;/a&gt; - Reference implementation&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;provisioned-service&quot;&gt;Provisioned Service&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec#provisioned-service&quot;&gt;Provisioned Service&lt;/a&gt; is the key abstraction used in the
+&lt;p&gt;&lt;a href=&quot;https://github.com/servicebinding/spec#provisioned-service&quot;&gt;Provisioned Service&lt;/a&gt; is the key abstraction used in the
 spec to define a backing service.  The spec consider Provisioned Service as a
 duck type with a definition like this:&lt;/p&gt;
 
@@ -95,7 +91,7 @@ specification.&lt;/p&gt;
 is a type with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; field.  The name should point to a Secret resource with
 data entries for the application to connect to the backing service.  Service
 Binding recociler will project the Secret values in to the application as
-defined in the &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#application-projection&quot;&gt;Application
+defined in the &lt;a href=&quot;https://github.com/servicebinding/spec#application-projection&quot;&gt;Application
 Projection&lt;/a&gt;
 section of the spec.  As you can see the sentence has the key word &lt;strong&gt;MUST&lt;/strong&gt; in
 full capital and bold, that indicates this is a mandatory requirement to comform
@@ -108,9 +104,9 @@ to the spec.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;If the provisioned service and applications are in different namespaces, users
-may consider using &lt;a href=&quot;https://github.com/kubepreset/provisioned-service-syncer&quot;&gt;Provisioned Service Syncer
-Operator&lt;/a&gt; to sync the
-Secret resource across namespace.&lt;/p&gt;
+may consider using &lt;a href=&quot;https://github.com/IBM/ibm-secretshare-operator&quot;&gt;IBM SecretShare
+Operator&lt;/a&gt; to sync the Secret
+resource across namespace.&lt;/p&gt;
 
 &lt;p&gt;The next sentence is not a mandate, but a recommendation:&lt;/p&gt;
 
@@ -220,7 +216,7 @@ special requirements.&lt;/p&gt;
 
 &lt;h3 id=&quot;well-known-secret-entries&quot;&gt;Well-known Secret Entries&lt;/h3&gt;
 
-&lt;p&gt;This is the mandatory requirement about &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#well-known-secret-entries&quot;&gt;well-known Secret
+&lt;p&gt;This is the mandatory requirement about &lt;a href=&quot;https://github.com/servicebinding/spec#well-known-secret-entries&quot;&gt;well-known Secret
 entries&lt;/a&gt;.
 Thought, it is acceptable not to include any of these entries in the Secret
 resource.&lt;/p&gt;
@@ -277,7 +273,7 @@ need to follow the given requirements.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;For Go based operators, you may consider using
-&lt;a href=&quot;https://github.com/kubepreset/pkg/blob/main/secret/wellknown.go&quot;&gt;github.com/kubepreset/pkg/secret&lt;/a&gt;
+&lt;a href=&quot;https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2&quot;&gt;the code I wrote here&lt;/a&gt;
 package to validate these entries.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -292,7 +288,7 @@ one, as per RFC-3986, use another name (e.g., “custom-uri”).&lt;/p&gt;
 
 &lt;p&gt;The spec has support for Role-Based Access Control (RBAC).  Since the service
 binding reconciler needs permission to read Provisioned Service resources, there
-is a mandate about &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#role-based-access-control-rbac&quot;&gt;RBAC&lt;/a&gt; like this:&lt;/p&gt;
+is a mandate about &lt;a href=&quot;https://github.com/servicebinding/spec#role-based-access-control-rbac&quot;&gt;RBAC&lt;/a&gt; like this:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;If a service binding reconciler implementation is using Role-Based Access
@@ -362,22 +358,31 @@ provisioned service within the same namespace.&lt;/p&gt;
   &lt;p&gt;Restricting service binding to resources within the same namespace is strongly &lt;strong&gt;RECOMMENDED&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;(&lt;em&gt;From &lt;a href=&quot;https://github.com/k8s-service-bindings/spec#service-binding&quot;&gt;2nd
+&lt;p&gt;(&lt;em&gt;From &lt;a href=&quot;https://github.com/servicebinding/spec#service-binding&quot;&gt;2nd
 paragraph&lt;/a&gt; of
 Service Binding section&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;If your provisioned service and applications are in different namespaces, you
-may consider using &lt;a href=&quot;https://github.com/kubepreset/provisioned-service-syncer&quot;&gt;Provisioned Service Syncer
-Operator&lt;/a&gt; to sync the
-Secret resource across namespace.&lt;/p&gt;
+may consider using &lt;a href=&quot;https://github.com/IBM/ibm-secretshare-operator&quot;&gt;IBM SecretShare
+Operator&lt;/a&gt; to sync the Secret
+resource across namespace.&lt;/p&gt;
 
 &lt;h3 id=&quot;is-it-okay-to-replace-the-secret-resource-name-when-there-is-a-change-in-any-of-the-entries&quot;&gt;Is it okay to replace the Secret resource name when there is a change in any of the entries?&lt;/h3&gt;
 
 &lt;p&gt;Yes, it is a good practice to update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.status.binding.name&lt;/code&gt; field value with the
-new name of the Secret resource.  After the update, remove the old Secret
-resource from the cluster.  That should trigger Service Binding reconciliation
-and, in turn, update the projected bindings.  That’s the advantage of &lt;a href=&quot;https://hackernoon.com/level-triggering-and-reconciliation-in-kubernetes-1f17fe30333d&quot;&gt;level
-triggering and reconciliation&lt;/a&gt; in Kubernetes!&lt;/p&gt;
+new name of the Secret resource. After the update, remove the old Secret
+resource from the cluster. That should trigger Service Binding reconciliation
+and, in turn, update the projected bindings. This will trigger recreation of the
+pod. That’s the advantage of &lt;a href=&quot;https://hackernoon.com/level-triggering-and-reconciliation-in-kubernetes-1f17fe30333d&quot;&gt;level triggering and reconciliation&lt;/a&gt; in Kubernetes!&lt;/p&gt;
+
+&lt;p&gt;Note: Changing the values in the Secret will reflect almost immediately in
+application workload file-system. However, most of the applications will not be
+designed to watch for file-system changes or even reconecting if the service
+connection fail. Whereas if the pod restarts, the appllicaton will get the new
+values and continue to work. The application may face a short downtime, if
+not architected properly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 1:&lt;/strong&gt; Updated on 2022-07-21 with more detail&lt;/p&gt;
 
 </content>
   </entry>
