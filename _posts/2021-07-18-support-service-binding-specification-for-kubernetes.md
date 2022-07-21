@@ -123,7 +123,7 @@ field-selector.  For example:
 
     kubectl get secrets --field-selector="type=servicebinding.io/postgresql"
 
-will give the Secret resources of `postgresql` type/
+will give the Secret resources of `postgresql` type.
 
 Next recommendation:
 
@@ -293,7 +293,7 @@ rules:
 In the above example, the API group for the backing service CRD is
 `kubepostgres.dev` and the resource name (plural form) is `databases`.  You can
 change those values as per your Provisioned Service.  While your operator is
-getting installed, make sure this cluster role is also installed.  For example,
+getting installed, make sure the ClusterRole is also installed.  For example,
 if you us Helm charts, you can add the above `ClusterRole` configuration into a
 file inside the template directory (e.g., `templates/rbac.yaml`).
 
@@ -330,6 +330,11 @@ designed to watch for file-system changes or even reconecting if the service
 connection fail. Whereas if the pod restarts, the appllicaton will get the new
 values and continue to work. The application may face a short downtime, if
 not architected properly.
+
+## Reference
+
+The official website of the Service Binding has good [documentation for Service
+Providers]( https://servicebinding.io/service-provider/)
 
 **Update 1:** Updated on 2022-07-21 with more detail
 
