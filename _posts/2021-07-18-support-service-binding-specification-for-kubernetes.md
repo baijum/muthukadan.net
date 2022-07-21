@@ -24,28 +24,24 @@ Few facts about the spec:
 
 - The spec is a collective effort of a community working with Kuberentes.
 - Contributions from many organizations including VMware, IBM, and Red Hat.
-- The spec is matured and GA release will happen soon
+- The spec is matured and general availability release 1.0.0 came out in March 2022
 - The [Provisioned Service][provisioned-service] part for backing service is stable and ready for adoption
 
 ## Projects with Support for Service Binding
 
-Currently the Kuberentes ecosystem is getting ready for the spec adoption.  Here
-is a list of projects with support for Service Binding:
+Currently the spec is getting adopted by the Kuberentes community. Here is a
+list of projects with support for Service Binding:
 
 - [https://camel.apache.org/camel-k/latest/traits/service-binding.html](https://camel.apache.org/camel-k/latest/traits/service-binding.html)
-- [https://github.com/spring-cloud/spring-cloud-bindings](https://github.com/spring-cloud/spring-cloud-bindings)
-- [https://github.com/nodeshift/kube-service-bindings](https://github.com/nodeshift/kube-service-bindings)
-- [https://pypi.org/project/pyservicebinding/](https://pypi.org/project/pyservicebinding/)
-- [https://github.com/baijum/servicebinding](https://github.com/baijum/servicebinding)
 - [https://quarkus.io/guides/deploying-to-kubernetes#service-binding](https://quarkus.io/guides/deploying-to-kubernetes#service-binding)
 - [https://paketo.io/docs/reference/configuration/#bindings](https://paketo.io/docs/reference/configuration/#bindings)
+- [Language-specific Libraries for .NET, Go, Java, NodeJS, Python, Ruby, Rust](https://servicebinding.io/application-developer/)
 
 ## Operator Implementations
 
+1. [Service Binding Controller](https://github.com/servicebinding/service-binding-controller) - Reference Implementation by the community
 1. [Red Hat implementation](https://github.com/redhat-developer/service-binding-operator)
 2. [VMware implementation](https://github.com/vmware-labs/service-bindings)
-3. [KubePreset](https://kubepreset.dev) - A side-project of [Baiju Muthukadan](https://twitter.com/baijum)
-4. [Service Binding Controller](https://github.com/k8s-service-bindings/service-binding-controller) - Reference implementation
 
 ## Provisioned Service
 
@@ -70,7 +66,7 @@ is a type with `name` field.  The name should point to a Secret resource with
 data entries for the application to connect to the backing service.  Service
 Binding recociler will project the Secret values in to the application as
 defined in the [Application
-Projection](https://github.com/k8s-service-bindings/spec#application-projection)
+Projection](https://github.com/servicebinding/spec#application-projection)
 section of the spec.  As you can see the sentence has the key word **MUST** in
 full capital and bold, that indicates this is a mandatory requirement to comform
 to the spec.
@@ -80,9 +76,9 @@ This is the next mandatory requirement:
 > The `Secret` **MUST** be in the same namespace as the resource.
 
 If the provisioned service and applications are in different namespaces, users
-may consider using [Provisioned Service Syncer
-Operator](https://github.com/kubepreset/provisioned-service-syncer) to sync the
-Secret resource across namespace.
+may consider using [IBM SecretShare
+Operator](https://github.com/IBM/ibm-secretshare-operator) to sync the Secret
+resource across namespace.
 
 The next sentence is not a mandate, but a recommendation:
 
@@ -175,7 +171,7 @@ special requirements.
 ### Well-known Secret Entries
 
 This is the mandatory requirement about [well-known Secret
-entries](https://github.com/k8s-service-bindings/spec#well-known-secret-entries).
+entries](https://github.com/servicebinding/spec#well-known-secret-entries).
 Thought, it is acceptable not to include any of these entries in the Secret
 resource.
 
@@ -198,7 +194,7 @@ need to follow the given requirements.
 > | `private-key` | A PEM-encoded private key used in mTLS client authentication
 
 For Go based operators, you may consider using
-[github.com/kubepreset/pkg/secret](https://github.com/kubepreset/pkg/blob/main/secret/wellknown.go)
+[the code I wrote here](https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2)
 package to validate these entries.
 
 > `Secret` entries that do not meet these requirements **MUST** use different entry names.
@@ -278,25 +274,35 @@ provisioned service within the same namespace.
 > Restricting service binding to resources within the same namespace is strongly **RECOMMENDED**.
 
 (_From [2nd
-paragraph](https://github.com/k8s-service-bindings/spec#service-binding) of
+paragraph](https://github.com/servicebinding/spec#service-binding) of
 Service Binding section_)
 
 If your provisioned service and applications are in different namespaces, you
-may consider using [Provisioned Service Syncer
-Operator](https://github.com/kubepreset/provisioned-service-syncer) to sync the
-Secret resource across namespace.
+may consider using [IBM SecretShare
+Operator](https://github.com/IBM/ibm-secretshare-operator) to sync the Secret
+resource across namespace.
 
 ### Is it okay to replace the Secret resource name when there is a change in any of the entries?
 
 Yes, it is a good practice to update `.status.binding.name` field value with the
-new name of the Secret resource.  After the update, remove the old Secret
-resource from the cluster.  That should trigger Service Binding reconciliation
-and, in turn, update the projected bindings.  That's the advantage of [level
-triggering and reconciliation][level triggering] in Kubernetes!
+new name of the Secret resource. After the update, remove the old Secret
+resource from the cluster. That should trigger Service Binding reconciliation
+and, in turn, update the projected bindings. This will trigger recreation of the
+pod. That's the advantage of [level triggering and reconciliation][level
+triggering] in Kubernetes!
 
-[spec]: https://github.com/k8s-service-bindings/spec#provisioned-service
-[provisioned-service]: https://github.com/k8s-service-bindings/spec#provisioned-service
-[spec-intro]: https://github.com/k8s-service-bindings/spec#service-binding-specification-for-kubernetes
-[rbac]: https://github.com/k8s-service-bindings/spec#role-based-access-control-rbac
+Note: Changing the values in the Secret will reflect almost immediately in
+application workload file-system. However, most of the applications will not be
+designed to watch for file-system changes or even reconecting if the service
+connection fail. Whereas if the pod restarts, the appllicaton will get the new
+values and continue to work. The application may face a short downtime, if
+not architected properly.
+
+**Update 1:** Updated on 2022-07-21 with more detail
+
+[spec]: https://github.com/servicebinding/spec
+[provisioned-service]: https://github.com/servicebinding/spec#provisioned-service
+[spec-intro]: https://github.com/servicebinding/spec#service-binding-specification-for-kubernetes
+[rbac]: https://github.com/servicebinding/spec#role-based-access-control-rbac
 [acr]: https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles
 [level triggering]: https://hackernoon.com/level-triggering-and-reconciliation-in-kubernetes-1f17fe30333d
