@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2022-07-21T10:26:34+05:30</updated>
+  <updated>2022-07-21T10:31:06+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -62,7 +62,7 @@ list of projects with support for Service Binding:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/servicebinding/service-binding-controller&quot;&gt;Service Binding Controller&lt;/a&gt; - Reference Implementation by the community&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/redhat-developer/service-binding-operator&quot;&gt;Red Hat implementation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/vmware-labs/service-bindings&quot;&gt;VMware implementation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/vmware-tanzu/servicebinding&quot;&gt;VMware implementation&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;provisioned-service&quot;&gt;Provisioned Service&lt;/h2&gt;
