@@ -473,7 +473,7 @@ field-selector.  For example:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get secrets --field-selector="type=servicebinding.io/postgresql"
 </code></pre></div></div>
 
-<p>will give the Secret resources of <code class="language-plaintext highlighter-rouge">postgresql</code> type/</p>
+<p>will give the Secret resources of <code class="language-plaintext highlighter-rouge">postgresql</code> type.</p>
 
 <p>Next recommendation:</p>
 
@@ -692,7 +692,7 @@ listed in the rules.  Here is an example <code class="language-plaintext highlig
 <p>In the above example, the API group for the backing service CRD is
 <code class="language-plaintext highlighter-rouge">kubepostgres.dev</code> and the resource name (plural form) is <code class="language-plaintext highlighter-rouge">databases</code>.  You can
 change those values as per your Provisioned Service.  While your operator is
-getting installed, make sure this cluster role is also installed.  For example,
+getting installed, make sure the ClusterRole is also installed.  For example,
 if you us Helm charts, you can add the above <code class="language-plaintext highlighter-rouge">ClusterRole</code> configuration into a
 file inside the template directory (e.g., <code class="language-plaintext highlighter-rouge">templates/rbac.yaml</code>).</p>
 
@@ -730,6 +730,11 @@ designed to watch for file-system changes or even reconecting if the service
 connection fail. Whereas if the pod restarts, the appllicaton will get the new
 values and continue to work. The application may face a short downtime, if
 not architected properly.</p>
+
+<h2 id="reference">Reference</h2>
+
+<p>The official website of the Service Binding has good <a href="https://servicebinding.io/service-provider/">documentation for Service
+Providers</a></p>
 
 <p><strong>Update 1:</strong> Updated on 2022-07-21 with more detail</p>
 

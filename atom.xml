@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2022-07-21T11:42:11+05:30</updated>
+  <updated>2022-07-21T12:04:53+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -158,7 +158,7 @@ field-selector.  For example:&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl get secrets --field-selector=&quot;type=servicebinding.io/postgresql&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;will give the Secret resources of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;postgresql&lt;/code&gt; type/&lt;/p&gt;
+&lt;p&gt;will give the Secret resources of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;postgresql&lt;/code&gt; type.&lt;/p&gt;
 
 &lt;p&gt;Next recommendation:&lt;/p&gt;
 
@@ -377,7 +377,7 @@ listed in the rules.  Here is an example &lt;code class=&quot;language-plaintext
 &lt;p&gt;In the above example, the API group for the backing service CRD is
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kubepostgres.dev&lt;/code&gt; and the resource name (plural form) is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;databases&lt;/code&gt;.  You can
 change those values as per your Provisioned Service.  While your operator is
-getting installed, make sure this cluster role is also installed.  For example,
+getting installed, make sure the ClusterRole is also installed.  For example,
 if you us Helm charts, you can add the above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt; configuration into a
 file inside the template directory (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;templates/rbac.yaml&lt;/code&gt;).&lt;/p&gt;
 
@@ -415,6 +415,11 @@ designed to watch for file-system changes or even reconecting if the service
 connection fail. Whereas if the pod restarts, the appllicaton will get the new
 values and continue to work. The application may face a short downtime, if
 not architected properly.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;The official website of the Service Binding has good &lt;a href=&quot;https://servicebinding.io/service-provider/&quot;&gt;documentation for Service
+Providers&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update 1:&lt;/strong&gt; Updated on 2022-07-21 with more detail&lt;/p&gt;
 

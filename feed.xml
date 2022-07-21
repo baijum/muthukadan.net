@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2022-07-21T11:42:11+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/servicebinding/spec&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://muthukadan.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://muthukadan.net/" rel="alternate" type="text/html" /><updated>2022-07-21T12:04:53+05:30</updated><id>https://muthukadan.net/feed.xml</id><title type="html">Baiju Muthukadan</title><subtitle>For surely there is an end; and thine expectation shall not be cut off. (Proverbs 23:18)</subtitle><author><name>Baiju Muthukadan</name></author><entry><title type="html">Why Should You Support Service Binding Specification for Kubernetes?</title><link href="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/" rel="alternate" type="text/html" title="Why Should You Support Service Binding Specification for Kubernetes?" /><published>2021-07-18T00:00:00+05:30</published><updated>2021-07-18T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/support-service-binding-specification-for-kubernetes/">&lt;p&gt;&lt;a href=&quot;https://github.com/servicebinding/spec&quot;&gt;Service Binding Specification&lt;/a&gt; for Kubernetes standardizes exposing
 backing service secrets to applications.  A &lt;em&gt;backing service&lt;/em&gt; is any process
 that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
@@ -135,7 +135,7 @@ field-selector.  For example:&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl get secrets --field-selector=&quot;type=servicebinding.io/postgresql&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;will give the Secret resources of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;postgresql&lt;/code&gt; type/&lt;/p&gt;
+&lt;p&gt;will give the Secret resources of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;postgresql&lt;/code&gt; type.&lt;/p&gt;
 
 &lt;p&gt;Next recommendation:&lt;/p&gt;
 
@@ -354,7 +354,7 @@ listed in the rules.  Here is an example &lt;code class=&quot;language-plaintext
 &lt;p&gt;In the above example, the API group for the backing service CRD is
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kubepostgres.dev&lt;/code&gt; and the resource name (plural form) is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;databases&lt;/code&gt;.  You can
 change those values as per your Provisioned Service.  While your operator is
-getting installed, make sure this cluster role is also installed.  For example,
+getting installed, make sure the ClusterRole is also installed.  For example,
 if you us Helm charts, you can add the above &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ClusterRole&lt;/code&gt; configuration into a
 file inside the template directory (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;templates/rbac.yaml&lt;/code&gt;).&lt;/p&gt;
 
@@ -392,6 +392,11 @@ designed to watch for file-system changes or even reconecting if the service
 connection fail. Whereas if the pod restarts, the appllicaton will get the new
 values and continue to work. The application may face a short downtime, if
 not architected properly.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;The official website of the Service Binding has good &lt;a href=&quot;https://servicebinding.io/service-provider/&quot;&gt;documentation for Service
+Providers&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update 1:&lt;/strong&gt; Updated on 2022-07-21 with more detail&lt;/p&gt;</content><author><name>Baiju Muthukadan</name></author><category term="kubernetes" /><category term="binding" /><summary type="html">Service Binding Specification for Kubernetes standardizes exposing backing service secrets to applications. A backing service is any process that the application consumes over the network as part of its regular operation. Examples include datastores (such as MySQL or MongoDB), caching servers (such as Memcached), and stream processing systems (such as Kafka). If you are a backing service provider, this article gives you all the information required to evaluate Service Binding Specification for Kubernetes. There is an expository commentary on the spec related to backing service integration. Finally, the article has curated a list of frequently asked questions with answers.</summary></entry><entry><title type="html">Paketo Bindings for Spring Boot Applications</title><link href="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/" rel="alternate" type="text/html" title="Paketo Bindings for Spring Boot Applications" /><published>2021-07-07T00:00:00+05:30</published><updated>2021-07-07T00:00:00+05:30</updated><id>https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications</id><content type="html" xml:base="https://muthukadan.net/kubernetes/binding/paketo-bindings-for-spring-boot-applications/">&lt;p&gt;&lt;a href=&quot;https://github.com/k8s-service-bindings/spec&quot;&gt;Service Binding Specification&lt;/a&gt;
 for Kubernetes standardizes exposing backing service secrets to applications.
