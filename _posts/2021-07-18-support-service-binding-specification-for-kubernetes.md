@@ -118,7 +118,7 @@ Next recommendation:
 > value as `servicebinding.io/{type}`, substituting `{type}` with the `Secret`
 > data type.
 
-This recommendation helps to query Secret resources of particular type using
+This recommendation helps to query Secret resources of a particular type using
 field-selector.  For example:
 
     kubectl get secrets --field-selector="type=servicebinding.io/postgresql"
@@ -130,7 +130,7 @@ Next recommendation:
 > It is **RECOMMENDED** that the `Secret` data also contain a `provider` entry
 > with a value that identifies the provider of the binding.
 
-The `provider` field helps to narrow down the tye further in the application.
+The `provider` field helps to narrow down the type further in the application.
 The provider field could be used where there are different providers for the
 same Provisioned Service type.  For example, if the type is `mysql`, the
 provider value could be `mariadb`, `oracle`, `bitnami`, `aws-rds`, etc.  When
@@ -176,7 +176,7 @@ special requirements.
 
 This is the mandatory requirement about [well-known Secret
 entries](https://github.com/servicebinding/spec#well-known-secret-entries).
-Thought, it is acceptable not to include any of these entries in the Secret
+Though, it is acceptable not to include any of these entries in the Secret
 resource.
 
 > Other than the recommended `type` and `provider` entries, there are no other
@@ -197,9 +197,9 @@ need to follow the given requirements.
 > | `certificates` | A collection of PEM-encoded X.509 public certificates, representing a certificate chain used to trust TLS connections
 > | `private-key` | A PEM-encoded private key used in mTLS client authentication
 
-For Go based operators, you may consider using
-[the code I wrote here](https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2)
-package to validate these entries.
+For Go based operators, you may consider using [the code I wrote
+here](https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2) to
+validate these entries.
 
 > `Secret` entries that do not meet these requirements **MUST** use different entry names.
 
@@ -207,7 +207,7 @@ If there is any entry that doesn't follow the given requirement, you can choose
 different names.  For example, if there is a URI-like string but not a valid
 one, as per RFC-3986, use another name (e.g., "custom-uri").
 
-Finally there is an example for the Secret resource:
+Finally, there is an example for the Secret resource:
 
 ```yaml
 apiVersion: v1
