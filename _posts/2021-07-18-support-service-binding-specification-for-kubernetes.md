@@ -50,10 +50,10 @@ spec to define a backing service.  The spec consider Provisioned Service as a
 duck type with a definition like this:
 
 > Any type that meets the contract defined in a specification, without being an
-> instance of a specific concrete type.  For example, for specification that
+> instance of a specific concrete type. For example, for a specification that
 > requires a given key on `status`, any resource that has that key on its
-> `status` regardless of its kind would be considered a duck type of the
-> specification.
+> `status` regardless of its `apiVersion` or `kind` would be considered to
+> implement that duck type.
 
 The Provisioned Service section starts like this:
 
