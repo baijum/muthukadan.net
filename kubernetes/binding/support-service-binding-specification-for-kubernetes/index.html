@@ -467,7 +467,7 @@ value as <code class="language-plaintext highlighter-rouge">servicebinding.io/{t
 data type.</p>
 </blockquote>
 
-<p>This recommendation helps to query Secret resources of particular type using
+<p>This recommendation helps to query Secret resources of a particular type using
 field-selector.  For example:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get secrets --field-selector="type=servicebinding.io/postgresql"
@@ -482,7 +482,7 @@ field-selector.  For example:</p>
 with a value that identifies the provider of the binding.</p>
 </blockquote>
 
-<p>The <code class="language-plaintext highlighter-rouge">provider</code> field helps to narrow down the tye further in the application.
+<p>The <code class="language-plaintext highlighter-rouge">provider</code> field helps to narrow down the type further in the application.
 The provider field could be used where there are different providers for the
 same Provisioned Service type.  For example, if the type is <code class="language-plaintext highlighter-rouge">mysql</code>, the
 provider value could be <code class="language-plaintext highlighter-rouge">mariadb</code>, <code class="language-plaintext highlighter-rouge">oracle</code>, <code class="language-plaintext highlighter-rouge">bitnami</code>, <code class="language-plaintext highlighter-rouge">aws-rds</code>, etc.  When
@@ -537,7 +537,7 @@ special requirements.</p>
 
 <p>This is the mandatory requirement about <a href="https://github.com/servicebinding/spec#well-known-secret-entries">well-known Secret
 entries</a>.
-Thought, it is acceptable not to include any of these entries in the Secret
+Though, it is acceptable not to include any of these entries in the Secret
 resource.</p>
 
 <blockquote>
@@ -591,9 +591,9 @@ need to follow the given requirements.</p>
   </table>
 </blockquote>
 
-<p>For Go based operators, you may consider using
-<a href="https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2">the code I wrote here</a>
-package to validate these entries.</p>
+<p>For Go based operators, you may consider using <a href="https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2">the code I wrote
+here</a> to
+validate these entries.</p>
 
 <blockquote>
   <p><code class="language-plaintext highlighter-rouge">Secret</code> entries that do not meet these requirements <strong>MUST</strong> use different entry names.</p>
@@ -603,7 +603,7 @@ package to validate these entries.</p>
 different names.  For example, if there is a URI-like string but not a valid
 one, as per RFC-3986, use another name (e.g., “custom-uri”).</p>
 
-<p>Finally there is an example for the Secret resource:</p>
+<p>Finally, there is an example for the Secret resource:</p>
 
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
 <span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>

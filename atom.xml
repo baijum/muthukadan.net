@@ -4,7 +4,7 @@
   <title>https://muthukadan.net</title>
   <link href="https://muthukadan.net"/>
   <link type="application/atom+xml" rel="self" href="https://muthukadan.net/atom.xml"/>
-  <updated>2022-07-21T12:04:53+05:30</updated>
+  <updated>2022-07-21T22:46:52+05:30</updated>
   <id>https://muthukadan.net</id>
   <author>
     <name>{"name"=>"Baiju Muthukadan", "avatar"=>"/assets/images/dallas_fall2014.jpg", "bio"=>"Senior Software Engineer, Red Hat", "location"=>"Bangalore, India", "email"=>nil, "uri"=>nil, "bitbucket"=>nil, "codepen"=>nil, "dribbble"=>nil, "flickr"=>nil, "facebook"=>nil, "foursquare"=>nil, "github"=>"baijum", "google_plus"=>nil, "keybase"=>nil, "instagram"=>nil, "lastfm"=>nil, "linkedin"=>nil, "pinterest"=>nil, "soundcloud"=>nil, "stackoverflow"=>nil, "steam"=>nil, "tumblr"=>nil, "twitter"=>"baijum", "vine"=>nil, "weibo"=>nil, "xing"=>nil, "youtube"=>nil}</name>
@@ -152,7 +152,7 @@ value as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;serv
 data type.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This recommendation helps to query Secret resources of particular type using
+&lt;p&gt;This recommendation helps to query Secret resources of a particular type using
 field-selector.  For example:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kubectl get secrets --field-selector=&quot;type=servicebinding.io/postgresql&quot;
@@ -167,7 +167,7 @@ field-selector.  For example:&lt;/p&gt;
 with a value that identifies the provider of the binding.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; field helps to narrow down the tye further in the application.
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;provider&lt;/code&gt; field helps to narrow down the type further in the application.
 The provider field could be used where there are different providers for the
 same Provisioned Service type.  For example, if the type is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mysql&lt;/code&gt;, the
 provider value could be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mariadb&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oracle&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bitnami&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aws-rds&lt;/code&gt;, etc.  When
@@ -222,7 +222,7 @@ special requirements.&lt;/p&gt;
 
 &lt;p&gt;This is the mandatory requirement about &lt;a href=&quot;https://github.com/servicebinding/spec#well-known-secret-entries&quot;&gt;well-known Secret
 entries&lt;/a&gt;.
-Thought, it is acceptable not to include any of these entries in the Secret
+Though, it is acceptable not to include any of these entries in the Secret
 resource.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -276,9 +276,9 @@ need to follow the given requirements.&lt;/p&gt;
   &lt;/table&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For Go based operators, you may consider using
-&lt;a href=&quot;https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2&quot;&gt;the code I wrote here&lt;/a&gt;
-package to validate these entries.&lt;/p&gt;
+&lt;p&gt;For Go based operators, you may consider using &lt;a href=&quot;https://gist.github.com/baijum/76c443f8be1c0528c0dcc0818df6dfa2&quot;&gt;the code I wrote
+here&lt;/a&gt; to
+validate these entries.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Secret&lt;/code&gt; entries that do not meet these requirements &lt;strong&gt;MUST&lt;/strong&gt; use different entry names.&lt;/p&gt;
@@ -288,7 +288,7 @@ package to validate these entries.&lt;/p&gt;
 different names.  For example, if there is a URI-like string but not a valid
 one, as per RFC-3986, use another name (e.g., “custom-uri”).&lt;/p&gt;
 
-&lt;p&gt;Finally there is an example for the Secret resource:&lt;/p&gt;
+&lt;p&gt;Finally, there is an example for the Secret resource:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;apiVersion&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;v1&lt;/span&gt;
 &lt;span class=&quot;na&quot;&gt;kind&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Secret&lt;/span&gt;
