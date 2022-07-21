@@ -324,7 +324,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          7 minute read
+          8 minute read
         
       </span>
     
@@ -397,8 +397,9 @@ implement that duck type.</p>
 <p>The Provisioned Service section starts like this:</p>
 
 <blockquote>
-  <p>A Provisioned Service resource <strong>MUST</strong> define a <code class="language-plaintext highlighter-rouge">.status.binding</code> which is a
-<code class="language-plaintext highlighter-rouge">LocalObjectReference</code>-able (containing a single field <code class="language-plaintext highlighter-rouge">name</code>) to a <code class="language-plaintext highlighter-rouge">Secret</code>.</p>
+  <p>A Provisioned Service resource <strong>MUST</strong> define a <code class="language-plaintext highlighter-rouge">.status.binding</code> field which
+is a <code class="language-plaintext highlighter-rouge">LocalObjectReference</code>-able (containing a single field <code class="language-plaintext highlighter-rouge">name</code>) to a
+<code class="language-plaintext highlighter-rouge">Secret</code>.</p>
 </blockquote>
 
 <p>The
@@ -415,7 +416,7 @@ to the spec.</p>
 <p>This is the next mandatory requirement:</p>
 
 <blockquote>
-  <p>The <code class="language-plaintext highlighter-rouge">Secret</code> <strong>MUST</strong> be in the same namespace as the resource.</p>
+  <p>The <code class="language-plaintext highlighter-rouge">Secret</code> <strong>MUST</strong> exist in the same namespace as the resource.</p>
 </blockquote>
 
 <p>If the provisioned service and applications are in different namespaces, users
@@ -461,14 +462,15 @@ Few examples:</p>
 <p>Next recommendation:</p>
 
 <blockquote>
-  <p>The <code class="language-plaintext highlighter-rouge">Secret</code> type (<code class="language-plaintext highlighter-rouge">.type</code> verses <code class="language-plaintext highlighter-rouge">.data.type</code>) <strong>SHOULD</strong> reflect this value
-as <code class="language-plaintext highlighter-rouge">service.binding/{type}</code>, replacing <code class="language-plaintext highlighter-rouge">{type}</code> with the <code class="language-plaintext highlighter-rouge">Secret</code> data type.</p>
+  <p>The <code class="language-plaintext highlighter-rouge">Secret</code> type (<code class="language-plaintext highlighter-rouge">.type</code> verses <code class="language-plaintext highlighter-rouge">.data.type</code> fields) <strong>SHOULD</strong> reflect this
+value as <code class="language-plaintext highlighter-rouge">servicebinding.io/{type}</code>, substituting <code class="language-plaintext highlighter-rouge">{type}</code> with the <code class="language-plaintext highlighter-rouge">Secret</code>
+data type.</p>
 </blockquote>
 
 <p>This recommendation helps to query Secret resources of particular type using
 field-selector.  For example:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get secrets --field-selector="type=service.binding/postgresql"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get secrets --field-selector="type=servicebinding.io/postgresql"
 </code></pre></div></div>
 
 <p>will give the Secret resources of <code class="language-plaintext highlighter-rouge">postgresql</code> type/</p>
@@ -501,20 +503,22 @@ could consider <code class="language-plaintext highlighter-rouge">type</code> an
 <blockquote>
   <p>To facilitate discoverability, it is <strong>RECOMMENDED</strong> that a
 <code class="language-plaintext highlighter-rouge">CustomResourceDefinition</code> exposing a Provisioned Service add
-<code class="language-plaintext highlighter-rouge">service.binding/provisioned-service: "true"</code> as a label.</p>
+<code class="language-plaintext highlighter-rouge">servicebinding.io/provisioned-service: "true"</code> as a label.</p>
 </blockquote>
 
 <p>This helps to find all the Provisioned Service custom resouces.  For example:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get customresourcedefinitions.apiextensions.k8s.io -l "service.binding/provisioned-service=true"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get customresourcedefinitions.apiextensions.k8s.io -l "servicebinding.io/provisioned-service=true"
 </code></pre></div></div>
 
 <p>Next there is a side note:</p>
 
 <blockquote>
   <p>Note: While the Provisioned Service referenced <code class="language-plaintext highlighter-rouge">Secret</code> data should contain a
-<code class="language-plaintext highlighter-rouge">type</code> entry, the <code class="language-plaintext highlighter-rouge">type</code> must be defined before it is projected into an
-application workload.  This allows a mapping to enrich an existing secret.</p>
+<code class="language-plaintext highlighter-rouge">type</code> entry, the <code class="language-plaintext highlighter-rouge">type</code> must be defined as it is projected to a workload. The
+relaxation of the requirement for provisioned services allows for a mapping to
+enrich an existing secret. For example, <code class="language-plaintext highlighter-rouge">ServiceBinding</code> has fields to
+override <code class="language-plaintext highlighter-rouge">type</code> and <code class="language-plaintext highlighter-rouge">provider</code> values.</p>
 </blockquote>
 
 <p>This is already discussed earlier.</p>
@@ -538,7 +542,7 @@ resource.</p>
 
 <blockquote>
   <p>Other than the recommended <code class="language-plaintext highlighter-rouge">type</code> and <code class="language-plaintext highlighter-rouge">provider</code> entries, there are no other
-reserved <code class="language-plaintext highlighter-rouge">Secret</code> entries.  In the interests of consistency, if a <code class="language-plaintext highlighter-rouge">Secret</code>
+reserved <code class="language-plaintext highlighter-rouge">Secret</code> entries. In the interests of consistency, if a <code class="language-plaintext highlighter-rouge">Secret</code>
 includes any of the following entry names, the entry value <strong>MUST</strong> meet the
 specified requirements:</p>
 </blockquote>
@@ -577,7 +581,7 @@ need to follow the given requirements.</p>
       </tr>
       <tr>
         <td><code class="language-plaintext highlighter-rouge">certificates</code></td>
-        <td>A collection of PEM-encoded X.509 certificates, representing a certificate chain used in mTLS client authentication</td>
+        <td>A collection of PEM-encoded X.509 public certificates, representing a certificate chain used to trust TLS connections</td>
       </tr>
       <tr>
         <td><code class="language-plaintext highlighter-rouge">private-key</code></td>
@@ -599,16 +603,54 @@ package to validate these entries.</p>
 different names.  For example, if there is a URI-like string but not a valid
 one, as per RFC-3986, use another name (e.g., “custom-uri”).</p>
 
+<p>Finally there is an example for the Secret resource:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Secret</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">production-db-secret</span>
+<span class="na">type</span><span class="pi">:</span> <span class="s">servicebinding.io/mysql</span>
+<span class="na">stringData</span><span class="pi">:</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">mysql</span>
+  <span class="na">provider</span><span class="pi">:</span> <span class="s">bitnami</span>
+  <span class="na">host</span><span class="pi">:</span> <span class="s">localhost</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">3306</span>
+  <span class="na">username</span><span class="pi">:</span> <span class="s">root</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">root</span>
+</code></pre></div></div>
+
 <h3 id="considerations-for-role-based-access-control-rbac">Considerations for Role-Based Access Control (RBAC)</h3>
 
 <p>The spec has support for Role-Based Access Control (RBAC).  Since the service
 binding reconciler needs permission to read Provisioned Service resources, there
-is a mandate about <a href="https://github.com/servicebinding/spec#role-based-access-control-rbac">RBAC</a> like this:</p>
+is a recommendation about <a href="https://github.com/servicebinding/spec#role-based-access-control-rbac">RBAC</a> like this:</p>
+
+<blockquote>
+  <p>Cluster operators and CRD authors <strong>SHOULD</strong> opt-in resources to expose
+provisioned services by defining a <code class="language-plaintext highlighter-rouge">ClusterRole</code> with a label matching
+<code class="language-plaintext highlighter-rouge">servicebinding.io/controller=true</code>. The <code class="language-plaintext highlighter-rouge">get</code>, <code class="language-plaintext highlighter-rouge">list</code>, and <code class="language-plaintext highlighter-rouge">watch</code> verbs
+<strong>MUST</strong> be granted in the <code class="language-plaintext highlighter-rouge">ClusterRole</code>.</p>
+</blockquote>
+
+<p>More about RBAC is given in the last section:</p>
+
+<blockquote>
+  <p>Kubernetes clusters often utilize <a href="https://github.com/servicebinding/spec#role-based-access-control-rbac">Role-based access control (RBAC)</a> to
+authorize subjects to perform specific actions on resources. When operating in
+a cluster with RBAC enabled, the service binding reconciler needs permission
+to read resources that provisioned a service and write resources that services
+are projected into. This section defines a means for third-party CRD authors
+and cluster operators to expose resources to the service binding reconciler.
+Cluster operators <strong>MAY</strong> impose additional access controls beyond RBAC.</p>
+</blockquote>
 
 <blockquote>
   <p>If a service binding reconciler implementation is using Role-Based Access
 Control (RBAC) it <strong>MUST</strong> define an <a href="https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles">aggregated <code class="language-plaintext highlighter-rouge">ClusterRole</code></a> with a
-label selector matching the label <code class="language-plaintext highlighter-rouge">service.binding/controller=true</code>.</p>
+label selector matching the label <code class="language-plaintext highlighter-rouge">servicebinding.io/controller=true</code>. This
+<code class="language-plaintext highlighter-rouge">ClusterRole</code> <strong>MUST</strong> be bound (<code class="language-plaintext highlighter-rouge">RoleBinding</code> for a single namespace or
+<code class="language-plaintext highlighter-rouge">ClusterRoleBinding</code> if cluster-wide) to the subject the service binding
+reconciler runs as, typically a <code class="language-plaintext highlighter-rouge">ServiceAccount</code>.</p>
 </blockquote>
 
 <p>So, there must be a <code class="language-plaintext highlighter-rouge">ClusterRole</code> configured in the Kubernetes cluster something
@@ -621,21 +663,12 @@ like this:</p>
 <span class="na">aggregationRule</span><span class="pi">:</span>
   <span class="na">clusterRoleSelectors</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="na">matchLabels</span><span class="pi">:</span>
-      <span class="s">service.binding/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span>
+      <span class="s">servicebinding.io/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span>
 <span class="na">rules</span><span class="pi">:</span> <span class="pi">[]</span> <span class="c1"># The control plane automatically fills in the rules</span>
 </code></pre></div></div>
 
-<p>There is a recommendation for backing service about RBAC:</p>
-
-<blockquote>
-  <p>Cluster operators and CRD authors <strong>SHOULD</strong> opt-in resources to expose
-provisioned services by defining a <code class="language-plaintext highlighter-rouge">ClusterRole</code> with a label matching
-<code class="language-plaintext highlighter-rouge">service.binding/controller=true</code>, the <code class="language-plaintext highlighter-rouge">get</code>, <code class="language-plaintext highlighter-rouge">list</code>, and <code class="language-plaintext highlighter-rouge">watch</code> verbs
-<strong>MUST</strong> be granted.</p>
-</blockquote>
-
 <p>As a backing service author, you can offer a <code class="language-plaintext highlighter-rouge">ClusterRole</code> with that same label
-(<code class="language-plaintext highlighter-rouge">service.binding/controller=true</code>) and the verbs (<code class="language-plaintext highlighter-rouge">get</code>, <code class="language-plaintext highlighter-rouge">list</code>, and <code class="language-plaintext highlighter-rouge">watch</code>)
+(<code class="language-plaintext highlighter-rouge">servicebinding.io/controller=true</code>) and the verbs (<code class="language-plaintext highlighter-rouge">get</code>, <code class="language-plaintext highlighter-rouge">list</code>, and <code class="language-plaintext highlighter-rouge">watch</code>)
 listed in the rules.  Here is an example <code class="language-plaintext highlighter-rouge">ClusterRole</code>:</p>
 
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">rbac.authorization.k8s.io/v1</span>
@@ -643,12 +676,13 @@ listed in the rules.  Here is an example <code class="language-plaintext highlig
 <span class="na">metadata</span><span class="pi">:</span>
   <span class="na">name</span><span class="pi">:</span> <span class="s">kubepostgres-service-bindings</span>
   <span class="na">labels</span><span class="pi">:</span>
-    <span class="s">service.binding/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span> <span class="c1"># matches the aggregation rule selector</span>
+    <span class="s">servicebinding.io/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span> <span class="c1"># matches the aggregation rule selector</span>
 <span class="na">rules</span><span class="pi">:</span>
 <span class="pi">-</span> <span class="na">apiGroups</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s">kubepostgres.dev</span>
   <span class="na">resources</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s">databases</span>
+  <span class="pi">-</span> <span class="s">databases/status</span>
   <span class="na">verbs</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s">get</span>
   <span class="pi">-</span> <span class="s">list</span>
