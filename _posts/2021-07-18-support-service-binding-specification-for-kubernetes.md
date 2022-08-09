@@ -6,7 +6,7 @@ categories: kubernetes binding
 ---
 
 [Service Binding Specification][spec] for Kubernetes standardizes exposing
-backing service secrets to applications.  A _backing service_ is any process
+backing service secrets to application workloads.  A _backing service_ is any process
 that the application consumes over the network as part of its regular operation.
 Examples include datastores (such as MySQL or MongoDB), caching servers (such as
 Memcached), and stream processing systems (such as Kafka).  If you are a backing
@@ -18,7 +18,7 @@ article has curated a list of frequently asked questions with answers.
 The spec [introduction][spec-intro] presents a good summary of the importance of
 the specification.  The key benefit for supporting the spec for a backing
 service is that the Secret resource will be collected and exposed to
-applications consistently and predictably.
+application workloads consistently and predictably.
 
 Few facts about the spec:
 
@@ -65,9 +65,9 @@ The
 [LocalObjectReference](https://pkg.go.dev/k8s.io/api/core/v1#LocalObjectReference)
 is a type with `name` field.  The name should point to a Secret resource with
 data entries for the application to connect to the backing service.  Service
-Binding recociler will project the Secret values in to the application as
-defined in the [Application
-Projection](https://github.com/servicebinding/spec#application-projection)
+Binding recociler will project the Secret values in to the application workload as
+defined in the [Workload
+Projection](https://github.com/servicebinding/spec#workload-projection)
 section of the spec.  As you can see the sentence has the key word **MUST** in
 full capital and bold, that indicates this is a mandatory requirement to comform
 to the spec.
@@ -76,9 +76,10 @@ This is the next mandatory requirement:
 
 > The `Secret` **MUST** exist in the same namespace as the resource.
 
-If the provisioned service and applications are in different namespaces, users
+If the provisioned service and application workloads are in different namespaces, users
 may consider using [IBM SecretShare
-Operator](https://github.com/IBM/ibm-secretshare-operator) to sync the Secret
+Operator](https://github.com/IBM/ibm-secretshare-operator) or
+[Carvel SecretGen Controller](https://github.com/vmware-tanzu/carvel-secretgen-controller) to sync the Secret
 resource across namespace.
 
 The next sentence is not a mandate, but a recommendation:
@@ -87,7 +88,7 @@ The next sentence is not a mandate, but a recommendation:
 > identifies the abstract classification of the binding.
 
 This is a recommendation to the provisioned service, but when it comes to the
-Application Projection, it becomes a mandatory requirement as part of the
+Workload Projection, it becomes a mandatory requirement as part of the
 projected bindings data.  Even if the provisioned service provides a value for
 `type`, it is possible to override the value from the `ServiceBinding` resource.
 
@@ -312,8 +313,9 @@ Service Binding section_)
 
 If your provisioned service and applications are in different namespaces, you
 may consider using [IBM SecretShare
-Operator](https://github.com/IBM/ibm-secretshare-operator) to sync the Secret
-resource across namespace.
+Operator](https://github.com/IBM/ibm-secretshare-operator) or 
+[Carvel SecretGen Controller](https://github.com/vmware-tanzu/carvel-secretgen-controller)
+to sync the Secret resource across namespace.
 
 ### Is it okay to replace the Secret resource name when there is a change in any of the entries?
 
@@ -336,7 +338,8 @@ not architected properly.
 The official website of the Service Binding has good [documentation for Service
 Providers]( https://servicebinding.io/service-provider/)
 
-**Update 1:** Updated on 2022-07-21 with more detail
+**Update 1:** 2022-07-21 - add more detail
+**Update 2:** 2022-08-09 - use workload sporadically
 
 [spec]: https://github.com/servicebinding/spec
 [provisioned-service]: https://github.com/servicebinding/spec#provisioned-service
