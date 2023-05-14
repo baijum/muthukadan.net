@@ -664,7 +664,7 @@ like this:</p>
 <span class="na">aggregationRule</span><span class="pi">:</span>
   <span class="na">clusterRoleSelectors</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="na">matchLabels</span><span class="pi">:</span>
-      <span class="s">servicebinding.io/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span>
+      <span class="na">servicebinding.io/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span>
 <span class="na">rules</span><span class="pi">:</span> <span class="pi">[]</span> <span class="c1"># The control plane automatically fills in the rules</span>
 </code></pre></div></div>
 
@@ -677,7 +677,7 @@ listed in the rules.  Here is an example <code class="language-plaintext highlig
 <span class="na">metadata</span><span class="pi">:</span>
   <span class="na">name</span><span class="pi">:</span> <span class="s">kubepostgres-service-bindings</span>
   <span class="na">labels</span><span class="pi">:</span>
-    <span class="s">servicebinding.io/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span> <span class="c1"># matches the aggregation rule selector</span>
+    <span class="na">servicebinding.io/controller</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span> <span class="c1"># matches the aggregation rule selector</span>
 <span class="na">rules</span><span class="pi">:</span>
 <span class="pi">-</span> <span class="na">apiGroups</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s">kubepostgres.dev</span>
@@ -1060,7 +1060,7 @@ to ask for technica...</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

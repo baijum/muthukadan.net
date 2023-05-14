@@ -370,19 +370,19 @@ Next=Some Text|
 <p>My parsing code is part of a bigger module with other functionalities.
 Here is a stripped-down version of my parsing code:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">import</span> <span class="nn">parsley</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">sys</span>
+<span class="kn">import</span> <span class="n">parsley</span>
 
-<span class="n">parser</span> <span class="o">=</span> <span class="n">parsley</span><span class="p">.</span><span class="n">makeGrammar</span><span class="p">(</span><span class="s">"""
+<span class="n">parser</span> <span class="o">=</span> <span class="n">parsley</span><span class="p">.</span><span class="nf">makeGrammar</span><span class="p">(</span><span class="s">"""
 fix = '{{' &lt;((anything|ws):x ?(x not  in '}') -&gt; x)+&gt;:s '}}' -&gt; s
 num = '{{' ('V'|'v') 'erse|' &lt;digit+&gt;:s '}}' -&gt; int(s)
 text =  &lt;((anything|ws):x ?(x not in '{') -&gt; x)+&gt;:s  -&gt; s
 verse = (fix ws){3} (num:n text:t -&gt; (n, t))+:l fix anything* -&gt; l
 """</span><span class="p">,</span> <span class="p">{})</span>
 
-<span class="n">wikitext</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]).</span><span class="n">read</span><span class="p">()</span>
-<span class="n">verses</span> <span class="o">=</span> <span class="n">parser</span><span class="p">(</span><span class="n">wikitext</span><span class="p">).</span><span class="n">verse</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">verses</span><span class="p">)</span>
+<span class="n">wikitext</span> <span class="o">=</span> <span class="nf">open</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]).</span><span class="nf">read</span><span class="p">()</span>
+<span class="n">verses</span> <span class="o">=</span> <span class="nf">parser</span><span class="p">(</span><span class="n">wikitext</span><span class="p">).</span><span class="nf">verse</span><span class="p">()</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">verses</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>I think, the parsing grammar should be possible to improve.  But this
@@ -719,7 +719,7 @@ the Go community. Thanks to all who cam...</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 Baiju Muthukadan. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
