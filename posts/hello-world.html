@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Baiju Muthukadan</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        /* Post-specific styles */
+        .post-header {
+            margin-bottom: 30px;
+        }
+        
+        .post-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .post-meta {
+            color: #757575;
+            margin-bottom: 20px;
+        }
+        
+        .post-content {
+            line-height: 1.8;
+        }
+        
+        .post-content p {
+            margin-bottom: 20px;
+        }
+        
+        .post-content h2 {
+            margin: 40px 0 20px;
+            font-size: 1.8rem;
+        }
+        
+        .post-content h3 {
+            margin: 30px 0 15px;
+            font-size: 1.5rem;
+        }
+        
+        .post-content ul, 
+        .post-content ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .post-content li {
+            margin-bottom: 10px;
+        }
+        
+        .post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .post-content blockquote {
+            border-left: 4px solid var(--primary-color);
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #616161;
+        }
+        
+        .post-content code {
+            background-color: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        
+        .post-content pre {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        .post-content pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        
+        .post-navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .post-navigation a {
+            display: flex;
+            align-items: center;
+        }
+        
+        .post-navigation .prev-post .material-icons {
+            margin-right: 5px;
+        }
+        
+        .post-navigation .next-post .material-icons {
+            margin-left: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .post-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Baiju Muthukadan</h1>
+            <p class="site-description">Personal Blog</p>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <span class="material-icons">menu</span>
+            </button>
+            <button class="mobile-nav-close" aria-label="Close navigation menu">
+                <span class="material-icons">close</span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../posts.html" class="active">All Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <article class="post">
+                <header class="post-header">
+                    <h1 class="post-title">Hello World</h1>
+                    <div class="post-meta">
+                        <span class="post-date">May 29, 2025</span> • 
+                        <span class="post-category">Personal</span>
+                    </div>
+                </header>
+                
+                <div class="post-content">
+                    <p>Welcome to my personal blog! This is my first post, and I'm excited to start sharing my thoughts, experiences, and insights with you all.</p>
+                    
+                    <p>In this blog, I'll be writing about various topics that interest me, including technology, programming, personal development, and more. My goal is to create a space where I can document my journey and share knowledge that might be helpful to others.</p>
+                    
+                    <h2>Why I Started This Blog</h2>
+                    
+                    <p>I've been thinking about starting a blog for quite some time, and I finally decided to take the plunge. Here are a few reasons why:</p>
+                    
+                    <ul>
+                        <li><strong>Learning in Public</strong>: Writing about what I learn helps me solidify my understanding and might help others who are on a similar path.</li>
+                        <li><strong>Building a Portfolio</strong>: A blog serves as a living portfolio of my thoughts and work.</li>
+                        <li><strong>Connecting with Others</strong>: I hope this blog will help me connect with like-minded individuals who share similar interests.</li>
+                    </ul>
+                    
+                    <blockquote>
+                        <p>"The best way to learn is to teach." — Frank Oppenheimer</p>
+                    </blockquote>
+                    
+                    <h2>What to Expect</h2>
+                    
+                    <p>I plan to post regularly about topics that I'm passionate about. Some of the areas I'll be covering include:</p>
+                    
+                    <ol>
+                        <li>Programming and software development</li>
+                        <li>Technology trends and reviews</li>
+                        <li>Personal productivity and growth</li>
+                        <li>Books I'm reading and what I'm learning from them</li>
+                    </ol>
+                    
+                    <h3>A Simple Code Example</h3>
+                    
+                    <p>Since I'll be writing about programming, here's a simple "Hello, World!" program in Python:</p>
+                    
+                    <pre><code>def greet(name):
+    return f"Hello, {name}!"
+
+# Say hello to the world
+print(greet("World"))</code></pre>
+                    
+                    <p>I'm looking forward to sharing more substantial and interesting code examples in future posts.</p>
+                    
+                    <h2>Join Me on This Journey</h2>
+                    
+                    <p>I'm excited about this new adventure, and I hope you'll join me. Feel free to subscribe to my RSS feed or follow me on social media to stay updated with my latest posts.</p>
+                    
+                    <p>Thank you for reading, and I'll see you in the next post!</p>
+                </div>
+                
+                <div class="post-navigation">
+                    <div class="prev-post">
+                        <!-- No previous post for the first post -->
+                    </div>
+                    <div class="next-post">
+                        <a href="sample-post.html">
+                            Next Post: Sample Post
+                            <span class="material-icons">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <aside class="sidebar">
+                <div class="about-widget widget">
+                    <h3 class="widget-title">About Me</h3>
+                    <p>Hi, I'm Baiju Muthukadan. Welcome to my personal blog where I share my thoughts and experiences.</p>
+                    <a href="../about.html" class="btn">Learn More</a>
+                </div>
+                
+                <div class="categories-widget widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Programming</a></li>
+                    </ul>
+                </div>
+                
+                <div class="recent-posts-widget widget">
+                    <h3 class="widget-title">Recent Posts</h3>
+                    <ul>
+                        <li><a href="hello-world.html">Hello World</a></li>
+                        <li><a href="sample-post.html">Sample Post</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
+                <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>
+                <a href="https://linkedin.com/in/baijum" target="_blank" aria-label="LinkedIn"><span class="material-icons">linkedin</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

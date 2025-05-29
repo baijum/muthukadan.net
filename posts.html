@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts - Baiju Muthukadan</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Posts page specific styles */
+        .posts-section {
+            background-color: var(--surface);
+            border-radius: 8px;
+            box-shadow: var(--elevation-1);
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .posts-header {
+            margin-bottom: 30px;
+        }
+        
+        .posts-title {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .posts-intro {
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+        
+        .posts-filter {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 1px solid var(--primary-color);
+            background-color: transparent;
+            color: var(--primary-color);
+            border-radius: 20px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background-color: var(--primary-color);
+            color: var(--on-primary);
+        }
+        
+        .posts-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .post-item {
+            padding: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            transition: background-color 0.3s ease;
+        }
+        
+        .post-item:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .post-item:last-child {
+            border-bottom: none;
+        }
+        
+        .post-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: #757575;
+        }
+        
+        .post-category {
+            background-color: var(--primary-light);
+            color: var(--on-primary);
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+        }
+        
+        .post-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .post-excerpt {
+            margin-bottom: 15px;
+            color: #616161;
+            line-height: 1.6;
+        }
+        
+        .post-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        
+        .post-tag {
+            background-color: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            color: #616161;
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 10px;
+        }
+        
+        .page-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            color: var(--on-surface);
+            font-weight: 500;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .page-link:hover, .page-link.active {
+            background-color: var(--primary-color);
+            color: var(--on-primary);
+        }
+        
+        .page-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 15px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #f0f0f0;
+            color: var(--on-surface);
+            font-weight: 500;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .page-nav:hover {
+            background-color: var(--primary-color);
+            color: var(--on-primary);
+        }
+        
+        .page-nav .material-icons {
+            font-size: 18px;
+        }
+        
+        .prev-page .material-icons {
+            margin-right: 5px;
+        }
+        
+        .next-page .material-icons {
+            margin-left: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .posts-title {
+                font-size: 1.8rem;
+            }
+            
+            .post-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Baiju Muthukadan</h1>
+            <p class="site-description">Personal Blog</p>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <span class="material-icons">menu</span>
+            </button>
+            <button class="mobile-nav-close" aria-label="Close navigation menu">
+                <span class="material-icons">close</span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="posts.html" class="active">All Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="posts-section">
+                <header class="posts-header">
+                    <h1 class="posts-title">All Blog Posts</h1>
+                    <p class="posts-intro">Browse through all my blog posts. Use the filters below to find posts by category.</p>
+                </header>
+                
+                <div class="posts-filter">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Technology</button>
+                    <button class="filter-btn">Programming</button>
+                    <button class="filter-btn">Personal</button>
+                    <button class="filter-btn">Travel</button>
+                </div>
+                
+                <div class="posts-list">
+                    <article class="post-item">
+                        <div class="post-meta">
+                            <span class="post-date">May 29, 2025</span>
+                            <span class="post-category">Personal</span>
+                        </div>
+                        <h2 class="post-title"><a href="posts/hello-world.html">Hello World</a></h2>
+                        <p class="post-excerpt">Welcome to my personal blog where I'll be sharing my thoughts, experiences, and insights.</p>
+                        <a href="posts/hello-world.html" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
+                        <div class="post-tags">
+                            <span class="post-tag">Introduction</span>
+                            <span class="post-tag">Blog</span>
+                        </div>
+                    </article>
+                    
+                    <article class="post-item">
+                        <div class="post-meta">
+                            <span class="post-date">May 28, 2025</span>
+                            <span class="post-category">Technology</span>
+                        </div>
+                        <h2 class="post-title"><a href="posts/sample-post.html">Sample Post</a></h2>
+                        <p class="post-excerpt">This is a sample post to demonstrate the layout and styling of blog posts on this site.</p>
+                        <a href="posts/sample-post.html" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
+                        <div class="post-tags">
+                            <span class="post-tag">Sample</span>
+                            <span class="post-tag">Demo</span>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="pagination">
+                    <a href="#" class="page-nav prev-page">
+                        <span class="material-icons">arrow_back</span>
+                        Prev
+                    </a>
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-nav next-page">
+                        Next
+                        <span class="material-icons">arrow_forward</span>
+                    </a>
+                </div>
+            </section>
+            
+            <aside class="sidebar">
+                <div class="about-widget widget">
+                    <h3 class="widget-title">About Me</h3>
+                    <p>Hi, I'm Baiju Muthukadan. Welcome to my personal blog where I share my thoughts and experiences.</p>
+                    <a href="about.html" class="btn">Learn More</a>
+                </div>
+                
+                <div class="categories-widget widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Programming</a></li>
+                    </ul>
+                </div>
+                
+                <div class="tags-widget widget">
+                    <h3 class="widget-title">Popular Tags</h3>
+                    <div class="tags-cloud">
+                        <a href="#" class="tag">Blog</a>
+                        <a href="#" class="tag">Technology</a>
+                        <a href="#" class="tag">Programming</a>
+                        <a href="#" class="tag">Web Development</a>
+                        <a href="#" class="tag">JavaScript</a>
+                        <a href="#" class="tag">Python</a>
+                        <a href="#" class="tag">Travel</a>
+                        <a href="#" class="tag">Books</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
+                <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>
+                <a href="https://linkedin.com/in/baijum" target="_blank" aria-label="LinkedIn"><span class="material-icons">linkedin</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Simple filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // In a real implementation, you would filter the posts here
+                // For now, we'll just show an alert
+                if (this.textContent !== 'All') {
+                    alert(`Filtering by: ${this.textContent}`);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

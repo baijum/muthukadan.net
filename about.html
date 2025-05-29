@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Baiju Muthukadan</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* About page specific styles */
+        .about-section {
+            background-color: var(--surface);
+            border-radius: 8px;
+            box-shadow: var(--elevation-1);
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .about-header {
+            margin-bottom: 30px;
+        }
+        
+        .about-title {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .about-content {
+            line-height: 1.8;
+        }
+        
+        .about-content p {
+            margin-bottom: 20px;
+        }
+        
+        .about-content h2 {
+            margin: 40px 0 20px;
+            font-size: 1.8rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .about-content h2::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            background-color: var(--primary-color);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .about-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .about-content li {
+            margin-bottom: 10px;
+        }
+        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: var(--elevation-2);
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .skill-tag {
+            background-color: var(--primary-light);
+            color: var(--on-primary);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-item .material-icons {
+            margin-right: 10px;
+            color: var(--primary-color);
+            width: 24px; /* Fixed width for icons */
+        }
+        
+        .contact-label {
+            display: inline-block;
+            width: 80px; /* Fixed width for labels */
+            font-weight: 500;
+        }
+        
+        .contact-value {
+            flex: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .about-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Baiju Muthukadan</h1>
+            <p class="site-description">Personal Blog</p>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <span class="material-icons">menu</span>
+            </button>
+            <button class="mobile-nav-close" aria-label="Close navigation menu">
+                <span class="material-icons">close</span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="posts.html">All Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="about-section">
+                <header class="about-header">
+                    <h1 class="about-title">About Me</h1>
+                </header>
+                
+                <div class="about-content">
+                    <img src="images/profile-placeholder.jpg" alt="Baiju Muthukadan" class="profile-image">
+                    
+                    <p>Hello! I'm Baiju Muthukadan, a passionate technologist, developer, and writer. Welcome to my personal blog where I share my thoughts, experiences, and insights on technology, programming, and personal growth.</p>
+                    
+                    <h2>My Background</h2>
+                    
+                    <p>I have been working in the technology industry for several years, specializing in software development and architecture. My journey in tech has been an exciting one, filled with continuous learning and growth.</p>
+                    
+                    <p>Throughout my career, I've had the opportunity to work on various projects and technologies, which has given me a broad perspective on the tech landscape. I'm particularly interested in web development, cloud computing, and open-source technologies.</p>
+                    
+                    <h2>Skills & Expertise</h2>
+                    
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Cloud Computing</span>
+                        <span class="skill-tag">DevOps</span>
+                        <span class="skill-tag">Technical Writing</span>
+                    </div>
+                    
+                    <h2>What I Write About</h2>
+                    
+                    <p>On this blog, I cover a variety of topics including:</p>
+                    
+                    <ul>
+                        <li><strong>Programming Tutorials</strong>: Practical guides and tutorials on various programming languages and frameworks.</li>
+                        <li><strong>Tech Insights</strong>: My thoughts on current technology trends and their implications.</li>
+                        <li><strong>Personal Development</strong>: Lessons I've learned throughout my professional journey.</li>
+                        <li><strong>Book Reviews</strong>: Summaries and key takeaways from books I've read, particularly in tech and personal growth.</li>
+                    </ul>
+                    
+                    <h2>Connect With Me</h2>
+                    
+                    <p>I'm always open to connecting with like-minded individuals, discussing ideas, or collaborating on interesting projects. Feel free to reach out to me through any of the channels below:</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="material-icons">email</span>
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:baiju.m.mail@gmail.com" class="contact-value">baiju.m.mail@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">twitter</span>
+                            <span class="contact-label">Twitter</span>
+                            <a href="https://twitter.com/baijum" target="_blank" class="contact-value">@baijum</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">code</span>
+                            <span class="contact-label">GitHub</span>
+                            <a href="https://github.com/baijum" target="_blank" class="contact-value">github.com/baijum</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons">linkedin</span>
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/baijum/" target="_blank" class="contact-value">linkedin.com/in/baijum</a>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-disclaimer" style="margin-top: 30px; padding: 15px; background-color: #f5f5f5; border-left: 4px solid var(--primary-color); border-radius: 4px;">
+                        <h3 style="margin-top: 0; font-size: 1.2rem; color: var(--primary-color);">AI Assistance Disclosure</h3>
+                        <p style="margin-bottom: 0;">This blog is written with the assistance of artificial intelligence tools. While I carefully review and edit all content to ensure accuracy and alignment with my views, AI helps me enhance my writing, generate ideas, and improve the overall quality of the content.</p>
+                    </div>
+                    
+                    <p>Thank you for visiting my blog. I hope you find the content here valuable and insightful!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
+                <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>
+                <a href="https://linkedin.com/in/baijum" target="_blank" aria-label="LinkedIn"><span class="material-icons">linkedin</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
