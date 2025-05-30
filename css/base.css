@@ -1,0 +1,53 @@
+/* Base styles */
+@import 'variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    color: var(--on-background);
+    background-color: var(--background);
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--on-primary);
+    padding: 12px 20px;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: var(--transition);
+    box-shadow: var(--elevation-1);
+}
+
+.btn:hover {
+    background-color: var(--primary-dark);
+    color: var(--on-primary);
+    box-shadow: var(--elevation-2);
+    transform: translateY(-2px);
+}

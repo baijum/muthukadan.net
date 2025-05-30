@@ -1,0 +1,94 @@
+/* Navigation Styles */
+@import '../variables.css';
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: var(--on-primary);
+    font-weight: 500;
+    padding: 10px 0;
+    display: inline-block;
+    position: relative;
+    transition: var(--transition);
+}
+
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+.main-nav a:hover::after,
+.main-nav a.active::after {
+    width: 100%;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+    display: none;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: var(--on-primary);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.main-nav.mobile-active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    z-index: 999;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.main-nav.mobile-active ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav.mobile-active li {
+    margin: 15px 0;
+}
+
+.main-nav.mobile-active a {
+    font-size: 1.2rem;
+}
+
+.mobile-nav-close {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: var(--on-primary);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+}

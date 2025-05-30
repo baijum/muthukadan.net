@@ -1,0 +1,25 @@
+/* Variables - Color palette and common values */
+:root {
+    --primary-color: #4361ee;
+    --primary-dark: #3a56d4;
+    --primary-light: #7b9aff;
+    --secondary-color: #48cae4;
+    --secondary-dark: #00b4d8;
+    --accent-color: #90e0ef;
+    --background: #f8f9ff;
+    --surface: #ffffff;
+    --error: #d62828;
+    --on-primary: #ffffff;
+    --on-secondary: #ffffff;
+    --on-background: #2b2d42;
+    --on-surface: #2b2d42;
+    --on-error: #ffffff;
+    --text-muted: #6c757d;
+    --elevation-1: 0 2px 8px rgba(0,0,0,0.08);
+    --elevation-2: 0 4px 12px rgba(0,0,0,0.10);
+    --elevation-3: 0 8px 20px rgba(0,0,0,0.12);
+    --elevation-4: 0 12px 24px rgba(0,0,0,0.14);
+    --elevation-5: 0 16px 32px rgba(0,0,0,0.16);
+    --border-radius: 12px;
+    --transition: all 0.3s ease;
+}

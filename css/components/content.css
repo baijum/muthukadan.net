@@ -1,0 +1,46 @@
+/* Main Content Styles */
+@import '../variables.css';
+
+.main-content {
+    padding: 60px 0;
+}
+
+/* Default grid layout with sidebar */
+.main-content .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+/* Only show sidebar on index and category pages */
+.home-page .main-content .container,
+.category-page .main-content .container {
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+.page-section {
+    background-color: var(--surface);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-1);
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(0,0,0,0.04);
+}

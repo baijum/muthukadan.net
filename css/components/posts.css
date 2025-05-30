@@ -1,0 +1,66 @@
+/* Post Card Styles */
+@import '../variables.css';
+
+.post-card {
+    background-color: var(--surface);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--elevation-1);
+    margin-bottom: 30px;
+    transition: var(--transition);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.post-card:hover {
+    box-shadow: var(--elevation-2);
+    transform: translateY(-5px);
+}
+
+.post-card-content {
+    padding: 20px;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.post-title a {
+    color: var(--on-surface);
+}
+
+.post-title a:hover {
+    color: var(--primary-color);
+}
+
+.post-excerpt {
+    margin-bottom: 15px;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+.read-more {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.read-more .material-icons {
+    font-size: 18px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.read-more:hover .material-icons {
+    transform: translateX(3px);
+}

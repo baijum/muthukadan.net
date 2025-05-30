@@ -1,0 +1,63 @@
+/* Responsive Styles */
+@import '../variables.css';
+
+@media (max-width: 768px) {
+    .main-content .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        margin-top: 30px;
+        position: static;
+    }
+    
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .social-links {
+        margin-top: 20px;
+    }
+    
+    .social-links a {
+        margin: 0 8px;
+    }
+    
+    .header {
+        padding: 40px 0 15px;
+    }
+    
+    .site-title {
+        font-size: 2rem;
+    }
+    
+    /* Mobile Navigation */
+    .mobile-nav-toggle {
+        display: block;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .main-nav.mobile-active {
+        display: block;
+    }
+    
+    .mobile-nav-close.active {
+        display: block;
+    }
+    
+    /* Improve touch targets for mobile */
+    .main-nav a,
+    .categories-widget a,
+    .btn,
+    .read-more {
+        padding: 12px 8px;
+    }
+    
+    .post-card-content {
+        padding: 15px;
+    }
+}

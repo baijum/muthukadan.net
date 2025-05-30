@@ -46,7 +46,8 @@ def generate_html_files(posts, pages):
                 site_description=SITE_DESCRIPTION,
                 categories=all_categories,
                 recent_posts=posts[:5],  # Show 5 most recent posts
-                current_year=datetime.datetime.now().year
+                current_year=datetime.datetime.now().year,
+                page_url=f"{post['slug']}.html"
             )
             
             # Write the HTML file
@@ -65,7 +66,8 @@ def generate_html_files(posts, pages):
             site_description=SITE_DESCRIPTION,
             current_page=1,
             total_pages=1,
-            current_year=datetime.datetime.now().year
+            current_year=datetime.datetime.now().year,
+            page_url="posts.html"
         )
         
         # Write the posts list file
@@ -85,7 +87,8 @@ def generate_html_files(posts, pages):
                 content=page['content'],
                 site_title=SITE_TITLE,
                 site_description=SITE_DESCRIPTION,
-                current_year=datetime.datetime.now().year
+                current_year=datetime.datetime.now().year,
+                page_url=f"{page['slug']}.html"
             )
             
             # Write the HTML file
@@ -108,7 +111,8 @@ def generate_html_files(posts, pages):
             categories=all_categories,
             site_title=SITE_TITLE,
             site_description=SITE_DESCRIPTION,
-            current_year=datetime.datetime.now().year
+            current_year=datetime.datetime.now().year,
+            page_url="index.html"
         )
         
         # Write the index file
