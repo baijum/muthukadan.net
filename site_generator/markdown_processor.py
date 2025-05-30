@@ -155,15 +155,29 @@ def process_markdown_files():
     """Process all Markdown files in the sources directory."""
     posts = []
     
+    print(f"Looking for markdown files in: {os.path.abspath(SOURCES_DIR)}")
+    
+    # Check if directory exists
+    if not os.path.exists(SOURCES_DIR):
+        print(f"Error: Sources directory {SOURCES_DIR} does not exist!")
+        return posts
+    
     # Get all Markdown files
     md_files = [f for f in os.listdir(SOURCES_DIR) if f.endswith(".md")]
+    print(f"Found {len(md_files)} markdown files: {md_files}")
     
     # Process each file
     for md_file in md_files:
         file_path = os.path.join(SOURCES_DIR, md_file)
+        print(f"Processing file: {file_path}")
         post = process_markdown_file(file_path)
         if post:
             posts.append(post)
+            print(f"Successfully processed post: {post['title']}")
+        else:
+            print(f"Failed to process post: {file_path}")
+    
+    print(f"Total posts processed: {len(posts)}")
     
     # Sort posts by date (newest first)
     posts.sort(key=lambda x: x['date_obj'], reverse=True)

@@ -4,15 +4,18 @@ Configuration settings for the site generator.
 
 import os
 
+# Base directory (project root)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # Directory paths
-SOURCES_DIR = "sources"
-POSTS_DIR = "posts"
-PAGES_DIR = "pages"
-TEMPLATES_DIR = "templates"
+SOURCES_DIR = os.path.join(BASE_DIR, "sources")
+POSTS_DIR = os.path.join(BASE_DIR, "posts")
+PAGES_DIR = os.path.join(BASE_DIR, "pages")
+TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 
 # Output files
-POSTS_LIST_FILE = "posts.html"
-INDEX_FILE = "index.html"
+POSTS_LIST_FILE = os.path.join(BASE_DIR, "posts.html")
+INDEX_FILE = os.path.join(BASE_DIR, "index.html")
 
 # Site information
 SITE_TITLE = "Baiju Muthukadan"

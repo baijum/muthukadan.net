@@ -4,10 +4,11 @@ Template handling functions for the site generator.
 
 import os
 import datetime
+import math
 from jinja2 import Environment, FileSystemLoader
 
 from site_generator.config import (
-    TEMPLATES_DIR, POSTS_DIR, POSTS_LIST_FILE, INDEX_FILE,
+    BASE_DIR, TEMPLATES_DIR, POSTS_DIR, POSTS_LIST_FILE, INDEX_FILE,
     SITE_TITLE, SITE_DESCRIPTION
 )
 
@@ -19,6 +20,9 @@ def generate_html_files(posts, pages):
     
     # Set up Jinja2 environment
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
+    
+    # Define posts per page for pagination
+    POSTS_PER_PAGE = 5
     
     # Generate HTML for each post
     if posts:
@@ -57,24 +61,59 @@ def generate_html_files(posts, pages):
             
             print(f"Generated {output_path}")
         
-        # Generate posts list page
+        # Calculate total pages for pagination
+        total_posts = len(posts)
+        total_pages = math.ceil(total_posts / POSTS_PER_PAGE)
+        
+        # Generate main posts list page (page 1)
+        first_page_posts = posts[:POSTS_PER_PAGE]
         html = posts_list_template.render(
-            posts=posts,
+            posts=first_page_posts,
             categories=all_categories,
             all_tags=all_tags,
             site_title=SITE_TITLE,
             site_description=SITE_DESCRIPTION,
             current_page=1,
-            total_pages=1,
+            total_pages=total_pages,
             current_year=datetime.datetime.now().year,
             page_url="posts.html"
         )
         
-        # Write the posts list file
+        # Write the main posts list file
         with open(POSTS_LIST_FILE, "w") as f:
             f.write(html)
         
         print(f"Generated {POSTS_LIST_FILE}")
+        
+        # Generate additional pages if needed
+        if total_pages > 1:
+            # Create posts directory if it doesn't exist
+            os.makedirs("pages", exist_ok=True)
+            
+            # Generate pages 2 to total_pages
+            for page_num in range(2, total_pages + 1):
+                start_idx = (page_num - 1) * POSTS_PER_PAGE
+                end_idx = min(start_idx + POSTS_PER_PAGE, total_posts)
+                page_posts = posts[start_idx:end_idx]
+                
+                page_html = posts_list_template.render(
+                    posts=page_posts,
+                    categories=all_categories,
+                    all_tags=all_tags,
+                    site_title=SITE_TITLE,
+                    site_description=SITE_DESCRIPTION,
+                    current_page=page_num,
+                    total_pages=total_pages,
+                    current_year=datetime.datetime.now().year,
+                    page_url=f"posts-page-{page_num}.html"
+                )
+                
+                # Write the paginated posts list file
+                page_file = os.path.join(BASE_DIR, f"posts-page-{page_num}.html")
+                with open(page_file, "w") as f:
+                    f.write(page_html)
+                
+                print(f"Generated {page_file}")
     
     # Generate HTML for each page
     if pages:

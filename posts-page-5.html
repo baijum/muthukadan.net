@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Posts - {{ site_title }}</title>
+    <title>All Posts - Baiju Muthukadan</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/styles.css">
@@ -188,8 +188,8 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="site-title">{{ site_title }}</h1>
-            <p class="site-description">{{ site_description }}</p>
+            <h1 class="site-title">Baiju Muthukadan</h1>
+            <p class="site-description">Personal Blog</p>
             <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
                 <span class="material-icons">menu</span>
             </button>
@@ -216,59 +216,107 @@
                 
                 <div class="posts-filter">
                     <button class="filter-btn active">All</button>
-                    {% for category in categories %}
-                    <button class="filter-btn">{{ category }}</button>
-                    {% endfor %}
+                    
+                    <button class="filter-btn">Data Science</button>
+                    
+                    <button class="filter-btn">JavaScript</button>
+                    
+                    <button class="filter-btn">Mathematics</button>
+                    
+                    <button class="filter-btn">Programming</button>
+                    
+                    <button class="filter-btn">Python</button>
+                    
+                    <button class="filter-btn">Technology</button>
+                    
+                    <button class="filter-btn">Web Development</button>
+                    
                 </div>
                 
                 <div class="posts-list">
-                    {% for post in posts %}
+                    
                     <article class="post-item">
                         <div class="post-meta">
-                            <span class="post-date">{{ post.date }}</span>
-                            <span class="post-category">{{ post.category }}</span>
+                            <span class="post-date">March 16, 2024</span>
+                            <span class="post-category">Programming</span>
                         </div>
-                        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <p class="post-excerpt">{{ post.excerpt }}</p>
-                        <a href="{{ post.url }}" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
+                        <h2 class="post-title"><a href="posts/python-for-data-analysis-a-comprehensive-guide.html">Python for Data Analysis: A Comprehensive Guide</a></h2>
+                        <p class="post-excerpt"> Python for Data Analysis: A Comprehensive Guide
+
+Published on March 16, 2024 in Programming
+
+Sed ut perspiciatis unde omnis iste natus error sit...</p>
+                        <a href="posts/python-for-data-analysis-a-comprehensive-guide.html" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
                         <div class="post-tags">
-                            {% for tag in post.tags %}
-                            <span class="post-tag">{{ tag }}</span>
-                            {% endfor %}
+                            
+                            <span class="post-tag">tools</span>
+                            
+                            <span class="post-tag">backend</span>
+                            
+                            <span class="post-tag">frontend</span>
+                            
                         </div>
                     </article>
-                    {% endfor %}
+                    
+                    <article class="post-item">
+                        <div class="post-meta">
+                            <span class="post-date">January 18, 2024</span>
+                            <span class="post-category">JavaScript</span>
+                        </div>
+                        <h2 class="post-title"><a href="posts/introduction-to-typescript-for-javascript-developers.html">Introduction to TypeScript for JavaScript Developers</a></h2>
+                        <p class="post-excerpt"> Introduction to TypeScript for JavaScript Developers
+
+Published on January 18, 2024 in JavaScript
+
+Quis autem vel eum iure reprehenderit qui in ea...</p>
+                        <a href="posts/introduction-to-typescript-for-javascript-developers.html" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
+                        <div class="post-tags">
+                            
+                            <span class="post-tag">tutorial</span>
+                            
+                            <span class="post-tag">advanced</span>
+                            
+                        </div>
+                    </article>
+                    
                 </div>
                 
-                {% if total_pages > 1 %}
+                
                 <div class="pagination">
-                    {% if current_page > 1 %}
-                    {% if current_page == 2 %}
-                    <a href="posts.html" class="page-nav prev-page" data-page-link>
-                    {% else %}
-                    <a href="posts-page-{{ current_page - 1 }}.html" class="page-nav prev-page" data-page-link>
-                    {% endif %}
+                    
+                    
+                    <a href="posts-page-4.html" class="page-nav prev-page" data-page-link>
+                    
                         <span class="material-icons">arrow_back</span>
                         Prev
                     </a>
-                    {% endif %}
                     
-                    {% for page in range(1, total_pages + 1) %}
-                    {% if page == 1 %}
-                    <a href="posts.html" class="page-link {% if page == current_page %}active{% endif %}" data-page-link>{{ page }}</a>
-                    {% else %}
-                    <a href="posts-page-{{ page }}.html" class="page-link {% if page == current_page %}active{% endif %}" data-page-link>{{ page }}</a>
-                    {% endif %}
-                    {% endfor %}
                     
-                    {% if current_page < total_pages %}
-                    <a href="posts-page-{{ current_page + 1 }}.html" class="page-nav next-page" data-page-link>
-                        Next
-                        <span class="material-icons">arrow_forward</span>
-                    </a>
-                    {% endif %}
+                    
+                    
+                    <a href="posts.html" class="page-link " data-page-link>1</a>
+                    
+                    
+                    
+                    <a href="posts-page-2.html" class="page-link " data-page-link>2</a>
+                    
+                    
+                    
+                    <a href="posts-page-3.html" class="page-link " data-page-link>3</a>
+                    
+                    
+                    
+                    <a href="posts-page-4.html" class="page-link " data-page-link>4</a>
+                    
+                    
+                    
+                    <a href="posts-page-5.html" class="page-link active" data-page-link>5</a>
+                    
+                    
+                    
+                    
                 </div>
-                {% endif %}
+                
             </section>
             
             <aside class="sidebar">
@@ -280,7 +328,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; {{ current_year }} {{ site_title }}. All Rights Reserved.</p>
+            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
             <div class="social-links">
                 <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
                 <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>
