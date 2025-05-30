@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World - Baiju Muthukadan</title>
+    <title>{{ title }} - {{ site_title }}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="../css/styles.css">
+    <!-- MathJax for rendering mathematical equations -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
         /* Post-specific styles */
         .post-header {
@@ -117,8 +132,8 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="site-title">Baiju Muthukadan</h1>
-            <p class="site-description">Personal Blog</p>
+            <h1 class="site-title">{{ site_title }}</h1>
+            <p class="site-description">{{ site_description }}</p>
             <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
                 <span class="material-icons">menu</span>
             </button>
@@ -139,71 +154,33 @@
         <div class="container">
             <article class="post">
                 <header class="post-header">
-                    <h1 class="post-title">Hello World</h1>
+                    <h1 class="post-title">{{ title }}</h1>
                     <div class="post-meta">
-                        <span class="post-date">May 29, 2025</span> • 
-                        <span class="post-category">Personal</span>
+                        <span class="post-date">{{ date }}</span> • 
+                        <span class="post-category">{{ category }}</span>
                     </div>
                 </header>
                 
                 <div class="post-content">
-                    <p>Welcome to my personal blog! This is my first post, and I'm excited to start sharing my thoughts, experiences, and insights with you all.</p>
-                    
-                    <p>In this blog, I'll be writing about various topics that interest me, including technology, programming, personal development, and more. My goal is to create a space where I can document my journey and share knowledge that might be helpful to others.</p>
-                    
-                    <h2>Why I Started This Blog</h2>
-                    
-                    <p>I've been thinking about starting a blog for quite some time, and I finally decided to take the plunge. Here are a few reasons why:</p>
-                    
-                    <ul>
-                        <li><strong>Learning in Public</strong>: Writing about what I learn helps me solidify my understanding and might help others who are on a similar path.</li>
-                        <li><strong>Building a Portfolio</strong>: A blog serves as a living portfolio of my thoughts and work.</li>
-                        <li><strong>Connecting with Others</strong>: I hope this blog will help me connect with like-minded individuals who share similar interests.</li>
-                    </ul>
-                    
-                    <blockquote>
-                        <p>"The best way to learn is to teach." — Frank Oppenheimer</p>
-                    </blockquote>
-                    
-                    <h2>What to Expect</h2>
-                    
-                    <p>I plan to post regularly about topics that I'm passionate about. Some of the areas I'll be covering include:</p>
-                    
-                    <ol>
-                        <li>Programming and software development</li>
-                        <li>Technology trends and reviews</li>
-                        <li>Personal productivity and growth</li>
-                        <li>Books I'm reading and what I'm learning from them</li>
-                    </ol>
-                    
-                    <h3>A Simple Code Example</h3>
-                    
-                    <p>Since I'll be writing about programming, here's a simple "Hello, World!" program in Python:</p>
-                    
-                    <pre><code>def greet(name):
-    return f"Hello, {name}!"
-
-# Say hello to the world
-print(greet("World"))</code></pre>
-                    
-                    <p>I'm looking forward to sharing more substantial and interesting code examples in future posts.</p>
-                    
-                    <h2>Join Me on This Journey</h2>
-                    
-                    <p>I'm excited about this new adventure, and I hope you'll join me. Feel free to subscribe to my RSS feed or follow me on social media to stay updated with my latest posts.</p>
-                    
-                    <p>Thank you for reading, and I'll see you in the next post!</p>
+                    {{ content }}
                 </div>
                 
                 <div class="post-navigation">
                     <div class="prev-post">
-                        <!-- No previous post for the first post -->
+                        {% if prev_post %}
+                        <a href="{{ prev_post.url }}">
+                            <span class="material-icons">arrow_back</span>
+                            Previous Post: {{ prev_post.title }}
+                        </a>
+                        {% endif %}
                     </div>
                     <div class="next-post">
-                        <a href="sample-post.html">
-                            Next Post: Sample Post
+                        {% if next_post %}
+                        <a href="{{ next_post.url }}">
+                            Next Post: {{ next_post.title }}
                             <span class="material-icons">arrow_forward</span>
                         </a>
+                        {% endif %}
                     </div>
                 </div>
             </article>
@@ -211,25 +188,25 @@ print(greet("World"))</code></pre>
             <aside class="sidebar">
                 <div class="about-widget widget">
                     <h3 class="widget-title">About Me</h3>
-                    <p>Hi, I'm Baiju Muthukadan. Welcome to my personal blog where I share my thoughts and experiences.</p>
+                    <p>Hi, I'm {{ site_title }}. Welcome to my personal blog where I share my thoughts and experiences.</p>
                     <a href="../about.html" class="btn">Learn More</a>
                 </div>
                 
                 <div class="categories-widget widget">
                     <h3 class="widget-title">Categories</h3>
                     <ul>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Personal</a></li>
-                        <li><a href="#">Travel</a></li>
-                        <li><a href="#">Programming</a></li>
+                        {% for cat in categories %}
+                        <li><a href="#">{{ cat }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
                 
                 <div class="recent-posts-widget widget">
                     <h3 class="widget-title">Recent Posts</h3>
                     <ul>
-                        <li><a href="hello-world.html">Hello World</a></li>
-                        <li><a href="sample-post.html">Sample Post</a></li>
+                        {% for post in recent_posts %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </aside>
@@ -238,7 +215,7 @@ print(greet("World"))</code></pre>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <p>&copy; {{ current_year }} {{ site_title }}. All Rights Reserved.</p>
             <div class="social-links">
                 <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
                 <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>

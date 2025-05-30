@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Equations with MathJax - Baiju Muthukadan</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- MathJax for rendering mathematical equations -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        /* Post-specific styles */
+        .post-header {
+            margin-bottom: 30px;
+        }
+        
+        .post-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .post-meta {
+            color: #757575;
+            margin-bottom: 20px;
+        }
+        
+        .post-content {
+            line-height: 1.8;
+        }
+        
+        .post-content p {
+            margin-bottom: 20px;
+        }
+        
+        .post-content h2 {
+            margin: 40px 0 20px;
+            font-size: 1.8rem;
+        }
+        
+        .post-content h3 {
+            margin: 30px 0 15px;
+            font-size: 1.5rem;
+        }
+        
+        .post-content ul, 
+        .post-content ol {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .post-content li {
+            margin-bottom: 10px;
+        }
+        
+        .post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .post-content blockquote {
+            border-left: 4px solid var(--primary-color);
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #616161;
+        }
+        
+        .post-content code {
+            background-color: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        
+        .post-content pre {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        .post-content pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        
+        .post-navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .post-navigation a {
+            display: flex;
+            align-items: center;
+        }
+        
+        .post-navigation .prev-post .material-icons {
+            margin-right: 5px;
+        }
+        
+        .post-navigation .next-post .material-icons {
+            margin-left: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .post-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Baiju Muthukadan</h1>
+            <p class="site-description">Personal Blog</p>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                <span class="material-icons">menu</span>
+            </button>
+            <button class="mobile-nav-close" aria-label="Close navigation menu">
+                <span class="material-icons">close</span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../posts.html" class="active">All Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <article class="post">
+                <header class="post-header">
+                    <h1 class="post-title">Mathematical Equations with MathJax</h1>
+                    <div class="post-meta">
+                        <span class="post-date">May 30, 2025</span> • 
+                        <span class="post-category">Mathematics</span>
+                    </div>
+                </header>
+                
+                <div class="post-content">
+                    <h1 id="mathematical-equations-with-mathjax">Mathematical Equations with MathJax</h1>
+<p>This post demonstrates how to use MathJax to render beautiful mathematical equations in your blog posts. MathJax is a JavaScript display engine that works in all browsers and uses LaTeX syntax for writing equations.</p>
+<h2 id="inline-equations">Inline Equations</h2>
+<p>You can include inline equations like $E = mc^2$ or $\pi \approx 3.14159$ within your text. Simply surround your LaTeX code with single dollar signs <code>$...$</code>.</p>
+<h2 id="display-equations">Display Equations</h2>
+<p>For more complex equations or to display them on their own line, use double dollar signs:</p>
+<p>$$<br />
+\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x)<br />
+$$</p>
+<p>This is the Fundamental Theorem of Calculus.</p>
+<h2 id="more-examples">More Examples</h2>
+<h3 id="quadratic-formula">Quadratic Formula</h3>
+<p>The solutions to $ax^2 + bx + c = 0$ are given by:</p>
+<p>$$<br />
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}<br />
+$$</p>
+<h3 id="matrices">Matrices</h3>
+<p>You can also display matrices:</p>
+<p>$$<br />
+\begin{pmatrix}<br />
+a &amp; b \<br />
+c &amp; d<br />
+\end{pmatrix}<br />
+\begin{pmatrix}<br />
+x \<br />
+y<br />
+\end{pmatrix}<br />
+=<br />
+\begin{pmatrix}<br />
+ax + by \<br />
+cx + dy<br />
+\end{pmatrix}<br />
+$$</p>
+<h3 id="calculus">Calculus</h3>
+<p>The definition of a derivative:</p>
+<p>$$<br />
+f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}<br />
+$$</p>
+<h3 id="statistics">Statistics</h3>
+<p>The normal distribution probability density function:</p>
+<p>$$<br />
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}<br />
+$$</p>
+<h3 id="physics">Physics</h3>
+<p>Maxwell's equations in differential form:</p>
+<p>$$<br />
+\begin{align}<br />
+\nabla \cdot \vec{E} &amp;= \frac{\rho}{\varepsilon_0} \<br />
+\nabla \cdot \vec{B} &amp;= 0 \<br />
+\nabla \times \vec{E} &amp;= -\frac{\partial \vec{B}}{\partial t} \<br />
+\nabla \times \vec{B} &amp;= \mu_0 \vec{J} + \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}<br />
+\end{align}<br />
+$$</p>
+<h2 id="using-mathjax-in-your-posts">Using MathJax in Your Posts</h2>
+<p>To include mathematical equations in your posts, you can use:</p>
+<ol>
+<li>Inline math with single dollar signs: <code>$E = mc^2$</code> renders as $E = mc^2$</li>
+<li>Display math with double dollar signs: <code>$$E = mc^2$$</code> renders as:</li>
+</ol>
+<p>$$<br />
+E = mc^2<br />
+$$</p>
+<p>MathJax supports a wide range of LaTeX commands and environments, making it possible to display complex mathematical content on the web.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>With MathJax support, you can now include beautiful mathematical equations in your blog posts, making it perfect for explaining scientific concepts, engineering principles, or mathematical theories.</p>
+                </div>
+                
+                <div class="post-navigation">
+                    <div class="prev-post">
+                        
+                        <a href="posts/sample-post-with-github-flavored-markdown.html">
+                            <span class="material-icons">arrow_back</span>
+                            Previous Post: Sample Post with GitHub Flavored Markdown
+                        </a>
+                        
+                    </div>
+                    <div class="next-post">
+                        
+                    </div>
+                </div>
+            </article>
+            
+            <aside class="sidebar">
+                <div class="about-widget widget">
+                    <h3 class="widget-title">About Me</h3>
+                    <p>Hi, I'm Baiju Muthukadan. Welcome to my personal blog where I share my thoughts and experiences.</p>
+                    <a href="../about.html" class="btn">Learn More</a>
+                </div>
+                
+                <div class="categories-widget widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul>
+                        
+                        <li><a href="#">Mathematics</a></li>
+                        
+                        <li><a href="#">Technology</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="recent-posts-widget widget">
+                    <h3 class="widget-title">Recent Posts</h3>
+                    <ul>
+                        
+                        <li><a href="posts/mathematical-equations-with-mathjax.html">Mathematical Equations with MathJax</a></li>
+                        
+                        <li><a href="posts/sample-post-with-github-flavored-markdown.html">Sample Post with GitHub Flavored Markdown</a></li>
+                        
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
+                <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>
+                <a href="https://linkedin.com/in/baijum" target="_blank" aria-label="LinkedIn"><span class="material-icons">linkedin</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

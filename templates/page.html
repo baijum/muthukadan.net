@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Baiju Muthukadan</title>
+    <title>{{ page_title }} - {{ site_title }}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/styles.css">
@@ -93,8 +93,8 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="site-title">Baiju Muthukadan</h1>
-            <p class="site-description">Personal Blog</p>
+            <h1 class="site-title">{{ site_title }}</h1>
+            <p class="site-description">{{ site_description }}</p>
             <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
                 <span class="material-icons">menu</span>
             </button>
@@ -104,7 +104,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="about.html" {% if page_title == 'About Me' %}class="active"{% endif %}>About</a></li>
                     <li><a href="posts.html">All Posts</a></li>
                 </ul>
             </nav>
@@ -115,40 +115,7 @@
         <div class="container">
             <section class="page-section">
                 <div class="page-content">
-                    <h1 id="about-me">About Me</h1>
-<p><img alt="Baiju Muthukadan" src="images/profile-placeholder.jpg" /></p>
-<p>I'm Baiju Muthukadan, a passionate technologist with over 15 years of experience in software development, cloud architecture, and technical leadership. I created this blog to share my knowledge, insights, and experiences in the world of technology and beyond.</p>
-<h2 id="skills-expertise">Skills &amp; Expertise</h2>
-<ul>
-<li>JavaScript</li>
-<li>Python</li>
-<li>HTML/CSS</li>
-<li>React</li>
-<li>Node.js</li>
-<li>Cloud Architecture</li>
-<li>DevOps</li>
-<li>Technical Writing</li>
-<li>Open Source</li>
-</ul>
-<h2 id="what-i-write-about">What I Write About</h2>
-<p>On this blog, I cover a variety of topics including:</p>
-<ul>
-<li><strong>Programming Tutorials</strong>: Practical guides and tutorials on various programming languages and frameworks.</li>
-<li><strong>Tech Insights</strong>: My thoughts on current technology trends and their implications.</li>
-<li><strong>Personal Development</strong>: Lessons I've learned throughout my professional journey.</li>
-<li><strong>Book Reviews</strong>: Summaries and key takeaways from books I've read, particularly in tech and personal growth.</li>
-</ul>
-<h2 id="connect-with-me">Connect With Me</h2>
-<p>I'm always open to connecting with like-minded individuals, discussing ideas, or collaborating on interesting projects. Feel free to reach out to me through any of the channels below:</p>
-<ul>
-<li><strong>Email</strong>: <a href="mailto:baiju.m.mail@gmail.com">baiju.m.mail@gmail.com</a></li>
-<li><strong>Twitter</strong>: <a href="https://twitter.com/baijum">@baijum</a></li>
-<li><strong>GitHub</strong>: <a href="https://github.com/baijum">github.com/baijum</a></li>
-<li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/baijum/">linkedin.com/in/baijum</a></li>
-</ul>
-<h2 id="ai-assistance-disclosure">AI Assistance Disclosure</h2>
-<p>This blog is written with the assistance of artificial intelligence tools. While I carefully review and edit all content to ensure accuracy and alignment with my views, AI helps me enhance my writing, generate ideas, and improve the overall quality of the content.</p>
-<p>Thank you for visiting my blog. I hope you find the content here valuable and insightful!</p>
+                    {{ content }}
                 </div>
             </section>
         </div>
@@ -156,7 +123,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <p>&copy; {{ current_year }} {{ site_title }}. All Rights Reserved.</p>
             <div class="social-links">
                 <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
                 <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>

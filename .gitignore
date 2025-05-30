@@ -61,3 +61,11 @@ Thumbs.db
 *.bak
 *.swp
 *~.nib
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# PDM
+__pypackages__/

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baiju Muthukadan - Personal Blog</title>
+    <title>{{ site_title }} - Personal Blog</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/styles.css">
@@ -11,8 +11,8 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="site-title">Baiju Muthukadan</h1>
-            <p class="site-description">Personal Blog</p>
+            <h1 class="site-title">{{ site_title }}</h1>
+            <p class="site-description">{{ site_description }}</p>
             <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
                 <span class="material-icons">menu</span>
             </button>
@@ -34,42 +34,31 @@
             <section class="featured-posts">
                 <h2 class="section-title">Latest Posts</h2>
                 
-                
+                {% for post in latest_posts %}
                 <div class="post-card">
                     <div class="post-card-content">
-                        <span class="post-date">May 30, 2025</span>
-                        <h3 class="post-title"><a href="posts/mathematical-equations-with-mathjax.html">Mathematical Equations with MathJax</a></h3>
-                        <p class="post-excerpt">This post demonstrates how to use MathJax to render beautiful mathematical equations in your blog posts.</p>
-                        <a href="posts/mathematical-equations-with-mathjax.html" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
+                        <span class="post-date">{{ post.date }}</span>
+                        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                        <a href="{{ post.url }}" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
                     </div>
                 </div>
-                
-                <div class="post-card">
-                    <div class="post-card-content">
-                        <span class="post-date">May 28, 2025</span>
-                        <h3 class="post-title"><a href="posts/sample-post-with-github-flavored-markdown.html">Sample Post with GitHub Flavored Markdown</a></h3>
-                        <p class="post-excerpt">This is a sample post demonstrating GitHub Flavored Markdown features.</p>
-                        <a href="posts/sample-post-with-github-flavored-markdown.html" class="read-more">Read More <span class="material-icons">arrow_forward</span></a>
-                    </div>
-                </div>
-                
+                {% endfor %}
             </section>
             
             <aside class="sidebar">
                 <div class="about-widget widget">
                     <h3 class="widget-title">About Me</h3>
-                    <p>Hi, I'm Baiju Muthukadan. Welcome to my personal blog where I share my thoughts and experiences.</p>
+                    <p>Hi, I'm {{ site_title }}. Welcome to my personal blog where I share my thoughts and experiences.</p>
                     <a href="about.html" class="btn">Learn More</a>
                 </div>
                 
                 <div class="categories-widget widget">
                     <h3 class="widget-title">Categories</h3>
                     <ul>
-                        
-                        <li><a href="#">Mathematics</a></li>
-                        
-                        <li><a href="#">Technology</a></li>
-                        
+                        {% for category in categories %}
+                        <li><a href="#">{{ category }}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </aside>
@@ -78,7 +67,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Baiju Muthukadan. All Rights Reserved.</p>
+            <p>&copy; {{ current_year }} {{ site_title }}. All Rights Reserved.</p>
             <div class="social-links">
                 <a href="#" aria-label="Twitter"><span class="material-icons">twitter</span></a>
                 <a href="https://github.com/baijum" target="_blank" aria-label="GitHub"><span class="material-icons">code</span></a>

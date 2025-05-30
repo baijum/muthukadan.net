@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "site-generator"
+version = "0.1.0"
+description = "Site generator for converting Markdown to HTML"
+authors = [
+    {name = "Baiju Muthukadan", email = "baiju.m.mail@gmail.com"}
+]
+requires-python = ">=3.6"
+dependencies = [
+    "markdown==3.4.3",
+    "pymdown-extensions==10.0.1",
+    "python-frontmatter==1.0.0",
+    "pygments==2.15.1",
+    "jinja2==3.1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==7.3.1",
+]
+
+[project.scripts]
+generate-site = "site_generator.cli:main"
+
+[tool.setuptools]
+packages = ["site_generator"]
