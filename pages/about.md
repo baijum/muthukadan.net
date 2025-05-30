@@ -7,18 +7,13 @@ layout: page
 
 ![Baiju Muthukadan](images/profile-placeholder.jpg)
 
-I'm Baiju Muthukadan, a passionate technologist with over 15 years of experience in software development, cloud architecture, and technical leadership. I created this blog to share my knowledge, insights, and experiences in the world of technology and beyond.
+I'm Baiju Muthukadan, a passionate technologist with over 23 years of experience in software development, cloud architecture, and technical leadership. I created this blog to share my knowledge, insights, and experiences in the world of technology and beyond.
 
 ## Skills & Expertise
 
-- JavaScript
+- Go
 - Python
 - HTML/CSS
-- React
-- Node.js
-- Cloud Architecture
-- DevOps
-- Technical Writing
 - Open Source
 
 ## What I Write About
