@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const linkHref = link.getAttribute('href');
         
         if (linkHref === currentPage || 
-            (currentPage === '' && linkHref === 'index.html') ||
+            (currentPage === '' && (linkHref === '/' || linkHref === 'index.html')) ||
             (currentPage.includes('posts/') && linkHref === 'posts.html')) {
             link.classList.add('active');
         } else {
