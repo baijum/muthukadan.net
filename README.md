@@ -2,44 +2,6 @@
 
 A static site generator that converts Markdown to HTML for a personal blog, built with Python and Jinja2 templates.
 
-## Structure
-
-```
-muthukadan.net/
-├── css/
-│   └── styles.css
-├── images/
-│   └── profile-placeholder.jpg
-├── js/
-│   └── main.js
-├── pages/
-│   └── about.md
-├── posts/
-│   ├── mathematical-equations-with-mathjax.html
-│   └── sample-post-with-github-flavored-markdown.html
-├── site_generator/
-│   ├── __init__.py
-│   ├── cli.py
-│   ├── config.py
-│   ├── markdown_processor.py
-│   ├── template_handler.py
-│   ├── utils.py
-│   └── tests/
-├── sources/
-│   ├── math-example.md
-│   └── sample-post.md
-├── templates/
-│   ├── index.html
-│   ├── page.html
-│   ├── post.html
-│   └── posts_list.html
-├── tests/
-├── about.html
-├── index.html
-├── posts.html
-├── pyproject.toml
-└── README.md
-```
 
 ## Features
 
@@ -135,6 +97,33 @@ After running the command, you can access the blog by opening your web browser a
    ```
 3. The generator will automatically create HTML files in the `posts/` directory and update the posts listing page
 
+#### Draft Posts
+
+You can create draft posts that are hidden from public listings but still accessible via direct URL for preview:
+
+1. **Creating a Draft**: Add `draft: true` to your post's front matter:
+   ```yaml
+   ---
+   title: My Work in Progress
+   date: 2025-06-01
+   category: Technology
+   tags: Draft, Example
+   draft: true
+   ---
+   ```
+
+2. **Draft Behavior**:
+   - ✅ HTML files are generated for drafts (accessible at `posts/your-post-slug.html`)
+   - ✅ Draft posts show `[DRAFT]` prefix in the title when viewed directly
+   - ❌ Drafts don't appear in the posts list page
+   - ❌ Drafts don't appear on the homepage recent posts
+   - ❌ Drafts are excluded from pagination and category filtering
+   - ❌ Drafts are skipped in post navigation (prev/next links)
+
+3. **Publishing a Draft**: Remove the `draft: true` line or change it to `draft: false`, then regenerate the site
+
+4. **Preview Drafts**: You can share draft URLs for review without affecting your public site
+
 ### Static Pages
 
 1. Write your pages in Markdown format and save them in the `pages/` directory
@@ -161,6 +150,7 @@ date: 2025-06-01
 category: Technology
 tags: Programming, Python, Web Development
 excerpt: A brief description of your post that will appear in the posts listing.
+draft: false  # Optional: set to true to hide from public listings
 ---
 ```
 
@@ -174,6 +164,7 @@ Optional front matter fields for posts:
 - `tags`: Comma-separated list of tags
 - `excerpt`: A brief description (if not provided, it will be extracted from the content)
 - `slug`: Custom URL slug (if not provided, it will be generated from the title)
+- `draft`: Set to `true` to hide the post from public listings (defaults to `false`)
 
 ##### For Pages:
 
@@ -216,6 +207,7 @@ title: Hello World
 date: 2025-05-29
 category: Personal
 tags: Introduction, Blog
+draft: false  # Set to true to keep as draft
 ---
 
 # Hello World
@@ -399,3 +391,21 @@ If you encounter issues with the Markdown-to-HTML conversion:
 2. Check that all dependencies are installed correctly
 3. Look for error messages in the generator output
 4. Verify that your Markdown syntax is correct
+
+### Draft Posts Not Working
+
+If draft posts are still appearing in public listings:
+
+1. Ensure the `draft: true` field is properly formatted in the YAML front matter
+2. Check that there are no spaces or special characters in the draft field
+3. Regenerate the site after making changes to the draft status
+4. Verify the generator output shows the post as "DRAFT" during processing
+
+### Missing Draft Posts
+
+If you can't find your draft posts:
+
+1. Check the generator output for the direct URL (e.g., `posts/your-post-slug.html`)
+2. Ensure the draft post was processed successfully (look for "Successfully processed DRAFT post" message)
+3. Navigate directly to the draft URL in your browser
+4. Remember that drafts won't appear in any public listings or navigation

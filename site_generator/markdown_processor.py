@@ -91,6 +91,9 @@ def process_markdown_file(file_path):
         if isinstance(tags, str):
             tags = [tag.strip() for tag in tags.split(',')]
         
+        # Check if post is a draft
+        is_draft = post.get('draft', False)
+        
         # Convert content to HTML
         content_html = convert_markdown_to_html(post.content)
         
@@ -111,7 +114,8 @@ def process_markdown_file(file_path):
             'content': content_html,
             'excerpt': excerpt,
             'slug': slug,
-            'url': f"posts/{slug}.html"
+            'url': f"posts/{slug}.html",
+            'is_draft': is_draft
         }
         
         return post_data
@@ -153,14 +157,15 @@ def process_page_file(file_path):
 
 def process_markdown_files():
     """Process all Markdown files in the sources directory."""
-    posts = []
+    all_posts = []
+    draft_posts = []
     
     print(f"Looking for markdown files in: {os.path.abspath(SOURCES_DIR)}")
     
     # Check if directory exists
     if not os.path.exists(SOURCES_DIR):
         print(f"Error: Sources directory {SOURCES_DIR} does not exist!")
-        return posts
+        return all_posts, draft_posts
     
     # Get all Markdown files
     md_files = [f for f in os.listdir(SOURCES_DIR) if f.endswith(".md")]
@@ -172,17 +177,32 @@ def process_markdown_files():
         print(f"Processing file: {file_path}")
         post = process_markdown_file(file_path)
         if post:
-            posts.append(post)
-            print(f"Successfully processed post: {post['title']}")
+            all_posts.append(post)
+            if post['is_draft']:
+                draft_posts.append(post)
+                print(f"Successfully processed DRAFT post: {post['title']}")
+            else:
+                print(f"Successfully processed post: {post['title']}")
         else:
             print(f"Failed to process post: {file_path}")
     
-    print(f"Total posts processed: {len(posts)}")
+    # Separate published posts from drafts
+    published_posts = [post for post in all_posts if not post['is_draft']]
+    
+    print(f"Total posts processed: {len(all_posts)}")
+    print(f"Published posts: {len(published_posts)}")
+    print(f"Draft posts: {len(draft_posts)}")
+    
+    if draft_posts:
+        print("Draft posts (hidden from public listings):")
+        for draft in draft_posts:
+            print(f"  - {draft['title']} (accessible at posts/{draft['slug']}.html)")
     
     # Sort posts by date (newest first)
-    posts.sort(key=lambda x: x['date_obj'], reverse=True)
+    published_posts.sort(key=lambda x: x['date_obj'], reverse=True)
+    all_posts.sort(key=lambda x: x['date_obj'], reverse=True)
     
-    return posts
+    return published_posts, all_posts
 
 def process_page_files():
     """Process all Markdown files in the pages directory."""
