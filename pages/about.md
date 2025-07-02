@@ -3,8 +3,6 @@ title: About Me
 layout: page
 ---
 
-# About Me
-
 ![Baiju Muthukadan](images/profile-placeholder.jpg)
 
 I'm Baiju Muthukadan, a passionate technologist with over 23 years of experience in software development, and technical leadership. I created this blog to share my knowledge, insights, and experiences in the world of technology and beyond.
