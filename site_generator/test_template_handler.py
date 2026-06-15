@@ -48,7 +48,10 @@ class TestTemplateHandler:
                 'content': '<h1>Test Content 1</h1>',
                 'excerpt': 'Test excerpt 1',
                 'slug': 'test-post-1',
-                'url': 'posts/test-post-1.html'
+                'url': 'posts/test-post-1.html',
+                'filename': 'test-post-1.html',
+                'is_draft': False,
+                'has_math': False
             },
             {
                 'title': 'Test Post 2',
@@ -59,12 +62,15 @@ class TestTemplateHandler:
                 'content': '<h1>Test Content 2</h1>',
                 'excerpt': 'Test excerpt 2',
                 'slug': 'test-post-2',
-                'url': 'posts/test-post-2.html'
+                'url': 'posts/test-post-2.html',
+                'filename': 'test-post-2.html',
+                'is_draft': False,
+                'has_math': False
             }
         ]
-        
+
         # Call the function
-        generate_html_files(posts, [])
+        generate_html_files(posts, posts, [])
         
         # Verify template rendering was called correctly
         assert mock_post_template.render.call_count == 2
@@ -108,7 +114,7 @@ class TestTemplateHandler:
         ]
         
         # Call the function
-        generate_html_files([], pages)
+        generate_html_files([], [], pages)
         
         # Verify template rendering was called correctly
         assert mock_page_template.render.call_count == 2
@@ -121,7 +127,7 @@ class TestTemplateHandler:
     def test_generate_html_files_no_content(self, mock_file, mock_env_class):
         """Test generating HTML files with no content."""
         # Call the function with empty lists
-        generate_html_files([], [])
+        generate_html_files([], [], [])
         
         # Verify no templates were rendered
         mock_env_class.assert_not_called()

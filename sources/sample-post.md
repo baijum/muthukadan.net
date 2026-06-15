@@ -40,7 +40,7 @@ You can use **bold**, *italic*, or ~~strikethrough~~ text. You can also combine 
 
 [Visit GitHub](https://github.com)
 
-![Sample Image](https://via.placeholder.com/150)
+*[Image: Replace this with an actual image]*
 
 ## Code Blocks
 

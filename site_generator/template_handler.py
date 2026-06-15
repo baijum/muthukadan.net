@@ -62,15 +62,17 @@ def generate_html_files(published_posts, all_posts, pages):
                 date=post['date'],
                 category=post['category'],
                 content=post['content'],
+                excerpt=post.get('excerpt', ''),
                 prev_post=prev_post,
                 next_post=next_post,
                 site_title=SITE_TITLE,
                 site_description=SITE_DESCRIPTION,
                 categories=all_categories,
-                recent_posts=published_posts[:5],  # Show 5 most recent published posts
+                recent_posts=published_posts[:5],
                 current_year=datetime.datetime.now().year,
                 page_url=f"{post['slug']}.html",
-                is_draft=post['is_draft']
+                is_draft=post['is_draft'],
+                has_math=post.get('has_math', False)
             )
             
             # Write the HTML file

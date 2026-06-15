@@ -3,6 +3,7 @@ Markdown processing functions for the site generator.
 """
 
 import os
+import re
 import datetime
 import frontmatter
 import markdown
@@ -27,6 +28,7 @@ def convert_markdown_to_html(content):
         'markdown.extensions.codehilite',
         'markdown.extensions.nl2br',
         'markdown.extensions.sane_lists',
+        'markdown.extensions.footnotes',
         'pymdownx.superfences',
         'pymdownx.tabbed',
         'pymdownx.tasklist',
@@ -93,9 +95,19 @@ def process_markdown_file(file_path):
         
         # Check if post is a draft
         is_draft = post.get('draft', False)
-        
+
+        # Check if post uses math equations
+        has_math = post.get('math', False)
+
         # Convert content to HTML
         content_html = convert_markdown_to_html(post.content)
+
+        # Strip leading H1 if it matches the frontmatter title
+        content_html = re.sub(
+            r'^\s*<h1[^>]*>' + re.escape(title) + r'</h1>\s*',
+            '',
+            content_html
+        )
         
         # Generate slug
         slug = post.get('slug', slugify(title))
@@ -115,7 +127,9 @@ def process_markdown_file(file_path):
             'excerpt': excerpt,
             'slug': slug,
             'url': f"posts/{slug}.html",
-            'is_draft': is_draft
+            'filename': f"{slug}.html",
+            'is_draft': is_draft,
+            'has_math': has_math
         }
         
         return post_data

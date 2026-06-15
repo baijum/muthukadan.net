@@ -3,6 +3,7 @@ title: Mathematical Equations with MathJax
 date: 2025-05-30
 category: Mathematics
 tags: MathJax, LaTeX, Equations
+math: true
 excerpt: This post demonstrates how to use MathJax to render beautiful mathematical equations in your blog posts.
 ---
 
