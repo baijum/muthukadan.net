@@ -13,13 +13,13 @@ def main():
     print("Starting site generation...")
     
     # Process markdown files for posts
-    posts = process_markdown_files()
+    published_posts, all_posts = process_markdown_files()
     
     # Process markdown files for pages
     pages = process_page_files()
     
     # Generate HTML files
-    generate_html_files(posts, pages)
+    generate_html_files(published_posts, all_posts, pages)
     
     print("Site generation complete!")
     return 0
